@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "NextGen ERP | Enterprise SaaS Platform",
-  description: "NextGen ERP is a modern, production-ready, multi-tenant SaaS platform featuring Platform Administration, Master Data Management, CRM, Procurement, Inventory, and an AI Copilot.",
+  title: "VOC ERP | Enterprise SaaS Platform",
+  description: "VOC ERP is a modern, production-ready, multi-tenant SaaS platform featuring Platform Administration, Master Data Management, CRM, Procurement, Inventory, and an AI Copilot.",
   keywords: ["ERP", "SaaS", "CRM", "Procurement", "Inventory", "SaaS Starter", "Multi-tenant"],
 };
 

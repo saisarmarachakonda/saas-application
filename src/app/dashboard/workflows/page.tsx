@@ -89,6 +89,82 @@ export default function WorkflowsPage() {
         </div>
       </div>
 
+      {/* Workflow Visual Analytics Grid */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        {/* SLA Breach Status */}
+        <div className="glass-card p-5 rounded-xl border border-slate-200 dark:border-slate-800/80 shadow-xs flex flex-col justify-between">
+          <div>
+            <h3 className="text-xs font-bold uppercase tracking-wider text-slate-900 dark:text-white">Workflow Job SLA Status</h3>
+            <p className="text-[11px] text-slate-500 dark:text-slate-400 mt-0.5">Telemetry tracking SLA compliance</p>
+          </div>
+          <div className="space-y-3 mt-3">
+            {[
+              { status: 'SLA Compliant (Safe)', count: 28, pct: 85, color: 'bg-emerald-500' },
+              { status: 'Near Breach Limit', count: 4, pct: 12, color: 'bg-amber-500' },
+              { status: 'SLA Breached (Escalated)', count: 1, pct: 3, color: 'bg-red-500' }
+            ].map((item, idx) => (
+              <div key={idx} className="space-y-1">
+                <div className="flex justify-between text-[10px] font-bold">
+                  <span className="text-slate-500">{item.status}</span>
+                  <span className="text-slate-950 dark:text-white">{item.count} Jobs ({item.pct}%)</span>
+                </div>
+                <div className="w-full bg-slate-100 dark:bg-slate-850 h-2 rounded-full overflow-hidden">
+                  <div className={`h-full ${item.color} rounded-full`} style={{ width: `${item.pct}%` }} />
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Workflow Module Volume */}
+        <div className="glass-card p-5 rounded-xl border border-slate-200 dark:border-slate-800/80 shadow-xs flex flex-col justify-between">
+          <div>
+            <h3 className="text-xs font-bold uppercase tracking-wider text-slate-900 dark:text-white">Workflow Volume by Module</h3>
+            <p className="text-[11px] text-slate-500 dark:text-slate-400 mt-0.5">Active approval pipelines distribution</p>
+          </div>
+          <div className="flex items-center justify-around py-2 gap-4 mt-2">
+            <div className="relative w-24 h-24 flex items-center justify-center shrink-0">
+              <svg className="w-full h-full transform -rotate-90" viewBox="0 0 36 36">
+                <circle cx="18" cy="18" r="15.915" fill="none" stroke="rgba(148, 163, 184, 0.1)" strokeWidth="3" />
+                {/* Procurement (55%): indigo */}
+                <circle cx="18" cy="18" r="15.915" fill="none" stroke="#6366f1" strokeWidth="3" strokeDasharray="55 45" strokeDashoffset="0" />
+                {/* CRM (30%): cyan */}
+                <circle cx="18" cy="18" r="15.915" fill="none" stroke="#06b6d4" strokeWidth="3" strokeDasharray="30 70" strokeDashoffset="-55" />
+                {/* Finance (15%): slate */}
+                <circle cx="18" cy="18" r="15.915" fill="none" stroke="#64748b" strokeWidth="3" strokeDasharray="15 85" strokeDashoffset="-85" />
+              </svg>
+              <div className="absolute text-center">
+                <span className="text-sm font-extrabold text-slate-850 dark:text-white leading-none">33</span>
+                <p className="text-[7px] uppercase tracking-widest text-slate-450 mt-0.5">Jobs</p>
+              </div>
+            </div>
+            <div className="space-y-1.5 text-[10px] w-full max-w-[150px]">
+              <div className="flex items-center justify-between pb-1 border-b border-slate-100 dark:border-slate-850">
+                <div className="flex items-center gap-1.5">
+                  <span className="w-2 h-2 rounded-full bg-indigo-500" />
+                  <span className="text-slate-500">Procurement</span>
+                </div>
+                <span className="font-bold">55%</span>
+              </div>
+              <div className="flex items-center justify-between pb-1 border-b border-slate-100 dark:border-slate-850">
+                <div className="flex items-center gap-1.5">
+                  <span className="w-2 h-2 rounded-full bg-cyan-500" />
+                  <span className="text-slate-500">CRM Sales</span>
+                </div>
+                <span className="font-bold">30%</span>
+              </div>
+              <div className="flex items-center justify-between">
+                <div className="flex items-center gap-1.5">
+                  <span className="w-2 h-2 rounded-full bg-slate-500" />
+                  <span className="text-slate-500">Finance</span>
+                </div>
+                <span className="font-bold">15%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <InplaceCrud configs={configs} defaultTab="workflowinstance" />
     </div>
   );

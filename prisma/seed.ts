@@ -68,6 +68,8 @@ async function main() {
       name: 'Apex Global Enterprises',
       code: 'APEX',
       address: '100 Silicon Valley Way, San Jose, CA',
+      industry: 'Manufacturing',
+      taxId: 'TX-APEX-9981',
     },
   });
 
@@ -124,6 +126,8 @@ async function main() {
       password: hashedPassword,
       name: 'Aarav Sharma',
       roleName: 'Admin',
+      phone: '+91 98765 43210',
+      status: 'Active',
       companyId: company.id,
       departmentId: deptProcure.id,
     },
@@ -135,6 +139,8 @@ async function main() {
       password: hashedPassword,
       name: 'Rajesh Patel',
       roleName: 'User',
+      phone: '+91 98765 12345',
+      status: 'Active',
       companyId: company.id,
       departmentId: deptSales.id,
     },
@@ -165,18 +171,18 @@ async function main() {
 
   // Customers
   const custA = await prisma.customer.create({
-    data: { name: 'Tata Motors Ltd', code: 'TATAMOTORS', email: 'procurement@tatamotors.com', category: 'Key Account', address: 'Mumbai, Maharashtra' },
+    data: { name: 'Tata Motors Ltd', code: 'TATAMOTORS', email: 'procurement@tatamotors.com', category: 'Key Account', address: 'Mumbai, Maharashtra', creditLimit: 250000.0, website: 'https://www.tatamotors.com' },
   });
   const custB = await prisma.customer.create({
-    data: { name: 'Reliance Industries', code: 'RELIANCE', email: 'buying@reliance.com', category: 'Regular', address: 'Navi Mumbai, Maharashtra' },
+    data: { name: 'Reliance Industries', code: 'RELIANCE', email: 'buying@reliance.com', category: 'Regular', address: 'Navi Mumbai, Maharashtra', creditLimit: 500000.0, website: 'https://www.ril.com' },
   });
 
   // Vendors
   const vendorA = await prisma.vendor.create({
-    data: { name: 'Infosys Technologies', code: 'INFOSYS', email: 'supply@infosys.com', classification: 'Gold', rating: 4.8, performanceTags: 'Fast,Premium' },
+    data: { name: 'Infosys Technologies', code: 'INFOSYS', email: 'supply@infosys.com', classification: 'Gold', rating: 4.8, performanceTags: 'Fast,Premium', paymentTerms: 'Net 30', taxRegistration: 'GST-INFY-5544' },
   });
   const vendorB = await prisma.vendor.create({
-    data: { name: 'Jindal Steel & Power', code: 'JINDAL', email: 'sales@jindalsteel.com', classification: 'Silver', rating: 4.2, performanceTags: 'Reliable,Bulk' },
+    data: { name: 'Jindal Steel & Power', code: 'JINDAL', email: 'sales@jindalsteel.com', classification: 'Silver', rating: 4.2, performanceTags: 'Reliable,Bulk', paymentTerms: 'Net 45', taxRegistration: 'GST-JINDAL-9988' },
   });
 
   // Supplier Scorecards
@@ -196,21 +202,21 @@ async function main() {
   });
 
   const prodCpu = await prisma.product.create({
-    data: { name: 'Core i7 Microprocessor', sku: 'SKU-CPU-I7', categoryId: catElectro.id, specification: '8 cores, 4.2GHz, 14nm', price: 299.99 },
+    data: { name: 'Core i7 Microprocessor', sku: 'SKU-CPU-I7', categoryId: catElectro.id, specification: '8 cores, 4.2GHz, 14nm', price: 299.99, barcode: '012345678901', costPrice: 150.0, weight: 0.05 },
   });
   const prodSteel = await prisma.product.create({
-    data: { name: 'Reinforced Steel Beam', sku: 'SKU-BEAM-ST', categoryId: catHardware.id, specification: '10ft, Grade 50 Structural Steel', price: 89.5 },
+    data: { name: 'Reinforced Steel Beam', sku: 'SKU-BEAM-ST', categoryId: catHardware.id, specification: '10ft, Grade 50 Structural Steel', price: 89.5, barcode: '987654321098', costPrice: 45.00, weight: 120.5 },
   });
 
   // Materials
   const matCpu = await prisma.material.create({
-    data: { name: 'Silicon Wafer Raw', code: 'MAT-SIL-01', type: 'Raw Material', unit: 'pcs', cost: 12.5 },
+    data: { name: 'Silicon Wafer Raw', code: 'MAT-SIL-01', type: 'Raw Material', unit: 'pcs', cost: 12.5, leadTimeDays: 14, reorderPoint: 200.0 },
   });
   const matSteelSheet = await prisma.material.create({
-    data: { name: 'Galvanized Steel Sheet', code: 'MAT-STL-02', type: 'Raw Material', unit: 'kg', cost: 1.85 },
+    data: { name: 'Galvanized Steel Sheet', code: 'MAT-STL-02', type: 'Raw Material', unit: 'kg', cost: 1.85, leadTimeDays: 5, reorderPoint: 500.0 },
   });
   const matCircuit = await prisma.material.create({
-    data: { name: 'Assembled Chipset board', code: 'MAT-PCB-03', type: 'Semi-Finished Goods', unit: 'pcs', cost: 45.0 },
+    data: { name: 'Assembled Chipset board', code: 'MAT-PCB-03', type: 'Semi-Finished Goods', unit: 'pcs', cost: 45.0, leadTimeDays: 10, reorderPoint: 100.0 },
   });
 
   console.log('Seeding CRM pipeline...');

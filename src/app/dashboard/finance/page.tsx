@@ -909,6 +909,69 @@ export default function ComprehensiveFinancePage() {
                   </div>
                 </div>
               </div>
+
+              {/* Asset vs Liability balance breakdown */}
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
+                <div className="glass-card p-5 rounded-xl border border-slate-200 dark:border-slate-800">
+                  <h3 className="text-sm font-bold text-slate-900 dark:text-white mb-2">Asset vs Liability Breakdown</h3>
+                  <p className="text-xs text-slate-500 dark:text-slate-400 font-light mb-4">Balance sheet equity and debt analysis (in Lakhs)</p>
+                  
+                  <div className="flex items-center justify-around py-2 gap-4">
+                    <div className="relative w-24 h-24 flex items-center justify-center shrink-0">
+                      <svg className="w-full h-full transform -rotate-90" viewBox="0 0 36 36">
+                        <circle cx="18" cy="18" r="15.915" fill="none" stroke="rgba(148, 163, 184, 0.1)" strokeWidth="3" />
+                        {/* Current Assets (65%): indigo */}
+                        <circle cx="18" cy="18" r="15.915" fill="none" stroke="#6366f1" strokeWidth="3" strokeDasharray="65 35" strokeDashoffset="0" />
+                        {/* Current Liabilities (35%): rose */}
+                        <circle cx="18" cy="18" r="15.915" fill="none" stroke="#f43f5e" strokeWidth="3" strokeDasharray="35 65" strokeDashoffset="-65" />
+                      </svg>
+                      <div className="absolute text-center">
+                        <span className="text-sm font-extrabold text-slate-850 dark:text-white leading-none">1.8x</span>
+                        <p className="text-[7px] uppercase tracking-widest text-slate-450 mt-0.5">Ratio</p>
+                      </div>
+                    </div>
+                    
+                    <div className="space-y-2 text-[11px] w-full max-w-[160px]">
+                      <div className="flex items-center justify-between pb-1 border-b border-slate-100 dark:border-slate-850">
+                        <div className="flex items-center gap-1.5">
+                          <span className="w-2.5 h-2.5 rounded bg-indigo-500" />
+                          <span className="text-slate-500">Current Assets</span>
+                        </div>
+                        <span className="font-bold">₹85.0L</span>
+                      </div>
+                      <div className="flex items-center justify-between">
+                        <div className="flex items-center gap-1.5">
+                          <span className="w-2.5 h-2.5 rounded bg-rose-500" />
+                          <span className="text-slate-500">Liabilities</span>
+                        </div>
+                        <span className="font-bold">₹46.2L</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="glass-card p-5 rounded-xl border border-slate-200 dark:border-slate-800 flex flex-col justify-between">
+                  <div>
+                    <h3 className="text-sm font-bold text-slate-900 dark:text-white mb-2">Liquidity Scorecard</h3>
+                    <p className="text-xs text-slate-500 dark:text-slate-400 font-light mb-4">Cash and cash equivalents status</p>
+                  </div>
+                  <div className="space-y-3">
+                    <div className="flex justify-between text-xs font-semibold">
+                      <span className="text-slate-500">Quick Ratio</span>
+                      <span className="text-slate-900 dark:text-white font-bold">1.45 (Optimal)</span>
+                    </div>
+                    <div className="flex justify-between text-xs font-semibold">
+                      <span className="text-slate-500">Net Working Capital</span>
+                      <span className="text-slate-900 dark:text-white font-bold">₹38.8 Lakhs</span>
+                    </div>
+                    <div className="flex justify-between text-xs font-semibold">
+                      <span className="text-slate-500">Operating Cash Ratio</span>
+                      <span className="text-slate-900 dark:text-white font-bold">1.22 (Healthy)</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
             </div>
           )}
 

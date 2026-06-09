@@ -182,7 +182,7 @@ Connected to Apex Global database. Yes, data isolation is active. 2 plants and 2
               <Sparkles className="w-5 h-5 text-white" />
             </div>
             <span className="font-extrabold text-xl tracking-tight bg-gradient-to-r from-indigo-500 to-cyan-500 bg-clip-text text-transparent">
-              NextGen ERP
+              VOC ERP
             </span>
           </div>
 
@@ -696,7 +696,7 @@ Connected to Apex Global database. Yes, data isolation is active. 2 plants and 2
                 <div className="space-y-4 pt-4 border-t border-slate-200/50 dark:border-slate-850">
                   <div className="flex items-center gap-3 text-xs text-slate-600 dark:text-slate-450">
                     <Mail className="w-5 h-5 text-indigo-500 shrink-0" />
-                    <span>sales@nextgenerp.com</span>
+                    <span>sales@vocerp.com</span>
                   </div>
                   <div className="flex items-center gap-3 text-xs text-slate-600 dark:text-slate-450">
                     <MapPin className="w-5 h-5 text-indigo-500 shrink-0" />
@@ -791,7 +791,7 @@ Connected to Apex Global database. Yes, data isolation is active. 2 plants and 2
               <div className="w-8 h-8 bg-indigo-600 rounded-lg flex items-center justify-center">
                 <SparkleIcon className="w-4 h-4 text-white" />
               </div>
-              <span className="font-bold text-slate-900 dark:text-white">NextGen ERP</span>
+              <span className="font-bold text-slate-900 dark:text-white">VOC ERP</span>
             </div>
             <p className="text-[10px] font-light leading-relaxed text-slate-450">
               Modern enterprise resource planning infrastructure built for developers and operators. Local-first databases, dynamic CRUD grids, and real-time operations telemetry.
@@ -831,7 +831,7 @@ Connected to Apex Global database. Yes, data isolation is active. 2 plants and 2
         </div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border-t border-slate-200/50 dark:border-slate-800/40 mt-10 pt-6 flex flex-col sm:flex-row justify-between items-center gap-4 text-[10px]">
-          <p>© 2026 NextGen ERP Systems, Inc. All rights reserved. Registered trademark of Apex Global Enterprises.</p>
+          <p>© 2026 VOC ERP Systems, Inc. All rights reserved. Registered trademark of Apex Global Enterprises.</p>
           <div className="flex gap-4">
             <a href="#" className="hover:underline">GitHub</a>
             <a href="#" className="hover:underline">Twitter</a>

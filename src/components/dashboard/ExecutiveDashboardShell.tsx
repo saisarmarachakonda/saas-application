@@ -471,8 +471,121 @@ export default function ExecutiveDashboardShell({
                 Telemetry Log Active
               </div>
             </div>
-
+ 
           </div>
+
+          {/* Advanced Telemetry Analytics Row */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-6">
+            {/* Chart 1: Production Load vs Actual Output */}
+            <div className="glass-card p-5 rounded-xl border border-slate-200 dark:border-slate-800/80 shadow-xs">
+              <div className="flex items-center justify-between mb-4">
+                <div>
+                  <h3 className="text-xs font-bold uppercase tracking-wider text-slate-900 dark:text-white">Shop Floor Capacity vs Output</h3>
+                  <p className="text-[11px] text-slate-500 dark:text-slate-400 mt-0.5">Real-time assembly line productivity (in units)</p>
+                </div>
+              </div>
+              <div className="h-48 w-full">
+                <svg className="w-full h-full" viewBox="0 0 400 160" preserveAspectRatio="none">
+                  {/* Grid Lines */}
+                  <line x1="40" y1="20" x2="380" y2="20" stroke="rgba(148, 163, 184, 0.1)" strokeWidth="0.8" />
+                  <line x1="40" y1="60" x2="380" y2="60" stroke="rgba(148, 163, 184, 0.1)" strokeWidth="0.8" />
+                  <line x1="40" y1="100" x2="380" y2="100" stroke="rgba(148, 163, 184, 0.1)" strokeWidth="0.8" />
+                  <line x1="40" y1="140" x2="380" y2="140" stroke="rgba(148, 163, 184, 0.1)" strokeWidth="0.8" />
+
+                  {/* Y Axis Labels */}
+                  <text x="5" y="24" fill="#94a3b8" className="text-[8px] font-bold font-mono">100%</text>
+                  <text x="5" y="64" fill="#94a3b8" className="text-[8px] font-bold font-mono">60%</text>
+                  <text x="5" y="104" fill="#94a3b8" className="text-[8px] font-bold font-mono">30%</text>
+                  <text x="5" y="144" fill="#94a3b8" className="text-[8px] font-bold font-mono">0%</text>
+
+                  {/* X Axis Labels */}
+                  {['Line A', 'Line B', 'Line C', 'Line D'].map((lineName, idx) => (
+                    <text key={idx} x={75 + idx * 85} y="155" fill="#94a3b8" className="text-[8px] font-bold text-center uppercase tracking-wider">{lineName}</text>
+                  ))}
+
+                  {/* Grouped Bars (Capacity vs Output) */}
+                  {[
+                    { cap: 120, out: 85 },
+                    { cap: 140, out: 125 },
+                    { cap: 100, out: 95 },
+                    { cap: 160, out: 110 }
+                  ].map((data, idx) => {
+                    const startX = 55 + idx * 85;
+                    const capHeight = (data.cap / 180) * 120;
+                    const outHeight = (data.out / 180) * 120;
+                    return (
+                      <g key={idx}>
+                        {/* Capacity Bar (Light Gray / Indigo outline) */}
+                        <rect x={startX} y={140 - capHeight} width="16" height={capHeight} fill="rgba(99, 102, 241, 0.15)" stroke="var(--primary)" strokeWidth="1" rx="1.5" />
+                        {/* Output Bar (Solid Accent/Indigo) */}
+                        <rect x={startX + 18} y={140 - outHeight} width="16" height={outHeight} fill="var(--primary)" rx="1.5" />
+                      </g>
+                    );
+                  })}
+                </svg>
+              </div>
+              <div className="flex items-center gap-4 text-[9px] font-bold uppercase tracking-wider mt-2 text-slate-500 justify-end">
+                <div className="flex items-center gap-1">
+                  <span className="w-2.5 h-2.5 rounded-sm bg-indigo-500/20 border border-indigo-550" />
+                  <span>Target Capacity</span>
+                </div>
+                <div className="flex items-center gap-1">
+                  <span className="w-2.5 h-2.5 rounded-sm bg-indigo-600" />
+                  <span>Actual Output</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Chart 2: Quality Inspection Pass Rates (Donut Ring Chart) */}
+            <div className="glass-card p-5 rounded-xl border border-slate-200 dark:border-slate-800/80 shadow-xs flex flex-col justify-between">
+              <div>
+                <h3 className="text-xs font-bold uppercase tracking-wider text-slate-900 dark:text-white">Batch Quality Compliance</h3>
+                <p className="text-[11px] text-slate-500 dark:text-slate-400 mt-0.5">Summary of QA pass rates vs defects</p>
+              </div>
+              
+              <div className="flex items-center justify-around py-2 gap-4">
+                {/* SVG Circular Ring */}
+                <div className="relative w-28 h-28 flex items-center justify-center shrink-0">
+                  <svg className="w-full h-full transform -rotate-90" viewBox="0 0 36 36">
+                    {/* Background Circle */}
+                    <circle cx="18" cy="18" r="15.915" fill="none" stroke="rgba(148, 163, 184, 0.1)" strokeWidth="2.5" />
+                    {/* Dash Pass Circle (91.8%) */}
+                    <circle cx="18" cy="18" r="15.915" fill="none" stroke="#10b981" strokeWidth="2.8" strokeDasharray="91.8 8.2" strokeLinecap="round" />
+                  </svg>
+                  <div className="absolute text-center">
+                    <p className="text-lg font-black text-slate-900 dark:text-white leading-none">91.8%</p>
+                    <p className="text-[8px] font-bold uppercase tracking-widest text-slate-400 mt-0.5">Pass rate</p>
+                  </div>
+                </div>
+
+                {/* Details list */}
+                <div className="space-y-3 text-xs w-full max-w-[160px]">
+                  <div className="flex items-center justify-between border-b border-slate-100 dark:border-slate-850 pb-1.5">
+                    <div className="flex items-center gap-1.5">
+                      <span className="w-2 h-2 rounded-full bg-emerald-500" />
+                      <span className="font-semibold text-slate-700 dark:text-slate-300">Passed</span>
+                    </div>
+                    <span className="font-bold text-slate-900 dark:text-white">156 Lots</span>
+                  </div>
+                  <div className="flex items-center justify-between border-b border-slate-100 dark:border-slate-850 pb-1.5">
+                    <div className="flex items-center gap-1.5">
+                      <span className="w-2 h-2 rounded-full bg-red-500" />
+                      <span className="font-semibold text-slate-700 dark:text-slate-300">Defective</span>
+                    </div>
+                    <span className="font-bold text-slate-900 dark:text-white">14 Lots</span>
+                  </div>
+                  <div className="flex items-center justify-between">
+                    <div className="flex items-center gap-1.5">
+                      <span className="w-2 h-2 rounded-full bg-indigo-500" />
+                      <span className="font-semibold text-slate-700 dark:text-slate-300">Total Audits</span>
+                    </div>
+                    <span className="font-bold text-slate-900 dark:text-white">170 Lots</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
       )}
 

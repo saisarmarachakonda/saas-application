@@ -140,7 +140,7 @@ export default function DashboardLayout({
             </div>
             {sidebarOpen && (
               <span className="font-extrabold text-base tracking-tight bg-gradient-to-r from-indigo-500 to-cyan-555 bg-clip-text text-transparent truncate">
-                NextGen ERP
+                VOC ERP
               </span>
             )}
           </div>
@@ -207,7 +207,7 @@ export default function DashboardLayout({
           <div className="fixed inset-0 bg-slate-950/80 backdrop-blur-xs" onClick={() => setMobileSidebarOpen(false)} />
           <aside className="relative flex flex-col w-64 max-w-xs bg-slate-100 dark:bg-zinc-950 border-r border-slate-200 dark:border-zinc-900 p-4">
             <div className="flex items-center justify-between mb-6">
-              <span className="font-extrabold text-base uppercase tracking-wider bg-gradient-to-r from-indigo-500 to-cyan-555 bg-clip-text text-transparent">NextGen ERP</span>
+              <span className="font-extrabold text-base uppercase tracking-wider bg-gradient-to-r from-indigo-500 to-cyan-555 bg-clip-text text-transparent">VOC ERP</span>
               <button onClick={() => setMobileSidebarOpen(false)}>
                 <X className="w-6 h-6 text-slate-500 dark:text-slate-400" />
               </button>

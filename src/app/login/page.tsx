@@ -79,7 +79,7 @@ function LoginForm() {
               <Sparkles className="w-5 h-5 text-white" />
             </div>
             <span className="font-extrabold text-2xl bg-gradient-to-r from-indigo-500 to-cyan-500 bg-clip-text text-transparent">
-              NextGen ERP
+              VOC ERP
             </span>
           </Link>
           <h2 className="text-2xl font-bold text-slate-900 dark:text-white">Welcome Back</h2>

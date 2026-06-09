@@ -126,6 +126,81 @@ export default function ProcurementPage() {
         </div>
       </div>
 
+      {/* Procurement Visual Analytics Grid */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        {/* Supplier Ratings Score */}
+        <div className="glass-card p-5 rounded-xl border border-slate-200 dark:border-slate-800/80 shadow-xs flex flex-col justify-between">
+          <div>
+            <h3 className="text-xs font-bold uppercase tracking-wider text-slate-900 dark:text-white">Supplier Performance Index</h3>
+            <p className="text-[11px] text-slate-500 dark:text-slate-400 mt-0.5">Calculated overall QA/delivery scorecard</p>
+          </div>
+          <div className="space-y-3.5 mt-3">
+            {[
+              { supplier: 'Infosys Technologies', rating: 93.67, color: 'bg-indigo-500' },
+              { supplier: 'Jindal Steel & Power', rating: 92.00, color: 'bg-cyan-500' }
+            ].map((item, idx) => (
+              <div key={idx} className="space-y-1">
+                <div className="flex justify-between text-[10px] font-bold">
+                  <span className="text-slate-500">{item.supplier}</span>
+                  <span className="text-slate-950 dark:text-white">{item.rating.toFixed(2)}%</span>
+                </div>
+                <div className="w-full bg-slate-100 dark:bg-slate-850 h-2 rounded-full overflow-hidden">
+                  <div className={`h-full ${item.color} rounded-full`} style={{ width: `${item.rating}%` }} />
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Purchase Requisitions Breakdown */}
+        <div className="glass-card p-5 rounded-xl border border-slate-200 dark:border-slate-800/80 shadow-xs flex flex-col justify-between">
+          <div>
+            <h3 className="text-xs font-bold uppercase tracking-wider text-slate-900 dark:text-white">Requisition Status Distribution</h3>
+            <p className="text-[11px] text-slate-500 dark:text-slate-400 mt-0.5">Authorization states breakdown</p>
+          </div>
+          <div className="flex items-center justify-around py-2 gap-4 mt-2">
+            <div className="relative w-24 h-24 flex items-center justify-center shrink-0">
+              <svg className="w-full h-full transform -rotate-90" viewBox="0 0 36 36">
+                <circle cx="18" cy="18" r="15.915" fill="none" stroke="rgba(148, 163, 184, 0.1)" strokeWidth="3" />
+                {/* Approved (50%): green */}
+                <circle cx="18" cy="18" r="15.915" fill="none" stroke="#10b981" strokeWidth="3" strokeDasharray="50 50" strokeDashoffset="0" />
+                {/* Pending (30%): amber */}
+                <circle cx="18" cy="18" r="15.915" fill="none" stroke="#f59e0b" strokeWidth="3" strokeDasharray="30 70" strokeDashoffset="-50" />
+                {/* Draft/Others (20%): slate */}
+                <circle cx="18" cy="18" r="15.915" fill="none" stroke="#64748b" strokeWidth="3" strokeDasharray="20 80" strokeDashoffset="-80" />
+              </svg>
+              <div className="absolute text-center">
+                <span className="text-sm font-extrabold text-slate-850 dark:text-white leading-none">12</span>
+                <p className="text-[7px] uppercase tracking-widest text-slate-450 mt-0.5">Reqs</p>
+              </div>
+            </div>
+            <div className="space-y-1.5 text-[10px] w-full max-w-[150px]">
+              <div className="flex items-center justify-between pb-1 border-b border-slate-100 dark:border-slate-850">
+                <div className="flex items-center gap-1.5">
+                  <span className="w-2 h-2 rounded-full bg-emerald-500" />
+                  <span className="text-slate-500">Approved</span>
+                </div>
+                <span className="font-bold">50%</span>
+              </div>
+              <div className="flex items-center justify-between pb-1 border-b border-slate-100 dark:border-slate-850">
+                <div className="flex items-center gap-1.5">
+                  <span className="w-2 h-2 rounded-full bg-amber-500" />
+                  <span className="text-slate-500">Pending</span>
+                </div>
+                <span className="font-bold">30%</span>
+              </div>
+              <div className="flex items-center justify-between">
+                <div className="flex items-center gap-1.5">
+                  <span className="w-2 h-2 rounded-full bg-slate-500" />
+                  <span className="text-slate-500">Draft/Other</span>
+                </div>
+                <span className="font-bold">20%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <InplaceCrud configs={configs} defaultTab="purchaserequisition" />
     </div>
   );

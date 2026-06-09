@@ -13,6 +13,8 @@ model Company {
   name        String
   code        String   @unique
   address     String?
+  industry    String   @default("Manufacturing")
+  taxId       String?  @unique
   createdAt   DateTime @default(now())
   updatedAt   DateTime @updatedAt
   plants      Plant[]
@@ -57,6 +59,8 @@ model User {
   password       String
   name           String
   roleName       String          @default("User") // Admin, User
+  phone          String?
+  status         String          @default("Active")
   companyId      String?
   company        Company?        @relation(fields: [companyId], references: [id])
   departmentId   String?
@@ -103,6 +107,8 @@ model Customer {
   phone       String?
   category    String   // Regular, Key Account, Wholesaler
   address     String?
+  creditLimit Float    @default(100000.0)
+  website     String?
   leads       Lead[]
   rfqs        RfqCRM[]
   createdAt   DateTime @default(now())
@@ -118,6 +124,8 @@ model Vendor {
   rating      Float               @default(5.0) // Supplier Scorecard metric
   classification String           // Gold, Silver, Bronze
   performanceTags String?         // comma-separated: Fast, Reliable, Expensive
+  paymentTerms String             @default("Net 30")
+  taxRegistration String?
   purchaseOrders PurchaseOrder[]
   vendorRfqs  RfqProcurement[]
   scorecards  SupplierScorecard[]
@@ -142,6 +150,9 @@ model Product {
   category    ProductCategory @relation(fields: [categoryId], references: [id], onDelete: Cascade)
   specification String?
   price       Float
+  barcode     String?
+  costPrice   Float           @default(0.0)
+  weight      Float?
   createdAt   DateTime        @default(now())
   updatedAt   DateTime        @updatedAt
 }
@@ -153,6 +164,8 @@ model Material {
   type        String   // Raw Material, Semi-Finished, Finished Goods
   unit        String   // kg, pcs, liters
   cost        Float
+  leadTimeDays Int     @default(7)
+  reorderPoint Float   @default(50.0)
   createdAt   DateTime @default(now())
   updatedAt   DateTime @updatedAt
 }
