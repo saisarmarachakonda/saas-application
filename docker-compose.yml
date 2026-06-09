@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: nextgen_erp_app
+    ports:
+      - "3000:3000"
+    environment:
+      - DATABASE_URL=file:/app/prisma/dev.db
+      - JWT_SECRET=super-secret-key-change-in-production-123456
+      - NODE_ENV=production
+    volumes:
+      - sqlite_data:/app/prisma
+    restart: always
+
+volumes:
+  sqlite_data:

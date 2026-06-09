@@ -1,0 +1,436 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+// Module 1: Platform Administration / Org Structure
+model Company {
+  id          String   @id @default(uuid())
+  name        String
+  code        String   @unique
+  address     String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  plants      Plant[]
+  users       User[]
+}
+
+model Plant {
+  id          String   @id @default(uuid())
+  name        String
+  code        String   @unique
+  companyId   String
+  company     Company  @relation(fields: [companyId], references: [id], onDelete: Cascade)
+  warehouses  Warehouse[]
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model Warehouse {
+  id          String   @id @default(uuid())
+  name        String
+  code        String   @unique
+  plantId     String
+  plant       Plant    @relation(fields: [plantId], references: [id], onDelete: Cascade)
+  inventory   InventoryItem[]
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model Department {
+  id          String   @id @default(uuid())
+  name        String
+  code        String   @unique
+  users       User[]
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+// Authentication & Users
+model User {
+  id             String          @id @default(uuid())
+  email          String          @unique
+  password       String
+  name           String
+  roleName       String          @default("User") // Admin, User
+  companyId      String?
+  company        Company?        @relation(fields: [companyId], references: [id])
+  departmentId   String?
+  department     Department?     @relation(fields: [departmentId], references: [id])
+  subscriptions  Subscription[]
+  notifications  Notification[]
+  activityLogs   ActivityLog[]
+  createdAt      DateTime        @default(now())
+  updatedAt      DateTime        @updatedAt
+}
+
+// Subscriptions & Payments
+model Subscription {
+  id                 String    @id @default(uuid())
+  userId             String
+  user               User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  planName           String    // Free, Pro, Enterprise
+  status             String    // Active, Cancelled, Expired
+  price              Float
+  startDate          DateTime  @default(now())
+  endDate            DateTime
+  payments           Payment[]
+  createdAt          DateTime  @default(now())
+  updatedAt          DateTime  @updatedAt
+}
+
+model Payment {
+  id             String       @id @default(uuid())
+  subscriptionId String
+  subscription   Subscription @relation(fields: [subscriptionId], references: [id], onDelete: Cascade)
+  amount         Float
+  currency       String       @default("USD")
+  status         String       // Succeeded, Failed, Pending
+  transactionId  String       @unique
+  createdAt      DateTime     @default(now())
+}
+
+// Module 2: Master Data Management
+model Customer {
+  id          String   @id @default(uuid())
+  name        String
+  code        String   @unique
+  email       String
+  phone       String?
+  category    String   // Regular, Key Account, Wholesaler
+  address     String?
+  leads       Lead[]
+  rfqs        RfqCRM[]
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model Vendor {
+  id          String              @id @default(uuid())
+  name        String
+  code        String              @unique
+  email       String
+  phone       String?
+  rating      Float               @default(5.0) // Supplier Scorecard metric
+  classification String           // Gold, Silver, Bronze
+  performanceTags String?         // comma-separated: Fast, Reliable, Expensive
+  purchaseOrders PurchaseOrder[]
+  vendorRfqs  RfqProcurement[]
+  scorecards  SupplierScorecard[]
+  createdAt   DateTime            @default(now())
+  updatedAt   DateTime            @updatedAt
+}
+
+model ProductCategory {
+  id          String    @id @default(uuid())
+  name        String
+  code        String    @unique
+  products    Product[]
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+}
+
+model Product {
+  id          String          @id @default(uuid())
+  name        String
+  sku         String          @unique
+  categoryId  String
+  category    ProductCategory @relation(fields: [categoryId], references: [id], onDelete: Cascade)
+  specification String?
+  price       Float
+  createdAt   DateTime        @default(now())
+  updatedAt   DateTime        @updatedAt
+}
+
+model Material {
+  id          String   @id @default(uuid())
+  name        String
+  code        String   @unique
+  type        String   // Raw Material, Semi-Finished, Finished Goods
+  unit        String   // kg, pcs, liters
+  cost        Float
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+// Module 3: CRM & Quotation Management
+model Lead {
+  id          String        @id @default(uuid())
+  name        String
+  email       String
+  phone       String?
+  company     String
+  status      String        // New, Contacted, Qualified, Lost
+  source      String        // Website, Referral, Trade Show
+  assignedTo  String?       // User name / User ID
+  opportunities Opportunity[]
+  customerId  String?
+  customer    Customer?     @relation(fields: [customerId], references: [id])
+  createdAt   DateTime      @default(now())
+  updatedAt   DateTime      @updatedAt
+}
+
+model Opportunity {
+  id             String    @id @default(uuid())
+  leadId         String
+  lead           Lead      @relation(fields: [leadId], references: [id], onDelete: Cascade)
+  name           String
+  stage          String    // Discovery, Proposal, Negotiation, Won, Lost
+  value          Float
+  expectedClose  DateTime
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @updatedAt
+}
+
+model RfqCRM {
+  id          String      @id @default(uuid())
+  customerId  String
+  customer    Customer    @relation(fields: [customerId], references: [id], onDelete: Cascade)
+  title       String
+  status      String      // Received, Under Evaluation, Responded, Cancelled
+  dueDate     DateTime
+  quotations  Quotation[]
+  createdAt   DateTime    @default(now())
+  updatedAt   DateTime    @updatedAt
+}
+
+model Quotation {
+  id          String      @id @default(uuid())
+  rfqId       String
+  rfq         RfqCRM      @relation(fields: [rfqId], references: [id], onDelete: Cascade)
+  code        String      @unique
+  version     Int         @default(1)
+  value       Float
+  status      String      // Draft, Approved, Sent, Accepted, Rejected
+  salesOrders SalesOrder[]
+  createdAt   DateTime    @default(now())
+  updatedAt   DateTime    @updatedAt
+}
+
+model SalesOrder {
+  id          String    @id @default(uuid())
+  quotationId String
+  quotation   Quotation @relation(fields: [quotationId], references: [id], onDelete: Cascade)
+  orderNo     String    @unique
+  value       Float
+  status      String    // Pending, Processing, Shipped, Delivered, Cancelled
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+}
+
+// Module 4: Procurement Management
+model PurchaseRequisition {
+  id             String   @id @default(uuid())
+  title          String
+  departmentName String
+  requestedBy    String
+  itemDetails    String   // Text block or comma-separated list of items
+  estimatedCost  Float
+  status         String   // Draft, Pending Approval, Approved, Rejected, Ordered
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+}
+
+model RfqProcurement {
+  id             String   @id @default(uuid())
+  title          String
+  vendorId       String
+  vendor         Vendor   @relation(fields: [vendorId], references: [id], onDelete: Cascade)
+  dueDate        DateTime
+  status         String   // Sent, Received, Evaluated
+  comparativeDetails String? // Text description of bid comparisons
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+}
+
+model PurchaseOrder {
+  id             String         @id @default(uuid())
+  poNumber       String         @unique
+  vendorId       String
+  vendor         Vendor         @relation(fields: [vendorId], references: [id], onDelete: Cascade)
+  value          Float
+  status         String         // Pending, Approved, Shipped, Received, Cancelled
+  goodsReceipts  GoodsReceipt[]
+  createdAt      DateTime       @default(now())
+  updatedAt      DateTime       @updatedAt
+}
+
+model GoodsReceipt {
+  id              String        @id @default(uuid())
+  grnNumber       String        @unique
+  purchaseOrderId String
+  purchaseOrder   PurchaseOrder @relation(fields: [purchaseOrderId], references: [id], onDelete: Cascade)
+  receivedDate    DateTime      @default(now())
+  verifiedBy      String
+  verificationDetails String?   // Pass/Fail/Notes
+  status          String        // Verified, Discrepancy, Rejected
+  createdAt       DateTime      @default(now())
+}
+
+model SupplierScorecard {
+  id             String   @id @default(uuid())
+  vendorId       String
+  vendor         Vendor   @relation(fields: [vendorId], references: [id], onDelete: Cascade)
+  qualityScore   Float    // 0-100
+  deliveryScore  Float    // 0-100
+  costScore      Float    // 0-100
+  overallScore   Float
+  period         String   // Q1-2026, etc.
+  createdAt      DateTime @default(now())
+}
+
+// Module 5: Inventory & Warehouse Management
+model InventoryItem {
+  id             String    @id @default(uuid())
+  warehouseId    String
+  warehouse      Warehouse @relation(fields: [warehouseId], references: [id], onDelete: Cascade)
+  materialName   String
+  sku            String
+  quantity       Float
+  unit           String    @default("pcs")
+  batchNumber    String?
+  qrCode         String?   // QR text string
+  minAlertQty    Float     @default(10.0)
+  maxAlertQty    Float     @default(1000.0)
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @updatedAt
+}
+
+model StockMovement {
+  id             String   @id @default(uuid())
+  materialName   String
+  sku            String
+  quantity       Float
+  type           String   // Stock Inward, Stock Outward, Stock Transfer
+  fromWarehouse  String?
+  toWarehouse    String?
+  date           DateTime @default(now())
+  referenceNo    String?
+}
+
+model InventoryAlert {
+  id             String   @id @default(uuid())
+  sku            String
+  materialName   String
+  type           String   // Low Stock, Overstock
+  quantity       Float
+  threshold      Float
+  status         String   // Active, Resolved
+  createdAt      DateTime @default(now())
+}
+
+// Extra System entities
+model Notification {
+  id          String   @id @default(uuid())
+  userId      String
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  title       String
+  message     String
+  read        Boolean  @default(false)
+  createdAt   DateTime @default(now())
+}
+
+model ActivityLog {
+  id          String   @id @default(uuid())
+  userId      String?
+  user        User?    @relation(fields: [userId], references: [id], onDelete: SetNull)
+  userEmail   String?
+  action      String
+  details     String?
+  ipAddress   String?
+  createdAt   DateTime @default(now())
+}
+
+model SystemSettings {
+  id          String   @id @default(uuid())
+  key         String   @unique
+  value       String
+  category    String   // General, Email, FeatureFlags, Workflow
+  updatedAt   DateTime @updatedAt
+}
+
+model ApprovalMatrix {
+  id             String   @id @default(uuid())
+  module         String   // CRM, Procurement, Inventory
+  amountLimit    Float
+  approvedByRole String   // Admin, DepartmentHead
+  isActive       Boolean  @default(true)
+}
+
+// Module 7: Finance & Accounting
+model FinancialTransaction {
+  id             String   @id @default(uuid())
+  type           String   // Customer Receipt, Advance Payment, Vendor Invoice, Vendor Payment
+  amount         Float
+  description    String?
+  referenceNo    String   // Related Invoice No or Receipt No
+  status         String   // Pending, Approved, Processed, Reconciled
+  category       String   // Accounts Receivable, Accounts Payable, Cash, Bank
+  date           DateTime @default(now())
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+}
+
+model JournalEntry {
+  id             String   @id @default(uuid())
+  code           String   @unique
+  description    String
+  amount         Float
+  debitAccount   String
+  creditAccount  String
+  date           DateTime @default(now())
+  createdAt      DateTime @default(now())
+}
+
+model Budget {
+  id             String   @id @default(uuid())
+  departmentName String
+  allocated      Float
+  spent          Float
+  variance       Float
+  period         String   // FY2026, Q2-2026, etc.
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+}
+
+model TaxRecord {
+  id             String   @id @default(uuid())
+  type           String   // GST, TDS, Corporate Tax
+  amount         Float
+  rate           Float    // e.g. 0.18 for 18% GST
+  referenceNo    String
+  status         String   // Tracked, Filed, Paid
+  date           DateTime @default(now())
+  createdAt      DateTime @default(now())
+}
+
+// 3. Workflow Automation Engine
+model WorkflowInstance {
+  id             String        @id @default(uuid())
+  module         String        // CRM, Procurement, Finance
+  entityId       String        // Associated record ID (e.g. PO id or Quote id)
+  entityName     String        // e.g. "PO-2026-0002"
+  currentStep    String        // Step 1: Dept Head Review, Step 2: CFO Review
+  assignedRole   String        // DepartmentHead, CFO, Admin
+  status         String        // In Progress, Approved, Rejected, Escalated
+  slaHours       Int           @default(24)
+  escalated      Boolean       @default(false)
+  logs           WorkflowLog[]
+  createdAt      DateTime      @default(now())
+  updatedAt      DateTime      @updatedAt
+}
+
+model WorkflowLog {
+  id                 String           @id @default(uuid())
+  workflowInstanceId String
+  workflowInstance   WorkflowInstance @relation(fields: [workflowInstanceId], references: [id], onDelete: Cascade)
+  step               String
+  action             String           // Approved, Rejected, Escalated, Commented
+  comment            String?
+  performedBy        String           // User name / Email
+  createdAt          DateTime         @default(now())
+}
