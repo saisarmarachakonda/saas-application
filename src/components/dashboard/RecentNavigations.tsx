@@ -11,10 +11,10 @@ interface NavItem {
 }
 
 const defaultNavs: NavItem[] = [
-  { name: 'Platform Administration', path: '/dashboard/admin' },
-  { name: 'CRM & Quotation', path: '/dashboard/crm' },
-  { name: 'Finance & Accounts', path: '/dashboard/finance' },
-  { name: 'Inventory & WH', path: '/dashboard/inventory' },
+  { name: 'HRM & Personnel', path: '/hrm' },
+  { name: 'ERP Engine', path: '/erp' },
+  { name: 'CRM & Bidding', path: '/crm' },
+  { name: 'Procurement', path: '/procurement' },
 ];
 
 export default function RecentNavigations() {

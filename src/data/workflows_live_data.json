@@ -1,0 +1,3592 @@
+[
+  {
+    "instanceId": "WF-INST-2026-0001",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #2",
+    "department": "Procurement",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "SLA Verified",
+    "slaHours": "39 hrs",
+    "createdDate": "2026-02-02"
+  },
+  {
+    "instanceId": "WF-INST-2026-0002",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #3",
+    "department": "Engineering",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "SLA Verified",
+    "slaHours": "23 hrs",
+    "createdDate": "2026-03-03"
+  },
+  {
+    "instanceId": "WF-INST-2026-0003",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #4",
+    "department": "Operations",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "33 hrs",
+    "createdDate": "2026-04-04"
+  },
+  {
+    "instanceId": "WF-INST-2026-0004",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #5",
+    "department": "Supply Chain",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "2 hrs",
+    "createdDate": "2026-05-05"
+  },
+  {
+    "instanceId": "WF-INST-2026-0005",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #6",
+    "department": "Supply Chain",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "SLA Verified",
+    "slaHours": "36 hrs",
+    "createdDate": "2026-06-06"
+  },
+  {
+    "instanceId": "WF-INST-2026-0006",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #7",
+    "department": "Quality Assurance",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "27 hrs",
+    "createdDate": "2026-01-07"
+  },
+  {
+    "instanceId": "WF-INST-2026-0007",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #8",
+    "department": "Procurement",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "22 hrs",
+    "createdDate": "2026-02-08"
+  },
+  {
+    "instanceId": "WF-INST-2026-0008",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #9",
+    "department": "IT Systems",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "24 hrs",
+    "createdDate": "2026-03-09"
+  },
+  {
+    "instanceId": "WF-INST-2026-0009",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #10",
+    "department": "Supply Chain",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "22 hrs",
+    "createdDate": "2026-04-10"
+  },
+  {
+    "instanceId": "WF-INST-2026-0010",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #11",
+    "department": "Procurement",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "4 hrs",
+    "createdDate": "2026-05-11"
+  },
+  {
+    "instanceId": "WF-INST-2026-0011",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #12",
+    "department": "Finance",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "SLA Verified",
+    "slaHours": "22 hrs",
+    "createdDate": "2026-06-12"
+  },
+  {
+    "instanceId": "WF-INST-2026-0012",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #13",
+    "department": "Supply Chain",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "SLA Verified",
+    "slaHours": "5 hrs",
+    "createdDate": "2026-01-13"
+  },
+  {
+    "instanceId": "WF-INST-2026-0013",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #14",
+    "department": "Engineering",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "36 hrs",
+    "createdDate": "2026-02-14"
+  },
+  {
+    "instanceId": "WF-INST-2026-0014",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #15",
+    "department": "Supply Chain",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "23 hrs",
+    "createdDate": "2026-03-15"
+  },
+  {
+    "instanceId": "WF-INST-2026-0015",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #16",
+    "department": "Finance",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "16 hrs",
+    "createdDate": "2026-04-16"
+  },
+  {
+    "instanceId": "WF-INST-2026-0016",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #17",
+    "department": "Quality Assurance",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "SLA Verified",
+    "slaHours": "27 hrs",
+    "createdDate": "2026-05-17"
+  },
+  {
+    "instanceId": "WF-INST-2026-0017",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #18",
+    "department": "Procurement",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "13 hrs",
+    "createdDate": "2026-06-18"
+  },
+  {
+    "instanceId": "WF-INST-2026-0018",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #19",
+    "department": "Supply Chain",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "4 hrs",
+    "createdDate": "2026-01-19"
+  },
+  {
+    "instanceId": "WF-INST-2026-0019",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #20",
+    "department": "IT Systems",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "45 hrs",
+    "createdDate": "2026-02-20"
+  },
+  {
+    "instanceId": "WF-INST-2026-0020",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #1",
+    "department": "Supply Chain",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "10 hrs",
+    "createdDate": "2026-03-21"
+  },
+  {
+    "instanceId": "WF-INST-2026-0021",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #2",
+    "department": "Finance",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "44 hrs",
+    "createdDate": "2026-04-22"
+  },
+  {
+    "instanceId": "WF-INST-2026-0022",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #3",
+    "department": "Quality Assurance",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "SLA Verified",
+    "slaHours": "27 hrs",
+    "createdDate": "2026-05-23"
+  },
+  {
+    "instanceId": "WF-INST-2026-0023",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #4",
+    "department": "Operations",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "SLA Verified",
+    "slaHours": "23 hrs",
+    "createdDate": "2026-06-24"
+  },
+  {
+    "instanceId": "WF-INST-2026-0024",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #5",
+    "department": "Quality Assurance",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "16 hrs",
+    "createdDate": "2026-01-25"
+  },
+  {
+    "instanceId": "WF-INST-2026-0025",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #6",
+    "department": "Finance",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "SLA Verified",
+    "slaHours": "33 hrs",
+    "createdDate": "2026-02-26"
+  },
+  {
+    "instanceId": "WF-INST-2026-0026",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #7",
+    "department": "Safety & Compliance",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "SLA Verified",
+    "slaHours": "36 hrs",
+    "createdDate": "2026-03-27"
+  },
+  {
+    "instanceId": "WF-INST-2026-0027",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #8",
+    "department": "Finance",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "44 hrs",
+    "createdDate": "2026-04-28"
+  },
+  {
+    "instanceId": "WF-INST-2026-0028",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #9",
+    "department": "Quality Assurance",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "2 hrs",
+    "createdDate": "2026-05-01"
+  },
+  {
+    "instanceId": "WF-INST-2026-0029",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #10",
+    "department": "Engineering",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "3 hrs",
+    "createdDate": "2026-06-02"
+  },
+  {
+    "instanceId": "WF-INST-2026-0030",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #11",
+    "department": "Safety & Compliance",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "24 hrs",
+    "createdDate": "2026-01-03"
+  },
+  {
+    "instanceId": "WF-INST-2026-0031",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #12",
+    "department": "Supply Chain",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "38 hrs",
+    "createdDate": "2026-02-04"
+  },
+  {
+    "instanceId": "WF-INST-2026-0032",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #13",
+    "department": "Operations",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "44 hrs",
+    "createdDate": "2026-03-05"
+  },
+  {
+    "instanceId": "WF-INST-2026-0033",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #14",
+    "department": "Supply Chain",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "26 hrs",
+    "createdDate": "2026-04-06"
+  },
+  {
+    "instanceId": "WF-INST-2026-0034",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #15",
+    "department": "Operations",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "24 hrs",
+    "createdDate": "2026-05-07"
+  },
+  {
+    "instanceId": "WF-INST-2026-0035",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #16",
+    "department": "Quality Assurance",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "33 hrs",
+    "createdDate": "2026-06-08"
+  },
+  {
+    "instanceId": "WF-INST-2026-0036",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #17",
+    "department": "Safety & Compliance",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "27 hrs",
+    "createdDate": "2026-01-09"
+  },
+  {
+    "instanceId": "WF-INST-2026-0037",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #18",
+    "department": "Engineering",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "8 hrs",
+    "createdDate": "2026-02-10"
+  },
+  {
+    "instanceId": "WF-INST-2026-0038",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #19",
+    "department": "IT Systems",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "41 hrs",
+    "createdDate": "2026-03-11"
+  },
+  {
+    "instanceId": "WF-INST-2026-0039",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #20",
+    "department": "Safety & Compliance",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "48 hrs",
+    "createdDate": "2026-04-12"
+  },
+  {
+    "instanceId": "WF-INST-2026-0040",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #1",
+    "department": "Safety & Compliance",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "47 hrs",
+    "createdDate": "2026-05-13"
+  },
+  {
+    "instanceId": "WF-INST-2026-0041",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #2",
+    "department": "Engineering",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "10 hrs",
+    "createdDate": "2026-06-14"
+  },
+  {
+    "instanceId": "WF-INST-2026-0042",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #3",
+    "department": "Procurement",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "SLA Verified",
+    "slaHours": "10 hrs",
+    "createdDate": "2026-01-15"
+  },
+  {
+    "instanceId": "WF-INST-2026-0043",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #4",
+    "department": "Safety & Compliance",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "43 hrs",
+    "createdDate": "2026-02-16"
+  },
+  {
+    "instanceId": "WF-INST-2026-0044",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #5",
+    "department": "Supply Chain",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "SLA Verified",
+    "slaHours": "29 hrs",
+    "createdDate": "2026-03-17"
+  },
+  {
+    "instanceId": "WF-INST-2026-0045",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #6",
+    "department": "Finance",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "21 hrs",
+    "createdDate": "2026-04-18"
+  },
+  {
+    "instanceId": "WF-INST-2026-0046",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #7",
+    "department": "Quality Assurance",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "13 hrs",
+    "createdDate": "2026-05-19"
+  },
+  {
+    "instanceId": "WF-INST-2026-0047",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #8",
+    "department": "Safety & Compliance",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "SLA Verified",
+    "slaHours": "39 hrs",
+    "createdDate": "2026-06-20"
+  },
+  {
+    "instanceId": "WF-INST-2026-0048",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #9",
+    "department": "Engineering",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "14 hrs",
+    "createdDate": "2026-01-21"
+  },
+  {
+    "instanceId": "WF-INST-2026-0049",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #10",
+    "department": "Supply Chain",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "24 hrs",
+    "createdDate": "2026-02-22"
+  },
+  {
+    "instanceId": "WF-INST-2026-0050",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #11",
+    "department": "IT Systems",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "44 hrs",
+    "createdDate": "2026-03-23"
+  },
+  {
+    "instanceId": "WF-INST-2026-0051",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #12",
+    "department": "Procurement",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "29 hrs",
+    "createdDate": "2026-04-24"
+  },
+  {
+    "instanceId": "WF-INST-2026-0052",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #13",
+    "department": "Quality Assurance",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "13 hrs",
+    "createdDate": "2026-05-25"
+  },
+  {
+    "instanceId": "WF-INST-2026-0053",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #14",
+    "department": "Quality Assurance",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "37 hrs",
+    "createdDate": "2026-06-26"
+  },
+  {
+    "instanceId": "WF-INST-2026-0054",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #15",
+    "department": "Quality Assurance",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "44 hrs",
+    "createdDate": "2026-01-27"
+  },
+  {
+    "instanceId": "WF-INST-2026-0055",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #16",
+    "department": "Supply Chain",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "46 hrs",
+    "createdDate": "2026-02-28"
+  },
+  {
+    "instanceId": "WF-INST-2026-0056",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #17",
+    "department": "IT Systems",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "SLA Verified",
+    "slaHours": "39 hrs",
+    "createdDate": "2026-03-01"
+  },
+  {
+    "instanceId": "WF-INST-2026-0057",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #18",
+    "department": "Finance",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "18 hrs",
+    "createdDate": "2026-04-02"
+  },
+  {
+    "instanceId": "WF-INST-2026-0058",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #19",
+    "department": "Safety & Compliance",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "30 hrs",
+    "createdDate": "2026-05-03"
+  },
+  {
+    "instanceId": "WF-INST-2026-0059",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #20",
+    "department": "Operations",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "39 hrs",
+    "createdDate": "2026-06-04"
+  },
+  {
+    "instanceId": "WF-INST-2026-0060",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #1",
+    "department": "Quality Assurance",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "43 hrs",
+    "createdDate": "2026-01-05"
+  },
+  {
+    "instanceId": "WF-INST-2026-0061",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #2",
+    "department": "Operations",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "SLA Verified",
+    "slaHours": "17 hrs",
+    "createdDate": "2026-02-06"
+  },
+  {
+    "instanceId": "WF-INST-2026-0062",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #3",
+    "department": "Supply Chain",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "14 hrs",
+    "createdDate": "2026-03-07"
+  },
+  {
+    "instanceId": "WF-INST-2026-0063",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #4",
+    "department": "Supply Chain",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "4 hrs",
+    "createdDate": "2026-04-08"
+  },
+  {
+    "instanceId": "WF-INST-2026-0064",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #5",
+    "department": "Engineering",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "17 hrs",
+    "createdDate": "2026-05-09"
+  },
+  {
+    "instanceId": "WF-INST-2026-0065",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #6",
+    "department": "Supply Chain",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "SLA Verified",
+    "slaHours": "28 hrs",
+    "createdDate": "2026-06-10"
+  },
+  {
+    "instanceId": "WF-INST-2026-0066",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #7",
+    "department": "Safety & Compliance",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "23 hrs",
+    "createdDate": "2026-01-11"
+  },
+  {
+    "instanceId": "WF-INST-2026-0067",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #8",
+    "department": "IT Systems",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "13 hrs",
+    "createdDate": "2026-02-12"
+  },
+  {
+    "instanceId": "WF-INST-2026-0068",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #9",
+    "department": "Finance",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "25 hrs",
+    "createdDate": "2026-03-13"
+  },
+  {
+    "instanceId": "WF-INST-2026-0069",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #10",
+    "department": "Safety & Compliance",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "SLA Verified",
+    "slaHours": "13 hrs",
+    "createdDate": "2026-04-14"
+  },
+  {
+    "instanceId": "WF-INST-2026-0070",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #11",
+    "department": "Procurement",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "SLA Verified",
+    "slaHours": "28 hrs",
+    "createdDate": "2026-05-15"
+  },
+  {
+    "instanceId": "WF-INST-2026-0071",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #12",
+    "department": "Procurement",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "32 hrs",
+    "createdDate": "2026-06-16"
+  },
+  {
+    "instanceId": "WF-INST-2026-0072",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #13",
+    "department": "Quality Assurance",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "42 hrs",
+    "createdDate": "2026-01-17"
+  },
+  {
+    "instanceId": "WF-INST-2026-0073",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #14",
+    "department": "Procurement",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "SLA Verified",
+    "slaHours": "32 hrs",
+    "createdDate": "2026-02-18"
+  },
+  {
+    "instanceId": "WF-INST-2026-0074",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #15",
+    "department": "Finance",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "10 hrs",
+    "createdDate": "2026-03-19"
+  },
+  {
+    "instanceId": "WF-INST-2026-0075",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #16",
+    "department": "Operations",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "32 hrs",
+    "createdDate": "2026-04-20"
+  },
+  {
+    "instanceId": "WF-INST-2026-0076",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #17",
+    "department": "Procurement",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "18 hrs",
+    "createdDate": "2026-05-21"
+  },
+  {
+    "instanceId": "WF-INST-2026-0077",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #18",
+    "department": "Supply Chain",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "46 hrs",
+    "createdDate": "2026-06-22"
+  },
+  {
+    "instanceId": "WF-INST-2026-0078",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #19",
+    "department": "IT Systems",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "31 hrs",
+    "createdDate": "2026-01-23"
+  },
+  {
+    "instanceId": "WF-INST-2026-0079",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #20",
+    "department": "Engineering",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "35 hrs",
+    "createdDate": "2026-02-24"
+  },
+  {
+    "instanceId": "WF-INST-2026-0080",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #1",
+    "department": "Engineering",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "26 hrs",
+    "createdDate": "2026-03-25"
+  },
+  {
+    "instanceId": "WF-INST-2026-0081",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #2",
+    "department": "Quality Assurance",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "25 hrs",
+    "createdDate": "2026-04-26"
+  },
+  {
+    "instanceId": "WF-INST-2026-0082",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #3",
+    "department": "IT Systems",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "30 hrs",
+    "createdDate": "2026-05-27"
+  },
+  {
+    "instanceId": "WF-INST-2026-0083",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #4",
+    "department": "Operations",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "SLA Verified",
+    "slaHours": "31 hrs",
+    "createdDate": "2026-06-28"
+  },
+  {
+    "instanceId": "WF-INST-2026-0084",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #5",
+    "department": "Engineering",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "20 hrs",
+    "createdDate": "2026-01-01"
+  },
+  {
+    "instanceId": "WF-INST-2026-0085",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #6",
+    "department": "Quality Assurance",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "37 hrs",
+    "createdDate": "2026-02-02"
+  },
+  {
+    "instanceId": "WF-INST-2026-0086",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #7",
+    "department": "Procurement",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "4 hrs",
+    "createdDate": "2026-03-03"
+  },
+  {
+    "instanceId": "WF-INST-2026-0087",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #8",
+    "department": "Quality Assurance",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "26 hrs",
+    "createdDate": "2026-04-04"
+  },
+  {
+    "instanceId": "WF-INST-2026-0088",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #9",
+    "department": "Supply Chain",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "46 hrs",
+    "createdDate": "2026-05-05"
+  },
+  {
+    "instanceId": "WF-INST-2026-0089",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #10",
+    "department": "Operations",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "8 hrs",
+    "createdDate": "2026-06-06"
+  },
+  {
+    "instanceId": "WF-INST-2026-0090",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #11",
+    "department": "Supply Chain",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "39 hrs",
+    "createdDate": "2026-01-07"
+  },
+  {
+    "instanceId": "WF-INST-2026-0091",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #12",
+    "department": "Engineering",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "17 hrs",
+    "createdDate": "2026-02-08"
+  },
+  {
+    "instanceId": "WF-INST-2026-0092",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #13",
+    "department": "Finance",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "40 hrs",
+    "createdDate": "2026-03-09"
+  },
+  {
+    "instanceId": "WF-INST-2026-0093",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #14",
+    "department": "Quality Assurance",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "23 hrs",
+    "createdDate": "2026-04-10"
+  },
+  {
+    "instanceId": "WF-INST-2026-0094",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #15",
+    "department": "Procurement",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "13 hrs",
+    "createdDate": "2026-05-11"
+  },
+  {
+    "instanceId": "WF-INST-2026-0095",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #16",
+    "department": "Safety & Compliance",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "6 hrs",
+    "createdDate": "2026-06-12"
+  },
+  {
+    "instanceId": "WF-INST-2026-0096",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #17",
+    "department": "Engineering",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "40 hrs",
+    "createdDate": "2026-01-13"
+  },
+  {
+    "instanceId": "WF-INST-2026-0097",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #18",
+    "department": "Quality Assurance",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "13 hrs",
+    "createdDate": "2026-02-14"
+  },
+  {
+    "instanceId": "WF-INST-2026-0098",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #19",
+    "department": "Engineering",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "SLA Verified",
+    "slaHours": "21 hrs",
+    "createdDate": "2026-03-15"
+  },
+  {
+    "instanceId": "WF-INST-2026-0099",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #20",
+    "department": "Procurement",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "SLA Verified",
+    "slaHours": "39 hrs",
+    "createdDate": "2026-04-16"
+  },
+  {
+    "instanceId": "WF-INST-2026-0100",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #1",
+    "department": "Quality Assurance",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "3 hrs",
+    "createdDate": "2026-05-17"
+  },
+  {
+    "instanceId": "WF-INST-2026-0101",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #2",
+    "department": "Operations",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "47 hrs",
+    "createdDate": "2026-06-18"
+  },
+  {
+    "instanceId": "WF-INST-2026-0102",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #3",
+    "department": "Quality Assurance",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "8 hrs",
+    "createdDate": "2026-01-19"
+  },
+  {
+    "instanceId": "WF-INST-2026-0103",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #4",
+    "department": "Operations",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "26 hrs",
+    "createdDate": "2026-02-20"
+  },
+  {
+    "instanceId": "WF-INST-2026-0104",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #5",
+    "department": "Procurement",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "40 hrs",
+    "createdDate": "2026-03-21"
+  },
+  {
+    "instanceId": "WF-INST-2026-0105",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #6",
+    "department": "Operations",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "14 hrs",
+    "createdDate": "2026-04-22"
+  },
+  {
+    "instanceId": "WF-INST-2026-0106",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #7",
+    "department": "Procurement",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "44 hrs",
+    "createdDate": "2026-05-23"
+  },
+  {
+    "instanceId": "WF-INST-2026-0107",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #8",
+    "department": "IT Systems",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "10 hrs",
+    "createdDate": "2026-06-24"
+  },
+  {
+    "instanceId": "WF-INST-2026-0108",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #9",
+    "department": "Safety & Compliance",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "8 hrs",
+    "createdDate": "2026-01-25"
+  },
+  {
+    "instanceId": "WF-INST-2026-0109",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #10",
+    "department": "Supply Chain",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "48 hrs",
+    "createdDate": "2026-02-26"
+  },
+  {
+    "instanceId": "WF-INST-2026-0110",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #11",
+    "department": "Safety & Compliance",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "12 hrs",
+    "createdDate": "2026-03-27"
+  },
+  {
+    "instanceId": "WF-INST-2026-0111",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #12",
+    "department": "Quality Assurance",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "9 hrs",
+    "createdDate": "2026-04-28"
+  },
+  {
+    "instanceId": "WF-INST-2026-0112",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #13",
+    "department": "Quality Assurance",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "39 hrs",
+    "createdDate": "2026-05-01"
+  },
+  {
+    "instanceId": "WF-INST-2026-0113",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #14",
+    "department": "Operations",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "41 hrs",
+    "createdDate": "2026-06-02"
+  },
+  {
+    "instanceId": "WF-INST-2026-0114",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #15",
+    "department": "Safety & Compliance",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "9 hrs",
+    "createdDate": "2026-01-03"
+  },
+  {
+    "instanceId": "WF-INST-2026-0115",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #16",
+    "department": "Engineering",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "38 hrs",
+    "createdDate": "2026-02-04"
+  },
+  {
+    "instanceId": "WF-INST-2026-0116",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #17",
+    "department": "Safety & Compliance",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "36 hrs",
+    "createdDate": "2026-03-05"
+  },
+  {
+    "instanceId": "WF-INST-2026-0117",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #18",
+    "department": "Safety & Compliance",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "9 hrs",
+    "createdDate": "2026-04-06"
+  },
+  {
+    "instanceId": "WF-INST-2026-0118",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #19",
+    "department": "Quality Assurance",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "10 hrs",
+    "createdDate": "2026-05-07"
+  },
+  {
+    "instanceId": "WF-INST-2026-0119",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #20",
+    "department": "Operations",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "40 hrs",
+    "createdDate": "2026-06-08"
+  },
+  {
+    "instanceId": "WF-INST-2026-0120",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #1",
+    "department": "IT Systems",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "4 hrs",
+    "createdDate": "2026-01-09"
+  },
+  {
+    "instanceId": "WF-INST-2026-0121",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #2",
+    "department": "Supply Chain",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "3 hrs",
+    "createdDate": "2026-02-10"
+  },
+  {
+    "instanceId": "WF-INST-2026-0122",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #3",
+    "department": "Supply Chain",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "31 hrs",
+    "createdDate": "2026-03-11"
+  },
+  {
+    "instanceId": "WF-INST-2026-0123",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #4",
+    "department": "Finance",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "33 hrs",
+    "createdDate": "2026-04-12"
+  },
+  {
+    "instanceId": "WF-INST-2026-0124",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #5",
+    "department": "Engineering",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "23 hrs",
+    "createdDate": "2026-05-13"
+  },
+  {
+    "instanceId": "WF-INST-2026-0125",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #6",
+    "department": "Supply Chain",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "38 hrs",
+    "createdDate": "2026-06-14"
+  },
+  {
+    "instanceId": "WF-INST-2026-0126",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #7",
+    "department": "IT Systems",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "14 hrs",
+    "createdDate": "2026-01-15"
+  },
+  {
+    "instanceId": "WF-INST-2026-0127",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #8",
+    "department": "Engineering",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "SLA Verified",
+    "slaHours": "34 hrs",
+    "createdDate": "2026-02-16"
+  },
+  {
+    "instanceId": "WF-INST-2026-0128",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #9",
+    "department": "Engineering",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "43 hrs",
+    "createdDate": "2026-03-17"
+  },
+  {
+    "instanceId": "WF-INST-2026-0129",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #10",
+    "department": "Engineering",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "32 hrs",
+    "createdDate": "2026-04-18"
+  },
+  {
+    "instanceId": "WF-INST-2026-0130",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #11",
+    "department": "Safety & Compliance",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "5 hrs",
+    "createdDate": "2026-05-19"
+  },
+  {
+    "instanceId": "WF-INST-2026-0131",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #12",
+    "department": "Procurement",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "9 hrs",
+    "createdDate": "2026-06-20"
+  },
+  {
+    "instanceId": "WF-INST-2026-0132",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #13",
+    "department": "Operations",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "44 hrs",
+    "createdDate": "2026-01-21"
+  },
+  {
+    "instanceId": "WF-INST-2026-0133",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #14",
+    "department": "Supply Chain",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "6 hrs",
+    "createdDate": "2026-02-22"
+  },
+  {
+    "instanceId": "WF-INST-2026-0134",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #15",
+    "department": "Procurement",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "29 hrs",
+    "createdDate": "2026-03-23"
+  },
+  {
+    "instanceId": "WF-INST-2026-0135",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #16",
+    "department": "IT Systems",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "2 hrs",
+    "createdDate": "2026-04-24"
+  },
+  {
+    "instanceId": "WF-INST-2026-0136",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #17",
+    "department": "Safety & Compliance",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "SLA Verified",
+    "slaHours": "45 hrs",
+    "createdDate": "2026-05-25"
+  },
+  {
+    "instanceId": "WF-INST-2026-0137",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #18",
+    "department": "Safety & Compliance",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "14 hrs",
+    "createdDate": "2026-06-26"
+  },
+  {
+    "instanceId": "WF-INST-2026-0138",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #19",
+    "department": "Procurement",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "15 hrs",
+    "createdDate": "2026-01-27"
+  },
+  {
+    "instanceId": "WF-INST-2026-0139",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #20",
+    "department": "Procurement",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "45 hrs",
+    "createdDate": "2026-02-28"
+  },
+  {
+    "instanceId": "WF-INST-2026-0140",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #1",
+    "department": "Safety & Compliance",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "SLA Verified",
+    "slaHours": "22 hrs",
+    "createdDate": "2026-03-01"
+  },
+  {
+    "instanceId": "WF-INST-2026-0141",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #2",
+    "department": "Engineering",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "34 hrs",
+    "createdDate": "2026-04-02"
+  },
+  {
+    "instanceId": "WF-INST-2026-0142",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #3",
+    "department": "Quality Assurance",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "11 hrs",
+    "createdDate": "2026-05-03"
+  },
+  {
+    "instanceId": "WF-INST-2026-0143",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #4",
+    "department": "Engineering",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "SLA Verified",
+    "slaHours": "7 hrs",
+    "createdDate": "2026-06-04"
+  },
+  {
+    "instanceId": "WF-INST-2026-0144",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #5",
+    "department": "Engineering",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "SLA Verified",
+    "slaHours": "9 hrs",
+    "createdDate": "2026-01-05"
+  },
+  {
+    "instanceId": "WF-INST-2026-0145",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #6",
+    "department": "Engineering",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "17 hrs",
+    "createdDate": "2026-02-06"
+  },
+  {
+    "instanceId": "WF-INST-2026-0146",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #7",
+    "department": "Procurement",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "17 hrs",
+    "createdDate": "2026-03-07"
+  },
+  {
+    "instanceId": "WF-INST-2026-0147",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #8",
+    "department": "Quality Assurance",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "35 hrs",
+    "createdDate": "2026-04-08"
+  },
+  {
+    "instanceId": "WF-INST-2026-0148",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #9",
+    "department": "Supply Chain",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "45 hrs",
+    "createdDate": "2026-05-09"
+  },
+  {
+    "instanceId": "WF-INST-2026-0149",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #10",
+    "department": "Safety & Compliance",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "9 hrs",
+    "createdDate": "2026-06-10"
+  },
+  {
+    "instanceId": "WF-INST-2026-0150",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #11",
+    "department": "Finance",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "SLA Verified",
+    "slaHours": "36 hrs",
+    "createdDate": "2026-01-11"
+  },
+  {
+    "instanceId": "WF-INST-2026-0151",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #12",
+    "department": "Quality Assurance",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "SLA Verified",
+    "slaHours": "37 hrs",
+    "createdDate": "2026-02-12"
+  },
+  {
+    "instanceId": "WF-INST-2026-0152",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #13",
+    "department": "Operations",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "8 hrs",
+    "createdDate": "2026-03-13"
+  },
+  {
+    "instanceId": "WF-INST-2026-0153",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #14",
+    "department": "Procurement",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "40 hrs",
+    "createdDate": "2026-04-14"
+  },
+  {
+    "instanceId": "WF-INST-2026-0154",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #15",
+    "department": "Procurement",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "28 hrs",
+    "createdDate": "2026-05-15"
+  },
+  {
+    "instanceId": "WF-INST-2026-0155",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #16",
+    "department": "Quality Assurance",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "32 hrs",
+    "createdDate": "2026-06-16"
+  },
+  {
+    "instanceId": "WF-INST-2026-0156",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #17",
+    "department": "Quality Assurance",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "21 hrs",
+    "createdDate": "2026-01-17"
+  },
+  {
+    "instanceId": "WF-INST-2026-0157",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #18",
+    "department": "Procurement",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "28 hrs",
+    "createdDate": "2026-02-18"
+  },
+  {
+    "instanceId": "WF-INST-2026-0158",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #19",
+    "department": "Supply Chain",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "29 hrs",
+    "createdDate": "2026-03-19"
+  },
+  {
+    "instanceId": "WF-INST-2026-0159",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #20",
+    "department": "IT Systems",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "27 hrs",
+    "createdDate": "2026-04-20"
+  },
+  {
+    "instanceId": "WF-INST-2026-0160",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #1",
+    "department": "Quality Assurance",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "24 hrs",
+    "createdDate": "2026-05-21"
+  },
+  {
+    "instanceId": "WF-INST-2026-0161",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #2",
+    "department": "Quality Assurance",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "33 hrs",
+    "createdDate": "2026-06-22"
+  },
+  {
+    "instanceId": "WF-INST-2026-0162",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #3",
+    "department": "Procurement",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "SLA Verified",
+    "slaHours": "43 hrs",
+    "createdDate": "2026-01-23"
+  },
+  {
+    "instanceId": "WF-INST-2026-0163",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #4",
+    "department": "IT Systems",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "SLA Verified",
+    "slaHours": "29 hrs",
+    "createdDate": "2026-02-24"
+  },
+  {
+    "instanceId": "WF-INST-2026-0164",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #5",
+    "department": "Quality Assurance",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "5 hrs",
+    "createdDate": "2026-03-25"
+  },
+  {
+    "instanceId": "WF-INST-2026-0165",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #6",
+    "department": "Operations",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "40 hrs",
+    "createdDate": "2026-04-26"
+  },
+  {
+    "instanceId": "WF-INST-2026-0166",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #7",
+    "department": "Engineering",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "32 hrs",
+    "createdDate": "2026-05-27"
+  },
+  {
+    "instanceId": "WF-INST-2026-0167",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #8",
+    "department": "Operations",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "38 hrs",
+    "createdDate": "2026-06-28"
+  },
+  {
+    "instanceId": "WF-INST-2026-0168",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #9",
+    "department": "Finance",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "12 hrs",
+    "createdDate": "2026-01-01"
+  },
+  {
+    "instanceId": "WF-INST-2026-0169",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #10",
+    "department": "Engineering",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "9 hrs",
+    "createdDate": "2026-02-02"
+  },
+  {
+    "instanceId": "WF-INST-2026-0170",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #11",
+    "department": "Quality Assurance",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "35 hrs",
+    "createdDate": "2026-03-03"
+  },
+  {
+    "instanceId": "WF-INST-2026-0171",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #12",
+    "department": "Quality Assurance",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "9 hrs",
+    "createdDate": "2026-04-04"
+  },
+  {
+    "instanceId": "WF-INST-2026-0172",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #13",
+    "department": "Operations",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "SLA Verified",
+    "slaHours": "46 hrs",
+    "createdDate": "2026-05-05"
+  },
+  {
+    "instanceId": "WF-INST-2026-0173",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #14",
+    "department": "Procurement",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "17 hrs",
+    "createdDate": "2026-06-06"
+  },
+  {
+    "instanceId": "WF-INST-2026-0174",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #15",
+    "department": "Finance",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "SLA Verified",
+    "slaHours": "31 hrs",
+    "createdDate": "2026-01-07"
+  },
+  {
+    "instanceId": "WF-INST-2026-0175",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #16",
+    "department": "Finance",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "SLA Verified",
+    "slaHours": "23 hrs",
+    "createdDate": "2026-02-08"
+  },
+  {
+    "instanceId": "WF-INST-2026-0176",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #17",
+    "department": "Engineering",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "37 hrs",
+    "createdDate": "2026-03-09"
+  },
+  {
+    "instanceId": "WF-INST-2026-0177",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #18",
+    "department": "Operations",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "2 hrs",
+    "createdDate": "2026-04-10"
+  },
+  {
+    "instanceId": "WF-INST-2026-0178",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #19",
+    "department": "IT Systems",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "32 hrs",
+    "createdDate": "2026-05-11"
+  },
+  {
+    "instanceId": "WF-INST-2026-0179",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #20",
+    "department": "Procurement",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "27 hrs",
+    "createdDate": "2026-06-12"
+  },
+  {
+    "instanceId": "WF-INST-2026-0180",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #1",
+    "department": "Safety & Compliance",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "18 hrs",
+    "createdDate": "2026-01-13"
+  },
+  {
+    "instanceId": "WF-INST-2026-0181",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #2",
+    "department": "Supply Chain",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "15 hrs",
+    "createdDate": "2026-02-14"
+  },
+  {
+    "instanceId": "WF-INST-2026-0182",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #3",
+    "department": "IT Systems",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "14 hrs",
+    "createdDate": "2026-03-15"
+  },
+  {
+    "instanceId": "WF-INST-2026-0183",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #4",
+    "department": "Engineering",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "45 hrs",
+    "createdDate": "2026-04-16"
+  },
+  {
+    "instanceId": "WF-INST-2026-0184",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #5",
+    "department": "Procurement",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "29 hrs",
+    "createdDate": "2026-05-17"
+  },
+  {
+    "instanceId": "WF-INST-2026-0185",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #6",
+    "department": "Safety & Compliance",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "SLA Verified",
+    "slaHours": "35 hrs",
+    "createdDate": "2026-06-18"
+  },
+  {
+    "instanceId": "WF-INST-2026-0186",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #7",
+    "department": "Supply Chain",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "3 hrs",
+    "createdDate": "2026-01-19"
+  },
+  {
+    "instanceId": "WF-INST-2026-0187",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #8",
+    "department": "Finance",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "SLA Verified",
+    "slaHours": "13 hrs",
+    "createdDate": "2026-02-20"
+  },
+  {
+    "instanceId": "WF-INST-2026-0188",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #9",
+    "department": "Procurement",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "36 hrs",
+    "createdDate": "2026-03-21"
+  },
+  {
+    "instanceId": "WF-INST-2026-0189",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #10",
+    "department": "Safety & Compliance",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "18 hrs",
+    "createdDate": "2026-04-22"
+  },
+  {
+    "instanceId": "WF-INST-2026-0190",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #11",
+    "department": "IT Systems",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "13 hrs",
+    "createdDate": "2026-05-23"
+  },
+  {
+    "instanceId": "WF-INST-2026-0191",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #12",
+    "department": "IT Systems",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "SLA Verified",
+    "slaHours": "15 hrs",
+    "createdDate": "2026-06-24"
+  },
+  {
+    "instanceId": "WF-INST-2026-0192",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #13",
+    "department": "Finance",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "39 hrs",
+    "createdDate": "2026-01-25"
+  },
+  {
+    "instanceId": "WF-INST-2026-0193",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #14",
+    "department": "Finance",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "12 hrs",
+    "createdDate": "2026-02-26"
+  },
+  {
+    "instanceId": "WF-INST-2026-0194",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #15",
+    "department": "Supply Chain",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "10 hrs",
+    "createdDate": "2026-03-27"
+  },
+  {
+    "instanceId": "WF-INST-2026-0195",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #16",
+    "department": "Safety & Compliance",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "26 hrs",
+    "createdDate": "2026-04-28"
+  },
+  {
+    "instanceId": "WF-INST-2026-0196",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #17",
+    "department": "Safety & Compliance",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "18 hrs",
+    "createdDate": "2026-05-01"
+  },
+  {
+    "instanceId": "WF-INST-2026-0197",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #18",
+    "department": "IT Systems",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "46 hrs",
+    "createdDate": "2026-06-02"
+  },
+  {
+    "instanceId": "WF-INST-2026-0198",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #19",
+    "department": "Supply Chain",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "SLA Verified",
+    "slaHours": "34 hrs",
+    "createdDate": "2026-01-03"
+  },
+  {
+    "instanceId": "WF-INST-2026-0199",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #20",
+    "department": "Procurement",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "SLA Verified",
+    "slaHours": "13 hrs",
+    "createdDate": "2026-02-04"
+  },
+  {
+    "instanceId": "WF-INST-2026-0200",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #1",
+    "department": "Finance",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "27 hrs",
+    "createdDate": "2026-03-05"
+  },
+  {
+    "instanceId": "WF-INST-2026-0201",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #2",
+    "department": "Operations",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "17 hrs",
+    "createdDate": "2026-04-06"
+  },
+  {
+    "instanceId": "WF-INST-2026-0202",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #3",
+    "department": "Quality Assurance",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "48 hrs",
+    "createdDate": "2026-05-07"
+  },
+  {
+    "instanceId": "WF-INST-2026-0203",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #4",
+    "department": "IT Systems",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "SLA Verified",
+    "slaHours": "11 hrs",
+    "createdDate": "2026-06-08"
+  },
+  {
+    "instanceId": "WF-INST-2026-0204",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #5",
+    "department": "Procurement",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "2 hrs",
+    "createdDate": "2026-01-09"
+  },
+  {
+    "instanceId": "WF-INST-2026-0205",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #6",
+    "department": "Engineering",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "38 hrs",
+    "createdDate": "2026-02-10"
+  },
+  {
+    "instanceId": "WF-INST-2026-0206",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #7",
+    "department": "Engineering",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "23 hrs",
+    "createdDate": "2026-03-11"
+  },
+  {
+    "instanceId": "WF-INST-2026-0207",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #8",
+    "department": "IT Systems",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "3 hrs",
+    "createdDate": "2026-04-12"
+  },
+  {
+    "instanceId": "WF-INST-2026-0208",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #9",
+    "department": "Engineering",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "3 hrs",
+    "createdDate": "2026-05-13"
+  },
+  {
+    "instanceId": "WF-INST-2026-0209",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #10",
+    "department": "Quality Assurance",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "SLA Verified",
+    "slaHours": "17 hrs",
+    "createdDate": "2026-06-14"
+  },
+  {
+    "instanceId": "WF-INST-2026-0210",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #11",
+    "department": "Quality Assurance",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "17 hrs",
+    "createdDate": "2026-01-15"
+  },
+  {
+    "instanceId": "WF-INST-2026-0211",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #12",
+    "department": "Engineering",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "44 hrs",
+    "createdDate": "2026-02-16"
+  },
+  {
+    "instanceId": "WF-INST-2026-0212",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #13",
+    "department": "Operations",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "40 hrs",
+    "createdDate": "2026-03-17"
+  },
+  {
+    "instanceId": "WF-INST-2026-0213",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #14",
+    "department": "Supply Chain",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "26 hrs",
+    "createdDate": "2026-04-18"
+  },
+  {
+    "instanceId": "WF-INST-2026-0214",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #15",
+    "department": "Finance",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "13 hrs",
+    "createdDate": "2026-05-19"
+  },
+  {
+    "instanceId": "WF-INST-2026-0215",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #16",
+    "department": "Supply Chain",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "SLA Verified",
+    "slaHours": "33 hrs",
+    "createdDate": "2026-06-20"
+  },
+  {
+    "instanceId": "WF-INST-2026-0216",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #17",
+    "department": "Safety & Compliance",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "6 hrs",
+    "createdDate": "2026-01-21"
+  },
+  {
+    "instanceId": "WF-INST-2026-0217",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #18",
+    "department": "Finance",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "28 hrs",
+    "createdDate": "2026-02-22"
+  },
+  {
+    "instanceId": "WF-INST-2026-0218",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #19",
+    "department": "Quality Assurance",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "44 hrs",
+    "createdDate": "2026-03-23"
+  },
+  {
+    "instanceId": "WF-INST-2026-0219",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #20",
+    "department": "Engineering",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "38 hrs",
+    "createdDate": "2026-04-24"
+  },
+  {
+    "instanceId": "WF-INST-2026-0220",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #1",
+    "department": "Supply Chain",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "6 hrs",
+    "createdDate": "2026-05-25"
+  },
+  {
+    "instanceId": "WF-INST-2026-0221",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #2",
+    "department": "Safety & Compliance",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "41 hrs",
+    "createdDate": "2026-06-26"
+  },
+  {
+    "instanceId": "WF-INST-2026-0222",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #3",
+    "department": "Finance",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "44 hrs",
+    "createdDate": "2026-01-27"
+  },
+  {
+    "instanceId": "WF-INST-2026-0223",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #4",
+    "department": "Procurement",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "39 hrs",
+    "createdDate": "2026-02-28"
+  },
+  {
+    "instanceId": "WF-INST-2026-0224",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #5",
+    "department": "Finance",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "8 hrs",
+    "createdDate": "2026-03-01"
+  },
+  {
+    "instanceId": "WF-INST-2026-0225",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #6",
+    "department": "Procurement",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "21 hrs",
+    "createdDate": "2026-04-02"
+  },
+  {
+    "instanceId": "WF-INST-2026-0226",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #7",
+    "department": "Finance",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "7 hrs",
+    "createdDate": "2026-05-03"
+  },
+  {
+    "instanceId": "WF-INST-2026-0227",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #8",
+    "department": "Finance",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "44 hrs",
+    "createdDate": "2026-06-04"
+  },
+  {
+    "instanceId": "WF-INST-2026-0228",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #9",
+    "department": "Operations",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "29 hrs",
+    "createdDate": "2026-01-05"
+  },
+  {
+    "instanceId": "WF-INST-2026-0229",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #10",
+    "department": "Operations",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "13 hrs",
+    "createdDate": "2026-02-06"
+  },
+  {
+    "instanceId": "WF-INST-2026-0230",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #11",
+    "department": "Procurement",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "41 hrs",
+    "createdDate": "2026-03-07"
+  },
+  {
+    "instanceId": "WF-INST-2026-0231",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #12",
+    "department": "Engineering",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "17 hrs",
+    "createdDate": "2026-04-08"
+  },
+  {
+    "instanceId": "WF-INST-2026-0232",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #13",
+    "department": "Procurement",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "37 hrs",
+    "createdDate": "2026-05-09"
+  },
+  {
+    "instanceId": "WF-INST-2026-0233",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #14",
+    "department": "Finance",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "36 hrs",
+    "createdDate": "2026-06-10"
+  },
+  {
+    "instanceId": "WF-INST-2026-0234",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #15",
+    "department": "Safety & Compliance",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "41 hrs",
+    "createdDate": "2026-01-11"
+  },
+  {
+    "instanceId": "WF-INST-2026-0235",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #16",
+    "department": "Procurement",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "34 hrs",
+    "createdDate": "2026-02-12"
+  },
+  {
+    "instanceId": "WF-INST-2026-0236",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #17",
+    "department": "Procurement",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "6 hrs",
+    "createdDate": "2026-03-13"
+  },
+  {
+    "instanceId": "WF-INST-2026-0237",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #18",
+    "department": "Supply Chain",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "SLA Verified",
+    "slaHours": "34 hrs",
+    "createdDate": "2026-04-14"
+  },
+  {
+    "instanceId": "WF-INST-2026-0238",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #19",
+    "department": "Engineering",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "SLA Verified",
+    "slaHours": "26 hrs",
+    "createdDate": "2026-05-15"
+  },
+  {
+    "instanceId": "WF-INST-2026-0239",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #20",
+    "department": "Operations",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "33 hrs",
+    "createdDate": "2026-06-16"
+  },
+  {
+    "instanceId": "WF-INST-2026-0240",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #1",
+    "department": "Supply Chain",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "19 hrs",
+    "createdDate": "2026-01-17"
+  },
+  {
+    "instanceId": "WF-INST-2026-0241",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #2",
+    "department": "Quality Assurance",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "17 hrs",
+    "createdDate": "2026-02-18"
+  },
+  {
+    "instanceId": "WF-INST-2026-0242",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #3",
+    "department": "Supply Chain",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "34 hrs",
+    "createdDate": "2026-03-19"
+  },
+  {
+    "instanceId": "WF-INST-2026-0243",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #4",
+    "department": "Engineering",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "9 hrs",
+    "createdDate": "2026-04-20"
+  },
+  {
+    "instanceId": "WF-INST-2026-0244",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #5",
+    "department": "Engineering",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "48 hrs",
+    "createdDate": "2026-05-21"
+  },
+  {
+    "instanceId": "WF-INST-2026-0245",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #6",
+    "department": "Finance",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "10 hrs",
+    "createdDate": "2026-06-22"
+  },
+  {
+    "instanceId": "WF-INST-2026-0246",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #7",
+    "department": "Procurement",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "6 hrs",
+    "createdDate": "2026-01-23"
+  },
+  {
+    "instanceId": "WF-INST-2026-0247",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #8",
+    "department": "Engineering",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "9 hrs",
+    "createdDate": "2026-02-24"
+  },
+  {
+    "instanceId": "WF-INST-2026-0248",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #9",
+    "department": "IT Systems",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "20 hrs",
+    "createdDate": "2026-03-25"
+  },
+  {
+    "instanceId": "WF-INST-2026-0249",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #10",
+    "department": "Finance",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "26 hrs",
+    "createdDate": "2026-04-26"
+  },
+  {
+    "instanceId": "WF-INST-2026-0250",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #11",
+    "department": "Supply Chain",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "39 hrs",
+    "createdDate": "2026-05-27"
+  },
+  {
+    "instanceId": "WF-INST-2026-0251",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #12",
+    "department": "Operations",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "24 hrs",
+    "createdDate": "2026-06-28"
+  },
+  {
+    "instanceId": "WF-INST-2026-0252",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #13",
+    "department": "Finance",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "8 hrs",
+    "createdDate": "2026-01-01"
+  },
+  {
+    "instanceId": "WF-INST-2026-0253",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #14",
+    "department": "Finance",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "24 hrs",
+    "createdDate": "2026-02-02"
+  },
+  {
+    "instanceId": "WF-INST-2026-0254",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #15",
+    "department": "IT Systems",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "2 hrs",
+    "createdDate": "2026-03-03"
+  },
+  {
+    "instanceId": "WF-INST-2026-0255",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #16",
+    "department": "IT Systems",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "22 hrs",
+    "createdDate": "2026-04-04"
+  },
+  {
+    "instanceId": "WF-INST-2026-0256",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #17",
+    "department": "Engineering",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "40 hrs",
+    "createdDate": "2026-05-05"
+  },
+  {
+    "instanceId": "WF-INST-2026-0257",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #18",
+    "department": "Quality Assurance",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "38 hrs",
+    "createdDate": "2026-06-06"
+  },
+  {
+    "instanceId": "WF-INST-2026-0258",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #19",
+    "department": "Operations",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "31 hrs",
+    "createdDate": "2026-01-07"
+  },
+  {
+    "instanceId": "WF-INST-2026-0259",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #20",
+    "department": "IT Systems",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "18 hrs",
+    "createdDate": "2026-02-08"
+  },
+  {
+    "instanceId": "WF-INST-2026-0260",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #1",
+    "department": "Supply Chain",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "8 hrs",
+    "createdDate": "2026-03-09"
+  },
+  {
+    "instanceId": "WF-INST-2026-0261",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #2",
+    "department": "Supply Chain",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "21 hrs",
+    "createdDate": "2026-04-10"
+  },
+  {
+    "instanceId": "WF-INST-2026-0262",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #3",
+    "department": "Finance",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "8 hrs",
+    "createdDate": "2026-05-11"
+  },
+  {
+    "instanceId": "WF-INST-2026-0263",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #4",
+    "department": "Procurement",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "26 hrs",
+    "createdDate": "2026-06-12"
+  },
+  {
+    "instanceId": "WF-INST-2026-0264",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #5",
+    "department": "Quality Assurance",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "23 hrs",
+    "createdDate": "2026-01-13"
+  },
+  {
+    "instanceId": "WF-INST-2026-0265",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #6",
+    "department": "IT Systems",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "27 hrs",
+    "createdDate": "2026-02-14"
+  },
+  {
+    "instanceId": "WF-INST-2026-0266",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #7",
+    "department": "Supply Chain",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "46 hrs",
+    "createdDate": "2026-03-15"
+  },
+  {
+    "instanceId": "WF-INST-2026-0267",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #8",
+    "department": "Supply Chain",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "SLA Verified",
+    "slaHours": "39 hrs",
+    "createdDate": "2026-04-16"
+  },
+  {
+    "instanceId": "WF-INST-2026-0268",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #9",
+    "department": "Procurement",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "44 hrs",
+    "createdDate": "2026-05-17"
+  },
+  {
+    "instanceId": "WF-INST-2026-0269",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #10",
+    "department": "Procurement",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "39 hrs",
+    "createdDate": "2026-06-18"
+  },
+  {
+    "instanceId": "WF-INST-2026-0270",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #11",
+    "department": "Safety & Compliance",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "4 hrs",
+    "createdDate": "2026-01-19"
+  },
+  {
+    "instanceId": "WF-INST-2026-0271",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #12",
+    "department": "Quality Assurance",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "2 hrs",
+    "createdDate": "2026-02-20"
+  },
+  {
+    "instanceId": "WF-INST-2026-0272",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #13",
+    "department": "Supply Chain",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "48 hrs",
+    "createdDate": "2026-03-21"
+  },
+  {
+    "instanceId": "WF-INST-2026-0273",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #14",
+    "department": "Operations",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "28 hrs",
+    "createdDate": "2026-04-22"
+  },
+  {
+    "instanceId": "WF-INST-2026-0274",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #15",
+    "department": "IT Systems",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "43 hrs",
+    "createdDate": "2026-05-23"
+  },
+  {
+    "instanceId": "WF-INST-2026-0275",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #16",
+    "department": "Safety & Compliance",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "43 hrs",
+    "createdDate": "2026-06-24"
+  },
+  {
+    "instanceId": "WF-INST-2026-0276",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #17",
+    "department": "Procurement",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "22 hrs",
+    "createdDate": "2026-01-25"
+  },
+  {
+    "instanceId": "WF-INST-2026-0277",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #18",
+    "department": "Engineering",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "8 hrs",
+    "createdDate": "2026-02-26"
+  },
+  {
+    "instanceId": "WF-INST-2026-0278",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #19",
+    "department": "IT Systems",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "SLA Verified",
+    "slaHours": "33 hrs",
+    "createdDate": "2026-03-27"
+  },
+  {
+    "instanceId": "WF-INST-2026-0279",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #20",
+    "department": "Quality Assurance",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "SLA Verified",
+    "slaHours": "48 hrs",
+    "createdDate": "2026-04-28"
+  },
+  {
+    "instanceId": "WF-INST-2026-0280",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #1",
+    "department": "Operations",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "SLA Verified",
+    "slaHours": "21 hrs",
+    "createdDate": "2026-05-01"
+  },
+  {
+    "instanceId": "WF-INST-2026-0281",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #2",
+    "department": "Operations",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "2 hrs",
+    "createdDate": "2026-06-02"
+  },
+  {
+    "instanceId": "WF-INST-2026-0282",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #3",
+    "department": "Engineering",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "43 hrs",
+    "createdDate": "2026-01-03"
+  },
+  {
+    "instanceId": "WF-INST-2026-0283",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #4",
+    "department": "Quality Assurance",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "14 hrs",
+    "createdDate": "2026-02-04"
+  },
+  {
+    "instanceId": "WF-INST-2026-0284",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #5",
+    "department": "Finance",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "24 hrs",
+    "createdDate": "2026-03-05"
+  },
+  {
+    "instanceId": "WF-INST-2026-0285",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #6",
+    "department": "Operations",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "2 hrs",
+    "createdDate": "2026-04-06"
+  },
+  {
+    "instanceId": "WF-INST-2026-0286",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #7",
+    "department": "Safety & Compliance",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "SLA Verified",
+    "slaHours": "15 hrs",
+    "createdDate": "2026-05-07"
+  },
+  {
+    "instanceId": "WF-INST-2026-0287",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #8",
+    "department": "Quality Assurance",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "32 hrs",
+    "createdDate": "2026-06-08"
+  },
+  {
+    "instanceId": "WF-INST-2026-0288",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #9",
+    "department": "Quality Assurance",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "41 hrs",
+    "createdDate": "2026-01-09"
+  },
+  {
+    "instanceId": "WF-INST-2026-0289",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #10",
+    "department": "Supply Chain",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "44 hrs",
+    "createdDate": "2026-02-10"
+  },
+  {
+    "instanceId": "WF-INST-2026-0290",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #11",
+    "department": "Finance",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "SLA Verified",
+    "slaHours": "18 hrs",
+    "createdDate": "2026-03-11"
+  },
+  {
+    "instanceId": "WF-INST-2026-0291",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #12",
+    "department": "Safety & Compliance",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "4 hrs",
+    "createdDate": "2026-04-12"
+  },
+  {
+    "instanceId": "WF-INST-2026-0292",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #13",
+    "department": "Safety & Compliance",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "38 hrs",
+    "createdDate": "2026-05-13"
+  },
+  {
+    "instanceId": "WF-INST-2026-0293",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #14",
+    "department": "Quality Assurance",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "36 hrs",
+    "createdDate": "2026-06-14"
+  },
+  {
+    "instanceId": "WF-INST-2026-0294",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #15",
+    "department": "Finance",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "27 hrs",
+    "createdDate": "2026-01-15"
+  },
+  {
+    "instanceId": "WF-INST-2026-0295",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #16",
+    "department": "IT Systems",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "SLA Verified",
+    "slaHours": "39 hrs",
+    "createdDate": "2026-02-16"
+  },
+  {
+    "instanceId": "WF-INST-2026-0296",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #17",
+    "department": "Engineering",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "10 hrs",
+    "createdDate": "2026-03-17"
+  },
+  {
+    "instanceId": "WF-INST-2026-0297",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #18",
+    "department": "Quality Assurance",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "SLA Verified",
+    "slaHours": "31 hrs",
+    "createdDate": "2026-04-18"
+  },
+  {
+    "instanceId": "WF-INST-2026-0298",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #19",
+    "department": "Procurement",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "SLA Verified",
+    "slaHours": "19 hrs",
+    "createdDate": "2026-05-19"
+  },
+  {
+    "instanceId": "WF-INST-2026-0299",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #20",
+    "department": "Operations",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "30 hrs",
+    "createdDate": "2026-06-20"
+  },
+  {
+    "instanceId": "WF-INST-2026-0300",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #1",
+    "department": "Engineering",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "32 hrs",
+    "createdDate": "2026-01-21"
+  },
+  {
+    "instanceId": "WF-INST-2026-0301",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #2",
+    "department": "Procurement",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "22 hrs",
+    "createdDate": "2026-02-22"
+  },
+  {
+    "instanceId": "WF-INST-2026-0302",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #3",
+    "department": "Quality Assurance",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "24 hrs",
+    "createdDate": "2026-03-23"
+  },
+  {
+    "instanceId": "WF-INST-2026-0303",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #4",
+    "department": "Finance",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "SLA Verified",
+    "slaHours": "8 hrs",
+    "createdDate": "2026-04-24"
+  },
+  {
+    "instanceId": "WF-INST-2026-0304",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #5",
+    "department": "IT Systems",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "35 hrs",
+    "createdDate": "2026-05-25"
+  },
+  {
+    "instanceId": "WF-INST-2026-0305",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #6",
+    "department": "Safety & Compliance",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "38 hrs",
+    "createdDate": "2026-06-26"
+  },
+  {
+    "instanceId": "WF-INST-2026-0306",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #7",
+    "department": "Safety & Compliance",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "SLA Verified",
+    "slaHours": "15 hrs",
+    "createdDate": "2026-01-27"
+  },
+  {
+    "instanceId": "WF-INST-2026-0307",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #8",
+    "department": "Operations",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "23 hrs",
+    "createdDate": "2026-02-28"
+  },
+  {
+    "instanceId": "WF-INST-2026-0308",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #9",
+    "department": "Finance",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "40 hrs",
+    "createdDate": "2026-03-01"
+  },
+  {
+    "instanceId": "WF-INST-2026-0309",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #10",
+    "department": "Supply Chain",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "SLA Verified",
+    "slaHours": "8 hrs",
+    "createdDate": "2026-04-02"
+  },
+  {
+    "instanceId": "WF-INST-2026-0310",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #11",
+    "department": "Procurement",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "SLA Verified",
+    "slaHours": "32 hrs",
+    "createdDate": "2026-05-03"
+  },
+  {
+    "instanceId": "WF-INST-2026-0311",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #12",
+    "department": "Safety & Compliance",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "11 hrs",
+    "createdDate": "2026-06-04"
+  },
+  {
+    "instanceId": "WF-INST-2026-0312",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #13",
+    "department": "Procurement",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "33 hrs",
+    "createdDate": "2026-01-05"
+  },
+  {
+    "instanceId": "WF-INST-2026-0313",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #14",
+    "department": "Supply Chain",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "21 hrs",
+    "createdDate": "2026-02-06"
+  },
+  {
+    "instanceId": "WF-INST-2026-0314",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #15",
+    "department": "Safety & Compliance",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "14 hrs",
+    "createdDate": "2026-03-07"
+  },
+  {
+    "instanceId": "WF-INST-2026-0315",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #16",
+    "department": "Finance",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "42 hrs",
+    "createdDate": "2026-04-08"
+  },
+  {
+    "instanceId": "WF-INST-2026-0316",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #17",
+    "department": "Operations",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "40 hrs",
+    "createdDate": "2026-05-09"
+  },
+  {
+    "instanceId": "WF-INST-2026-0317",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #18",
+    "department": "IT Systems",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "SLA Verified",
+    "slaHours": "31 hrs",
+    "createdDate": "2026-06-10"
+  },
+  {
+    "instanceId": "WF-INST-2026-0318",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #19",
+    "department": "IT Systems",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "SLA Verified",
+    "slaHours": "16 hrs",
+    "createdDate": "2026-01-11"
+  },
+  {
+    "instanceId": "WF-INST-2026-0319",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #20",
+    "department": "IT Systems",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "6 hrs",
+    "createdDate": "2026-02-12"
+  },
+  {
+    "instanceId": "WF-INST-2026-0320",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #1",
+    "department": "Engineering",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "40 hrs",
+    "createdDate": "2026-03-13"
+  },
+  {
+    "instanceId": "WF-INST-2026-0321",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #2",
+    "department": "Operations",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "35 hrs",
+    "createdDate": "2026-04-14"
+  },
+  {
+    "instanceId": "WF-INST-2026-0322",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #3",
+    "department": "Quality Assurance",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "35 hrs",
+    "createdDate": "2026-05-15"
+  },
+  {
+    "instanceId": "WF-INST-2026-0323",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #4",
+    "department": "Supply Chain",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "32 hrs",
+    "createdDate": "2026-06-16"
+  },
+  {
+    "instanceId": "WF-INST-2026-0324",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #5",
+    "department": "Safety & Compliance",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "43 hrs",
+    "createdDate": "2026-01-17"
+  },
+  {
+    "instanceId": "WF-INST-2026-0325",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #6",
+    "department": "Finance",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "39 hrs",
+    "createdDate": "2026-02-18"
+  },
+  {
+    "instanceId": "WF-INST-2026-0326",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #7",
+    "department": "Engineering",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "SLA Verified",
+    "slaHours": "3 hrs",
+    "createdDate": "2026-03-19"
+  },
+  {
+    "instanceId": "WF-INST-2026-0327",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #8",
+    "department": "Quality Assurance",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "32 hrs",
+    "createdDate": "2026-04-20"
+  },
+  {
+    "instanceId": "WF-INST-2026-0328",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #9",
+    "department": "Finance",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "SLA Verified",
+    "slaHours": "20 hrs",
+    "createdDate": "2026-05-21"
+  },
+  {
+    "instanceId": "WF-INST-2026-0329",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #10",
+    "department": "Supply Chain",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "33 hrs",
+    "createdDate": "2026-06-22"
+  },
+  {
+    "instanceId": "WF-INST-2026-0330",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #11",
+    "department": "Quality Assurance",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "35 hrs",
+    "createdDate": "2026-01-23"
+  },
+  {
+    "instanceId": "WF-INST-2026-0331",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #12",
+    "department": "Operations",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "2 hrs",
+    "createdDate": "2026-02-24"
+  },
+  {
+    "instanceId": "WF-INST-2026-0332",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #13",
+    "department": "Safety & Compliance",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "44 hrs",
+    "createdDate": "2026-03-25"
+  },
+  {
+    "instanceId": "WF-INST-2026-0333",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #14",
+    "department": "Finance",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "SLA Verified",
+    "slaHours": "37 hrs",
+    "createdDate": "2026-04-26"
+  },
+  {
+    "instanceId": "WF-INST-2026-0334",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #15",
+    "department": "Quality Assurance",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "SLA Verified",
+    "slaHours": "46 hrs",
+    "createdDate": "2026-05-27"
+  },
+  {
+    "instanceId": "WF-INST-2026-0335",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #16",
+    "department": "Finance",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "SLA Verified",
+    "slaHours": "36 hrs",
+    "createdDate": "2026-06-28"
+  },
+  {
+    "instanceId": "WF-INST-2026-0336",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #17",
+    "department": "IT Systems",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "34 hrs",
+    "createdDate": "2026-01-01"
+  },
+  {
+    "instanceId": "WF-INST-2026-0337",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #18",
+    "department": "IT Systems",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "18 hrs",
+    "createdDate": "2026-02-02"
+  },
+  {
+    "instanceId": "WF-INST-2026-0338",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #19",
+    "department": "Quality Assurance",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "36 hrs",
+    "createdDate": "2026-03-03"
+  },
+  {
+    "instanceId": "WF-INST-2026-0339",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #20",
+    "department": "IT Systems",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "30 hrs",
+    "createdDate": "2026-04-04"
+  },
+  {
+    "instanceId": "WF-INST-2026-0340",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #1",
+    "department": "IT Systems",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "44 hrs",
+    "createdDate": "2026-05-05"
+  },
+  {
+    "instanceId": "WF-INST-2026-0341",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #2",
+    "department": "IT Systems",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "26 hrs",
+    "createdDate": "2026-06-06"
+  },
+  {
+    "instanceId": "WF-INST-2026-0342",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #3",
+    "department": "Quality Assurance",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "33 hrs",
+    "createdDate": "2026-01-07"
+  },
+  {
+    "instanceId": "WF-INST-2026-0343",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #4",
+    "department": "Procurement",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "34 hrs",
+    "createdDate": "2026-02-08"
+  },
+  {
+    "instanceId": "WF-INST-2026-0344",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #5",
+    "department": "Operations",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "36 hrs",
+    "createdDate": "2026-03-09"
+  },
+  {
+    "instanceId": "WF-INST-2026-0345",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #6",
+    "department": "Procurement",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "2 hrs",
+    "createdDate": "2026-04-10"
+  },
+  {
+    "instanceId": "WF-INST-2026-0346",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #7",
+    "department": "Finance",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "SLA Verified",
+    "slaHours": "39 hrs",
+    "createdDate": "2026-05-11"
+  },
+  {
+    "instanceId": "WF-INST-2026-0347",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #8",
+    "department": "Procurement",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "SLA Verified",
+    "slaHours": "48 hrs",
+    "createdDate": "2026-06-12"
+  },
+  {
+    "instanceId": "WF-INST-2026-0348",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #9",
+    "department": "IT Systems",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "8 hrs",
+    "createdDate": "2026-01-13"
+  },
+  {
+    "instanceId": "WF-INST-2026-0349",
+    "workflowName": "Quality Clearance Ticket",
+    "initiator": "Lead Engineer #10",
+    "department": "Finance",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "34 hrs",
+    "createdDate": "2026-02-14"
+  },
+  {
+    "instanceId": "WF-INST-2026-0350",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #11",
+    "department": "Finance",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "SLA Verified",
+    "slaHours": "43 hrs",
+    "createdDate": "2026-03-15"
+  },
+  {
+    "instanceId": "WF-INST-2026-0351",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #12",
+    "department": "Quality Assurance",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "5 hrs",
+    "createdDate": "2026-04-16"
+  },
+  {
+    "instanceId": "WF-INST-2026-0352",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #13",
+    "department": "Procurement",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "20 hrs",
+    "createdDate": "2026-05-17"
+  },
+  {
+    "instanceId": "WF-INST-2026-0353",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #14",
+    "department": "Engineering",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Active",
+    "slaHours": "15 hrs",
+    "createdDate": "2026-06-18"
+  },
+  {
+    "instanceId": "WF-INST-2026-0354",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #15",
+    "department": "Supply Chain",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "25 hrs",
+    "createdDate": "2026-01-19"
+  },
+  {
+    "instanceId": "WF-INST-2026-0355",
+    "workflowName": "CAPEX Release Signoff",
+    "initiator": "Lead Engineer #16",
+    "department": "Procurement",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "25 hrs",
+    "createdDate": "2026-02-20"
+  },
+  {
+    "instanceId": "WF-INST-2026-0356",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #17",
+    "department": "Engineering",
+    "currentStep": "Step 1 of 4 Signoff",
+    "status": "SLA Verified",
+    "slaHours": "26 hrs",
+    "createdDate": "2026-03-21"
+  },
+  {
+    "instanceId": "WF-INST-2026-0357",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #18",
+    "department": "Engineering",
+    "currentStep": "Step 2 of 4 Signoff",
+    "status": "Approved",
+    "slaHours": "12 hrs",
+    "createdDate": "2026-04-22"
+  },
+  {
+    "instanceId": "WF-INST-2026-0358",
+    "workflowName": "High-Risk Safety Permit",
+    "initiator": "Lead Engineer #19",
+    "department": "IT Systems",
+    "currentStep": "Step 3 of 4 Signoff",
+    "status": "SLA Verified",
+    "slaHours": "13 hrs",
+    "createdDate": "2026-05-23"
+  },
+  {
+    "instanceId": "WF-INST-2026-0359",
+    "workflowName": "Material Purchase Approval",
+    "initiator": "Lead Engineer #20",
+    "department": "Safety & Compliance",
+    "currentStep": "Step 4 of 4 Signoff",
+    "status": "Under Review",
+    "slaHours": "38 hrs",
+    "createdDate": "2026-06-24"
+  }
+]

@@ -27,7 +27,8 @@ import {
   Activity,
   Check,
   Landmark,
-  GitFork
+  GitFork,
+  Briefcase
 } from 'lucide-react';
 
 interface NotificationItem {
@@ -118,6 +119,7 @@ export default function DashboardLayout({
     { name: 'Platform Administration', path: '/dashboard/admin', icon: <Building2 className="w-5 h-5" /> },
     { name: 'Master Data', path: '/dashboard/master-data', icon: <Database className="w-5 h-5" /> },
     { name: 'CRM & Quotation', path: '/dashboard/crm', icon: <Users2 className="w-5 h-5" /> },
+    { name: 'HRM & Payroll', path: '/dashboard/hrm', icon: <Briefcase className="w-5 h-5" /> },
     { name: 'Procurement', path: '/dashboard/procurement', icon: <ShoppingCart className="w-5 h-5" /> },
     { name: 'Inventory & WH', path: '/dashboard/inventory', icon: <Boxes className="w-5 h-5" /> },
     { name: 'Finance & Accounts', path: '/dashboard/finance', icon: <Landmark className="w-5 h-5" /> },
@@ -140,7 +142,7 @@ export default function DashboardLayout({
             </div>
             {sidebarOpen && (
               <span className="font-extrabold text-base tracking-tight bg-gradient-to-r from-indigo-500 to-cyan-555 bg-clip-text text-transparent truncate">
-                VOC ERP
+                VOC INFRA
               </span>
             )}
           </div>
@@ -207,7 +209,7 @@ export default function DashboardLayout({
           <div className="fixed inset-0 bg-slate-950/80 backdrop-blur-xs" onClick={() => setMobileSidebarOpen(false)} />
           <aside className="relative flex flex-col w-64 max-w-xs bg-slate-100 dark:bg-zinc-950 border-r border-slate-200 dark:border-zinc-900 p-4">
             <div className="flex items-center justify-between mb-6">
-              <span className="font-extrabold text-base uppercase tracking-wider bg-gradient-to-r from-indigo-500 to-cyan-555 bg-clip-text text-transparent">VOC ERP</span>
+              <span className="font-extrabold text-base uppercase tracking-wider bg-gradient-to-r from-indigo-500 to-cyan-555 bg-clip-text text-transparent">VOC INFRA</span>
               <button onClick={() => setMobileSidebarOpen(false)}>
                 <X className="w-6 h-6 text-slate-500 dark:text-slate-400" />
               </button>

@@ -1,0 +1,3233 @@
+[
+  {
+    "code": "MD-REG-0001",
+    "itemName": "Master Product Spec Catalog #1",
+    "category": "Finished Goods",
+    "hsnCode": "84711013",
+    "unitOfMeasure": "KG",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-02-02"
+  },
+  {
+    "code": "MD-REG-0002",
+    "itemName": "Master Product Spec Catalog #2",
+    "category": "Consumables",
+    "hsnCode": "84711026",
+    "unitOfMeasure": "Boxes",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-03-03"
+  },
+  {
+    "code": "MD-REG-0003",
+    "itemName": "Master Product Spec Catalog #3",
+    "category": "Raw Materials",
+    "hsnCode": "84711039",
+    "unitOfMeasure": "Meters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-04-04"
+  },
+  {
+    "code": "MD-REG-0004",
+    "itemName": "Master Product Spec Catalog #4",
+    "category": "Raw Materials",
+    "hsnCode": "84711052",
+    "unitOfMeasure": "Units",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-05-05"
+  },
+  {
+    "code": "MD-REG-0005",
+    "itemName": "Master Product Spec Catalog #5",
+    "category": "Consumables",
+    "hsnCode": "84711065",
+    "unitOfMeasure": "Units",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-06-06"
+  },
+  {
+    "code": "MD-REG-0006",
+    "itemName": "Master Product Spec Catalog #6",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84711078",
+    "unitOfMeasure": "KG",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-01-07"
+  },
+  {
+    "code": "MD-REG-0007",
+    "itemName": "Master Product Spec Catalog #7",
+    "category": "Raw Materials",
+    "hsnCode": "84711091",
+    "unitOfMeasure": "Liters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-02-08"
+  },
+  {
+    "code": "MD-REG-0008",
+    "itemName": "Master Product Spec Catalog #8",
+    "category": "Consumables",
+    "hsnCode": "84711104",
+    "unitOfMeasure": "Liters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-03-09"
+  },
+  {
+    "code": "MD-REG-0009",
+    "itemName": "Master Product Spec Catalog #9",
+    "category": "Finished Goods",
+    "hsnCode": "84711117",
+    "unitOfMeasure": "KG",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-04-10"
+  },
+  {
+    "code": "MD-REG-0010",
+    "itemName": "Master Product Spec Catalog #10",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84711130",
+    "unitOfMeasure": "Boxes",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-05-11"
+  },
+  {
+    "code": "MD-REG-0011",
+    "itemName": "Master Product Spec Catalog #11",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84711143",
+    "unitOfMeasure": "KG",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-06-12"
+  },
+  {
+    "code": "MD-REG-0012",
+    "itemName": "Master Product Spec Catalog #12",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84711156",
+    "unitOfMeasure": "Meters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-01-13"
+  },
+  {
+    "code": "MD-REG-0013",
+    "itemName": "Master Product Spec Catalog #13",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84711169",
+    "unitOfMeasure": "Units",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-02-14"
+  },
+  {
+    "code": "MD-REG-0014",
+    "itemName": "Master Product Spec Catalog #14",
+    "category": "Finished Goods",
+    "hsnCode": "84711182",
+    "unitOfMeasure": "Liters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-03-15"
+  },
+  {
+    "code": "MD-REG-0015",
+    "itemName": "Master Product Spec Catalog #15",
+    "category": "Finished Goods",
+    "hsnCode": "84711195",
+    "unitOfMeasure": "Liters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-04-16"
+  },
+  {
+    "code": "MD-REG-0016",
+    "itemName": "Master Product Spec Catalog #16",
+    "category": "Raw Materials",
+    "hsnCode": "84711208",
+    "unitOfMeasure": "KG",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-05-17"
+  },
+  {
+    "code": "MD-REG-0017",
+    "itemName": "Master Product Spec Catalog #17",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84711221",
+    "unitOfMeasure": "Liters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-06-18"
+  },
+  {
+    "code": "MD-REG-0018",
+    "itemName": "Master Product Spec Catalog #18",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84711234",
+    "unitOfMeasure": "Meters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-01-19"
+  },
+  {
+    "code": "MD-REG-0019",
+    "itemName": "Master Product Spec Catalog #19",
+    "category": "Raw Materials",
+    "hsnCode": "84711247",
+    "unitOfMeasure": "Tons",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-02-20"
+  },
+  {
+    "code": "MD-REG-0020",
+    "itemName": "Master Product Spec Catalog #20",
+    "category": "Raw Materials",
+    "hsnCode": "84711260",
+    "unitOfMeasure": "Boxes",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-03-21"
+  },
+  {
+    "code": "MD-REG-0021",
+    "itemName": "Master Product Spec Catalog #21",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84711273",
+    "unitOfMeasure": "KG",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-04-22"
+  },
+  {
+    "code": "MD-REG-0022",
+    "itemName": "Master Product Spec Catalog #22",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84711286",
+    "unitOfMeasure": "Liters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-05-23"
+  },
+  {
+    "code": "MD-REG-0023",
+    "itemName": "Master Product Spec Catalog #23",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84711299",
+    "unitOfMeasure": "Tons",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-06-24"
+  },
+  {
+    "code": "MD-REG-0024",
+    "itemName": "Master Product Spec Catalog #24",
+    "category": "Raw Materials",
+    "hsnCode": "84711312",
+    "unitOfMeasure": "Units",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-01-25"
+  },
+  {
+    "code": "MD-REG-0025",
+    "itemName": "Master Product Spec Catalog #25",
+    "category": "Raw Materials",
+    "hsnCode": "84711325",
+    "unitOfMeasure": "Meters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-02-26"
+  },
+  {
+    "code": "MD-REG-0026",
+    "itemName": "Master Product Spec Catalog #26",
+    "category": "Consumables",
+    "hsnCode": "84711338",
+    "unitOfMeasure": "Meters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-03-27"
+  },
+  {
+    "code": "MD-REG-0027",
+    "itemName": "Master Product Spec Catalog #27",
+    "category": "Chemical Specs",
+    "hsnCode": "84711351",
+    "unitOfMeasure": "Liters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-04-28"
+  },
+  {
+    "code": "MD-REG-0028",
+    "itemName": "Master Product Spec Catalog #28",
+    "category": "Finished Goods",
+    "hsnCode": "84711364",
+    "unitOfMeasure": "Meters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-05-01"
+  },
+  {
+    "code": "MD-REG-0029",
+    "itemName": "Master Product Spec Catalog #29",
+    "category": "Consumables",
+    "hsnCode": "84711377",
+    "unitOfMeasure": "Boxes",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-06-02"
+  },
+  {
+    "code": "MD-REG-0030",
+    "itemName": "Master Product Spec Catalog #30",
+    "category": "Chemical Specs",
+    "hsnCode": "84711390",
+    "unitOfMeasure": "Liters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-01-03"
+  },
+  {
+    "code": "MD-REG-0031",
+    "itemName": "Master Product Spec Catalog #31",
+    "category": "Raw Materials",
+    "hsnCode": "84711403",
+    "unitOfMeasure": "Boxes",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-02-04"
+  },
+  {
+    "code": "MD-REG-0032",
+    "itemName": "Master Product Spec Catalog #32",
+    "category": "Raw Materials",
+    "hsnCode": "84711416",
+    "unitOfMeasure": "Tons",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-03-05"
+  },
+  {
+    "code": "MD-REG-0033",
+    "itemName": "Master Product Spec Catalog #33",
+    "category": "Chemical Specs",
+    "hsnCode": "84711429",
+    "unitOfMeasure": "Tons",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-04-06"
+  },
+  {
+    "code": "MD-REG-0034",
+    "itemName": "Master Product Spec Catalog #34",
+    "category": "Chemical Specs",
+    "hsnCode": "84711442",
+    "unitOfMeasure": "KG",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-05-07"
+  },
+  {
+    "code": "MD-REG-0035",
+    "itemName": "Master Product Spec Catalog #35",
+    "category": "Chemical Specs",
+    "hsnCode": "84711455",
+    "unitOfMeasure": "Boxes",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-06-08"
+  },
+  {
+    "code": "MD-REG-0036",
+    "itemName": "Master Product Spec Catalog #36",
+    "category": "Finished Goods",
+    "hsnCode": "84711468",
+    "unitOfMeasure": "KG",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-01-09"
+  },
+  {
+    "code": "MD-REG-0037",
+    "itemName": "Master Product Spec Catalog #37",
+    "category": "Raw Materials",
+    "hsnCode": "84711481",
+    "unitOfMeasure": "Tons",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-02-10"
+  },
+  {
+    "code": "MD-REG-0038",
+    "itemName": "Master Product Spec Catalog #38",
+    "category": "Raw Materials",
+    "hsnCode": "84711494",
+    "unitOfMeasure": "Liters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-03-11"
+  },
+  {
+    "code": "MD-REG-0039",
+    "itemName": "Master Product Spec Catalog #39",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84711507",
+    "unitOfMeasure": "Boxes",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-04-12"
+  },
+  {
+    "code": "MD-REG-0040",
+    "itemName": "Master Product Spec Catalog #40",
+    "category": "Raw Materials",
+    "hsnCode": "84711520",
+    "unitOfMeasure": "Units",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-05-13"
+  },
+  {
+    "code": "MD-REG-0041",
+    "itemName": "Master Product Spec Catalog #41",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84711533",
+    "unitOfMeasure": "Liters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-06-14"
+  },
+  {
+    "code": "MD-REG-0042",
+    "itemName": "Master Product Spec Catalog #42",
+    "category": "Raw Materials",
+    "hsnCode": "84711546",
+    "unitOfMeasure": "Liters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-01-15"
+  },
+  {
+    "code": "MD-REG-0043",
+    "itemName": "Master Product Spec Catalog #43",
+    "category": "Consumables",
+    "hsnCode": "84711559",
+    "unitOfMeasure": "Liters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-02-16"
+  },
+  {
+    "code": "MD-REG-0044",
+    "itemName": "Master Product Spec Catalog #44",
+    "category": "Chemical Specs",
+    "hsnCode": "84711572",
+    "unitOfMeasure": "Meters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-03-17"
+  },
+  {
+    "code": "MD-REG-0045",
+    "itemName": "Master Product Spec Catalog #45",
+    "category": "Finished Goods",
+    "hsnCode": "84711585",
+    "unitOfMeasure": "Meters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-04-18"
+  },
+  {
+    "code": "MD-REG-0046",
+    "itemName": "Master Product Spec Catalog #46",
+    "category": "Finished Goods",
+    "hsnCode": "84711598",
+    "unitOfMeasure": "KG",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-05-19"
+  },
+  {
+    "code": "MD-REG-0047",
+    "itemName": "Master Product Spec Catalog #47",
+    "category": "Chemical Specs",
+    "hsnCode": "84711611",
+    "unitOfMeasure": "Boxes",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-06-20"
+  },
+  {
+    "code": "MD-REG-0048",
+    "itemName": "Master Product Spec Catalog #48",
+    "category": "Chemical Specs",
+    "hsnCode": "84711624",
+    "unitOfMeasure": "Liters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-01-21"
+  },
+  {
+    "code": "MD-REG-0049",
+    "itemName": "Master Product Spec Catalog #49",
+    "category": "Raw Materials",
+    "hsnCode": "84711637",
+    "unitOfMeasure": "Meters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-02-22"
+  },
+  {
+    "code": "MD-REG-0050",
+    "itemName": "Master Product Spec Catalog #50",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84711650",
+    "unitOfMeasure": "Meters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-03-23"
+  },
+  {
+    "code": "MD-REG-0051",
+    "itemName": "Master Product Spec Catalog #51",
+    "category": "Consumables",
+    "hsnCode": "84711663",
+    "unitOfMeasure": "Tons",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-04-24"
+  },
+  {
+    "code": "MD-REG-0052",
+    "itemName": "Master Product Spec Catalog #52",
+    "category": "Consumables",
+    "hsnCode": "84711676",
+    "unitOfMeasure": "KG",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-05-25"
+  },
+  {
+    "code": "MD-REG-0053",
+    "itemName": "Master Product Spec Catalog #53",
+    "category": "Consumables",
+    "hsnCode": "84711689",
+    "unitOfMeasure": "Liters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-06-26"
+  },
+  {
+    "code": "MD-REG-0054",
+    "itemName": "Master Product Spec Catalog #54",
+    "category": "Raw Materials",
+    "hsnCode": "84711702",
+    "unitOfMeasure": "Meters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-01-27"
+  },
+  {
+    "code": "MD-REG-0055",
+    "itemName": "Master Product Spec Catalog #55",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84711715",
+    "unitOfMeasure": "Units",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-02-28"
+  },
+  {
+    "code": "MD-REG-0056",
+    "itemName": "Master Product Spec Catalog #56",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84711728",
+    "unitOfMeasure": "Boxes",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-03-01"
+  },
+  {
+    "code": "MD-REG-0057",
+    "itemName": "Master Product Spec Catalog #57",
+    "category": "Chemical Specs",
+    "hsnCode": "84711741",
+    "unitOfMeasure": "Liters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-04-02"
+  },
+  {
+    "code": "MD-REG-0058",
+    "itemName": "Master Product Spec Catalog #58",
+    "category": "Consumables",
+    "hsnCode": "84711754",
+    "unitOfMeasure": "Meters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-05-03"
+  },
+  {
+    "code": "MD-REG-0059",
+    "itemName": "Master Product Spec Catalog #59",
+    "category": "Consumables",
+    "hsnCode": "84711767",
+    "unitOfMeasure": "Meters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-06-04"
+  },
+  {
+    "code": "MD-REG-0060",
+    "itemName": "Master Product Spec Catalog #60",
+    "category": "Chemical Specs",
+    "hsnCode": "84711780",
+    "unitOfMeasure": "Tons",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-01-05"
+  },
+  {
+    "code": "MD-REG-0061",
+    "itemName": "Master Product Spec Catalog #61",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84711793",
+    "unitOfMeasure": "Units",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-02-06"
+  },
+  {
+    "code": "MD-REG-0062",
+    "itemName": "Master Product Spec Catalog #62",
+    "category": "Finished Goods",
+    "hsnCode": "84711806",
+    "unitOfMeasure": "Meters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-03-07"
+  },
+  {
+    "code": "MD-REG-0063",
+    "itemName": "Master Product Spec Catalog #63",
+    "category": "Chemical Specs",
+    "hsnCode": "84711819",
+    "unitOfMeasure": "Units",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-04-08"
+  },
+  {
+    "code": "MD-REG-0064",
+    "itemName": "Master Product Spec Catalog #64",
+    "category": "Finished Goods",
+    "hsnCode": "84711832",
+    "unitOfMeasure": "KG",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-05-09"
+  },
+  {
+    "code": "MD-REG-0065",
+    "itemName": "Master Product Spec Catalog #65",
+    "category": "Consumables",
+    "hsnCode": "84711845",
+    "unitOfMeasure": "Units",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-06-10"
+  },
+  {
+    "code": "MD-REG-0066",
+    "itemName": "Master Product Spec Catalog #66",
+    "category": "Consumables",
+    "hsnCode": "84711858",
+    "unitOfMeasure": "Boxes",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-01-11"
+  },
+  {
+    "code": "MD-REG-0067",
+    "itemName": "Master Product Spec Catalog #67",
+    "category": "Raw Materials",
+    "hsnCode": "84711871",
+    "unitOfMeasure": "Liters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-02-12"
+  },
+  {
+    "code": "MD-REG-0068",
+    "itemName": "Master Product Spec Catalog #68",
+    "category": "Chemical Specs",
+    "hsnCode": "84711884",
+    "unitOfMeasure": "Meters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-03-13"
+  },
+  {
+    "code": "MD-REG-0069",
+    "itemName": "Master Product Spec Catalog #69",
+    "category": "Chemical Specs",
+    "hsnCode": "84711897",
+    "unitOfMeasure": "Liters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-04-14"
+  },
+  {
+    "code": "MD-REG-0070",
+    "itemName": "Master Product Spec Catalog #70",
+    "category": "Finished Goods",
+    "hsnCode": "84711910",
+    "unitOfMeasure": "KG",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-05-15"
+  },
+  {
+    "code": "MD-REG-0071",
+    "itemName": "Master Product Spec Catalog #71",
+    "category": "Chemical Specs",
+    "hsnCode": "84711923",
+    "unitOfMeasure": "Liters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-06-16"
+  },
+  {
+    "code": "MD-REG-0072",
+    "itemName": "Master Product Spec Catalog #72",
+    "category": "Finished Goods",
+    "hsnCode": "84711936",
+    "unitOfMeasure": "Tons",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-01-17"
+  },
+  {
+    "code": "MD-REG-0073",
+    "itemName": "Master Product Spec Catalog #73",
+    "category": "Chemical Specs",
+    "hsnCode": "84711949",
+    "unitOfMeasure": "Meters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-02-18"
+  },
+  {
+    "code": "MD-REG-0074",
+    "itemName": "Master Product Spec Catalog #74",
+    "category": "Finished Goods",
+    "hsnCode": "84711962",
+    "unitOfMeasure": "Tons",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-03-19"
+  },
+  {
+    "code": "MD-REG-0075",
+    "itemName": "Master Product Spec Catalog #75",
+    "category": "Chemical Specs",
+    "hsnCode": "84711975",
+    "unitOfMeasure": "Meters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-04-20"
+  },
+  {
+    "code": "MD-REG-0076",
+    "itemName": "Master Product Spec Catalog #76",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84711988",
+    "unitOfMeasure": "Tons",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-05-21"
+  },
+  {
+    "code": "MD-REG-0077",
+    "itemName": "Master Product Spec Catalog #77",
+    "category": "Finished Goods",
+    "hsnCode": "84712001",
+    "unitOfMeasure": "Tons",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-06-22"
+  },
+  {
+    "code": "MD-REG-0078",
+    "itemName": "Master Product Spec Catalog #78",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84712014",
+    "unitOfMeasure": "KG",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-01-23"
+  },
+  {
+    "code": "MD-REG-0079",
+    "itemName": "Master Product Spec Catalog #79",
+    "category": "Finished Goods",
+    "hsnCode": "84712027",
+    "unitOfMeasure": "Units",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-02-24"
+  },
+  {
+    "code": "MD-REG-0080",
+    "itemName": "Master Product Spec Catalog #80",
+    "category": "Finished Goods",
+    "hsnCode": "84712040",
+    "unitOfMeasure": "Liters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-03-25"
+  },
+  {
+    "code": "MD-REG-0081",
+    "itemName": "Master Product Spec Catalog #81",
+    "category": "Chemical Specs",
+    "hsnCode": "84712053",
+    "unitOfMeasure": "Meters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-04-26"
+  },
+  {
+    "code": "MD-REG-0082",
+    "itemName": "Master Product Spec Catalog #82",
+    "category": "Raw Materials",
+    "hsnCode": "84712066",
+    "unitOfMeasure": "Boxes",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-05-27"
+  },
+  {
+    "code": "MD-REG-0083",
+    "itemName": "Master Product Spec Catalog #83",
+    "category": "Consumables",
+    "hsnCode": "84712079",
+    "unitOfMeasure": "Tons",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-06-28"
+  },
+  {
+    "code": "MD-REG-0084",
+    "itemName": "Master Product Spec Catalog #84",
+    "category": "Consumables",
+    "hsnCode": "84712092",
+    "unitOfMeasure": "Liters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-01-01"
+  },
+  {
+    "code": "MD-REG-0085",
+    "itemName": "Master Product Spec Catalog #85",
+    "category": "Raw Materials",
+    "hsnCode": "84712105",
+    "unitOfMeasure": "Units",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-02-02"
+  },
+  {
+    "code": "MD-REG-0086",
+    "itemName": "Master Product Spec Catalog #86",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84712118",
+    "unitOfMeasure": "KG",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-03-03"
+  },
+  {
+    "code": "MD-REG-0087",
+    "itemName": "Master Product Spec Catalog #87",
+    "category": "Chemical Specs",
+    "hsnCode": "84712131",
+    "unitOfMeasure": "Boxes",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-04-04"
+  },
+  {
+    "code": "MD-REG-0088",
+    "itemName": "Master Product Spec Catalog #88",
+    "category": "Chemical Specs",
+    "hsnCode": "84712144",
+    "unitOfMeasure": "Boxes",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-05-05"
+  },
+  {
+    "code": "MD-REG-0089",
+    "itemName": "Master Product Spec Catalog #89",
+    "category": "Finished Goods",
+    "hsnCode": "84712157",
+    "unitOfMeasure": "Tons",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-06-06"
+  },
+  {
+    "code": "MD-REG-0090",
+    "itemName": "Master Product Spec Catalog #90",
+    "category": "Finished Goods",
+    "hsnCode": "84712170",
+    "unitOfMeasure": "Tons",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-01-07"
+  },
+  {
+    "code": "MD-REG-0091",
+    "itemName": "Master Product Spec Catalog #91",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84712183",
+    "unitOfMeasure": "Units",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-02-08"
+  },
+  {
+    "code": "MD-REG-0092",
+    "itemName": "Master Product Spec Catalog #92",
+    "category": "Raw Materials",
+    "hsnCode": "84712196",
+    "unitOfMeasure": "Tons",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-03-09"
+  },
+  {
+    "code": "MD-REG-0093",
+    "itemName": "Master Product Spec Catalog #93",
+    "category": "Finished Goods",
+    "hsnCode": "84712209",
+    "unitOfMeasure": "Meters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-04-10"
+  },
+  {
+    "code": "MD-REG-0094",
+    "itemName": "Master Product Spec Catalog #94",
+    "category": "Raw Materials",
+    "hsnCode": "84712222",
+    "unitOfMeasure": "Units",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-05-11"
+  },
+  {
+    "code": "MD-REG-0095",
+    "itemName": "Master Product Spec Catalog #95",
+    "category": "Raw Materials",
+    "hsnCode": "84712235",
+    "unitOfMeasure": "Tons",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-06-12"
+  },
+  {
+    "code": "MD-REG-0096",
+    "itemName": "Master Product Spec Catalog #96",
+    "category": "Raw Materials",
+    "hsnCode": "84712248",
+    "unitOfMeasure": "Boxes",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-01-13"
+  },
+  {
+    "code": "MD-REG-0097",
+    "itemName": "Master Product Spec Catalog #97",
+    "category": "Consumables",
+    "hsnCode": "84712261",
+    "unitOfMeasure": "Boxes",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-02-14"
+  },
+  {
+    "code": "MD-REG-0098",
+    "itemName": "Master Product Spec Catalog #98",
+    "category": "Chemical Specs",
+    "hsnCode": "84712274",
+    "unitOfMeasure": "Units",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-03-15"
+  },
+  {
+    "code": "MD-REG-0099",
+    "itemName": "Master Product Spec Catalog #99",
+    "category": "Consumables",
+    "hsnCode": "84712287",
+    "unitOfMeasure": "Liters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-04-16"
+  },
+  {
+    "code": "MD-REG-0100",
+    "itemName": "Master Product Spec Catalog #100",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84712300",
+    "unitOfMeasure": "Tons",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-05-17"
+  },
+  {
+    "code": "MD-REG-0101",
+    "itemName": "Master Product Spec Catalog #101",
+    "category": "Finished Goods",
+    "hsnCode": "84712313",
+    "unitOfMeasure": "Meters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-06-18"
+  },
+  {
+    "code": "MD-REG-0102",
+    "itemName": "Master Product Spec Catalog #102",
+    "category": "Consumables",
+    "hsnCode": "84712326",
+    "unitOfMeasure": "KG",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-01-19"
+  },
+  {
+    "code": "MD-REG-0103",
+    "itemName": "Master Product Spec Catalog #103",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84712339",
+    "unitOfMeasure": "Meters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-02-20"
+  },
+  {
+    "code": "MD-REG-0104",
+    "itemName": "Master Product Spec Catalog #104",
+    "category": "Raw Materials",
+    "hsnCode": "84712352",
+    "unitOfMeasure": "Boxes",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-03-21"
+  },
+  {
+    "code": "MD-REG-0105",
+    "itemName": "Master Product Spec Catalog #105",
+    "category": "Consumables",
+    "hsnCode": "84712365",
+    "unitOfMeasure": "Boxes",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-04-22"
+  },
+  {
+    "code": "MD-REG-0106",
+    "itemName": "Master Product Spec Catalog #106",
+    "category": "Raw Materials",
+    "hsnCode": "84712378",
+    "unitOfMeasure": "KG",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-05-23"
+  },
+  {
+    "code": "MD-REG-0107",
+    "itemName": "Master Product Spec Catalog #107",
+    "category": "Chemical Specs",
+    "hsnCode": "84712391",
+    "unitOfMeasure": "Liters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-06-24"
+  },
+  {
+    "code": "MD-REG-0108",
+    "itemName": "Master Product Spec Catalog #108",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84712404",
+    "unitOfMeasure": "Liters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-01-25"
+  },
+  {
+    "code": "MD-REG-0109",
+    "itemName": "Master Product Spec Catalog #109",
+    "category": "Consumables",
+    "hsnCode": "84712417",
+    "unitOfMeasure": "Units",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-02-26"
+  },
+  {
+    "code": "MD-REG-0110",
+    "itemName": "Master Product Spec Catalog #110",
+    "category": "Raw Materials",
+    "hsnCode": "84712430",
+    "unitOfMeasure": "Meters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-03-27"
+  },
+  {
+    "code": "MD-REG-0111",
+    "itemName": "Master Product Spec Catalog #111",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84712443",
+    "unitOfMeasure": "Liters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-04-28"
+  },
+  {
+    "code": "MD-REG-0112",
+    "itemName": "Master Product Spec Catalog #112",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84712456",
+    "unitOfMeasure": "KG",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-05-01"
+  },
+  {
+    "code": "MD-REG-0113",
+    "itemName": "Master Product Spec Catalog #113",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84712469",
+    "unitOfMeasure": "Tons",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-06-02"
+  },
+  {
+    "code": "MD-REG-0114",
+    "itemName": "Master Product Spec Catalog #114",
+    "category": "Chemical Specs",
+    "hsnCode": "84712482",
+    "unitOfMeasure": "Boxes",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-01-03"
+  },
+  {
+    "code": "MD-REG-0115",
+    "itemName": "Master Product Spec Catalog #115",
+    "category": "Chemical Specs",
+    "hsnCode": "84712495",
+    "unitOfMeasure": "KG",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-02-04"
+  },
+  {
+    "code": "MD-REG-0116",
+    "itemName": "Master Product Spec Catalog #116",
+    "category": "Chemical Specs",
+    "hsnCode": "84712508",
+    "unitOfMeasure": "Meters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-03-05"
+  },
+  {
+    "code": "MD-REG-0117",
+    "itemName": "Master Product Spec Catalog #117",
+    "category": "Chemical Specs",
+    "hsnCode": "84712521",
+    "unitOfMeasure": "Liters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-04-06"
+  },
+  {
+    "code": "MD-REG-0118",
+    "itemName": "Master Product Spec Catalog #118",
+    "category": "Finished Goods",
+    "hsnCode": "84712534",
+    "unitOfMeasure": "KG",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-05-07"
+  },
+  {
+    "code": "MD-REG-0119",
+    "itemName": "Master Product Spec Catalog #119",
+    "category": "Finished Goods",
+    "hsnCode": "84712547",
+    "unitOfMeasure": "Tons",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-06-08"
+  },
+  {
+    "code": "MD-REG-0120",
+    "itemName": "Master Product Spec Catalog #120",
+    "category": "Raw Materials",
+    "hsnCode": "84712560",
+    "unitOfMeasure": "Boxes",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-01-09"
+  },
+  {
+    "code": "MD-REG-0121",
+    "itemName": "Master Product Spec Catalog #121",
+    "category": "Chemical Specs",
+    "hsnCode": "84712573",
+    "unitOfMeasure": "Boxes",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-02-10"
+  },
+  {
+    "code": "MD-REG-0122",
+    "itemName": "Master Product Spec Catalog #122",
+    "category": "Chemical Specs",
+    "hsnCode": "84712586",
+    "unitOfMeasure": "KG",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-03-11"
+  },
+  {
+    "code": "MD-REG-0123",
+    "itemName": "Master Product Spec Catalog #123",
+    "category": "Raw Materials",
+    "hsnCode": "84712599",
+    "unitOfMeasure": "Tons",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-04-12"
+  },
+  {
+    "code": "MD-REG-0124",
+    "itemName": "Master Product Spec Catalog #124",
+    "category": "Consumables",
+    "hsnCode": "84712612",
+    "unitOfMeasure": "Liters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-05-13"
+  },
+  {
+    "code": "MD-REG-0125",
+    "itemName": "Master Product Spec Catalog #125",
+    "category": "Chemical Specs",
+    "hsnCode": "84712625",
+    "unitOfMeasure": "Tons",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-06-14"
+  },
+  {
+    "code": "MD-REG-0126",
+    "itemName": "Master Product Spec Catalog #126",
+    "category": "Finished Goods",
+    "hsnCode": "84712638",
+    "unitOfMeasure": "Meters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-01-15"
+  },
+  {
+    "code": "MD-REG-0127",
+    "itemName": "Master Product Spec Catalog #127",
+    "category": "Raw Materials",
+    "hsnCode": "84712651",
+    "unitOfMeasure": "Meters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-02-16"
+  },
+  {
+    "code": "MD-REG-0128",
+    "itemName": "Master Product Spec Catalog #128",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84712664",
+    "unitOfMeasure": "Liters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-03-17"
+  },
+  {
+    "code": "MD-REG-0129",
+    "itemName": "Master Product Spec Catalog #129",
+    "category": "Chemical Specs",
+    "hsnCode": "84712677",
+    "unitOfMeasure": "Tons",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-04-18"
+  },
+  {
+    "code": "MD-REG-0130",
+    "itemName": "Master Product Spec Catalog #130",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84712690",
+    "unitOfMeasure": "Units",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-05-19"
+  },
+  {
+    "code": "MD-REG-0131",
+    "itemName": "Master Product Spec Catalog #131",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84712703",
+    "unitOfMeasure": "Tons",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-06-20"
+  },
+  {
+    "code": "MD-REG-0132",
+    "itemName": "Master Product Spec Catalog #132",
+    "category": "Finished Goods",
+    "hsnCode": "84712716",
+    "unitOfMeasure": "Liters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-01-21"
+  },
+  {
+    "code": "MD-REG-0133",
+    "itemName": "Master Product Spec Catalog #133",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84712729",
+    "unitOfMeasure": "Boxes",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-02-22"
+  },
+  {
+    "code": "MD-REG-0134",
+    "itemName": "Master Product Spec Catalog #134",
+    "category": "Finished Goods",
+    "hsnCode": "84712742",
+    "unitOfMeasure": "Tons",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-03-23"
+  },
+  {
+    "code": "MD-REG-0135",
+    "itemName": "Master Product Spec Catalog #135",
+    "category": "Finished Goods",
+    "hsnCode": "84712755",
+    "unitOfMeasure": "Meters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-04-24"
+  },
+  {
+    "code": "MD-REG-0136",
+    "itemName": "Master Product Spec Catalog #136",
+    "category": "Raw Materials",
+    "hsnCode": "84712768",
+    "unitOfMeasure": "Tons",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-05-25"
+  },
+  {
+    "code": "MD-REG-0137",
+    "itemName": "Master Product Spec Catalog #137",
+    "category": "Finished Goods",
+    "hsnCode": "84712781",
+    "unitOfMeasure": "Liters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-06-26"
+  },
+  {
+    "code": "MD-REG-0138",
+    "itemName": "Master Product Spec Catalog #138",
+    "category": "Chemical Specs",
+    "hsnCode": "84712794",
+    "unitOfMeasure": "Tons",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-01-27"
+  },
+  {
+    "code": "MD-REG-0139",
+    "itemName": "Master Product Spec Catalog #139",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84712807",
+    "unitOfMeasure": "Meters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-02-28"
+  },
+  {
+    "code": "MD-REG-0140",
+    "itemName": "Master Product Spec Catalog #140",
+    "category": "Raw Materials",
+    "hsnCode": "84712820",
+    "unitOfMeasure": "Meters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-03-01"
+  },
+  {
+    "code": "MD-REG-0141",
+    "itemName": "Master Product Spec Catalog #141",
+    "category": "Raw Materials",
+    "hsnCode": "84712833",
+    "unitOfMeasure": "Liters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-04-02"
+  },
+  {
+    "code": "MD-REG-0142",
+    "itemName": "Master Product Spec Catalog #142",
+    "category": "Finished Goods",
+    "hsnCode": "84712846",
+    "unitOfMeasure": "Boxes",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-05-03"
+  },
+  {
+    "code": "MD-REG-0143",
+    "itemName": "Master Product Spec Catalog #143",
+    "category": "Finished Goods",
+    "hsnCode": "84712859",
+    "unitOfMeasure": "Liters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-06-04"
+  },
+  {
+    "code": "MD-REG-0144",
+    "itemName": "Master Product Spec Catalog #144",
+    "category": "Raw Materials",
+    "hsnCode": "84712872",
+    "unitOfMeasure": "Units",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-01-05"
+  },
+  {
+    "code": "MD-REG-0145",
+    "itemName": "Master Product Spec Catalog #145",
+    "category": "Consumables",
+    "hsnCode": "84712885",
+    "unitOfMeasure": "Meters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-02-06"
+  },
+  {
+    "code": "MD-REG-0146",
+    "itemName": "Master Product Spec Catalog #146",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84712898",
+    "unitOfMeasure": "Liters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-03-07"
+  },
+  {
+    "code": "MD-REG-0147",
+    "itemName": "Master Product Spec Catalog #147",
+    "category": "Raw Materials",
+    "hsnCode": "84712911",
+    "unitOfMeasure": "Meters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-04-08"
+  },
+  {
+    "code": "MD-REG-0148",
+    "itemName": "Master Product Spec Catalog #148",
+    "category": "Consumables",
+    "hsnCode": "84712924",
+    "unitOfMeasure": "Tons",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-05-09"
+  },
+  {
+    "code": "MD-REG-0149",
+    "itemName": "Master Product Spec Catalog #149",
+    "category": "Finished Goods",
+    "hsnCode": "84712937",
+    "unitOfMeasure": "KG",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-06-10"
+  },
+  {
+    "code": "MD-REG-0150",
+    "itemName": "Master Product Spec Catalog #150",
+    "category": "Finished Goods",
+    "hsnCode": "84712950",
+    "unitOfMeasure": "Units",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-01-11"
+  },
+  {
+    "code": "MD-REG-0151",
+    "itemName": "Master Product Spec Catalog #151",
+    "category": "Chemical Specs",
+    "hsnCode": "84712963",
+    "unitOfMeasure": "Liters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-02-12"
+  },
+  {
+    "code": "MD-REG-0152",
+    "itemName": "Master Product Spec Catalog #152",
+    "category": "Raw Materials",
+    "hsnCode": "84712976",
+    "unitOfMeasure": "Units",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-03-13"
+  },
+  {
+    "code": "MD-REG-0153",
+    "itemName": "Master Product Spec Catalog #153",
+    "category": "Finished Goods",
+    "hsnCode": "84712989",
+    "unitOfMeasure": "Units",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-04-14"
+  },
+  {
+    "code": "MD-REG-0154",
+    "itemName": "Master Product Spec Catalog #154",
+    "category": "Consumables",
+    "hsnCode": "84713002",
+    "unitOfMeasure": "Liters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-05-15"
+  },
+  {
+    "code": "MD-REG-0155",
+    "itemName": "Master Product Spec Catalog #155",
+    "category": "Raw Materials",
+    "hsnCode": "84713015",
+    "unitOfMeasure": "Tons",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-06-16"
+  },
+  {
+    "code": "MD-REG-0156",
+    "itemName": "Master Product Spec Catalog #156",
+    "category": "Consumables",
+    "hsnCode": "84713028",
+    "unitOfMeasure": "Boxes",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-01-17"
+  },
+  {
+    "code": "MD-REG-0157",
+    "itemName": "Master Product Spec Catalog #157",
+    "category": "Consumables",
+    "hsnCode": "84713041",
+    "unitOfMeasure": "Units",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-02-18"
+  },
+  {
+    "code": "MD-REG-0158",
+    "itemName": "Master Product Spec Catalog #158",
+    "category": "Consumables",
+    "hsnCode": "84713054",
+    "unitOfMeasure": "Meters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-03-19"
+  },
+  {
+    "code": "MD-REG-0159",
+    "itemName": "Master Product Spec Catalog #159",
+    "category": "Finished Goods",
+    "hsnCode": "84713067",
+    "unitOfMeasure": "Units",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-04-20"
+  },
+  {
+    "code": "MD-REG-0160",
+    "itemName": "Master Product Spec Catalog #160",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84713080",
+    "unitOfMeasure": "Meters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-05-21"
+  },
+  {
+    "code": "MD-REG-0161",
+    "itemName": "Master Product Spec Catalog #161",
+    "category": "Finished Goods",
+    "hsnCode": "84713093",
+    "unitOfMeasure": "Units",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-06-22"
+  },
+  {
+    "code": "MD-REG-0162",
+    "itemName": "Master Product Spec Catalog #162",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84713106",
+    "unitOfMeasure": "Meters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-01-23"
+  },
+  {
+    "code": "MD-REG-0163",
+    "itemName": "Master Product Spec Catalog #163",
+    "category": "Chemical Specs",
+    "hsnCode": "84713119",
+    "unitOfMeasure": "Liters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-02-24"
+  },
+  {
+    "code": "MD-REG-0164",
+    "itemName": "Master Product Spec Catalog #164",
+    "category": "Raw Materials",
+    "hsnCode": "84713132",
+    "unitOfMeasure": "Liters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-03-25"
+  },
+  {
+    "code": "MD-REG-0165",
+    "itemName": "Master Product Spec Catalog #165",
+    "category": "Chemical Specs",
+    "hsnCode": "84713145",
+    "unitOfMeasure": "Meters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-04-26"
+  },
+  {
+    "code": "MD-REG-0166",
+    "itemName": "Master Product Spec Catalog #166",
+    "category": "Finished Goods",
+    "hsnCode": "84713158",
+    "unitOfMeasure": "Meters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-05-27"
+  },
+  {
+    "code": "MD-REG-0167",
+    "itemName": "Master Product Spec Catalog #167",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84713171",
+    "unitOfMeasure": "Tons",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-06-28"
+  },
+  {
+    "code": "MD-REG-0168",
+    "itemName": "Master Product Spec Catalog #168",
+    "category": "Consumables",
+    "hsnCode": "84713184",
+    "unitOfMeasure": "Meters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-01-01"
+  },
+  {
+    "code": "MD-REG-0169",
+    "itemName": "Master Product Spec Catalog #169",
+    "category": "Finished Goods",
+    "hsnCode": "84713197",
+    "unitOfMeasure": "Liters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-02-02"
+  },
+  {
+    "code": "MD-REG-0170",
+    "itemName": "Master Product Spec Catalog #170",
+    "category": "Finished Goods",
+    "hsnCode": "84713210",
+    "unitOfMeasure": "Boxes",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-03-03"
+  },
+  {
+    "code": "MD-REG-0171",
+    "itemName": "Master Product Spec Catalog #171",
+    "category": "Chemical Specs",
+    "hsnCode": "84713223",
+    "unitOfMeasure": "Units",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-04-04"
+  },
+  {
+    "code": "MD-REG-0172",
+    "itemName": "Master Product Spec Catalog #172",
+    "category": "Raw Materials",
+    "hsnCode": "84713236",
+    "unitOfMeasure": "Liters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-05-05"
+  },
+  {
+    "code": "MD-REG-0173",
+    "itemName": "Master Product Spec Catalog #173",
+    "category": "Raw Materials",
+    "hsnCode": "84713249",
+    "unitOfMeasure": "Tons",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-06-06"
+  },
+  {
+    "code": "MD-REG-0174",
+    "itemName": "Master Product Spec Catalog #174",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84713262",
+    "unitOfMeasure": "Tons",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-01-07"
+  },
+  {
+    "code": "MD-REG-0175",
+    "itemName": "Master Product Spec Catalog #175",
+    "category": "Chemical Specs",
+    "hsnCode": "84713275",
+    "unitOfMeasure": "KG",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-02-08"
+  },
+  {
+    "code": "MD-REG-0176",
+    "itemName": "Master Product Spec Catalog #176",
+    "category": "Chemical Specs",
+    "hsnCode": "84713288",
+    "unitOfMeasure": "Units",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-03-09"
+  },
+  {
+    "code": "MD-REG-0177",
+    "itemName": "Master Product Spec Catalog #177",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84713301",
+    "unitOfMeasure": "Meters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-04-10"
+  },
+  {
+    "code": "MD-REG-0178",
+    "itemName": "Master Product Spec Catalog #178",
+    "category": "Raw Materials",
+    "hsnCode": "84713314",
+    "unitOfMeasure": "KG",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-05-11"
+  },
+  {
+    "code": "MD-REG-0179",
+    "itemName": "Master Product Spec Catalog #179",
+    "category": "Chemical Specs",
+    "hsnCode": "84713327",
+    "unitOfMeasure": "KG",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-06-12"
+  },
+  {
+    "code": "MD-REG-0180",
+    "itemName": "Master Product Spec Catalog #180",
+    "category": "Consumables",
+    "hsnCode": "84713340",
+    "unitOfMeasure": "Liters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-01-13"
+  },
+  {
+    "code": "MD-REG-0181",
+    "itemName": "Master Product Spec Catalog #181",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84713353",
+    "unitOfMeasure": "Tons",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-02-14"
+  },
+  {
+    "code": "MD-REG-0182",
+    "itemName": "Master Product Spec Catalog #182",
+    "category": "Raw Materials",
+    "hsnCode": "84713366",
+    "unitOfMeasure": "Liters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-03-15"
+  },
+  {
+    "code": "MD-REG-0183",
+    "itemName": "Master Product Spec Catalog #183",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84713379",
+    "unitOfMeasure": "Units",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-04-16"
+  },
+  {
+    "code": "MD-REG-0184",
+    "itemName": "Master Product Spec Catalog #184",
+    "category": "Finished Goods",
+    "hsnCode": "84713392",
+    "unitOfMeasure": "Tons",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-05-17"
+  },
+  {
+    "code": "MD-REG-0185",
+    "itemName": "Master Product Spec Catalog #185",
+    "category": "Chemical Specs",
+    "hsnCode": "84713405",
+    "unitOfMeasure": "Tons",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-06-18"
+  },
+  {
+    "code": "MD-REG-0186",
+    "itemName": "Master Product Spec Catalog #186",
+    "category": "Finished Goods",
+    "hsnCode": "84713418",
+    "unitOfMeasure": "Units",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-01-19"
+  },
+  {
+    "code": "MD-REG-0187",
+    "itemName": "Master Product Spec Catalog #187",
+    "category": "Chemical Specs",
+    "hsnCode": "84713431",
+    "unitOfMeasure": "Boxes",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-02-20"
+  },
+  {
+    "code": "MD-REG-0188",
+    "itemName": "Master Product Spec Catalog #188",
+    "category": "Raw Materials",
+    "hsnCode": "84713444",
+    "unitOfMeasure": "Meters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-03-21"
+  },
+  {
+    "code": "MD-REG-0189",
+    "itemName": "Master Product Spec Catalog #189",
+    "category": "Consumables",
+    "hsnCode": "84713457",
+    "unitOfMeasure": "Tons",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-04-22"
+  },
+  {
+    "code": "MD-REG-0190",
+    "itemName": "Master Product Spec Catalog #190",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84713470",
+    "unitOfMeasure": "Tons",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-05-23"
+  },
+  {
+    "code": "MD-REG-0191",
+    "itemName": "Master Product Spec Catalog #191",
+    "category": "Raw Materials",
+    "hsnCode": "84713483",
+    "unitOfMeasure": "Meters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-06-24"
+  },
+  {
+    "code": "MD-REG-0192",
+    "itemName": "Master Product Spec Catalog #192",
+    "category": "Consumables",
+    "hsnCode": "84713496",
+    "unitOfMeasure": "Tons",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-01-25"
+  },
+  {
+    "code": "MD-REG-0193",
+    "itemName": "Master Product Spec Catalog #193",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84713509",
+    "unitOfMeasure": "Units",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-02-26"
+  },
+  {
+    "code": "MD-REG-0194",
+    "itemName": "Master Product Spec Catalog #194",
+    "category": "Chemical Specs",
+    "hsnCode": "84713522",
+    "unitOfMeasure": "Meters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-03-27"
+  },
+  {
+    "code": "MD-REG-0195",
+    "itemName": "Master Product Spec Catalog #195",
+    "category": "Raw Materials",
+    "hsnCode": "84713535",
+    "unitOfMeasure": "Units",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-04-28"
+  },
+  {
+    "code": "MD-REG-0196",
+    "itemName": "Master Product Spec Catalog #196",
+    "category": "Chemical Specs",
+    "hsnCode": "84713548",
+    "unitOfMeasure": "Tons",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-05-01"
+  },
+  {
+    "code": "MD-REG-0197",
+    "itemName": "Master Product Spec Catalog #197",
+    "category": "Finished Goods",
+    "hsnCode": "84713561",
+    "unitOfMeasure": "Units",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-06-02"
+  },
+  {
+    "code": "MD-REG-0198",
+    "itemName": "Master Product Spec Catalog #198",
+    "category": "Chemical Specs",
+    "hsnCode": "84713574",
+    "unitOfMeasure": "Boxes",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-01-03"
+  },
+  {
+    "code": "MD-REG-0199",
+    "itemName": "Master Product Spec Catalog #199",
+    "category": "Consumables",
+    "hsnCode": "84713587",
+    "unitOfMeasure": "Tons",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-02-04"
+  },
+  {
+    "code": "MD-REG-0200",
+    "itemName": "Master Product Spec Catalog #200",
+    "category": "Raw Materials",
+    "hsnCode": "84713600",
+    "unitOfMeasure": "Liters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-03-05"
+  },
+  {
+    "code": "MD-REG-0201",
+    "itemName": "Master Product Spec Catalog #201",
+    "category": "Raw Materials",
+    "hsnCode": "84713613",
+    "unitOfMeasure": "Units",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-04-06"
+  },
+  {
+    "code": "MD-REG-0202",
+    "itemName": "Master Product Spec Catalog #202",
+    "category": "Raw Materials",
+    "hsnCode": "84713626",
+    "unitOfMeasure": "Meters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-05-07"
+  },
+  {
+    "code": "MD-REG-0203",
+    "itemName": "Master Product Spec Catalog #203",
+    "category": "Chemical Specs",
+    "hsnCode": "84713639",
+    "unitOfMeasure": "Boxes",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-06-08"
+  },
+  {
+    "code": "MD-REG-0204",
+    "itemName": "Master Product Spec Catalog #204",
+    "category": "Chemical Specs",
+    "hsnCode": "84713652",
+    "unitOfMeasure": "KG",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-01-09"
+  },
+  {
+    "code": "MD-REG-0205",
+    "itemName": "Master Product Spec Catalog #205",
+    "category": "Consumables",
+    "hsnCode": "84713665",
+    "unitOfMeasure": "Liters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-02-10"
+  },
+  {
+    "code": "MD-REG-0206",
+    "itemName": "Master Product Spec Catalog #206",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84713678",
+    "unitOfMeasure": "Meters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-03-11"
+  },
+  {
+    "code": "MD-REG-0207",
+    "itemName": "Master Product Spec Catalog #207",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84713691",
+    "unitOfMeasure": "KG",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-04-12"
+  },
+  {
+    "code": "MD-REG-0208",
+    "itemName": "Master Product Spec Catalog #208",
+    "category": "Finished Goods",
+    "hsnCode": "84713704",
+    "unitOfMeasure": "Meters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-05-13"
+  },
+  {
+    "code": "MD-REG-0209",
+    "itemName": "Master Product Spec Catalog #209",
+    "category": "Raw Materials",
+    "hsnCode": "84713717",
+    "unitOfMeasure": "Tons",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-06-14"
+  },
+  {
+    "code": "MD-REG-0210",
+    "itemName": "Master Product Spec Catalog #210",
+    "category": "Raw Materials",
+    "hsnCode": "84713730",
+    "unitOfMeasure": "Boxes",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-01-15"
+  },
+  {
+    "code": "MD-REG-0211",
+    "itemName": "Master Product Spec Catalog #211",
+    "category": "Consumables",
+    "hsnCode": "84713743",
+    "unitOfMeasure": "Meters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-02-16"
+  },
+  {
+    "code": "MD-REG-0212",
+    "itemName": "Master Product Spec Catalog #212",
+    "category": "Raw Materials",
+    "hsnCode": "84713756",
+    "unitOfMeasure": "Units",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-03-17"
+  },
+  {
+    "code": "MD-REG-0213",
+    "itemName": "Master Product Spec Catalog #213",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84713769",
+    "unitOfMeasure": "Boxes",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-04-18"
+  },
+  {
+    "code": "MD-REG-0214",
+    "itemName": "Master Product Spec Catalog #214",
+    "category": "Consumables",
+    "hsnCode": "84713782",
+    "unitOfMeasure": "Boxes",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-05-19"
+  },
+  {
+    "code": "MD-REG-0215",
+    "itemName": "Master Product Spec Catalog #215",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84713795",
+    "unitOfMeasure": "Boxes",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-06-20"
+  },
+  {
+    "code": "MD-REG-0216",
+    "itemName": "Master Product Spec Catalog #216",
+    "category": "Consumables",
+    "hsnCode": "84713808",
+    "unitOfMeasure": "Boxes",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-01-21"
+  },
+  {
+    "code": "MD-REG-0217",
+    "itemName": "Master Product Spec Catalog #217",
+    "category": "Finished Goods",
+    "hsnCode": "84713821",
+    "unitOfMeasure": "Meters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-02-22"
+  },
+  {
+    "code": "MD-REG-0218",
+    "itemName": "Master Product Spec Catalog #218",
+    "category": "Finished Goods",
+    "hsnCode": "84713834",
+    "unitOfMeasure": "Meters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-03-23"
+  },
+  {
+    "code": "MD-REG-0219",
+    "itemName": "Master Product Spec Catalog #219",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84713847",
+    "unitOfMeasure": "Liters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-04-24"
+  },
+  {
+    "code": "MD-REG-0220",
+    "itemName": "Master Product Spec Catalog #220",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84713860",
+    "unitOfMeasure": "Boxes",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-05-25"
+  },
+  {
+    "code": "MD-REG-0221",
+    "itemName": "Master Product Spec Catalog #221",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84713873",
+    "unitOfMeasure": "Meters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-06-26"
+  },
+  {
+    "code": "MD-REG-0222",
+    "itemName": "Master Product Spec Catalog #222",
+    "category": "Consumables",
+    "hsnCode": "84713886",
+    "unitOfMeasure": "Meters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-01-27"
+  },
+  {
+    "code": "MD-REG-0223",
+    "itemName": "Master Product Spec Catalog #223",
+    "category": "Finished Goods",
+    "hsnCode": "84713899",
+    "unitOfMeasure": "Liters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-02-28"
+  },
+  {
+    "code": "MD-REG-0224",
+    "itemName": "Master Product Spec Catalog #224",
+    "category": "Finished Goods",
+    "hsnCode": "84713912",
+    "unitOfMeasure": "Liters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-03-01"
+  },
+  {
+    "code": "MD-REG-0225",
+    "itemName": "Master Product Spec Catalog #225",
+    "category": "Raw Materials",
+    "hsnCode": "84713925",
+    "unitOfMeasure": "Liters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-04-02"
+  },
+  {
+    "code": "MD-REG-0226",
+    "itemName": "Master Product Spec Catalog #226",
+    "category": "Chemical Specs",
+    "hsnCode": "84713938",
+    "unitOfMeasure": "Meters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-05-03"
+  },
+  {
+    "code": "MD-REG-0227",
+    "itemName": "Master Product Spec Catalog #227",
+    "category": "Consumables",
+    "hsnCode": "84713951",
+    "unitOfMeasure": "Units",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-06-04"
+  },
+  {
+    "code": "MD-REG-0228",
+    "itemName": "Master Product Spec Catalog #228",
+    "category": "Finished Goods",
+    "hsnCode": "84713964",
+    "unitOfMeasure": "Units",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-01-05"
+  },
+  {
+    "code": "MD-REG-0229",
+    "itemName": "Master Product Spec Catalog #229",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84713977",
+    "unitOfMeasure": "Tons",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-02-06"
+  },
+  {
+    "code": "MD-REG-0230",
+    "itemName": "Master Product Spec Catalog #230",
+    "category": "Finished Goods",
+    "hsnCode": "84713990",
+    "unitOfMeasure": "Liters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-03-07"
+  },
+  {
+    "code": "MD-REG-0231",
+    "itemName": "Master Product Spec Catalog #231",
+    "category": "Finished Goods",
+    "hsnCode": "84714003",
+    "unitOfMeasure": "Units",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-04-08"
+  },
+  {
+    "code": "MD-REG-0232",
+    "itemName": "Master Product Spec Catalog #232",
+    "category": "Raw Materials",
+    "hsnCode": "84714016",
+    "unitOfMeasure": "Tons",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-05-09"
+  },
+  {
+    "code": "MD-REG-0233",
+    "itemName": "Master Product Spec Catalog #233",
+    "category": "Consumables",
+    "hsnCode": "84714029",
+    "unitOfMeasure": "Tons",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-06-10"
+  },
+  {
+    "code": "MD-REG-0234",
+    "itemName": "Master Product Spec Catalog #234",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84714042",
+    "unitOfMeasure": "KG",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-01-11"
+  },
+  {
+    "code": "MD-REG-0235",
+    "itemName": "Master Product Spec Catalog #235",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84714055",
+    "unitOfMeasure": "Liters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-02-12"
+  },
+  {
+    "code": "MD-REG-0236",
+    "itemName": "Master Product Spec Catalog #236",
+    "category": "Finished Goods",
+    "hsnCode": "84714068",
+    "unitOfMeasure": "Tons",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-03-13"
+  },
+  {
+    "code": "MD-REG-0237",
+    "itemName": "Master Product Spec Catalog #237",
+    "category": "Chemical Specs",
+    "hsnCode": "84714081",
+    "unitOfMeasure": "Tons",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-04-14"
+  },
+  {
+    "code": "MD-REG-0238",
+    "itemName": "Master Product Spec Catalog #238",
+    "category": "Consumables",
+    "hsnCode": "84714094",
+    "unitOfMeasure": "Tons",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-05-15"
+  },
+  {
+    "code": "MD-REG-0239",
+    "itemName": "Master Product Spec Catalog #239",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84714107",
+    "unitOfMeasure": "Liters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-06-16"
+  },
+  {
+    "code": "MD-REG-0240",
+    "itemName": "Master Product Spec Catalog #240",
+    "category": "Chemical Specs",
+    "hsnCode": "84714120",
+    "unitOfMeasure": "Liters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-01-17"
+  },
+  {
+    "code": "MD-REG-0241",
+    "itemName": "Master Product Spec Catalog #241",
+    "category": "Chemical Specs",
+    "hsnCode": "84714133",
+    "unitOfMeasure": "KG",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-02-18"
+  },
+  {
+    "code": "MD-REG-0242",
+    "itemName": "Master Product Spec Catalog #242",
+    "category": "Consumables",
+    "hsnCode": "84714146",
+    "unitOfMeasure": "KG",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-03-19"
+  },
+  {
+    "code": "MD-REG-0243",
+    "itemName": "Master Product Spec Catalog #243",
+    "category": "Consumables",
+    "hsnCode": "84714159",
+    "unitOfMeasure": "Boxes",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-04-20"
+  },
+  {
+    "code": "MD-REG-0244",
+    "itemName": "Master Product Spec Catalog #244",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84714172",
+    "unitOfMeasure": "Tons",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-05-21"
+  },
+  {
+    "code": "MD-REG-0245",
+    "itemName": "Master Product Spec Catalog #245",
+    "category": "Finished Goods",
+    "hsnCode": "84714185",
+    "unitOfMeasure": "Liters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-06-22"
+  },
+  {
+    "code": "MD-REG-0246",
+    "itemName": "Master Product Spec Catalog #246",
+    "category": "Chemical Specs",
+    "hsnCode": "84714198",
+    "unitOfMeasure": "Tons",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-01-23"
+  },
+  {
+    "code": "MD-REG-0247",
+    "itemName": "Master Product Spec Catalog #247",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84714211",
+    "unitOfMeasure": "Boxes",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-02-24"
+  },
+  {
+    "code": "MD-REG-0248",
+    "itemName": "Master Product Spec Catalog #248",
+    "category": "Chemical Specs",
+    "hsnCode": "84714224",
+    "unitOfMeasure": "Boxes",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-03-25"
+  },
+  {
+    "code": "MD-REG-0249",
+    "itemName": "Master Product Spec Catalog #249",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84714237",
+    "unitOfMeasure": "KG",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-04-26"
+  },
+  {
+    "code": "MD-REG-0250",
+    "itemName": "Master Product Spec Catalog #250",
+    "category": "Raw Materials",
+    "hsnCode": "84714250",
+    "unitOfMeasure": "Tons",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-05-27"
+  },
+  {
+    "code": "MD-REG-0251",
+    "itemName": "Master Product Spec Catalog #251",
+    "category": "Consumables",
+    "hsnCode": "84714263",
+    "unitOfMeasure": "Units",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-06-28"
+  },
+  {
+    "code": "MD-REG-0252",
+    "itemName": "Master Product Spec Catalog #252",
+    "category": "Raw Materials",
+    "hsnCode": "84714276",
+    "unitOfMeasure": "KG",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-01-01"
+  },
+  {
+    "code": "MD-REG-0253",
+    "itemName": "Master Product Spec Catalog #253",
+    "category": "Finished Goods",
+    "hsnCode": "84714289",
+    "unitOfMeasure": "Liters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-02-02"
+  },
+  {
+    "code": "MD-REG-0254",
+    "itemName": "Master Product Spec Catalog #254",
+    "category": "Consumables",
+    "hsnCode": "84714302",
+    "unitOfMeasure": "Tons",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-03-03"
+  },
+  {
+    "code": "MD-REG-0255",
+    "itemName": "Master Product Spec Catalog #255",
+    "category": "Consumables",
+    "hsnCode": "84714315",
+    "unitOfMeasure": "Boxes",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-04-04"
+  },
+  {
+    "code": "MD-REG-0256",
+    "itemName": "Master Product Spec Catalog #256",
+    "category": "Finished Goods",
+    "hsnCode": "84714328",
+    "unitOfMeasure": "Tons",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-05-05"
+  },
+  {
+    "code": "MD-REG-0257",
+    "itemName": "Master Product Spec Catalog #257",
+    "category": "Finished Goods",
+    "hsnCode": "84714341",
+    "unitOfMeasure": "Meters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-06-06"
+  },
+  {
+    "code": "MD-REG-0258",
+    "itemName": "Master Product Spec Catalog #258",
+    "category": "Consumables",
+    "hsnCode": "84714354",
+    "unitOfMeasure": "Tons",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-01-07"
+  },
+  {
+    "code": "MD-REG-0259",
+    "itemName": "Master Product Spec Catalog #259",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84714367",
+    "unitOfMeasure": "Tons",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-02-08"
+  },
+  {
+    "code": "MD-REG-0260",
+    "itemName": "Master Product Spec Catalog #260",
+    "category": "Raw Materials",
+    "hsnCode": "84714380",
+    "unitOfMeasure": "Meters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-03-09"
+  },
+  {
+    "code": "MD-REG-0261",
+    "itemName": "Master Product Spec Catalog #261",
+    "category": "Raw Materials",
+    "hsnCode": "84714393",
+    "unitOfMeasure": "Liters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-04-10"
+  },
+  {
+    "code": "MD-REG-0262",
+    "itemName": "Master Product Spec Catalog #262",
+    "category": "Finished Goods",
+    "hsnCode": "84714406",
+    "unitOfMeasure": "KG",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-05-11"
+  },
+  {
+    "code": "MD-REG-0263",
+    "itemName": "Master Product Spec Catalog #263",
+    "category": "Raw Materials",
+    "hsnCode": "84714419",
+    "unitOfMeasure": "Tons",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-06-12"
+  },
+  {
+    "code": "MD-REG-0264",
+    "itemName": "Master Product Spec Catalog #264",
+    "category": "Chemical Specs",
+    "hsnCode": "84714432",
+    "unitOfMeasure": "KG",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-01-13"
+  },
+  {
+    "code": "MD-REG-0265",
+    "itemName": "Master Product Spec Catalog #265",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84714445",
+    "unitOfMeasure": "Meters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-02-14"
+  },
+  {
+    "code": "MD-REG-0266",
+    "itemName": "Master Product Spec Catalog #266",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84714458",
+    "unitOfMeasure": "Meters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-03-15"
+  },
+  {
+    "code": "MD-REG-0267",
+    "itemName": "Master Product Spec Catalog #267",
+    "category": "Chemical Specs",
+    "hsnCode": "84714471",
+    "unitOfMeasure": "KG",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-04-16"
+  },
+  {
+    "code": "MD-REG-0268",
+    "itemName": "Master Product Spec Catalog #268",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84714484",
+    "unitOfMeasure": "Tons",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-05-17"
+  },
+  {
+    "code": "MD-REG-0269",
+    "itemName": "Master Product Spec Catalog #269",
+    "category": "Consumables",
+    "hsnCode": "84714497",
+    "unitOfMeasure": "Tons",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-06-18"
+  },
+  {
+    "code": "MD-REG-0270",
+    "itemName": "Master Product Spec Catalog #270",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84714510",
+    "unitOfMeasure": "Boxes",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-01-19"
+  },
+  {
+    "code": "MD-REG-0271",
+    "itemName": "Master Product Spec Catalog #271",
+    "category": "Finished Goods",
+    "hsnCode": "84714523",
+    "unitOfMeasure": "Units",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-02-20"
+  },
+  {
+    "code": "MD-REG-0272",
+    "itemName": "Master Product Spec Catalog #272",
+    "category": "Chemical Specs",
+    "hsnCode": "84714536",
+    "unitOfMeasure": "Boxes",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-03-21"
+  },
+  {
+    "code": "MD-REG-0273",
+    "itemName": "Master Product Spec Catalog #273",
+    "category": "Consumables",
+    "hsnCode": "84714549",
+    "unitOfMeasure": "Boxes",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-04-22"
+  },
+  {
+    "code": "MD-REG-0274",
+    "itemName": "Master Product Spec Catalog #274",
+    "category": "Finished Goods",
+    "hsnCode": "84714562",
+    "unitOfMeasure": "Tons",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-05-23"
+  },
+  {
+    "code": "MD-REG-0275",
+    "itemName": "Master Product Spec Catalog #275",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84714575",
+    "unitOfMeasure": "Units",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-06-24"
+  },
+  {
+    "code": "MD-REG-0276",
+    "itemName": "Master Product Spec Catalog #276",
+    "category": "Raw Materials",
+    "hsnCode": "84714588",
+    "unitOfMeasure": "Boxes",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-01-25"
+  },
+  {
+    "code": "MD-REG-0277",
+    "itemName": "Master Product Spec Catalog #277",
+    "category": "Chemical Specs",
+    "hsnCode": "84714601",
+    "unitOfMeasure": "Units",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-02-26"
+  },
+  {
+    "code": "MD-REG-0278",
+    "itemName": "Master Product Spec Catalog #278",
+    "category": "Finished Goods",
+    "hsnCode": "84714614",
+    "unitOfMeasure": "Units",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-03-27"
+  },
+  {
+    "code": "MD-REG-0279",
+    "itemName": "Master Product Spec Catalog #279",
+    "category": "Raw Materials",
+    "hsnCode": "84714627",
+    "unitOfMeasure": "Boxes",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-04-28"
+  },
+  {
+    "code": "MD-REG-0280",
+    "itemName": "Master Product Spec Catalog #280",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84714640",
+    "unitOfMeasure": "Boxes",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-05-01"
+  },
+  {
+    "code": "MD-REG-0281",
+    "itemName": "Master Product Spec Catalog #281",
+    "category": "Raw Materials",
+    "hsnCode": "84714653",
+    "unitOfMeasure": "Liters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-06-02"
+  },
+  {
+    "code": "MD-REG-0282",
+    "itemName": "Master Product Spec Catalog #282",
+    "category": "Raw Materials",
+    "hsnCode": "84714666",
+    "unitOfMeasure": "Units",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-01-03"
+  },
+  {
+    "code": "MD-REG-0283",
+    "itemName": "Master Product Spec Catalog #283",
+    "category": "Consumables",
+    "hsnCode": "84714679",
+    "unitOfMeasure": "Boxes",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-02-04"
+  },
+  {
+    "code": "MD-REG-0284",
+    "itemName": "Master Product Spec Catalog #284",
+    "category": "Chemical Specs",
+    "hsnCode": "84714692",
+    "unitOfMeasure": "Meters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-03-05"
+  },
+  {
+    "code": "MD-REG-0285",
+    "itemName": "Master Product Spec Catalog #285",
+    "category": "Consumables",
+    "hsnCode": "84714705",
+    "unitOfMeasure": "Meters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-04-06"
+  },
+  {
+    "code": "MD-REG-0286",
+    "itemName": "Master Product Spec Catalog #286",
+    "category": "Chemical Specs",
+    "hsnCode": "84714718",
+    "unitOfMeasure": "Units",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-05-07"
+  },
+  {
+    "code": "MD-REG-0287",
+    "itemName": "Master Product Spec Catalog #287",
+    "category": "Raw Materials",
+    "hsnCode": "84714731",
+    "unitOfMeasure": "Units",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-06-08"
+  },
+  {
+    "code": "MD-REG-0288",
+    "itemName": "Master Product Spec Catalog #288",
+    "category": "Consumables",
+    "hsnCode": "84714744",
+    "unitOfMeasure": "Boxes",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-01-09"
+  },
+  {
+    "code": "MD-REG-0289",
+    "itemName": "Master Product Spec Catalog #289",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84714757",
+    "unitOfMeasure": "Units",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-02-10"
+  },
+  {
+    "code": "MD-REG-0290",
+    "itemName": "Master Product Spec Catalog #290",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84714770",
+    "unitOfMeasure": "Units",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-03-11"
+  },
+  {
+    "code": "MD-REG-0291",
+    "itemName": "Master Product Spec Catalog #291",
+    "category": "Finished Goods",
+    "hsnCode": "84714783",
+    "unitOfMeasure": "Meters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-04-12"
+  },
+  {
+    "code": "MD-REG-0292",
+    "itemName": "Master Product Spec Catalog #292",
+    "category": "Raw Materials",
+    "hsnCode": "84714796",
+    "unitOfMeasure": "Meters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-05-13"
+  },
+  {
+    "code": "MD-REG-0293",
+    "itemName": "Master Product Spec Catalog #293",
+    "category": "Consumables",
+    "hsnCode": "84714809",
+    "unitOfMeasure": "KG",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-06-14"
+  },
+  {
+    "code": "MD-REG-0294",
+    "itemName": "Master Product Spec Catalog #294",
+    "category": "Finished Goods",
+    "hsnCode": "84714822",
+    "unitOfMeasure": "KG",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-01-15"
+  },
+  {
+    "code": "MD-REG-0295",
+    "itemName": "Master Product Spec Catalog #295",
+    "category": "Finished Goods",
+    "hsnCode": "84714835",
+    "unitOfMeasure": "KG",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-02-16"
+  },
+  {
+    "code": "MD-REG-0296",
+    "itemName": "Master Product Spec Catalog #296",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84714848",
+    "unitOfMeasure": "KG",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-03-17"
+  },
+  {
+    "code": "MD-REG-0297",
+    "itemName": "Master Product Spec Catalog #297",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84714861",
+    "unitOfMeasure": "Boxes",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-04-18"
+  },
+  {
+    "code": "MD-REG-0298",
+    "itemName": "Master Product Spec Catalog #298",
+    "category": "Chemical Specs",
+    "hsnCode": "84714874",
+    "unitOfMeasure": "Tons",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-05-19"
+  },
+  {
+    "code": "MD-REG-0299",
+    "itemName": "Master Product Spec Catalog #299",
+    "category": "Chemical Specs",
+    "hsnCode": "84714887",
+    "unitOfMeasure": "Tons",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-06-20"
+  },
+  {
+    "code": "MD-REG-0300",
+    "itemName": "Master Product Spec Catalog #300",
+    "category": "Finished Goods",
+    "hsnCode": "84714900",
+    "unitOfMeasure": "Liters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-01-21"
+  },
+  {
+    "code": "MD-REG-0301",
+    "itemName": "Master Product Spec Catalog #301",
+    "category": "Finished Goods",
+    "hsnCode": "84714913",
+    "unitOfMeasure": "Meters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-02-22"
+  },
+  {
+    "code": "MD-REG-0302",
+    "itemName": "Master Product Spec Catalog #302",
+    "category": "Raw Materials",
+    "hsnCode": "84714926",
+    "unitOfMeasure": "Tons",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-03-23"
+  },
+  {
+    "code": "MD-REG-0303",
+    "itemName": "Master Product Spec Catalog #303",
+    "category": "Raw Materials",
+    "hsnCode": "84714939",
+    "unitOfMeasure": "Meters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-04-24"
+  },
+  {
+    "code": "MD-REG-0304",
+    "itemName": "Master Product Spec Catalog #304",
+    "category": "Chemical Specs",
+    "hsnCode": "84714952",
+    "unitOfMeasure": "Meters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-05-25"
+  },
+  {
+    "code": "MD-REG-0305",
+    "itemName": "Master Product Spec Catalog #305",
+    "category": "Raw Materials",
+    "hsnCode": "84714965",
+    "unitOfMeasure": "Units",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-06-26"
+  },
+  {
+    "code": "MD-REG-0306",
+    "itemName": "Master Product Spec Catalog #306",
+    "category": "Chemical Specs",
+    "hsnCode": "84714978",
+    "unitOfMeasure": "Tons",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-01-27"
+  },
+  {
+    "code": "MD-REG-0307",
+    "itemName": "Master Product Spec Catalog #307",
+    "category": "Raw Materials",
+    "hsnCode": "84714991",
+    "unitOfMeasure": "Meters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-02-28"
+  },
+  {
+    "code": "MD-REG-0308",
+    "itemName": "Master Product Spec Catalog #308",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84715004",
+    "unitOfMeasure": "Units",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-03-01"
+  },
+  {
+    "code": "MD-REG-0309",
+    "itemName": "Master Product Spec Catalog #309",
+    "category": "Finished Goods",
+    "hsnCode": "84715017",
+    "unitOfMeasure": "Liters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-04-02"
+  },
+  {
+    "code": "MD-REG-0310",
+    "itemName": "Master Product Spec Catalog #310",
+    "category": "Raw Materials",
+    "hsnCode": "84715030",
+    "unitOfMeasure": "Boxes",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-05-03"
+  },
+  {
+    "code": "MD-REG-0311",
+    "itemName": "Master Product Spec Catalog #311",
+    "category": "Chemical Specs",
+    "hsnCode": "84715043",
+    "unitOfMeasure": "Units",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-06-04"
+  },
+  {
+    "code": "MD-REG-0312",
+    "itemName": "Master Product Spec Catalog #312",
+    "category": "Consumables",
+    "hsnCode": "84715056",
+    "unitOfMeasure": "Boxes",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-01-05"
+  },
+  {
+    "code": "MD-REG-0313",
+    "itemName": "Master Product Spec Catalog #313",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84715069",
+    "unitOfMeasure": "Meters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-02-06"
+  },
+  {
+    "code": "MD-REG-0314",
+    "itemName": "Master Product Spec Catalog #314",
+    "category": "Finished Goods",
+    "hsnCode": "84715082",
+    "unitOfMeasure": "Meters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-03-07"
+  },
+  {
+    "code": "MD-REG-0315",
+    "itemName": "Master Product Spec Catalog #315",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84715095",
+    "unitOfMeasure": "Units",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-04-08"
+  },
+  {
+    "code": "MD-REG-0316",
+    "itemName": "Master Product Spec Catalog #316",
+    "category": "Finished Goods",
+    "hsnCode": "84715108",
+    "unitOfMeasure": "Boxes",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-05-09"
+  },
+  {
+    "code": "MD-REG-0317",
+    "itemName": "Master Product Spec Catalog #317",
+    "category": "Finished Goods",
+    "hsnCode": "84715121",
+    "unitOfMeasure": "KG",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-06-10"
+  },
+  {
+    "code": "MD-REG-0318",
+    "itemName": "Master Product Spec Catalog #318",
+    "category": "Finished Goods",
+    "hsnCode": "84715134",
+    "unitOfMeasure": "Tons",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-01-11"
+  },
+  {
+    "code": "MD-REG-0319",
+    "itemName": "Master Product Spec Catalog #319",
+    "category": "Consumables",
+    "hsnCode": "84715147",
+    "unitOfMeasure": "Tons",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-02-12"
+  },
+  {
+    "code": "MD-REG-0320",
+    "itemName": "Master Product Spec Catalog #320",
+    "category": "Consumables",
+    "hsnCode": "84715160",
+    "unitOfMeasure": "Boxes",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-03-13"
+  },
+  {
+    "code": "MD-REG-0321",
+    "itemName": "Master Product Spec Catalog #321",
+    "category": "Finished Goods",
+    "hsnCode": "84715173",
+    "unitOfMeasure": "KG",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-04-14"
+  },
+  {
+    "code": "MD-REG-0322",
+    "itemName": "Master Product Spec Catalog #322",
+    "category": "Raw Materials",
+    "hsnCode": "84715186",
+    "unitOfMeasure": "Liters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-05-15"
+  },
+  {
+    "code": "MD-REG-0323",
+    "itemName": "Master Product Spec Catalog #323",
+    "category": "Finished Goods",
+    "hsnCode": "84715199",
+    "unitOfMeasure": "KG",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-06-16"
+  },
+  {
+    "code": "MD-REG-0324",
+    "itemName": "Master Product Spec Catalog #324",
+    "category": "Consumables",
+    "hsnCode": "84715212",
+    "unitOfMeasure": "KG",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-01-17"
+  },
+  {
+    "code": "MD-REG-0325",
+    "itemName": "Master Product Spec Catalog #325",
+    "category": "Finished Goods",
+    "hsnCode": "84715225",
+    "unitOfMeasure": "Boxes",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-02-18"
+  },
+  {
+    "code": "MD-REG-0326",
+    "itemName": "Master Product Spec Catalog #326",
+    "category": "Chemical Specs",
+    "hsnCode": "84715238",
+    "unitOfMeasure": "Units",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-03-19"
+  },
+  {
+    "code": "MD-REG-0327",
+    "itemName": "Master Product Spec Catalog #327",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84715251",
+    "unitOfMeasure": "Units",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-04-20"
+  },
+  {
+    "code": "MD-REG-0328",
+    "itemName": "Master Product Spec Catalog #328",
+    "category": "Chemical Specs",
+    "hsnCode": "84715264",
+    "unitOfMeasure": "Meters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-05-21"
+  },
+  {
+    "code": "MD-REG-0329",
+    "itemName": "Master Product Spec Catalog #329",
+    "category": "Chemical Specs",
+    "hsnCode": "84715277",
+    "unitOfMeasure": "Units",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-06-22"
+  },
+  {
+    "code": "MD-REG-0330",
+    "itemName": "Master Product Spec Catalog #330",
+    "category": "Consumables",
+    "hsnCode": "84715290",
+    "unitOfMeasure": "Meters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-01-23"
+  },
+  {
+    "code": "MD-REG-0331",
+    "itemName": "Master Product Spec Catalog #331",
+    "category": "Chemical Specs",
+    "hsnCode": "84715303",
+    "unitOfMeasure": "Liters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-02-24"
+  },
+  {
+    "code": "MD-REG-0332",
+    "itemName": "Master Product Spec Catalog #332",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84715316",
+    "unitOfMeasure": "Boxes",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-03-25"
+  },
+  {
+    "code": "MD-REG-0333",
+    "itemName": "Master Product Spec Catalog #333",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84715329",
+    "unitOfMeasure": "KG",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-04-26"
+  },
+  {
+    "code": "MD-REG-0334",
+    "itemName": "Master Product Spec Catalog #334",
+    "category": "Raw Materials",
+    "hsnCode": "84715342",
+    "unitOfMeasure": "Units",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-05-27"
+  },
+  {
+    "code": "MD-REG-0335",
+    "itemName": "Master Product Spec Catalog #335",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84715355",
+    "unitOfMeasure": "Tons",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-06-28"
+  },
+  {
+    "code": "MD-REG-0336",
+    "itemName": "Master Product Spec Catalog #336",
+    "category": "Raw Materials",
+    "hsnCode": "84715368",
+    "unitOfMeasure": "Units",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-01-01"
+  },
+  {
+    "code": "MD-REG-0337",
+    "itemName": "Master Product Spec Catalog #337",
+    "category": "Chemical Specs",
+    "hsnCode": "84715381",
+    "unitOfMeasure": "Boxes",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-02-02"
+  },
+  {
+    "code": "MD-REG-0338",
+    "itemName": "Master Product Spec Catalog #338",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84715394",
+    "unitOfMeasure": "Liters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-03-03"
+  },
+  {
+    "code": "MD-REG-0339",
+    "itemName": "Master Product Spec Catalog #339",
+    "category": "Chemical Specs",
+    "hsnCode": "84715407",
+    "unitOfMeasure": "Meters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-04-04"
+  },
+  {
+    "code": "MD-REG-0340",
+    "itemName": "Master Product Spec Catalog #340",
+    "category": "Chemical Specs",
+    "hsnCode": "84715420",
+    "unitOfMeasure": "KG",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-05-05"
+  },
+  {
+    "code": "MD-REG-0341",
+    "itemName": "Master Product Spec Catalog #341",
+    "category": "Finished Goods",
+    "hsnCode": "84715433",
+    "unitOfMeasure": "Liters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-06-06"
+  },
+  {
+    "code": "MD-REG-0342",
+    "itemName": "Master Product Spec Catalog #342",
+    "category": "Finished Goods",
+    "hsnCode": "84715446",
+    "unitOfMeasure": "Tons",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-01-07"
+  },
+  {
+    "code": "MD-REG-0343",
+    "itemName": "Master Product Spec Catalog #343",
+    "category": "Finished Goods",
+    "hsnCode": "84715459",
+    "unitOfMeasure": "Tons",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-02-08"
+  },
+  {
+    "code": "MD-REG-0344",
+    "itemName": "Master Product Spec Catalog #344",
+    "category": "Raw Materials",
+    "hsnCode": "84715472",
+    "unitOfMeasure": "Meters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-03-09"
+  },
+  {
+    "code": "MD-REG-0345",
+    "itemName": "Master Product Spec Catalog #345",
+    "category": "Raw Materials",
+    "hsnCode": "84715485",
+    "unitOfMeasure": "Meters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-04-10"
+  },
+  {
+    "code": "MD-REG-0346",
+    "itemName": "Master Product Spec Catalog #346",
+    "category": "Consumables",
+    "hsnCode": "84715498",
+    "unitOfMeasure": "Tons",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-05-11"
+  },
+  {
+    "code": "MD-REG-0347",
+    "itemName": "Master Product Spec Catalog #347",
+    "category": "Finished Goods",
+    "hsnCode": "84715511",
+    "unitOfMeasure": "Units",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-06-12"
+  },
+  {
+    "code": "MD-REG-0348",
+    "itemName": "Master Product Spec Catalog #348",
+    "category": "Finished Goods",
+    "hsnCode": "84715524",
+    "unitOfMeasure": "Tons",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-01-13"
+  },
+  {
+    "code": "MD-REG-0349",
+    "itemName": "Master Product Spec Catalog #349",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84715537",
+    "unitOfMeasure": "Tons",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-02-14"
+  },
+  {
+    "code": "MD-REG-0350",
+    "itemName": "Master Product Spec Catalog #350",
+    "category": "Finished Goods",
+    "hsnCode": "84715550",
+    "unitOfMeasure": "Meters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-03-15"
+  },
+  {
+    "code": "MD-REG-0351",
+    "itemName": "Master Product Spec Catalog #351",
+    "category": "Raw Materials",
+    "hsnCode": "84715563",
+    "unitOfMeasure": "Boxes",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-04-16"
+  },
+  {
+    "code": "MD-REG-0352",
+    "itemName": "Master Product Spec Catalog #352",
+    "category": "Chemical Specs",
+    "hsnCode": "84715576",
+    "unitOfMeasure": "KG",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-05-17"
+  },
+  {
+    "code": "MD-REG-0353",
+    "itemName": "Master Product Spec Catalog #353",
+    "category": "Equipment Assemblies",
+    "hsnCode": "84715589",
+    "unitOfMeasure": "Meters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-06-18"
+  },
+  {
+    "code": "MD-REG-0354",
+    "itemName": "Master Product Spec Catalog #354",
+    "category": "Chemical Specs",
+    "hsnCode": "84715602",
+    "unitOfMeasure": "Liters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-01-19"
+  },
+  {
+    "code": "MD-REG-0355",
+    "itemName": "Master Product Spec Catalog #355",
+    "category": "Raw Materials",
+    "hsnCode": "84715615",
+    "unitOfMeasure": "Tons",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-02-20"
+  },
+  {
+    "code": "MD-REG-0356",
+    "itemName": "Master Product Spec Catalog #356",
+    "category": "Finished Goods",
+    "hsnCode": "84715628",
+    "unitOfMeasure": "KG",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-03-21"
+  },
+  {
+    "code": "MD-REG-0357",
+    "itemName": "Master Product Spec Catalog #357",
+    "category": "Finished Goods",
+    "hsnCode": "84715641",
+    "unitOfMeasure": "Meters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-04-22"
+  },
+  {
+    "code": "MD-REG-0358",
+    "itemName": "Master Product Spec Catalog #358",
+    "category": "Finished Goods",
+    "hsnCode": "84715654",
+    "unitOfMeasure": "Units",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-05-23"
+  },
+  {
+    "code": "MD-REG-0359",
+    "itemName": "Master Product Spec Catalog #359",
+    "category": "Raw Materials",
+    "hsnCode": "84715667",
+    "unitOfMeasure": "Liters",
+    "sanitizedStatus": "Deduplicated & Verified",
+    "createdDate": "2026-06-24"
+  }
+]

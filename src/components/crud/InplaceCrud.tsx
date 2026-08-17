@@ -22,10 +22,12 @@ export interface ModelConfig {
 
 export default function InplaceCrud({
   configs,
-  defaultTab
+  defaultTab,
+  hideTabs = false
 }: {
   configs: ModelConfig[];
   defaultTab: string;
+  hideTabs?: boolean;
 }) {
   const [activeTab, setActiveTab] = useState(defaultTab);
   const currentConfig = configs.find(c => c.name === activeTab) || configs[0];
@@ -212,21 +214,23 @@ export default function InplaceCrud({
   return (
     <div className="space-y-6">
       {/* 1. Sub-tabs Navigation */}
-      <div className="flex bg-slate-100/80 dark:bg-slate-900/60 p-1 rounded-xl border border-slate-200/50 dark:border-slate-850/50 w-fit max-w-full overflow-x-auto gap-1 scrollbar-none shadow-xs">
-        {configs.map(cfg => (
-          <button
-            key={cfg.name}
-            onClick={() => setActiveTab(cfg.name)}
-            className={`px-3.5 py-1.5 text-[10px] font-bold uppercase tracking-wider rounded-lg transition-all shrink-0 ${
-              activeTab === cfg.name
-                ? 'bg-white dark:bg-slate-800 text-indigo-650 dark:text-indigo-400 shadow-sm font-extrabold'
-                : 'text-slate-500 dark:text-slate-400 hover:text-slate-800 dark:hover:text-slate-200'
-            }`}
-          >
-            {cfg.label}
-          </button>
-        ))}
-      </div>
+      {!hideTabs && configs.length > 1 && (
+        <div className="flex bg-slate-100/80 dark:bg-slate-900/60 p-1 rounded-xl border border-slate-200/50 dark:border-slate-850/50 w-fit max-w-full overflow-x-auto gap-1 scrollbar-none shadow-xs">
+          {configs.map(cfg => (
+            <button
+              key={cfg.name}
+              onClick={() => setActiveTab(cfg.name)}
+              className={`px-3.5 py-1.5 text-[10px] font-bold uppercase tracking-wider rounded-lg transition-all shrink-0 ${
+                activeTab === cfg.name
+                  ? 'bg-white dark:bg-slate-850 text-indigo-650 dark:text-indigo-400 shadow-sm font-extrabold'
+                  : 'text-slate-500 dark:text-slate-400 hover:text-slate-800 dark:hover:text-slate-200'
+              }`}
+            >
+              {cfg.label}
+            </button>
+          ))}
+        </div>
+      )}
 
       {/* Action Controls & Feedbacks */}
       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">

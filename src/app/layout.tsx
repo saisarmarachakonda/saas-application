@@ -14,9 +14,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "VOC ERP | Enterprise SaaS Platform",
-  description: "VOC ERP is a modern, production-ready, multi-tenant SaaS platform featuring Platform Administration, Master Data Management, CRM, Procurement, Inventory, and an AI Copilot.",
-  keywords: ["ERP", "SaaS", "CRM", "Procurement", "Inventory", "SaaS Starter", "Multi-tenant"],
+  title: "VOC Infra | Modular Enterprise Business Applications",
+  description: "VOC Infra provides decoupled, industry-tailored business applications including HRM, CRM, Procurement, Inventory, Finance, Master Data, and AI Copilot for enterprise verticals.",
+  keywords: ["Modular Applications", "Enterprise SaaS", "HRM", "CRM", "Procurement", "Inventory", "Industry Modules", "Decoupled SaaS"],
 };
 
 export default function RootLayout({

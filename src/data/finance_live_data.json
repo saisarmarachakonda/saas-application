@@ -1,0 +1,3542 @@
+[
+  {
+    "txId": "TX-2026-0001",
+    "account": "General Ledger Account #1001",
+    "costCenter": "CC-02",
+    "amount": 301634.66,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-2",
+    "status": "Reconciled",
+    "txDate": "2026-02-02"
+  },
+  {
+    "txId": "TX-2026-0002",
+    "account": "General Ledger Account #1002",
+    "costCenter": "CC-03",
+    "amount": 666394.58,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-3",
+    "status": "Audited",
+    "txDate": "2026-03-03"
+  },
+  {
+    "txId": "TX-2026-0003",
+    "account": "General Ledger Account #1003",
+    "costCenter": "CC-04",
+    "amount": 987563.46,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-4",
+    "status": "Audited",
+    "txDate": "2026-04-04"
+  },
+  {
+    "txId": "TX-2026-0004",
+    "account": "General Ledger Account #1004",
+    "costCenter": "CC-05",
+    "amount": 1476218.37,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-5",
+    "status": "Pending Approval",
+    "txDate": "2026-05-05"
+  },
+  {
+    "txId": "TX-2026-0005",
+    "account": "General Ledger Account #1005",
+    "costCenter": "CC-06",
+    "amount": 384085.06,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-6",
+    "status": "Pending Approval",
+    "txDate": "2026-06-06"
+  },
+  {
+    "txId": "TX-2026-0006",
+    "account": "General Ledger Account #1006",
+    "costCenter": "CC-07",
+    "amount": 1128883.74,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-7",
+    "status": "Audited",
+    "txDate": "2026-01-07"
+  },
+  {
+    "txId": "TX-2026-0007",
+    "account": "General Ledger Account #1007",
+    "costCenter": "CC-08",
+    "amount": 239658.12,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-8",
+    "status": "Posted",
+    "txDate": "2026-02-08"
+  },
+  {
+    "txId": "TX-2026-0008",
+    "account": "General Ledger Account #1008",
+    "costCenter": "CC-09",
+    "amount": 806150.7,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-9",
+    "status": "Reconciled",
+    "txDate": "2026-03-09"
+  },
+  {
+    "txId": "TX-2026-0009",
+    "account": "General Ledger Account #1009",
+    "costCenter": "CC-10",
+    "amount": 1044919.84,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-10",
+    "status": "Reconciled",
+    "txDate": "2026-04-10"
+  },
+  {
+    "txId": "TX-2026-0010",
+    "account": "General Ledger Account #1010",
+    "costCenter": "CC-11",
+    "amount": 625195.18,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-11",
+    "status": "Posted",
+    "txDate": "2026-05-11"
+  },
+  {
+    "txId": "TX-2026-0011",
+    "account": "General Ledger Account #1011",
+    "costCenter": "CC-12",
+    "amount": 314729.04,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-12",
+    "status": "Audited",
+    "txDate": "2026-06-12"
+  },
+  {
+    "txId": "TX-2026-0012",
+    "account": "General Ledger Account #1012",
+    "costCenter": "CC-13",
+    "amount": 1266462.26,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-13",
+    "status": "Posted",
+    "txDate": "2026-01-13"
+  },
+  {
+    "txId": "TX-2026-0013",
+    "account": "General Ledger Account #1013",
+    "costCenter": "CC-14",
+    "amount": 766512.02,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-14",
+    "status": "Pending Approval",
+    "txDate": "2026-02-14"
+  },
+  {
+    "txId": "TX-2026-0014",
+    "account": "General Ledger Account #1014",
+    "costCenter": "CC-15",
+    "amount": 516681.06,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-15",
+    "status": "Posted",
+    "txDate": "2026-03-15"
+  },
+  {
+    "txId": "TX-2026-0015",
+    "account": "General Ledger Account #1015",
+    "costCenter": "CC-01",
+    "amount": 536281.03,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-16",
+    "status": "Reconciled",
+    "txDate": "2026-04-16"
+  },
+  {
+    "txId": "TX-2026-0016",
+    "account": "General Ledger Account #1016",
+    "costCenter": "CC-02",
+    "amount": 1034359.44,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-17",
+    "status": "Posted",
+    "txDate": "2026-05-17"
+  },
+  {
+    "txId": "TX-2026-0017",
+    "account": "General Ledger Account #1017",
+    "costCenter": "CC-03",
+    "amount": 1114219.67,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-18",
+    "status": "Reconciled",
+    "txDate": "2026-06-18"
+  },
+  {
+    "txId": "TX-2026-0018",
+    "account": "General Ledger Account #1018",
+    "costCenter": "CC-04",
+    "amount": 784651.78,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-19",
+    "status": "Pending Approval",
+    "txDate": "2026-01-19"
+  },
+  {
+    "txId": "TX-2026-0019",
+    "account": "General Ledger Account #1019",
+    "costCenter": "CC-05",
+    "amount": 1430956.47,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-20",
+    "status": "Reconciled",
+    "txDate": "2026-02-20"
+  },
+  {
+    "txId": "TX-2026-0020",
+    "account": "General Ledger Account #1020",
+    "costCenter": "CC-06",
+    "amount": 1003580.31,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-1",
+    "status": "Audited",
+    "txDate": "2026-03-21"
+  },
+  {
+    "txId": "TX-2026-0021",
+    "account": "General Ledger Account #1021",
+    "costCenter": "CC-07",
+    "amount": 1272604.16,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-2",
+    "status": "Audited",
+    "txDate": "2026-04-22"
+  },
+  {
+    "txId": "TX-2026-0022",
+    "account": "General Ledger Account #1022",
+    "costCenter": "CC-08",
+    "amount": 914355.66,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-3",
+    "status": "Posted",
+    "txDate": "2026-05-23"
+  },
+  {
+    "txId": "TX-2026-0023",
+    "account": "General Ledger Account #1023",
+    "costCenter": "CC-09",
+    "amount": 480815.46,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-4",
+    "status": "Pending Approval",
+    "txDate": "2026-06-24"
+  },
+  {
+    "txId": "TX-2026-0024",
+    "account": "General Ledger Account #1024",
+    "costCenter": "CC-10",
+    "amount": 282043.55,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-5",
+    "status": "Audited",
+    "txDate": "2026-01-25"
+  },
+  {
+    "txId": "TX-2026-0025",
+    "account": "General Ledger Account #1025",
+    "costCenter": "CC-11",
+    "amount": 791542.74,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-6",
+    "status": "Audited",
+    "txDate": "2026-02-26"
+  },
+  {
+    "txId": "TX-2026-0026",
+    "account": "General Ledger Account #1026",
+    "costCenter": "CC-12",
+    "amount": 708660.07,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-7",
+    "status": "Reconciled",
+    "txDate": "2026-03-27"
+  },
+  {
+    "txId": "TX-2026-0027",
+    "account": "General Ledger Account #1027",
+    "costCenter": "CC-13",
+    "amount": 253971.65,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-8",
+    "status": "Audited",
+    "txDate": "2026-04-28"
+  },
+  {
+    "txId": "TX-2026-0028",
+    "account": "General Ledger Account #1028",
+    "costCenter": "CC-14",
+    "amount": 169826.51,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-9",
+    "status": "Posted",
+    "txDate": "2026-05-01"
+  },
+  {
+    "txId": "TX-2026-0029",
+    "account": "General Ledger Account #1029",
+    "costCenter": "CC-15",
+    "amount": 236954.48,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-10",
+    "status": "Pending Approval",
+    "txDate": "2026-06-02"
+  },
+  {
+    "txId": "TX-2026-0030",
+    "account": "General Ledger Account #1000",
+    "costCenter": "CC-01",
+    "amount": 1028172.71,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-11",
+    "status": "Reconciled",
+    "txDate": "2026-01-03"
+  },
+  {
+    "txId": "TX-2026-0031",
+    "account": "General Ledger Account #1001",
+    "costCenter": "CC-02",
+    "amount": 314546.27,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-12",
+    "status": "Audited",
+    "txDate": "2026-02-04"
+  },
+  {
+    "txId": "TX-2026-0032",
+    "account": "General Ledger Account #1002",
+    "costCenter": "CC-03",
+    "amount": 683501.2,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-13",
+    "status": "Posted",
+    "txDate": "2026-03-05"
+  },
+  {
+    "txId": "TX-2026-0033",
+    "account": "General Ledger Account #1003",
+    "costCenter": "CC-04",
+    "amount": 940060.54,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-14",
+    "status": "Reconciled",
+    "txDate": "2026-04-06"
+  },
+  {
+    "txId": "TX-2026-0034",
+    "account": "General Ledger Account #1004",
+    "costCenter": "CC-05",
+    "amount": 932133.22,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-15",
+    "status": "Posted",
+    "txDate": "2026-05-07"
+  },
+  {
+    "txId": "TX-2026-0035",
+    "account": "General Ledger Account #1005",
+    "costCenter": "CC-06",
+    "amount": 122388.1,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-16",
+    "status": "Reconciled",
+    "txDate": "2026-06-08"
+  },
+  {
+    "txId": "TX-2026-0036",
+    "account": "General Ledger Account #1006",
+    "costCenter": "CC-07",
+    "amount": 455939.88,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-17",
+    "status": "Posted",
+    "txDate": "2026-01-09"
+  },
+  {
+    "txId": "TX-2026-0037",
+    "account": "General Ledger Account #1007",
+    "costCenter": "CC-08",
+    "amount": 351779.2,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-18",
+    "status": "Posted",
+    "txDate": "2026-02-10"
+  },
+  {
+    "txId": "TX-2026-0038",
+    "account": "General Ledger Account #1008",
+    "costCenter": "CC-09",
+    "amount": 749496.47,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-19",
+    "status": "Audited",
+    "txDate": "2026-03-11"
+  },
+  {
+    "txId": "TX-2026-0039",
+    "account": "General Ledger Account #1009",
+    "costCenter": "CC-10",
+    "amount": 428040.25,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-20",
+    "status": "Reconciled",
+    "txDate": "2026-04-12"
+  },
+  {
+    "txId": "TX-2026-0040",
+    "account": "General Ledger Account #1010",
+    "costCenter": "CC-11",
+    "amount": 267947.13,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-1",
+    "status": "Posted",
+    "txDate": "2026-05-13"
+  },
+  {
+    "txId": "TX-2026-0041",
+    "account": "General Ledger Account #1011",
+    "costCenter": "CC-12",
+    "amount": 536723.53,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-2",
+    "status": "Posted",
+    "txDate": "2026-06-14"
+  },
+  {
+    "txId": "TX-2026-0042",
+    "account": "General Ledger Account #1012",
+    "costCenter": "CC-13",
+    "amount": 248524.43,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-3",
+    "status": "Posted",
+    "txDate": "2026-01-15"
+  },
+  {
+    "txId": "TX-2026-0043",
+    "account": "General Ledger Account #1013",
+    "costCenter": "CC-14",
+    "amount": 1312923.07,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-4",
+    "status": "Reconciled",
+    "txDate": "2026-02-16"
+  },
+  {
+    "txId": "TX-2026-0044",
+    "account": "General Ledger Account #1014",
+    "costCenter": "CC-15",
+    "amount": 733634.45,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-5",
+    "status": "Audited",
+    "txDate": "2026-03-17"
+  },
+  {
+    "txId": "TX-2026-0045",
+    "account": "General Ledger Account #1015",
+    "costCenter": "CC-01",
+    "amount": 1421720.53,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-6",
+    "status": "Posted",
+    "txDate": "2026-04-18"
+  },
+  {
+    "txId": "TX-2026-0046",
+    "account": "General Ledger Account #1016",
+    "costCenter": "CC-02",
+    "amount": 1032606.93,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-7",
+    "status": "Pending Approval",
+    "txDate": "2026-05-19"
+  },
+  {
+    "txId": "TX-2026-0047",
+    "account": "General Ledger Account #1017",
+    "costCenter": "CC-03",
+    "amount": 619700.35,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-8",
+    "status": "Posted",
+    "txDate": "2026-06-20"
+  },
+  {
+    "txId": "TX-2026-0048",
+    "account": "General Ledger Account #1018",
+    "costCenter": "CC-04",
+    "amount": 407183.59,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-9",
+    "status": "Pending Approval",
+    "txDate": "2026-01-21"
+  },
+  {
+    "txId": "TX-2026-0049",
+    "account": "General Ledger Account #1019",
+    "costCenter": "CC-05",
+    "amount": 1335978.94,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-10",
+    "status": "Pending Approval",
+    "txDate": "2026-02-22"
+  },
+  {
+    "txId": "TX-2026-0050",
+    "account": "General Ledger Account #1020",
+    "costCenter": "CC-06",
+    "amount": 151037.79,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-11",
+    "status": "Reconciled",
+    "txDate": "2026-03-23"
+  },
+  {
+    "txId": "TX-2026-0051",
+    "account": "General Ledger Account #1021",
+    "costCenter": "CC-07",
+    "amount": 1120078.93,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-12",
+    "status": "Audited",
+    "txDate": "2026-04-24"
+  },
+  {
+    "txId": "TX-2026-0052",
+    "account": "General Ledger Account #1022",
+    "costCenter": "CC-08",
+    "amount": 467891.91,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-13",
+    "status": "Reconciled",
+    "txDate": "2026-05-25"
+  },
+  {
+    "txId": "TX-2026-0053",
+    "account": "General Ledger Account #1023",
+    "costCenter": "CC-09",
+    "amount": 311215.26,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-14",
+    "status": "Audited",
+    "txDate": "2026-06-26"
+  },
+  {
+    "txId": "TX-2026-0054",
+    "account": "General Ledger Account #1024",
+    "costCenter": "CC-10",
+    "amount": 46521.25,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-15",
+    "status": "Reconciled",
+    "txDate": "2026-01-27"
+  },
+  {
+    "txId": "TX-2026-0055",
+    "account": "General Ledger Account #1025",
+    "costCenter": "CC-11",
+    "amount": 313851.78,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-16",
+    "status": "Reconciled",
+    "txDate": "2026-02-28"
+  },
+  {
+    "txId": "TX-2026-0056",
+    "account": "General Ledger Account #1026",
+    "costCenter": "CC-12",
+    "amount": 1301201.25,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-17",
+    "status": "Posted",
+    "txDate": "2026-03-01"
+  },
+  {
+    "txId": "TX-2026-0057",
+    "account": "General Ledger Account #1027",
+    "costCenter": "CC-13",
+    "amount": 1117951.93,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-18",
+    "status": "Posted",
+    "txDate": "2026-04-02"
+  },
+  {
+    "txId": "TX-2026-0058",
+    "account": "General Ledger Account #1028",
+    "costCenter": "CC-14",
+    "amount": 522597.45,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-19",
+    "status": "Audited",
+    "txDate": "2026-05-03"
+  },
+  {
+    "txId": "TX-2026-0059",
+    "account": "General Ledger Account #1029",
+    "costCenter": "CC-15",
+    "amount": 752666.37,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-20",
+    "status": "Posted",
+    "txDate": "2026-06-04"
+  },
+  {
+    "txId": "TX-2026-0060",
+    "account": "General Ledger Account #1000",
+    "costCenter": "CC-01",
+    "amount": 753589.43,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-1",
+    "status": "Reconciled",
+    "txDate": "2026-01-05"
+  },
+  {
+    "txId": "TX-2026-0061",
+    "account": "General Ledger Account #1001",
+    "costCenter": "CC-02",
+    "amount": 1471549.94,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-2",
+    "status": "Reconciled",
+    "txDate": "2026-02-06"
+  },
+  {
+    "txId": "TX-2026-0062",
+    "account": "General Ledger Account #1002",
+    "costCenter": "CC-03",
+    "amount": 526386.39,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-3",
+    "status": "Posted",
+    "txDate": "2026-03-07"
+  },
+  {
+    "txId": "TX-2026-0063",
+    "account": "General Ledger Account #1003",
+    "costCenter": "CC-04",
+    "amount": 1205184.78,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-4",
+    "status": "Pending Approval",
+    "txDate": "2026-04-08"
+  },
+  {
+    "txId": "TX-2026-0064",
+    "account": "General Ledger Account #1004",
+    "costCenter": "CC-05",
+    "amount": 1237355.34,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-5",
+    "status": "Posted",
+    "txDate": "2026-05-09"
+  },
+  {
+    "txId": "TX-2026-0065",
+    "account": "General Ledger Account #1005",
+    "costCenter": "CC-06",
+    "amount": 1370875.76,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-6",
+    "status": "Pending Approval",
+    "txDate": "2026-06-10"
+  },
+  {
+    "txId": "TX-2026-0066",
+    "account": "General Ledger Account #1006",
+    "costCenter": "CC-07",
+    "amount": 1371886.33,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-7",
+    "status": "Audited",
+    "txDate": "2026-01-11"
+  },
+  {
+    "txId": "TX-2026-0067",
+    "account": "General Ledger Account #1007",
+    "costCenter": "CC-08",
+    "amount": 245409.38,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-8",
+    "status": "Pending Approval",
+    "txDate": "2026-02-12"
+  },
+  {
+    "txId": "TX-2026-0068",
+    "account": "General Ledger Account #1008",
+    "costCenter": "CC-09",
+    "amount": 365673.84,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-9",
+    "status": "Audited",
+    "txDate": "2026-03-13"
+  },
+  {
+    "txId": "TX-2026-0069",
+    "account": "General Ledger Account #1009",
+    "costCenter": "CC-10",
+    "amount": 214233.49,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-10",
+    "status": "Pending Approval",
+    "txDate": "2026-04-14"
+  },
+  {
+    "txId": "TX-2026-0070",
+    "account": "General Ledger Account #1010",
+    "costCenter": "CC-11",
+    "amount": 1399931.73,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-11",
+    "status": "Audited",
+    "txDate": "2026-05-15"
+  },
+  {
+    "txId": "TX-2026-0071",
+    "account": "General Ledger Account #1011",
+    "costCenter": "CC-12",
+    "amount": 474116.21,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-12",
+    "status": "Reconciled",
+    "txDate": "2026-06-16"
+  },
+  {
+    "txId": "TX-2026-0072",
+    "account": "General Ledger Account #1012",
+    "costCenter": "CC-13",
+    "amount": 926451.32,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-13",
+    "status": "Posted",
+    "txDate": "2026-01-17"
+  },
+  {
+    "txId": "TX-2026-0073",
+    "account": "General Ledger Account #1013",
+    "costCenter": "CC-14",
+    "amount": 1099870.36,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-14",
+    "status": "Posted",
+    "txDate": "2026-02-18"
+  },
+  {
+    "txId": "TX-2026-0074",
+    "account": "General Ledger Account #1014",
+    "costCenter": "CC-15",
+    "amount": 1491033.27,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-15",
+    "status": "Posted",
+    "txDate": "2026-03-19"
+  },
+  {
+    "txId": "TX-2026-0075",
+    "account": "General Ledger Account #1015",
+    "costCenter": "CC-01",
+    "amount": 212922.39,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-16",
+    "status": "Reconciled",
+    "txDate": "2026-04-20"
+  },
+  {
+    "txId": "TX-2026-0076",
+    "account": "General Ledger Account #1016",
+    "costCenter": "CC-02",
+    "amount": 811399.71,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-17",
+    "status": "Posted",
+    "txDate": "2026-05-21"
+  },
+  {
+    "txId": "TX-2026-0077",
+    "account": "General Ledger Account #1017",
+    "costCenter": "CC-03",
+    "amount": 1157267.71,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-18",
+    "status": "Reconciled",
+    "txDate": "2026-06-22"
+  },
+  {
+    "txId": "TX-2026-0078",
+    "account": "General Ledger Account #1018",
+    "costCenter": "CC-04",
+    "amount": 1481612.77,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-19",
+    "status": "Pending Approval",
+    "txDate": "2026-01-23"
+  },
+  {
+    "txId": "TX-2026-0079",
+    "account": "General Ledger Account #1019",
+    "costCenter": "CC-05",
+    "amount": 1074505.7,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-20",
+    "status": "Audited",
+    "txDate": "2026-02-24"
+  },
+  {
+    "txId": "TX-2026-0080",
+    "account": "General Ledger Account #1020",
+    "costCenter": "CC-06",
+    "amount": 129873.85,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-1",
+    "status": "Pending Approval",
+    "txDate": "2026-03-25"
+  },
+  {
+    "txId": "TX-2026-0081",
+    "account": "General Ledger Account #1021",
+    "costCenter": "CC-07",
+    "amount": 1215196.02,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-2",
+    "status": "Pending Approval",
+    "txDate": "2026-04-26"
+  },
+  {
+    "txId": "TX-2026-0082",
+    "account": "General Ledger Account #1022",
+    "costCenter": "CC-08",
+    "amount": 1444635.03,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-3",
+    "status": "Posted",
+    "txDate": "2026-05-27"
+  },
+  {
+    "txId": "TX-2026-0083",
+    "account": "General Ledger Account #1023",
+    "costCenter": "CC-09",
+    "amount": 1076964.5,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-4",
+    "status": "Pending Approval",
+    "txDate": "2026-06-28"
+  },
+  {
+    "txId": "TX-2026-0084",
+    "account": "General Ledger Account #1024",
+    "costCenter": "CC-10",
+    "amount": 1058389.13,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-5",
+    "status": "Posted",
+    "txDate": "2026-01-01"
+  },
+  {
+    "txId": "TX-2026-0085",
+    "account": "General Ledger Account #1025",
+    "costCenter": "CC-11",
+    "amount": 1405987.98,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-6",
+    "status": "Audited",
+    "txDate": "2026-02-02"
+  },
+  {
+    "txId": "TX-2026-0086",
+    "account": "General Ledger Account #1026",
+    "costCenter": "CC-12",
+    "amount": 806065.36,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-7",
+    "status": "Posted",
+    "txDate": "2026-03-03"
+  },
+  {
+    "txId": "TX-2026-0087",
+    "account": "General Ledger Account #1027",
+    "costCenter": "CC-13",
+    "amount": 393011.72,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-8",
+    "status": "Reconciled",
+    "txDate": "2026-04-04"
+  },
+  {
+    "txId": "TX-2026-0088",
+    "account": "General Ledger Account #1028",
+    "costCenter": "CC-14",
+    "amount": 463448.32,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-9",
+    "status": "Reconciled",
+    "txDate": "2026-05-05"
+  },
+  {
+    "txId": "TX-2026-0089",
+    "account": "General Ledger Account #1029",
+    "costCenter": "CC-15",
+    "amount": 204635.71,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-10",
+    "status": "Pending Approval",
+    "txDate": "2026-06-06"
+  },
+  {
+    "txId": "TX-2026-0090",
+    "account": "General Ledger Account #1000",
+    "costCenter": "CC-01",
+    "amount": 842868.4,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-11",
+    "status": "Audited",
+    "txDate": "2026-01-07"
+  },
+  {
+    "txId": "TX-2026-0091",
+    "account": "General Ledger Account #1001",
+    "costCenter": "CC-02",
+    "amount": 1263572.22,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-12",
+    "status": "Posted",
+    "txDate": "2026-02-08"
+  },
+  {
+    "txId": "TX-2026-0092",
+    "account": "General Ledger Account #1002",
+    "costCenter": "CC-03",
+    "amount": 237023.55,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-13",
+    "status": "Pending Approval",
+    "txDate": "2026-03-09"
+  },
+  {
+    "txId": "TX-2026-0093",
+    "account": "General Ledger Account #1003",
+    "costCenter": "CC-04",
+    "amount": 762317.56,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-14",
+    "status": "Audited",
+    "txDate": "2026-04-10"
+  },
+  {
+    "txId": "TX-2026-0094",
+    "account": "General Ledger Account #1004",
+    "costCenter": "CC-05",
+    "amount": 1308251.22,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-15",
+    "status": "Pending Approval",
+    "txDate": "2026-05-11"
+  },
+  {
+    "txId": "TX-2026-0095",
+    "account": "General Ledger Account #1005",
+    "costCenter": "CC-06",
+    "amount": 1355451.28,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-16",
+    "status": "Posted",
+    "txDate": "2026-06-12"
+  },
+  {
+    "txId": "TX-2026-0096",
+    "account": "General Ledger Account #1006",
+    "costCenter": "CC-07",
+    "amount": 1163712.41,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-17",
+    "status": "Pending Approval",
+    "txDate": "2026-01-13"
+  },
+  {
+    "txId": "TX-2026-0097",
+    "account": "General Ledger Account #1007",
+    "costCenter": "CC-08",
+    "amount": 751218.84,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-18",
+    "status": "Posted",
+    "txDate": "2026-02-14"
+  },
+  {
+    "txId": "TX-2026-0098",
+    "account": "General Ledger Account #1008",
+    "costCenter": "CC-09",
+    "amount": 550076.35,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-19",
+    "status": "Posted",
+    "txDate": "2026-03-15"
+  },
+  {
+    "txId": "TX-2026-0099",
+    "account": "General Ledger Account #1009",
+    "costCenter": "CC-10",
+    "amount": 413941.81,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-20",
+    "status": "Posted",
+    "txDate": "2026-04-16"
+  },
+  {
+    "txId": "TX-2026-0100",
+    "account": "General Ledger Account #1010",
+    "costCenter": "CC-11",
+    "amount": 1451689.78,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-1",
+    "status": "Reconciled",
+    "txDate": "2026-05-17"
+  },
+  {
+    "txId": "TX-2026-0101",
+    "account": "General Ledger Account #1011",
+    "costCenter": "CC-12",
+    "amount": 54118.33,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-2",
+    "status": "Posted",
+    "txDate": "2026-06-18"
+  },
+  {
+    "txId": "TX-2026-0102",
+    "account": "General Ledger Account #1012",
+    "costCenter": "CC-13",
+    "amount": 330507.83,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-3",
+    "status": "Reconciled",
+    "txDate": "2026-01-19"
+  },
+  {
+    "txId": "TX-2026-0103",
+    "account": "General Ledger Account #1013",
+    "costCenter": "CC-14",
+    "amount": 700828.69,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-4",
+    "status": "Reconciled",
+    "txDate": "2026-02-20"
+  },
+  {
+    "txId": "TX-2026-0104",
+    "account": "General Ledger Account #1014",
+    "costCenter": "CC-15",
+    "amount": 78262.71,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-5",
+    "status": "Pending Approval",
+    "txDate": "2026-03-21"
+  },
+  {
+    "txId": "TX-2026-0105",
+    "account": "General Ledger Account #1015",
+    "costCenter": "CC-01",
+    "amount": 687288.48,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-6",
+    "status": "Posted",
+    "txDate": "2026-04-22"
+  },
+  {
+    "txId": "TX-2026-0106",
+    "account": "General Ledger Account #1016",
+    "costCenter": "CC-02",
+    "amount": 819038.91,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-7",
+    "status": "Pending Approval",
+    "txDate": "2026-05-23"
+  },
+  {
+    "txId": "TX-2026-0107",
+    "account": "General Ledger Account #1017",
+    "costCenter": "CC-03",
+    "amount": 784926.99,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-8",
+    "status": "Posted",
+    "txDate": "2026-06-24"
+  },
+  {
+    "txId": "TX-2026-0108",
+    "account": "General Ledger Account #1018",
+    "costCenter": "CC-04",
+    "amount": 658757.92,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-9",
+    "status": "Posted",
+    "txDate": "2026-01-25"
+  },
+  {
+    "txId": "TX-2026-0109",
+    "account": "General Ledger Account #1019",
+    "costCenter": "CC-05",
+    "amount": 653760.22,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-10",
+    "status": "Reconciled",
+    "txDate": "2026-02-26"
+  },
+  {
+    "txId": "TX-2026-0110",
+    "account": "General Ledger Account #1020",
+    "costCenter": "CC-06",
+    "amount": 1094283.57,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-11",
+    "status": "Posted",
+    "txDate": "2026-03-27"
+  },
+  {
+    "txId": "TX-2026-0111",
+    "account": "General Ledger Account #1021",
+    "costCenter": "CC-07",
+    "amount": 350575.9,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-12",
+    "status": "Reconciled",
+    "txDate": "2026-04-28"
+  },
+  {
+    "txId": "TX-2026-0112",
+    "account": "General Ledger Account #1022",
+    "costCenter": "CC-08",
+    "amount": 143529.34,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-13",
+    "status": "Pending Approval",
+    "txDate": "2026-05-01"
+  },
+  {
+    "txId": "TX-2026-0113",
+    "account": "General Ledger Account #1023",
+    "costCenter": "CC-09",
+    "amount": 554435.99,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-14",
+    "status": "Reconciled",
+    "txDate": "2026-06-02"
+  },
+  {
+    "txId": "TX-2026-0114",
+    "account": "General Ledger Account #1024",
+    "costCenter": "CC-10",
+    "amount": 969517.23,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-15",
+    "status": "Pending Approval",
+    "txDate": "2026-01-03"
+  },
+  {
+    "txId": "TX-2026-0115",
+    "account": "General Ledger Account #1025",
+    "costCenter": "CC-11",
+    "amount": 238103.67,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-16",
+    "status": "Posted",
+    "txDate": "2026-02-04"
+  },
+  {
+    "txId": "TX-2026-0116",
+    "account": "General Ledger Account #1026",
+    "costCenter": "CC-12",
+    "amount": 1175708.97,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-17",
+    "status": "Audited",
+    "txDate": "2026-03-05"
+  },
+  {
+    "txId": "TX-2026-0117",
+    "account": "General Ledger Account #1027",
+    "costCenter": "CC-13",
+    "amount": 1443186.22,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-18",
+    "status": "Pending Approval",
+    "txDate": "2026-04-06"
+  },
+  {
+    "txId": "TX-2026-0118",
+    "account": "General Ledger Account #1028",
+    "costCenter": "CC-14",
+    "amount": 526630.05,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-19",
+    "status": "Posted",
+    "txDate": "2026-05-07"
+  },
+  {
+    "txId": "TX-2026-0119",
+    "account": "General Ledger Account #1029",
+    "costCenter": "CC-15",
+    "amount": 973696.12,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-20",
+    "status": "Pending Approval",
+    "txDate": "2026-06-08"
+  },
+  {
+    "txId": "TX-2026-0120",
+    "account": "General Ledger Account #1000",
+    "costCenter": "CC-01",
+    "amount": 1410781.57,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-1",
+    "status": "Posted",
+    "txDate": "2026-01-09"
+  },
+  {
+    "txId": "TX-2026-0121",
+    "account": "General Ledger Account #1001",
+    "costCenter": "CC-02",
+    "amount": 678284.81,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-2",
+    "status": "Reconciled",
+    "txDate": "2026-02-10"
+  },
+  {
+    "txId": "TX-2026-0122",
+    "account": "General Ledger Account #1002",
+    "costCenter": "CC-03",
+    "amount": 378978.19,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-3",
+    "status": "Reconciled",
+    "txDate": "2026-03-11"
+  },
+  {
+    "txId": "TX-2026-0123",
+    "account": "General Ledger Account #1003",
+    "costCenter": "CC-04",
+    "amount": 556967.99,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-4",
+    "status": "Posted",
+    "txDate": "2026-04-12"
+  },
+  {
+    "txId": "TX-2026-0124",
+    "account": "General Ledger Account #1004",
+    "costCenter": "CC-05",
+    "amount": 463182.03,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-5",
+    "status": "Reconciled",
+    "txDate": "2026-05-13"
+  },
+  {
+    "txId": "TX-2026-0125",
+    "account": "General Ledger Account #1005",
+    "costCenter": "CC-06",
+    "amount": 789582.9,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-6",
+    "status": "Pending Approval",
+    "txDate": "2026-06-14"
+  },
+  {
+    "txId": "TX-2026-0126",
+    "account": "General Ledger Account #1006",
+    "costCenter": "CC-07",
+    "amount": 939594.92,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-7",
+    "status": "Pending Approval",
+    "txDate": "2026-01-15"
+  },
+  {
+    "txId": "TX-2026-0127",
+    "account": "General Ledger Account #1007",
+    "costCenter": "CC-08",
+    "amount": 222447.11,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-8",
+    "status": "Audited",
+    "txDate": "2026-02-16"
+  },
+  {
+    "txId": "TX-2026-0128",
+    "account": "General Ledger Account #1008",
+    "costCenter": "CC-09",
+    "amount": 331135.95,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-9",
+    "status": "Audited",
+    "txDate": "2026-03-17"
+  },
+  {
+    "txId": "TX-2026-0129",
+    "account": "General Ledger Account #1009",
+    "costCenter": "CC-10",
+    "amount": 1075355.28,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-10",
+    "status": "Pending Approval",
+    "txDate": "2026-04-18"
+  },
+  {
+    "txId": "TX-2026-0130",
+    "account": "General Ledger Account #1010",
+    "costCenter": "CC-11",
+    "amount": 146951.13,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-11",
+    "status": "Reconciled",
+    "txDate": "2026-05-19"
+  },
+  {
+    "txId": "TX-2026-0131",
+    "account": "General Ledger Account #1011",
+    "costCenter": "CC-12",
+    "amount": 129814.05,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-12",
+    "status": "Pending Approval",
+    "txDate": "2026-06-20"
+  },
+  {
+    "txId": "TX-2026-0132",
+    "account": "General Ledger Account #1012",
+    "costCenter": "CC-13",
+    "amount": 843565.39,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-13",
+    "status": "Pending Approval",
+    "txDate": "2026-01-21"
+  },
+  {
+    "txId": "TX-2026-0133",
+    "account": "General Ledger Account #1013",
+    "costCenter": "CC-14",
+    "amount": 334513.37,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-14",
+    "status": "Posted",
+    "txDate": "2026-02-22"
+  },
+  {
+    "txId": "TX-2026-0134",
+    "account": "General Ledger Account #1014",
+    "costCenter": "CC-15",
+    "amount": 1438188.96,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-15",
+    "status": "Pending Approval",
+    "txDate": "2026-03-23"
+  },
+  {
+    "txId": "TX-2026-0135",
+    "account": "General Ledger Account #1015",
+    "costCenter": "CC-01",
+    "amount": 563535.43,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-16",
+    "status": "Pending Approval",
+    "txDate": "2026-04-24"
+  },
+  {
+    "txId": "TX-2026-0136",
+    "account": "General Ledger Account #1016",
+    "costCenter": "CC-02",
+    "amount": 895795.91,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-17",
+    "status": "Posted",
+    "txDate": "2026-05-25"
+  },
+  {
+    "txId": "TX-2026-0137",
+    "account": "General Ledger Account #1017",
+    "costCenter": "CC-03",
+    "amount": 1207193.55,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-18",
+    "status": "Pending Approval",
+    "txDate": "2026-06-26"
+  },
+  {
+    "txId": "TX-2026-0138",
+    "account": "General Ledger Account #1018",
+    "costCenter": "CC-04",
+    "amount": 184686.64,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-19",
+    "status": "Reconciled",
+    "txDate": "2026-01-27"
+  },
+  {
+    "txId": "TX-2026-0139",
+    "account": "General Ledger Account #1019",
+    "costCenter": "CC-05",
+    "amount": 548269.41,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-20",
+    "status": "Reconciled",
+    "txDate": "2026-02-28"
+  },
+  {
+    "txId": "TX-2026-0140",
+    "account": "General Ledger Account #1020",
+    "costCenter": "CC-06",
+    "amount": 228260.71,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-1",
+    "status": "Pending Approval",
+    "txDate": "2026-03-01"
+  },
+  {
+    "txId": "TX-2026-0141",
+    "account": "General Ledger Account #1021",
+    "costCenter": "CC-07",
+    "amount": 1399188.66,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-2",
+    "status": "Audited",
+    "txDate": "2026-04-02"
+  },
+  {
+    "txId": "TX-2026-0142",
+    "account": "General Ledger Account #1022",
+    "costCenter": "CC-08",
+    "amount": 975347.29,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-3",
+    "status": "Posted",
+    "txDate": "2026-05-03"
+  },
+  {
+    "txId": "TX-2026-0143",
+    "account": "General Ledger Account #1023",
+    "costCenter": "CC-09",
+    "amount": 159714.34,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-4",
+    "status": "Audited",
+    "txDate": "2026-06-04"
+  },
+  {
+    "txId": "TX-2026-0144",
+    "account": "General Ledger Account #1024",
+    "costCenter": "CC-10",
+    "amount": 164645.82,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-5",
+    "status": "Audited",
+    "txDate": "2026-01-05"
+  },
+  {
+    "txId": "TX-2026-0145",
+    "account": "General Ledger Account #1025",
+    "costCenter": "CC-11",
+    "amount": 1156519.52,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-6",
+    "status": "Posted",
+    "txDate": "2026-02-06"
+  },
+  {
+    "txId": "TX-2026-0146",
+    "account": "General Ledger Account #1026",
+    "costCenter": "CC-12",
+    "amount": 495034.45,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-7",
+    "status": "Reconciled",
+    "txDate": "2026-03-07"
+  },
+  {
+    "txId": "TX-2026-0147",
+    "account": "General Ledger Account #1027",
+    "costCenter": "CC-13",
+    "amount": 190149.13,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-8",
+    "status": "Audited",
+    "txDate": "2026-04-08"
+  },
+  {
+    "txId": "TX-2026-0148",
+    "account": "General Ledger Account #1028",
+    "costCenter": "CC-14",
+    "amount": 57064.9,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-9",
+    "status": "Reconciled",
+    "txDate": "2026-05-09"
+  },
+  {
+    "txId": "TX-2026-0149",
+    "account": "General Ledger Account #1029",
+    "costCenter": "CC-15",
+    "amount": 458301.01,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-10",
+    "status": "Posted",
+    "txDate": "2026-06-10"
+  },
+  {
+    "txId": "TX-2026-0150",
+    "account": "General Ledger Account #1000",
+    "costCenter": "CC-01",
+    "amount": 542863.83,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-11",
+    "status": "Audited",
+    "txDate": "2026-01-11"
+  },
+  {
+    "txId": "TX-2026-0151",
+    "account": "General Ledger Account #1001",
+    "costCenter": "CC-02",
+    "amount": 1098458.41,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-12",
+    "status": "Reconciled",
+    "txDate": "2026-02-12"
+  },
+  {
+    "txId": "TX-2026-0152",
+    "account": "General Ledger Account #1002",
+    "costCenter": "CC-03",
+    "amount": 1394888.65,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-13",
+    "status": "Pending Approval",
+    "txDate": "2026-03-13"
+  },
+  {
+    "txId": "TX-2026-0153",
+    "account": "General Ledger Account #1003",
+    "costCenter": "CC-04",
+    "amount": 348468.74,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-14",
+    "status": "Pending Approval",
+    "txDate": "2026-04-14"
+  },
+  {
+    "txId": "TX-2026-0154",
+    "account": "General Ledger Account #1004",
+    "costCenter": "CC-05",
+    "amount": 608276.56,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-15",
+    "status": "Posted",
+    "txDate": "2026-05-15"
+  },
+  {
+    "txId": "TX-2026-0155",
+    "account": "General Ledger Account #1005",
+    "costCenter": "CC-06",
+    "amount": 1343143.03,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-16",
+    "status": "Pending Approval",
+    "txDate": "2026-06-16"
+  },
+  {
+    "txId": "TX-2026-0156",
+    "account": "General Ledger Account #1006",
+    "costCenter": "CC-07",
+    "amount": 1098357.01,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-17",
+    "status": "Posted",
+    "txDate": "2026-01-17"
+  },
+  {
+    "txId": "TX-2026-0157",
+    "account": "General Ledger Account #1007",
+    "costCenter": "CC-08",
+    "amount": 1292154.73,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-18",
+    "status": "Reconciled",
+    "txDate": "2026-02-18"
+  },
+  {
+    "txId": "TX-2026-0158",
+    "account": "General Ledger Account #1008",
+    "costCenter": "CC-09",
+    "amount": 778329.53,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-19",
+    "status": "Reconciled",
+    "txDate": "2026-03-19"
+  },
+  {
+    "txId": "TX-2026-0159",
+    "account": "General Ledger Account #1009",
+    "costCenter": "CC-10",
+    "amount": 693317.05,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-20",
+    "status": "Posted",
+    "txDate": "2026-04-20"
+  },
+  {
+    "txId": "TX-2026-0160",
+    "account": "General Ledger Account #1010",
+    "costCenter": "CC-11",
+    "amount": 412958.68,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-1",
+    "status": "Reconciled",
+    "txDate": "2026-05-21"
+  },
+  {
+    "txId": "TX-2026-0161",
+    "account": "General Ledger Account #1011",
+    "costCenter": "CC-12",
+    "amount": 948551.43,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-2",
+    "status": "Audited",
+    "txDate": "2026-06-22"
+  },
+  {
+    "txId": "TX-2026-0162",
+    "account": "General Ledger Account #1012",
+    "costCenter": "CC-13",
+    "amount": 1308093.11,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-3",
+    "status": "Posted",
+    "txDate": "2026-01-23"
+  },
+  {
+    "txId": "TX-2026-0163",
+    "account": "General Ledger Account #1013",
+    "costCenter": "CC-14",
+    "amount": 225186.74,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-4",
+    "status": "Pending Approval",
+    "txDate": "2026-02-24"
+  },
+  {
+    "txId": "TX-2026-0164",
+    "account": "General Ledger Account #1014",
+    "costCenter": "CC-15",
+    "amount": 1103886.22,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-5",
+    "status": "Pending Approval",
+    "txDate": "2026-03-25"
+  },
+  {
+    "txId": "TX-2026-0165",
+    "account": "General Ledger Account #1015",
+    "costCenter": "CC-01",
+    "amount": 582185.36,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-6",
+    "status": "Pending Approval",
+    "txDate": "2026-04-26"
+  },
+  {
+    "txId": "TX-2026-0166",
+    "account": "General Ledger Account #1016",
+    "costCenter": "CC-02",
+    "amount": 1022126.0,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-7",
+    "status": "Audited",
+    "txDate": "2026-05-27"
+  },
+  {
+    "txId": "TX-2026-0167",
+    "account": "General Ledger Account #1017",
+    "costCenter": "CC-03",
+    "amount": 498968.47,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-8",
+    "status": "Posted",
+    "txDate": "2026-06-28"
+  },
+  {
+    "txId": "TX-2026-0168",
+    "account": "General Ledger Account #1018",
+    "costCenter": "CC-04",
+    "amount": 956483.23,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-9",
+    "status": "Reconciled",
+    "txDate": "2026-01-01"
+  },
+  {
+    "txId": "TX-2026-0169",
+    "account": "General Ledger Account #1019",
+    "costCenter": "CC-05",
+    "amount": 615495.32,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-10",
+    "status": "Reconciled",
+    "txDate": "2026-02-02"
+  },
+  {
+    "txId": "TX-2026-0170",
+    "account": "General Ledger Account #1020",
+    "costCenter": "CC-06",
+    "amount": 249701.09,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-11",
+    "status": "Posted",
+    "txDate": "2026-03-03"
+  },
+  {
+    "txId": "TX-2026-0171",
+    "account": "General Ledger Account #1021",
+    "costCenter": "CC-07",
+    "amount": 872675.09,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-12",
+    "status": "Posted",
+    "txDate": "2026-04-04"
+  },
+  {
+    "txId": "TX-2026-0172",
+    "account": "General Ledger Account #1022",
+    "costCenter": "CC-08",
+    "amount": 1129387.35,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-13",
+    "status": "Posted",
+    "txDate": "2026-05-05"
+  },
+  {
+    "txId": "TX-2026-0173",
+    "account": "General Ledger Account #1023",
+    "costCenter": "CC-09",
+    "amount": 865619.6,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-14",
+    "status": "Reconciled",
+    "txDate": "2026-06-06"
+  },
+  {
+    "txId": "TX-2026-0174",
+    "account": "General Ledger Account #1024",
+    "costCenter": "CC-10",
+    "amount": 778383.6,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-15",
+    "status": "Reconciled",
+    "txDate": "2026-01-07"
+  },
+  {
+    "txId": "TX-2026-0175",
+    "account": "General Ledger Account #1025",
+    "costCenter": "CC-11",
+    "amount": 1089992.94,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-16",
+    "status": "Posted",
+    "txDate": "2026-02-08"
+  },
+  {
+    "txId": "TX-2026-0176",
+    "account": "General Ledger Account #1026",
+    "costCenter": "CC-12",
+    "amount": 1398368.07,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-17",
+    "status": "Reconciled",
+    "txDate": "2026-03-09"
+  },
+  {
+    "txId": "TX-2026-0177",
+    "account": "General Ledger Account #1027",
+    "costCenter": "CC-13",
+    "amount": 557020.27,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-18",
+    "status": "Audited",
+    "txDate": "2026-04-10"
+  },
+  {
+    "txId": "TX-2026-0178",
+    "account": "General Ledger Account #1028",
+    "costCenter": "CC-14",
+    "amount": 123883.1,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-19",
+    "status": "Pending Approval",
+    "txDate": "2026-05-11"
+  },
+  {
+    "txId": "TX-2026-0179",
+    "account": "General Ledger Account #1029",
+    "costCenter": "CC-15",
+    "amount": 779442.12,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-20",
+    "status": "Pending Approval",
+    "txDate": "2026-06-12"
+  },
+  {
+    "txId": "TX-2026-0180",
+    "account": "General Ledger Account #1000",
+    "costCenter": "CC-01",
+    "amount": 1038546.78,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-1",
+    "status": "Pending Approval",
+    "txDate": "2026-01-13"
+  },
+  {
+    "txId": "TX-2026-0181",
+    "account": "General Ledger Account #1001",
+    "costCenter": "CC-02",
+    "amount": 303780.1,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-2",
+    "status": "Pending Approval",
+    "txDate": "2026-02-14"
+  },
+  {
+    "txId": "TX-2026-0182",
+    "account": "General Ledger Account #1002",
+    "costCenter": "CC-03",
+    "amount": 261348.27,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-3",
+    "status": "Posted",
+    "txDate": "2026-03-15"
+  },
+  {
+    "txId": "TX-2026-0183",
+    "account": "General Ledger Account #1003",
+    "costCenter": "CC-04",
+    "amount": 953771.03,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-4",
+    "status": "Reconciled",
+    "txDate": "2026-04-16"
+  },
+  {
+    "txId": "TX-2026-0184",
+    "account": "General Ledger Account #1004",
+    "costCenter": "CC-05",
+    "amount": 1398958.52,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-5",
+    "status": "Audited",
+    "txDate": "2026-05-17"
+  },
+  {
+    "txId": "TX-2026-0185",
+    "account": "General Ledger Account #1005",
+    "costCenter": "CC-06",
+    "amount": 448891.28,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-6",
+    "status": "Audited",
+    "txDate": "2026-06-18"
+  },
+  {
+    "txId": "TX-2026-0186",
+    "account": "General Ledger Account #1006",
+    "costCenter": "CC-07",
+    "amount": 597673.51,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-7",
+    "status": "Audited",
+    "txDate": "2026-01-19"
+  },
+  {
+    "txId": "TX-2026-0187",
+    "account": "General Ledger Account #1007",
+    "costCenter": "CC-08",
+    "amount": 700128.79,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-8",
+    "status": "Reconciled",
+    "txDate": "2026-02-20"
+  },
+  {
+    "txId": "TX-2026-0188",
+    "account": "General Ledger Account #1008",
+    "costCenter": "CC-09",
+    "amount": 1097327.79,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-9",
+    "status": "Posted",
+    "txDate": "2026-03-21"
+  },
+  {
+    "txId": "TX-2026-0189",
+    "account": "General Ledger Account #1009",
+    "costCenter": "CC-10",
+    "amount": 367524.15,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-10",
+    "status": "Audited",
+    "txDate": "2026-04-22"
+  },
+  {
+    "txId": "TX-2026-0190",
+    "account": "General Ledger Account #1010",
+    "costCenter": "CC-11",
+    "amount": 344728.77,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-11",
+    "status": "Audited",
+    "txDate": "2026-05-23"
+  },
+  {
+    "txId": "TX-2026-0191",
+    "account": "General Ledger Account #1011",
+    "costCenter": "CC-12",
+    "amount": 73308.04,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-12",
+    "status": "Reconciled",
+    "txDate": "2026-06-24"
+  },
+  {
+    "txId": "TX-2026-0192",
+    "account": "General Ledger Account #1012",
+    "costCenter": "CC-13",
+    "amount": 957916.21,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-13",
+    "status": "Reconciled",
+    "txDate": "2026-01-25"
+  },
+  {
+    "txId": "TX-2026-0193",
+    "account": "General Ledger Account #1013",
+    "costCenter": "CC-14",
+    "amount": 419537.95,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-14",
+    "status": "Pending Approval",
+    "txDate": "2026-02-26"
+  },
+  {
+    "txId": "TX-2026-0194",
+    "account": "General Ledger Account #1014",
+    "costCenter": "CC-15",
+    "amount": 548268.77,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-15",
+    "status": "Posted",
+    "txDate": "2026-03-27"
+  },
+  {
+    "txId": "TX-2026-0195",
+    "account": "General Ledger Account #1015",
+    "costCenter": "CC-01",
+    "amount": 310402.74,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-16",
+    "status": "Audited",
+    "txDate": "2026-04-28"
+  },
+  {
+    "txId": "TX-2026-0196",
+    "account": "General Ledger Account #1016",
+    "costCenter": "CC-02",
+    "amount": 1070093.04,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-17",
+    "status": "Reconciled",
+    "txDate": "2026-05-01"
+  },
+  {
+    "txId": "TX-2026-0197",
+    "account": "General Ledger Account #1017",
+    "costCenter": "CC-03",
+    "amount": 579253.83,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-18",
+    "status": "Reconciled",
+    "txDate": "2026-06-02"
+  },
+  {
+    "txId": "TX-2026-0198",
+    "account": "General Ledger Account #1018",
+    "costCenter": "CC-04",
+    "amount": 916538.52,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-19",
+    "status": "Posted",
+    "txDate": "2026-01-03"
+  },
+  {
+    "txId": "TX-2026-0199",
+    "account": "General Ledger Account #1019",
+    "costCenter": "CC-05",
+    "amount": 790020.68,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-20",
+    "status": "Audited",
+    "txDate": "2026-02-04"
+  },
+  {
+    "txId": "TX-2026-0200",
+    "account": "General Ledger Account #1020",
+    "costCenter": "CC-06",
+    "amount": 1353521.99,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-1",
+    "status": "Posted",
+    "txDate": "2026-03-05"
+  },
+  {
+    "txId": "TX-2026-0201",
+    "account": "General Ledger Account #1021",
+    "costCenter": "CC-07",
+    "amount": 292391.97,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-2",
+    "status": "Pending Approval",
+    "txDate": "2026-04-06"
+  },
+  {
+    "txId": "TX-2026-0202",
+    "account": "General Ledger Account #1022",
+    "costCenter": "CC-08",
+    "amount": 897418.53,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-3",
+    "status": "Posted",
+    "txDate": "2026-05-07"
+  },
+  {
+    "txId": "TX-2026-0203",
+    "account": "General Ledger Account #1023",
+    "costCenter": "CC-09",
+    "amount": 63692.02,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-4",
+    "status": "Audited",
+    "txDate": "2026-06-08"
+  },
+  {
+    "txId": "TX-2026-0204",
+    "account": "General Ledger Account #1024",
+    "costCenter": "CC-10",
+    "amount": 350829.53,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-5",
+    "status": "Pending Approval",
+    "txDate": "2026-01-09"
+  },
+  {
+    "txId": "TX-2026-0205",
+    "account": "General Ledger Account #1025",
+    "costCenter": "CC-11",
+    "amount": 106649.0,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-6",
+    "status": "Pending Approval",
+    "txDate": "2026-02-10"
+  },
+  {
+    "txId": "TX-2026-0206",
+    "account": "General Ledger Account #1026",
+    "costCenter": "CC-12",
+    "amount": 1248475.67,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-7",
+    "status": "Pending Approval",
+    "txDate": "2026-03-11"
+  },
+  {
+    "txId": "TX-2026-0207",
+    "account": "General Ledger Account #1027",
+    "costCenter": "CC-13",
+    "amount": 430486.72,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-8",
+    "status": "Reconciled",
+    "txDate": "2026-04-12"
+  },
+  {
+    "txId": "TX-2026-0208",
+    "account": "General Ledger Account #1028",
+    "costCenter": "CC-14",
+    "amount": 514111.0,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-9",
+    "status": "Posted",
+    "txDate": "2026-05-13"
+  },
+  {
+    "txId": "TX-2026-0209",
+    "account": "General Ledger Account #1029",
+    "costCenter": "CC-15",
+    "amount": 609354.59,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-10",
+    "status": "Posted",
+    "txDate": "2026-06-14"
+  },
+  {
+    "txId": "TX-2026-0210",
+    "account": "General Ledger Account #1000",
+    "costCenter": "CC-01",
+    "amount": 20539.93,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-11",
+    "status": "Reconciled",
+    "txDate": "2026-01-15"
+  },
+  {
+    "txId": "TX-2026-0211",
+    "account": "General Ledger Account #1001",
+    "costCenter": "CC-02",
+    "amount": 593316.3,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-12",
+    "status": "Reconciled",
+    "txDate": "2026-02-16"
+  },
+  {
+    "txId": "TX-2026-0212",
+    "account": "General Ledger Account #1002",
+    "costCenter": "CC-03",
+    "amount": 247494.62,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-13",
+    "status": "Pending Approval",
+    "txDate": "2026-03-17"
+  },
+  {
+    "txId": "TX-2026-0213",
+    "account": "General Ledger Account #1003",
+    "costCenter": "CC-04",
+    "amount": 809074.89,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-14",
+    "status": "Posted",
+    "txDate": "2026-04-18"
+  },
+  {
+    "txId": "TX-2026-0214",
+    "account": "General Ledger Account #1004",
+    "costCenter": "CC-05",
+    "amount": 539704.24,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-15",
+    "status": "Pending Approval",
+    "txDate": "2026-05-19"
+  },
+  {
+    "txId": "TX-2026-0215",
+    "account": "General Ledger Account #1005",
+    "costCenter": "CC-06",
+    "amount": 934070.53,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-16",
+    "status": "Audited",
+    "txDate": "2026-06-20"
+  },
+  {
+    "txId": "TX-2026-0216",
+    "account": "General Ledger Account #1006",
+    "costCenter": "CC-07",
+    "amount": 924686.53,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-17",
+    "status": "Reconciled",
+    "txDate": "2026-01-21"
+  },
+  {
+    "txId": "TX-2026-0217",
+    "account": "General Ledger Account #1007",
+    "costCenter": "CC-08",
+    "amount": 927187.91,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-18",
+    "status": "Reconciled",
+    "txDate": "2026-02-22"
+  },
+  {
+    "txId": "TX-2026-0218",
+    "account": "General Ledger Account #1008",
+    "costCenter": "CC-09",
+    "amount": 1121593.73,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-19",
+    "status": "Pending Approval",
+    "txDate": "2026-03-23"
+  },
+  {
+    "txId": "TX-2026-0219",
+    "account": "General Ledger Account #1009",
+    "costCenter": "CC-10",
+    "amount": 918192.33,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-20",
+    "status": "Posted",
+    "txDate": "2026-04-24"
+  },
+  {
+    "txId": "TX-2026-0220",
+    "account": "General Ledger Account #1010",
+    "costCenter": "CC-11",
+    "amount": 517325.56,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-1",
+    "status": "Reconciled",
+    "txDate": "2026-05-25"
+  },
+  {
+    "txId": "TX-2026-0221",
+    "account": "General Ledger Account #1011",
+    "costCenter": "CC-12",
+    "amount": 231836.1,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-2",
+    "status": "Pending Approval",
+    "txDate": "2026-06-26"
+  },
+  {
+    "txId": "TX-2026-0222",
+    "account": "General Ledger Account #1012",
+    "costCenter": "CC-13",
+    "amount": 1279938.88,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-3",
+    "status": "Reconciled",
+    "txDate": "2026-01-27"
+  },
+  {
+    "txId": "TX-2026-0223",
+    "account": "General Ledger Account #1013",
+    "costCenter": "CC-14",
+    "amount": 1458229.95,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-4",
+    "status": "Audited",
+    "txDate": "2026-02-28"
+  },
+  {
+    "txId": "TX-2026-0224",
+    "account": "General Ledger Account #1014",
+    "costCenter": "CC-15",
+    "amount": 1165915.82,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-5",
+    "status": "Reconciled",
+    "txDate": "2026-03-01"
+  },
+  {
+    "txId": "TX-2026-0225",
+    "account": "General Ledger Account #1015",
+    "costCenter": "CC-01",
+    "amount": 326914.91,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-6",
+    "status": "Reconciled",
+    "txDate": "2026-04-02"
+  },
+  {
+    "txId": "TX-2026-0226",
+    "account": "General Ledger Account #1016",
+    "costCenter": "CC-02",
+    "amount": 1018239.86,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-7",
+    "status": "Audited",
+    "txDate": "2026-05-03"
+  },
+  {
+    "txId": "TX-2026-0227",
+    "account": "General Ledger Account #1017",
+    "costCenter": "CC-03",
+    "amount": 774782.54,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-8",
+    "status": "Reconciled",
+    "txDate": "2026-06-04"
+  },
+  {
+    "txId": "TX-2026-0228",
+    "account": "General Ledger Account #1018",
+    "costCenter": "CC-04",
+    "amount": 1455924.38,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-9",
+    "status": "Audited",
+    "txDate": "2026-01-05"
+  },
+  {
+    "txId": "TX-2026-0229",
+    "account": "General Ledger Account #1019",
+    "costCenter": "CC-05",
+    "amount": 1282049.91,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-10",
+    "status": "Posted",
+    "txDate": "2026-02-06"
+  },
+  {
+    "txId": "TX-2026-0230",
+    "account": "General Ledger Account #1020",
+    "costCenter": "CC-06",
+    "amount": 704559.35,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-11",
+    "status": "Pending Approval",
+    "txDate": "2026-03-07"
+  },
+  {
+    "txId": "TX-2026-0231",
+    "account": "General Ledger Account #1021",
+    "costCenter": "CC-07",
+    "amount": 456187.55,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-12",
+    "status": "Audited",
+    "txDate": "2026-04-08"
+  },
+  {
+    "txId": "TX-2026-0232",
+    "account": "General Ledger Account #1022",
+    "costCenter": "CC-08",
+    "amount": 416006.16,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-13",
+    "status": "Posted",
+    "txDate": "2026-05-09"
+  },
+  {
+    "txId": "TX-2026-0233",
+    "account": "General Ledger Account #1023",
+    "costCenter": "CC-09",
+    "amount": 370252.57,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-14",
+    "status": "Reconciled",
+    "txDate": "2026-06-10"
+  },
+  {
+    "txId": "TX-2026-0234",
+    "account": "General Ledger Account #1024",
+    "costCenter": "CC-10",
+    "amount": 1224682.15,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-15",
+    "status": "Reconciled",
+    "txDate": "2026-01-11"
+  },
+  {
+    "txId": "TX-2026-0235",
+    "account": "General Ledger Account #1025",
+    "costCenter": "CC-11",
+    "amount": 1043003.85,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-16",
+    "status": "Pending Approval",
+    "txDate": "2026-02-12"
+  },
+  {
+    "txId": "TX-2026-0236",
+    "account": "General Ledger Account #1026",
+    "costCenter": "CC-12",
+    "amount": 1292734.88,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-17",
+    "status": "Posted",
+    "txDate": "2026-03-13"
+  },
+  {
+    "txId": "TX-2026-0237",
+    "account": "General Ledger Account #1027",
+    "costCenter": "CC-13",
+    "amount": 1452299.44,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-18",
+    "status": "Audited",
+    "txDate": "2026-04-14"
+  },
+  {
+    "txId": "TX-2026-0238",
+    "account": "General Ledger Account #1028",
+    "costCenter": "CC-14",
+    "amount": 51257.69,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-19",
+    "status": "Posted",
+    "txDate": "2026-05-15"
+  },
+  {
+    "txId": "TX-2026-0239",
+    "account": "General Ledger Account #1029",
+    "costCenter": "CC-15",
+    "amount": 890891.87,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-20",
+    "status": "Reconciled",
+    "txDate": "2026-06-16"
+  },
+  {
+    "txId": "TX-2026-0240",
+    "account": "General Ledger Account #1000",
+    "costCenter": "CC-01",
+    "amount": 545866.93,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-1",
+    "status": "Posted",
+    "txDate": "2026-01-17"
+  },
+  {
+    "txId": "TX-2026-0241",
+    "account": "General Ledger Account #1001",
+    "costCenter": "CC-02",
+    "amount": 950304.77,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-2",
+    "status": "Reconciled",
+    "txDate": "2026-02-18"
+  },
+  {
+    "txId": "TX-2026-0242",
+    "account": "General Ledger Account #1002",
+    "costCenter": "CC-03",
+    "amount": 1324898.78,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-3",
+    "status": "Pending Approval",
+    "txDate": "2026-03-19"
+  },
+  {
+    "txId": "TX-2026-0243",
+    "account": "General Ledger Account #1003",
+    "costCenter": "CC-04",
+    "amount": 294994.25,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-4",
+    "status": "Posted",
+    "txDate": "2026-04-20"
+  },
+  {
+    "txId": "TX-2026-0244",
+    "account": "General Ledger Account #1004",
+    "costCenter": "CC-05",
+    "amount": 556775.94,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-5",
+    "status": "Posted",
+    "txDate": "2026-05-21"
+  },
+  {
+    "txId": "TX-2026-0245",
+    "account": "General Ledger Account #1005",
+    "costCenter": "CC-06",
+    "amount": 877439.44,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-6",
+    "status": "Audited",
+    "txDate": "2026-06-22"
+  },
+  {
+    "txId": "TX-2026-0246",
+    "account": "General Ledger Account #1006",
+    "costCenter": "CC-07",
+    "amount": 613134.44,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-7",
+    "status": "Pending Approval",
+    "txDate": "2026-01-23"
+  },
+  {
+    "txId": "TX-2026-0247",
+    "account": "General Ledger Account #1007",
+    "costCenter": "CC-08",
+    "amount": 1127292.76,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-8",
+    "status": "Reconciled",
+    "txDate": "2026-02-24"
+  },
+  {
+    "txId": "TX-2026-0248",
+    "account": "General Ledger Account #1008",
+    "costCenter": "CC-09",
+    "amount": 142686.55,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-9",
+    "status": "Reconciled",
+    "txDate": "2026-03-25"
+  },
+  {
+    "txId": "TX-2026-0249",
+    "account": "General Ledger Account #1009",
+    "costCenter": "CC-10",
+    "amount": 139589.0,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-10",
+    "status": "Posted",
+    "txDate": "2026-04-26"
+  },
+  {
+    "txId": "TX-2026-0250",
+    "account": "General Ledger Account #1010",
+    "costCenter": "CC-11",
+    "amount": 413054.25,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-11",
+    "status": "Audited",
+    "txDate": "2026-05-27"
+  },
+  {
+    "txId": "TX-2026-0251",
+    "account": "General Ledger Account #1011",
+    "costCenter": "CC-12",
+    "amount": 1067397.19,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-12",
+    "status": "Pending Approval",
+    "txDate": "2026-06-28"
+  },
+  {
+    "txId": "TX-2026-0252",
+    "account": "General Ledger Account #1012",
+    "costCenter": "CC-13",
+    "amount": 831177.94,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-13",
+    "status": "Audited",
+    "txDate": "2026-01-01"
+  },
+  {
+    "txId": "TX-2026-0253",
+    "account": "General Ledger Account #1013",
+    "costCenter": "CC-14",
+    "amount": 930348.1,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-14",
+    "status": "Pending Approval",
+    "txDate": "2026-02-02"
+  },
+  {
+    "txId": "TX-2026-0254",
+    "account": "General Ledger Account #1014",
+    "costCenter": "CC-15",
+    "amount": 265743.26,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-15",
+    "status": "Pending Approval",
+    "txDate": "2026-03-03"
+  },
+  {
+    "txId": "TX-2026-0255",
+    "account": "General Ledger Account #1015",
+    "costCenter": "CC-01",
+    "amount": 1132380.08,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-16",
+    "status": "Pending Approval",
+    "txDate": "2026-04-04"
+  },
+  {
+    "txId": "TX-2026-0256",
+    "account": "General Ledger Account #1016",
+    "costCenter": "CC-02",
+    "amount": 1315834.48,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-17",
+    "status": "Audited",
+    "txDate": "2026-05-05"
+  },
+  {
+    "txId": "TX-2026-0257",
+    "account": "General Ledger Account #1017",
+    "costCenter": "CC-03",
+    "amount": 590092.95,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-18",
+    "status": "Audited",
+    "txDate": "2026-06-06"
+  },
+  {
+    "txId": "TX-2026-0258",
+    "account": "General Ledger Account #1018",
+    "costCenter": "CC-04",
+    "amount": 564495.18,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-19",
+    "status": "Posted",
+    "txDate": "2026-01-07"
+  },
+  {
+    "txId": "TX-2026-0259",
+    "account": "General Ledger Account #1019",
+    "costCenter": "CC-05",
+    "amount": 1427888.12,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-20",
+    "status": "Audited",
+    "txDate": "2026-02-08"
+  },
+  {
+    "txId": "TX-2026-0260",
+    "account": "General Ledger Account #1020",
+    "costCenter": "CC-06",
+    "amount": 1413272.81,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-1",
+    "status": "Reconciled",
+    "txDate": "2026-03-09"
+  },
+  {
+    "txId": "TX-2026-0261",
+    "account": "General Ledger Account #1021",
+    "costCenter": "CC-07",
+    "amount": 1397975.65,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-2",
+    "status": "Posted",
+    "txDate": "2026-04-10"
+  },
+  {
+    "txId": "TX-2026-0262",
+    "account": "General Ledger Account #1022",
+    "costCenter": "CC-08",
+    "amount": 1177651.35,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-3",
+    "status": "Audited",
+    "txDate": "2026-05-11"
+  },
+  {
+    "txId": "TX-2026-0263",
+    "account": "General Ledger Account #1023",
+    "costCenter": "CC-09",
+    "amount": 803228.34,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-4",
+    "status": "Audited",
+    "txDate": "2026-06-12"
+  },
+  {
+    "txId": "TX-2026-0264",
+    "account": "General Ledger Account #1024",
+    "costCenter": "CC-10",
+    "amount": 1399864.32,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-5",
+    "status": "Posted",
+    "txDate": "2026-01-13"
+  },
+  {
+    "txId": "TX-2026-0265",
+    "account": "General Ledger Account #1025",
+    "costCenter": "CC-11",
+    "amount": 763818.22,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-6",
+    "status": "Pending Approval",
+    "txDate": "2026-02-14"
+  },
+  {
+    "txId": "TX-2026-0266",
+    "account": "General Ledger Account #1026",
+    "costCenter": "CC-12",
+    "amount": 892063.62,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-7",
+    "status": "Pending Approval",
+    "txDate": "2026-03-15"
+  },
+  {
+    "txId": "TX-2026-0267",
+    "account": "General Ledger Account #1027",
+    "costCenter": "CC-13",
+    "amount": 723309.96,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-8",
+    "status": "Reconciled",
+    "txDate": "2026-04-16"
+  },
+  {
+    "txId": "TX-2026-0268",
+    "account": "General Ledger Account #1028",
+    "costCenter": "CC-14",
+    "amount": 1434872.87,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-9",
+    "status": "Reconciled",
+    "txDate": "2026-05-17"
+  },
+  {
+    "txId": "TX-2026-0269",
+    "account": "General Ledger Account #1029",
+    "costCenter": "CC-15",
+    "amount": 390198.06,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-10",
+    "status": "Reconciled",
+    "txDate": "2026-06-18"
+  },
+  {
+    "txId": "TX-2026-0270",
+    "account": "General Ledger Account #1000",
+    "costCenter": "CC-01",
+    "amount": 16815.52,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-11",
+    "status": "Posted",
+    "txDate": "2026-01-19"
+  },
+  {
+    "txId": "TX-2026-0271",
+    "account": "General Ledger Account #1001",
+    "costCenter": "CC-02",
+    "amount": 1395646.06,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-12",
+    "status": "Pending Approval",
+    "txDate": "2026-02-20"
+  },
+  {
+    "txId": "TX-2026-0272",
+    "account": "General Ledger Account #1002",
+    "costCenter": "CC-03",
+    "amount": 1418278.22,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-13",
+    "status": "Reconciled",
+    "txDate": "2026-03-21"
+  },
+  {
+    "txId": "TX-2026-0273",
+    "account": "General Ledger Account #1003",
+    "costCenter": "CC-04",
+    "amount": 1474482.73,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-14",
+    "status": "Posted",
+    "txDate": "2026-04-22"
+  },
+  {
+    "txId": "TX-2026-0274",
+    "account": "General Ledger Account #1004",
+    "costCenter": "CC-05",
+    "amount": 866345.2,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-15",
+    "status": "Posted",
+    "txDate": "2026-05-23"
+  },
+  {
+    "txId": "TX-2026-0275",
+    "account": "General Ledger Account #1005",
+    "costCenter": "CC-06",
+    "amount": 473162.0,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-16",
+    "status": "Audited",
+    "txDate": "2026-06-24"
+  },
+  {
+    "txId": "TX-2026-0276",
+    "account": "General Ledger Account #1006",
+    "costCenter": "CC-07",
+    "amount": 1292172.19,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-17",
+    "status": "Pending Approval",
+    "txDate": "2026-01-25"
+  },
+  {
+    "txId": "TX-2026-0277",
+    "account": "General Ledger Account #1007",
+    "costCenter": "CC-08",
+    "amount": 1113121.97,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-18",
+    "status": "Audited",
+    "txDate": "2026-02-26"
+  },
+  {
+    "txId": "TX-2026-0278",
+    "account": "General Ledger Account #1008",
+    "costCenter": "CC-09",
+    "amount": 705792.68,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-19",
+    "status": "Reconciled",
+    "txDate": "2026-03-27"
+  },
+  {
+    "txId": "TX-2026-0279",
+    "account": "General Ledger Account #1009",
+    "costCenter": "CC-10",
+    "amount": 952060.89,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-20",
+    "status": "Pending Approval",
+    "txDate": "2026-04-28"
+  },
+  {
+    "txId": "TX-2026-0280",
+    "account": "General Ledger Account #1010",
+    "costCenter": "CC-11",
+    "amount": 1341789.19,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-1",
+    "status": "Pending Approval",
+    "txDate": "2026-05-01"
+  },
+  {
+    "txId": "TX-2026-0281",
+    "account": "General Ledger Account #1011",
+    "costCenter": "CC-12",
+    "amount": 1214624.83,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-2",
+    "status": "Pending Approval",
+    "txDate": "2026-06-02"
+  },
+  {
+    "txId": "TX-2026-0282",
+    "account": "General Ledger Account #1012",
+    "costCenter": "CC-13",
+    "amount": 580038.32,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-3",
+    "status": "Reconciled",
+    "txDate": "2026-01-03"
+  },
+  {
+    "txId": "TX-2026-0283",
+    "account": "General Ledger Account #1013",
+    "costCenter": "CC-14",
+    "amount": 40044.24,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-4",
+    "status": "Posted",
+    "txDate": "2026-02-04"
+  },
+  {
+    "txId": "TX-2026-0284",
+    "account": "General Ledger Account #1014",
+    "costCenter": "CC-15",
+    "amount": 37282.43,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-5",
+    "status": "Posted",
+    "txDate": "2026-03-05"
+  },
+  {
+    "txId": "TX-2026-0285",
+    "account": "General Ledger Account #1015",
+    "costCenter": "CC-01",
+    "amount": 1178448.36,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-6",
+    "status": "Reconciled",
+    "txDate": "2026-04-06"
+  },
+  {
+    "txId": "TX-2026-0286",
+    "account": "General Ledger Account #1016",
+    "costCenter": "CC-02",
+    "amount": 1132578.95,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-7",
+    "status": "Posted",
+    "txDate": "2026-05-07"
+  },
+  {
+    "txId": "TX-2026-0287",
+    "account": "General Ledger Account #1017",
+    "costCenter": "CC-03",
+    "amount": 152919.59,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-8",
+    "status": "Reconciled",
+    "txDate": "2026-06-08"
+  },
+  {
+    "txId": "TX-2026-0288",
+    "account": "General Ledger Account #1018",
+    "costCenter": "CC-04",
+    "amount": 256938.71,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-9",
+    "status": "Posted",
+    "txDate": "2026-01-09"
+  },
+  {
+    "txId": "TX-2026-0289",
+    "account": "General Ledger Account #1019",
+    "costCenter": "CC-05",
+    "amount": 1269399.96,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-10",
+    "status": "Reconciled",
+    "txDate": "2026-02-10"
+  },
+  {
+    "txId": "TX-2026-0290",
+    "account": "General Ledger Account #1020",
+    "costCenter": "CC-06",
+    "amount": 354409.96,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-11",
+    "status": "Pending Approval",
+    "txDate": "2026-03-11"
+  },
+  {
+    "txId": "TX-2026-0291",
+    "account": "General Ledger Account #1021",
+    "costCenter": "CC-07",
+    "amount": 721046.21,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-12",
+    "status": "Posted",
+    "txDate": "2026-04-12"
+  },
+  {
+    "txId": "TX-2026-0292",
+    "account": "General Ledger Account #1022",
+    "costCenter": "CC-08",
+    "amount": 717752.0,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-13",
+    "status": "Reconciled",
+    "txDate": "2026-05-13"
+  },
+  {
+    "txId": "TX-2026-0293",
+    "account": "General Ledger Account #1023",
+    "costCenter": "CC-09",
+    "amount": 281026.69,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-14",
+    "status": "Posted",
+    "txDate": "2026-06-14"
+  },
+  {
+    "txId": "TX-2026-0294",
+    "account": "General Ledger Account #1024",
+    "costCenter": "CC-10",
+    "amount": 1141362.29,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-15",
+    "status": "Pending Approval",
+    "txDate": "2026-01-15"
+  },
+  {
+    "txId": "TX-2026-0295",
+    "account": "General Ledger Account #1025",
+    "costCenter": "CC-11",
+    "amount": 1425996.58,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-16",
+    "status": "Audited",
+    "txDate": "2026-02-16"
+  },
+  {
+    "txId": "TX-2026-0296",
+    "account": "General Ledger Account #1026",
+    "costCenter": "CC-12",
+    "amount": 414132.42,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-17",
+    "status": "Posted",
+    "txDate": "2026-03-17"
+  },
+  {
+    "txId": "TX-2026-0297",
+    "account": "General Ledger Account #1027",
+    "costCenter": "CC-13",
+    "amount": 758706.07,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-18",
+    "status": "Reconciled",
+    "txDate": "2026-04-18"
+  },
+  {
+    "txId": "TX-2026-0298",
+    "account": "General Ledger Account #1028",
+    "costCenter": "CC-14",
+    "amount": 681682.01,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-19",
+    "status": "Audited",
+    "txDate": "2026-05-19"
+  },
+  {
+    "txId": "TX-2026-0299",
+    "account": "General Ledger Account #1029",
+    "costCenter": "CC-15",
+    "amount": 328757.58,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-20",
+    "status": "Reconciled",
+    "txDate": "2026-06-20"
+  },
+  {
+    "txId": "TX-2026-0300",
+    "account": "General Ledger Account #1000",
+    "costCenter": "CC-01",
+    "amount": 930139.77,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-1",
+    "status": "Posted",
+    "txDate": "2026-01-21"
+  },
+  {
+    "txId": "TX-2026-0301",
+    "account": "General Ledger Account #1001",
+    "costCenter": "CC-02",
+    "amount": 1053156.19,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-2",
+    "status": "Reconciled",
+    "txDate": "2026-02-22"
+  },
+  {
+    "txId": "TX-2026-0302",
+    "account": "General Ledger Account #1002",
+    "costCenter": "CC-03",
+    "amount": 781976.04,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-3",
+    "status": "Pending Approval",
+    "txDate": "2026-03-23"
+  },
+  {
+    "txId": "TX-2026-0303",
+    "account": "General Ledger Account #1003",
+    "costCenter": "CC-04",
+    "amount": 733880.7,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-4",
+    "status": "Pending Approval",
+    "txDate": "2026-04-24"
+  },
+  {
+    "txId": "TX-2026-0304",
+    "account": "General Ledger Account #1004",
+    "costCenter": "CC-05",
+    "amount": 73556.49,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-5",
+    "status": "Posted",
+    "txDate": "2026-05-25"
+  },
+  {
+    "txId": "TX-2026-0305",
+    "account": "General Ledger Account #1005",
+    "costCenter": "CC-06",
+    "amount": 466914.17,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-6",
+    "status": "Reconciled",
+    "txDate": "2026-06-26"
+  },
+  {
+    "txId": "TX-2026-0306",
+    "account": "General Ledger Account #1006",
+    "costCenter": "CC-07",
+    "amount": 107451.24,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-7",
+    "status": "Reconciled",
+    "txDate": "2026-01-27"
+  },
+  {
+    "txId": "TX-2026-0307",
+    "account": "General Ledger Account #1007",
+    "costCenter": "CC-08",
+    "amount": 182717.15,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-8",
+    "status": "Posted",
+    "txDate": "2026-02-28"
+  },
+  {
+    "txId": "TX-2026-0308",
+    "account": "General Ledger Account #1008",
+    "costCenter": "CC-09",
+    "amount": 1235957.94,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-9",
+    "status": "Pending Approval",
+    "txDate": "2026-03-01"
+  },
+  {
+    "txId": "TX-2026-0309",
+    "account": "General Ledger Account #1009",
+    "costCenter": "CC-10",
+    "amount": 813007.74,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-10",
+    "status": "Pending Approval",
+    "txDate": "2026-04-02"
+  },
+  {
+    "txId": "TX-2026-0310",
+    "account": "General Ledger Account #1010",
+    "costCenter": "CC-11",
+    "amount": 395778.51,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-11",
+    "status": "Pending Approval",
+    "txDate": "2026-05-03"
+  },
+  {
+    "txId": "TX-2026-0311",
+    "account": "General Ledger Account #1011",
+    "costCenter": "CC-12",
+    "amount": 1305100.84,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-12",
+    "status": "Reconciled",
+    "txDate": "2026-06-04"
+  },
+  {
+    "txId": "TX-2026-0312",
+    "account": "General Ledger Account #1012",
+    "costCenter": "CC-13",
+    "amount": 574462.01,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-13",
+    "status": "Reconciled",
+    "txDate": "2026-01-05"
+  },
+  {
+    "txId": "TX-2026-0313",
+    "account": "General Ledger Account #1013",
+    "costCenter": "CC-14",
+    "amount": 344397.59,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-14",
+    "status": "Posted",
+    "txDate": "2026-02-06"
+  },
+  {
+    "txId": "TX-2026-0314",
+    "account": "General Ledger Account #1014",
+    "costCenter": "CC-15",
+    "amount": 1187433.19,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-15",
+    "status": "Posted",
+    "txDate": "2026-03-07"
+  },
+  {
+    "txId": "TX-2026-0315",
+    "account": "General Ledger Account #1015",
+    "costCenter": "CC-01",
+    "amount": 1099358.7,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-16",
+    "status": "Posted",
+    "txDate": "2026-04-08"
+  },
+  {
+    "txId": "TX-2026-0316",
+    "account": "General Ledger Account #1016",
+    "costCenter": "CC-02",
+    "amount": 1297824.06,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-17",
+    "status": "Pending Approval",
+    "txDate": "2026-05-09"
+  },
+  {
+    "txId": "TX-2026-0317",
+    "account": "General Ledger Account #1017",
+    "costCenter": "CC-03",
+    "amount": 302913.37,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-18",
+    "status": "Reconciled",
+    "txDate": "2026-06-10"
+  },
+  {
+    "txId": "TX-2026-0318",
+    "account": "General Ledger Account #1018",
+    "costCenter": "CC-04",
+    "amount": 1044383.88,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-19",
+    "status": "Reconciled",
+    "txDate": "2026-01-11"
+  },
+  {
+    "txId": "TX-2026-0319",
+    "account": "General Ledger Account #1019",
+    "costCenter": "CC-05",
+    "amount": 754545.57,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-20",
+    "status": "Posted",
+    "txDate": "2026-02-12"
+  },
+  {
+    "txId": "TX-2026-0320",
+    "account": "General Ledger Account #1020",
+    "costCenter": "CC-06",
+    "amount": 1122297.28,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-1",
+    "status": "Reconciled",
+    "txDate": "2026-03-13"
+  },
+  {
+    "txId": "TX-2026-0321",
+    "account": "General Ledger Account #1021",
+    "costCenter": "CC-07",
+    "amount": 914329.68,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-2",
+    "status": "Audited",
+    "txDate": "2026-04-14"
+  },
+  {
+    "txId": "TX-2026-0322",
+    "account": "General Ledger Account #1022",
+    "costCenter": "CC-08",
+    "amount": 379906.98,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-3",
+    "status": "Posted",
+    "txDate": "2026-05-15"
+  },
+  {
+    "txId": "TX-2026-0323",
+    "account": "General Ledger Account #1023",
+    "costCenter": "CC-09",
+    "amount": 341002.64,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-4",
+    "status": "Audited",
+    "txDate": "2026-06-16"
+  },
+  {
+    "txId": "TX-2026-0324",
+    "account": "General Ledger Account #1024",
+    "costCenter": "CC-10",
+    "amount": 250668.5,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-5",
+    "status": "Audited",
+    "txDate": "2026-01-17"
+  },
+  {
+    "txId": "TX-2026-0325",
+    "account": "General Ledger Account #1025",
+    "costCenter": "CC-11",
+    "amount": 659567.93,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-6",
+    "status": "Reconciled",
+    "txDate": "2026-02-18"
+  },
+  {
+    "txId": "TX-2026-0326",
+    "account": "General Ledger Account #1026",
+    "costCenter": "CC-12",
+    "amount": 506583.42,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-7",
+    "status": "Posted",
+    "txDate": "2026-03-19"
+  },
+  {
+    "txId": "TX-2026-0327",
+    "account": "General Ledger Account #1027",
+    "costCenter": "CC-13",
+    "amount": 1484105.17,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-8",
+    "status": "Pending Approval",
+    "txDate": "2026-04-20"
+  },
+  {
+    "txId": "TX-2026-0328",
+    "account": "General Ledger Account #1028",
+    "costCenter": "CC-14",
+    "amount": 1058115.47,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-9",
+    "status": "Posted",
+    "txDate": "2026-05-21"
+  },
+  {
+    "txId": "TX-2026-0329",
+    "account": "General Ledger Account #1029",
+    "costCenter": "CC-15",
+    "amount": 528124.61,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-10",
+    "status": "Reconciled",
+    "txDate": "2026-06-22"
+  },
+  {
+    "txId": "TX-2026-0330",
+    "account": "General Ledger Account #1000",
+    "costCenter": "CC-01",
+    "amount": 1305878.6,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-11",
+    "status": "Pending Approval",
+    "txDate": "2026-01-23"
+  },
+  {
+    "txId": "TX-2026-0331",
+    "account": "General Ledger Account #1001",
+    "costCenter": "CC-02",
+    "amount": 720500.93,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-12",
+    "status": "Posted",
+    "txDate": "2026-02-24"
+  },
+  {
+    "txId": "TX-2026-0332",
+    "account": "General Ledger Account #1002",
+    "costCenter": "CC-03",
+    "amount": 540749.05,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-13",
+    "status": "Pending Approval",
+    "txDate": "2026-03-25"
+  },
+  {
+    "txId": "TX-2026-0333",
+    "account": "General Ledger Account #1003",
+    "costCenter": "CC-04",
+    "amount": 438368.86,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-14",
+    "status": "Posted",
+    "txDate": "2026-04-26"
+  },
+  {
+    "txId": "TX-2026-0334",
+    "account": "General Ledger Account #1004",
+    "costCenter": "CC-05",
+    "amount": 1018572.87,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-15",
+    "status": "Pending Approval",
+    "txDate": "2026-05-27"
+  },
+  {
+    "txId": "TX-2026-0335",
+    "account": "General Ledger Account #1005",
+    "costCenter": "CC-06",
+    "amount": 1124588.5,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-16",
+    "status": "Posted",
+    "txDate": "2026-06-28"
+  },
+  {
+    "txId": "TX-2026-0336",
+    "account": "General Ledger Account #1006",
+    "costCenter": "CC-07",
+    "amount": 1484644.39,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-17",
+    "status": "Pending Approval",
+    "txDate": "2026-01-01"
+  },
+  {
+    "txId": "TX-2026-0337",
+    "account": "General Ledger Account #1007",
+    "costCenter": "CC-08",
+    "amount": 949455.47,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-18",
+    "status": "Posted",
+    "txDate": "2026-02-02"
+  },
+  {
+    "txId": "TX-2026-0338",
+    "account": "General Ledger Account #1008",
+    "costCenter": "CC-09",
+    "amount": 1065583.67,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-19",
+    "status": "Reconciled",
+    "txDate": "2026-03-03"
+  },
+  {
+    "txId": "TX-2026-0339",
+    "account": "General Ledger Account #1009",
+    "costCenter": "CC-10",
+    "amount": 1345104.18,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-20",
+    "status": "Posted",
+    "txDate": "2026-04-04"
+  },
+  {
+    "txId": "TX-2026-0340",
+    "account": "General Ledger Account #1010",
+    "costCenter": "CC-11",
+    "amount": 1485622.68,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-1",
+    "status": "Audited",
+    "txDate": "2026-05-05"
+  },
+  {
+    "txId": "TX-2026-0341",
+    "account": "General Ledger Account #1011",
+    "costCenter": "CC-12",
+    "amount": 966827.44,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-2",
+    "status": "Pending Approval",
+    "txDate": "2026-06-06"
+  },
+  {
+    "txId": "TX-2026-0342",
+    "account": "General Ledger Account #1012",
+    "costCenter": "CC-13",
+    "amount": 125405.22,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-3",
+    "status": "Posted",
+    "txDate": "2026-01-07"
+  },
+  {
+    "txId": "TX-2026-0343",
+    "account": "General Ledger Account #1013",
+    "costCenter": "CC-14",
+    "amount": 833448.28,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-4",
+    "status": "Reconciled",
+    "txDate": "2026-02-08"
+  },
+  {
+    "txId": "TX-2026-0344",
+    "account": "General Ledger Account #1014",
+    "costCenter": "CC-15",
+    "amount": 1413983.31,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-5",
+    "status": "Posted",
+    "txDate": "2026-03-09"
+  },
+  {
+    "txId": "TX-2026-0345",
+    "account": "General Ledger Account #1015",
+    "costCenter": "CC-01",
+    "amount": 1416591.06,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-6",
+    "status": "Reconciled",
+    "txDate": "2026-04-10"
+  },
+  {
+    "txId": "TX-2026-0346",
+    "account": "General Ledger Account #1016",
+    "costCenter": "CC-02",
+    "amount": 647358.53,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-7",
+    "status": "Reconciled",
+    "txDate": "2026-05-11"
+  },
+  {
+    "txId": "TX-2026-0347",
+    "account": "General Ledger Account #1017",
+    "costCenter": "CC-03",
+    "amount": 331290.05,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-8",
+    "status": "Posted",
+    "txDate": "2026-06-12"
+  },
+  {
+    "txId": "TX-2026-0348",
+    "account": "General Ledger Account #1018",
+    "costCenter": "CC-04",
+    "amount": 1183692.92,
+    "type": "OpEx Ledger",
+    "entity": "Corporate Entity Node-9",
+    "status": "Reconciled",
+    "txDate": "2026-01-13"
+  },
+  {
+    "txId": "TX-2026-0349",
+    "account": "General Ledger Account #1019",
+    "costCenter": "CC-05",
+    "amount": 1415442.62,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-10",
+    "status": "Posted",
+    "txDate": "2026-02-14"
+  },
+  {
+    "txId": "TX-2026-0350",
+    "account": "General Ledger Account #1020",
+    "costCenter": "CC-06",
+    "amount": 364360.18,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-11",
+    "status": "Reconciled",
+    "txDate": "2026-03-15"
+  },
+  {
+    "txId": "TX-2026-0351",
+    "account": "General Ledger Account #1021",
+    "costCenter": "CC-07",
+    "amount": 673142.28,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-12",
+    "status": "Audited",
+    "txDate": "2026-04-16"
+  },
+  {
+    "txId": "TX-2026-0352",
+    "account": "General Ledger Account #1022",
+    "costCenter": "CC-08",
+    "amount": 256094.71,
+    "type": "Accounts Payable",
+    "entity": "Corporate Entity Node-13",
+    "status": "Reconciled",
+    "txDate": "2026-05-17"
+  },
+  {
+    "txId": "TX-2026-0353",
+    "account": "General Ledger Account #1023",
+    "costCenter": "CC-09",
+    "amount": 326537.3,
+    "type": "Accounts Receivable",
+    "entity": "Corporate Entity Node-14",
+    "status": "Audited",
+    "txDate": "2026-06-18"
+  },
+  {
+    "txId": "TX-2026-0354",
+    "account": "General Ledger Account #1024",
+    "costCenter": "CC-10",
+    "amount": 515749.05,
+    "type": "CapEx Allocation",
+    "entity": "Corporate Entity Node-15",
+    "status": "Pending Approval",
+    "txDate": "2026-01-19"
+  }
+]
