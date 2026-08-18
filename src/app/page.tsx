@@ -92,7 +92,7 @@ export default function LandingPage() {
       subtitle: 'MRP II Scheduling',
       description: 'MRP II scheduling, multi-plant capacity utilization and cost-center ledgers with full audit exports.',
       features: ['Multi-plant production scheduling', 'Capacity & load balancing', 'Cost-center ledgers & PDF audits'],
-      icon: <Factory className="w-5 h-5 text-blue-600" />
+      icon: <Factory className="w-5 h-5" />
     },
     {
       id: 'crm',
@@ -101,7 +101,7 @@ export default function LandingPage() {
       subtitle: 'Commercial Pipeline',
       description: 'Track industrial bid pipelines, manage multi-version quotes, Kanban deal boards and contracts.',
       features: ['RFQ & multi-version quoting', 'Kanban bid pipeline', 'Contracts & renewals'],
-      icon: <Handshake className="w-5 h-5 text-blue-600" />
+      icon: <Handshake className="w-5 h-5" />
     },
     {
       id: 'hrm',
@@ -110,7 +110,7 @@ export default function LandingPage() {
       subtitle: 'Shift Rosters & Payroll',
       description: 'Coordinate crew rotations, track safety certifications, EPF/ESI forms and automated shift payroll.',
       features: ['Shift rostering & rotations', 'Safety certification tracking', 'Automated payroll (EPF/ESI)'],
-      icon: <Users className="w-5 h-5 text-blue-600" />
+      icon: <Users className="w-5 h-5" />
     },
     {
       id: 'procurement',
@@ -119,7 +119,7 @@ export default function LandingPage() {
       subtitle: '3-Way Match Sourcing',
       description: 'Automate high-volume sourcing with 3-way match auditing and supplier scorecard reliability.',
       features: ['Purchase requisitions & POs', '3-way match auditor', 'Supplier scorecards'],
-      icon: <ShoppingCart className="w-5 h-5 text-blue-600" />
+      icon: <ShoppingCart className="w-5 h-5" />
     },
     {
       id: 'inventory',
@@ -128,7 +128,7 @@ export default function LandingPage() {
       subtitle: 'Stock Balances & Valuation',
       description: 'Real-time stock tracking, FIFO/LIFO valuation and minimum-stock reorder alerts across warehouses.',
       features: ['Bin & lot-level tracking', 'FIFO/LIFO valuation', 'Reorder-point alerts'],
-      icon: <Boxes className="w-5 h-5 text-blue-600" />
+      icon: <Boxes className="w-5 h-5" />
     },
     {
       id: 'master-data',
@@ -137,7 +137,7 @@ export default function LandingPage() {
       subtitle: 'Central Spec Repository',
       description: 'Centralized catalog specs, rebar grades, chemical inventory, and vendor profiles.',
       features: ['Rebar grade & chemical specs', 'Deduplication sanitizer', 'Global barcode indexing'],
-      icon: <Database className="w-5 h-5 text-blue-600" />
+      icon: <Database className="w-5 h-5" />
     },
     {
       id: 'facilities',
@@ -146,7 +146,7 @@ export default function LandingPage() {
       subtitle: 'Heavy Machinery Servicing',
       description: 'Heavy machinery tracking (scrubbers, jet washers), preventive maintenance, site transfers, straight-line depreciation.',
       features: ['Heavy machinery asset registers', 'Preventive servicing schedules', 'Straight-line depreciation'],
-      icon: <Building2 className="w-5 h-5 text-blue-600" />
+      icon: <Building2 className="w-5 h-5" />
     },
     {
       id: 'finance',
@@ -155,7 +155,7 @@ export default function LandingPage() {
       subtitle: 'General Ledger & Budgets',
       description: 'Supervise accounts-payable ledgers, double-entry journals and capital allocation across projects.',
       features: ['Double-entry journals', 'AP / AR ledgers', 'CapEx & cost-center control'],
-      icon: <Landmark className="w-5 h-5 text-blue-600" />
+      icon: <Landmark className="w-5 h-5" />
     },
     {
       id: 'workflows',
@@ -164,7 +164,7 @@ export default function LandingPage() {
       subtitle: 'Multi-Level Approval Matrix',
       description: 'Multi-level clearance pathways, SLA escalation alerts, audit trail signoff history.',
       features: ['Multi-level clearance pathways', 'SLA escalation alert handlers', 'Audit trail signoff history'],
-      icon: <Workflow className="w-5 h-5 text-blue-600" />
+      icon: <Workflow className="w-5 h-5" />
     },
     {
       id: 'admin',
@@ -173,7 +173,7 @@ export default function LandingPage() {
       subtitle: 'Security & Access Matrix',
       description: 'Multi-tenant security isolation, user roles (RBAC), developer API key generator.',
       features: ['Multi-tenant schema isolation', 'Role-based access matrix', 'Developer API key generator'],
-      icon: <ShieldCheck className="w-5 h-5 text-blue-600" />
+      icon: <ShieldCheck className="w-5 h-5" />
     },
     {
       id: 'site-iq',
@@ -182,7 +182,7 @@ export default function LandingPage() {
       subtitle: 'IoT Telemetry Stream',
       description: 'Live telemetry stream analyzer, predictive maintenance alerts, multi-site IoT dashboard.',
       features: ['Live telemetry stream analyzer', 'Predictive maintenance alerts', 'Multi-site IoT dashboard'],
-      icon: <Activity className="w-5 h-5 text-blue-600" />
+      icon: <Activity className="w-5 h-5" />
     },
     {
       id: 'dashboard',
@@ -191,7 +191,7 @@ export default function LandingPage() {
       subtitle: 'Real-Time Intelligence',
       description: 'Query database records, analyze stock warnings, review PO approvals, instant executive PDF reports.',
       features: ['Real-time database query engine', 'Automated stock & PO auditor', 'Instant executive PDF reports'],
-      icon: <Bot className="w-5 h-5 text-blue-600" />
+      icon: <Bot className="w-5 h-5" />
     }
   ];
 
