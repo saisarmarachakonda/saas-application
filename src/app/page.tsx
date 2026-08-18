@@ -38,8 +38,33 @@ export default function LandingPage() {
   // Industry Preset Switcher State
   const [activeIndustryTab, setActiveIndustryTab] = useState<'manufacturing' | 'infra' | 'facilities'>('manufacturing');
 
-  // Interactive Module Selection State for Industry Builder
-  const [selectedBuilderModules, setSelectedBuilderModules] = useState<{ [key: string]: string[] }>({
+  // Sector Specific Modules for Each Industry (5 Relevant Modules per Sector)
+  const sectorModulesMap = {
+    manufacturing: [
+      { id: 'erp', title: 'Vertex ERP', subtitle: 'MRP II & Capacity Planning', icon: <Factory className="w-4 h-4 text-blue-600" /> },
+      { id: 'inventory', title: 'Vertex Inventory & Warehouse', subtitle: 'Raw Stock Balances & FIFO Valuation', icon: <Boxes className="w-4 h-4 text-blue-600" /> },
+      { id: 'procurement', title: 'Vertex Procurement', subtitle: '3-Way Match & Supplier Scorecards', icon: <ShoppingCart className="w-4 h-4 text-blue-600" /> },
+      { id: 'master-data', title: 'Vertex Master Data Hub', subtitle: 'Rebar & Chemical Specifications', icon: <Database className="w-4 h-4 text-blue-600" /> },
+      { id: 'finance', title: 'Vertex Finance & Accounts', subtitle: 'Plant Cost-Center Ledgers', icon: <Landmark className="w-4 h-4 text-blue-600" /> }
+    ],
+    infra: [
+      { id: 'facilities', title: 'Vertex Facilities & Assets', subtitle: 'Heavy Machinery & Asset Depreciation', icon: <Building2 className="w-4 h-4 text-blue-600" /> },
+      { id: 'erp', title: 'Vertex ERP', subtitle: 'Site Project Scheduling', icon: <Factory className="w-4 h-4 text-blue-600" /> },
+      { id: 'procurement', title: 'Vertex Procurement', subtitle: 'Subcontractor & Material Orders', icon: <ShoppingCart className="w-4 h-4 text-blue-600" /> },
+      { id: 'workflows', title: 'Vertex Workflows Engine', subtitle: 'Multi-Level Clearance Pathways', icon: <Workflow className="w-4 h-4 text-blue-600" /> },
+      { id: 'finance', title: 'Vertex Finance & Accounts', subtitle: 'Project Profitability Ledgers', icon: <Landmark className="w-4 h-4 text-blue-600" /> }
+    ],
+    facilities: [
+      { id: 'facilities', title: 'Vertex Facilities & Assets', subtitle: 'Scrubbers & Jet Washer Servicing', icon: <Building2 className="w-4 h-4 text-blue-600" /> },
+      { id: 'hrm', title: 'Vertex HRM & Workforce', subtitle: 'Shift Roster & EPF/ESI Compliance', icon: <Users className="w-4 h-4 text-blue-600" /> },
+      { id: 'procurement', title: 'Vertex Procurement', subtitle: 'Janitorial & Depot Supplies', icon: <ShoppingCart className="w-4 h-4 text-blue-600" /> },
+      { id: 'inventory', title: 'Vertex Inventory & Warehouse', subtitle: 'Depot Chemical Balances', icon: <Boxes className="w-4 h-4 text-blue-600" /> },
+      { id: 'workflows', title: 'Vertex Workflows Engine', subtitle: 'SLA Escalation Alerts', icon: <Workflow className="w-4 h-4 text-blue-600" /> }
+    ]
+  };
+
+  // Selected Modules State per Sector
+  const [selectedSectorModules, setSelectedSectorModules] = useState<{ [key: string]: string[] }>({
     manufacturing: ['Vertex ERP', 'Vertex Inventory & Warehouse', 'Vertex Procurement', 'Vertex Master Data Hub', 'Vertex Finance & Accounts'],
     infra: ['Vertex Facilities & Assets', 'Vertex ERP', 'Vertex Procurement', 'Vertex Workflows Engine', 'Vertex Finance & Accounts'],
     facilities: ['Vertex Facilities & Assets', 'Vertex HRM & Workforce', 'Vertex Procurement', 'Vertex Inventory & Warehouse', 'Vertex Workflows Engine']
@@ -58,7 +83,7 @@ export default function LandingPage() {
   const [formSubmitted, setFormSubmitted] = useState(false);
   const [submitting, setSubmitting] = useState(false);
 
-  // All Available 12 Modules
+  // All Available 12 Modules Catalog
   const standaloneModules = [
     {
       id: 'erp',
@@ -170,54 +195,57 @@ export default function LandingPage() {
     }
   ];
 
-  // Industry Presets Information
+  // Industry Sector Meta Details
   const industryPackages = {
     manufacturing: {
       title: 'Manufacturing & Plants',
       headline: 'Run the whole plant floor from one control plane',
       description: 'From raw-material intake to finished-goods dispatch, VOC Vertex synchronizes MRP, inventory and quality across every plant in real time.',
-      image: 'https://images.unsplash.com/photo-1717386255773-1e3037c81788?q=80&w=1200&auto=format&fit=crop'
+      image: 'https://images.unsplash.com/photo-1717386255773-1e3037c81788?q=80&w=1200&auto=format&fit=crop',
+      appRoute: '/industry/manufacturing'
     },
     infra: {
       title: 'Infra / EPC Construction',
       headline: 'Site execution, machinery, and sub-contractor control',
       description: 'Streamline heavy machinery allocation, inter-site material transfers, subcontractor work order clearances, and straight-line asset depreciation.',
-      image: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=1200&auto=format&fit=crop'
+      image: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=1200&auto=format&fit=crop',
+      appRoute: '/industry/infra'
     },
     facilities: {
       title: 'Facilities Management',
       headline: 'Multi-site asset maintenance, shift roster & SLAs',
       description: 'Track heavy scrubbing machinery, 200 bar jet washers, site staff rosters, mobile attendance, EPF/ESI statutory forms, and client SLAs.',
-      image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1200&auto=format&fit=crop'
+      image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1200&auto=format&fit=crop',
+      appRoute: '/industry/facilities'
     }
   };
 
   const currentIndustry = industryPackages[activeIndustryTab];
-  const activeModulesList = selectedBuilderModules[activeIndustryTab] || [];
+  const activeSectorModules = sectorModulesMap[activeIndustryTab] || [];
+  const activeSelectedList = selectedSectorModules[activeIndustryTab] || [];
 
-  const toggleModuleSelection = (moduleTitle: string) => {
-    setSelectedBuilderModules(prev => {
-      const currentList = prev[activeIndustryTab] || [];
-      const updatedList = currentList.includes(moduleTitle)
-        ? currentList.filter(m => m !== moduleTitle)
-        : [...currentList, moduleTitle];
-      return { ...prev, [activeIndustryTab]: updatedList };
+  const toggleSectorModule = (title: string) => {
+    setSelectedSectorModules(prev => {
+      const list = prev[activeIndustryTab] || [];
+      const updated = list.includes(title)
+        ? list.filter(t => t !== title)
+        : [...list, title];
+      return { ...prev, [activeIndustryTab]: updated };
     });
   };
 
-  const openQuoteModalForModule = (targetName: string, customMessage?: string) => {
+  const openQuoteModalForModule = (targetName: string, customMsg?: string) => {
     setQuoteTargetModule(targetName);
     setContactForm(prev => ({
       ...prev,
-      message: customMessage || `Requesting custom price quote & live demo for ${targetName}. Please email complete licensing proposal to my work email.`
+      message: customMsg || `Requesting custom price quote & live demo for ${targetName}. Please email complete licensing proposal to my work email.`
     }));
     setIsContactModalOpen(true);
   };
 
-  const openIndustryQuoteModal = () => {
-    const selectedListStr = activeModulesList.join(', ');
-    const msg = `Requesting custom price quote for ${currentIndustry.title} Package with the following selected modules:\n- ${activeModulesList.join('\n- ')}\n\nPlease provide itemized licensing proposal and rollout schedule.`;
-    openQuoteModalForModule(`${currentIndustry.title} (${activeModulesList.length} Modules)`, msg);
+  const openSectorQuoteModal = () => {
+    const msg = `Requesting custom price quote for ${currentIndustry.title} Package with the following selected modules:\n- ${activeSelectedList.join('\n- ')}\n\nPlease provide itemized licensing proposal and rollout schedule.`;
+    openQuoteModalForModule(`${currentIndustry.title} (${activeSelectedList.length} Modules)`, msg);
   };
 
   const handleContactSubmit = (e: React.FormEvent) => {
@@ -400,7 +428,7 @@ export default function LandingPage() {
         )}
       </header>
 
-      {/* 2. Hero Section - NO STATS displayed */}
+      {/* 2. Hero Section */}
       <main className="relative z-10">
         <div>
           <section className="relative overflow-hidden grid-lines">
@@ -446,7 +474,7 @@ export default function LandingPage() {
                 </div>
               </div>
 
-              {/* Hero Banner Image WITHOUT stats */}
+              {/* Hero Banner Image */}
               <div className="relative mt-16 md:mt-20 overflow-hidden rounded-3xl border border-slate-200 dark:border-slate-800 shadow-[0_50px_120px_-50px_rgba(15,23,42,0.5)]">
                 <div className="relative h-[38vh] md:h-[55vh] w-full overflow-hidden">
                   <img
@@ -480,7 +508,7 @@ export default function LandingPage() {
             </div>
           </section>
 
-          {/* 4. Industry Builder with Module Selection & Request for Quote */}
+          {/* 4. Configure Your Sector Package & Request Quote - Shows ONLY Sector Specific Modules */}
           <section id="industry-presets" className="max-w-7xl mx-auto px-6 md:px-10 py-24 md:py-32">
             <div className="max-w-2xl">
               <div>
@@ -519,18 +547,33 @@ export default function LandingPage() {
               ))}
             </div>
 
-            {/* Selected Industry Card with Interactive Module Builder */}
+            {/* Selected Industry Card with Sector-Specific Modules ONLY */}
             <div className="mt-10 grid gap-8 lg:grid-cols-12">
-              <div className="lg:col-span-5 relative overflow-hidden rounded-3xl border border-slate-200 dark:border-slate-800 shadow-lg">
+              <div className="lg:col-span-5 relative overflow-hidden rounded-3xl border border-slate-200 dark:border-slate-800 shadow-lg flex flex-col justify-between p-6 text-white min-h-[380px]">
                 <img
                   alt={currentIndustry.title}
-                  className="h-72 lg:h-full w-full object-cover transition-transform duration-500 hover:scale-105"
+                  className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 hover:scale-105"
                   src={currentIndustry.image}
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 to-transparent" />
-                <div className="absolute bottom-6 left-6 right-6">
-                  <p className="font-display text-2xl font-semibold text-white">{currentIndustry.title}</p>
-                  <p className="text-xs text-white/80 font-light mt-1">{currentIndustry.headline}</p>
+                <div className="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-950/40 to-transparent" />
+                
+                <div className="relative z-10">
+                  <span className="text-[10px] font-bold uppercase tracking-wider text-blue-300 bg-blue-600/60 px-3 py-1 rounded-full backdrop-blur-md border border-blue-400/30">
+                    {currentIndustry.title} Sector
+                  </span>
+                </div>
+
+                <div className="relative z-10 space-y-3">
+                  <h3 className="font-display text-2xl font-bold">{currentIndustry.headline}</h3>
+                  <p className="text-xs text-white/80 font-light leading-relaxed">{currentIndustry.description}</p>
+                  
+                  <Link
+                    href={currentIndustry.appRoute}
+                    className="inline-flex items-center gap-2 text-xs font-bold text-blue-400 hover:text-blue-300 transition-colors pt-2"
+                  >
+                    <span>Open Dedicated {currentIndustry.title} App</span>
+                    <ArrowRight className="w-3.5 h-3.5" />
+                  </Link>
                 </div>
               </div>
 
@@ -539,50 +582,56 @@ export default function LandingPage() {
                   <div className="flex items-center justify-between border-b border-slate-100 dark:border-slate-800 pb-4">
                     <div>
                       <h3 className="font-display text-xl font-semibold tracking-tight text-slate-900 dark:text-white">
-                        {currentIndustry.title} Module Builder
+                        {currentIndustry.title} Recommended Bundle
                       </h3>
-                      <p className="text-xs text-slate-500 font-light mt-0.5">Select modules to include in your custom quote</p>
+                      <p className="text-xs text-slate-500 font-light mt-0.5">Toggle specific modules for your custom quote</p>
                     </div>
                     <span className="px-3 py-1 rounded-full bg-blue-50 dark:bg-slate-800 text-blue-600 text-xs font-bold">
-                      {activeModulesList.length} Modules Selected
+                      {activeSelectedList.length} Selected
                     </span>
                   </div>
 
-                  {/* Module Checkbox Options */}
-                  <div className="mt-5 grid grid-cols-1 sm:grid-cols-2 gap-3 max-h-[300px] overflow-y-auto pr-1">
-                    {standaloneModules.map((mod) => {
-                      const isSelected = activeModulesList.includes(mod.title);
+                  {/* Sector-Specific Modules Checklist (Shows ONLY Relevant Modules for Active Industry) */}
+                  <div className="mt-5 space-y-3">
+                    {activeSectorModules.map((mod) => {
+                      const isSelected = activeSelectedList.includes(mod.title);
                       return (
                         <div
                           key={mod.id}
-                          onClick={() => toggleModuleSelection(mod.title)}
-                          className={`p-3 rounded-2xl border transition-all cursor-pointer flex items-center justify-between ${
+                          onClick={() => toggleSectorModule(mod.title)}
+                          className={`p-3.5 rounded-2xl border transition-all cursor-pointer flex items-center justify-between ${
                             isSelected
                               ? 'border-blue-600 bg-blue-50/60 dark:bg-slate-800/80 text-slate-900 dark:text-white shadow-xs'
                               : 'border-slate-200 dark:border-slate-800 text-slate-600 dark:text-slate-400 hover:border-slate-300'
                           }`}
                         >
-                          <div className="flex items-center gap-2.5">
+                          <div className="flex items-center gap-3">
                             <span className={isSelected ? 'text-blue-600' : 'text-slate-400'}>
-                              {isSelected ? <CheckSquare className="w-4 h-4 text-blue-600" /> : <Square className="w-4 h-4" />}
+                              {isSelected ? <CheckSquare className="w-5 h-5 text-blue-600" /> : <Square className="w-5 h-5" />}
                             </span>
-                            <span className="text-xs font-semibold line-clamp-1">{mod.title}</span>
+                            <div>
+                              <p className="text-xs font-bold text-slate-900 dark:text-white">{mod.title}</p>
+                              <p className="text-[11px] text-slate-500 font-light mt-0.5">{mod.subtitle}</p>
+                            </div>
                           </div>
+                          <span className={`text-[11px] font-bold ${isSelected ? 'text-blue-600' : 'text-slate-400'}`}>
+                            {isSelected ? '✓ Included' : '+ Select'}
+                          </span>
                         </div>
                       );
                     })}
                   </div>
                 </div>
 
-                {/* Request Quote Button */}
+                {/* Request Quote Button for Industry Bundle */}
                 <div className="pt-4 border-t border-slate-100 dark:border-slate-800 flex flex-wrap items-center justify-between gap-4">
                   <div>
-                    <p className="text-xs text-slate-500 font-light">Customized Bundle</p>
-                    <p className="text-sm font-bold text-slate-900 dark:text-white">{activeModulesList.length} Modules for {currentIndustry.title}</p>
+                    <p className="text-xs text-slate-500 font-light">Customized Package</p>
+                    <p className="text-sm font-bold text-slate-900 dark:text-white">{activeSelectedList.length} Modules for {currentIndustry.title}</p>
                   </div>
 
                   <button
-                    onClick={openIndustryQuoteModal}
+                    onClick={openSectorQuoteModal}
                     className="inline-flex items-center gap-2 rounded-full bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 text-xs font-bold transition-transform duration-300 hover:scale-[1.03] cursor-pointer shadow-lg"
                   >
                     <Mail className="w-4 h-4" />
@@ -732,7 +781,7 @@ export default function LandingPage() {
             <div>
               <span className="text-[10px] uppercase font-bold text-blue-600 tracking-wider">Enterprise Proposal</span>
               <h2 className="text-2xl font-bold text-slate-900 dark:text-white mt-1">Request Quote or Demo</h2>
-              <p className="text-xs text-slate-500 font-light mt-0.5">Target Module: <strong className="text-blue-600">{quoteTargetModule}</strong></p>
+              <p className="text-xs text-slate-500 font-light mt-0.5">Target Package: <strong className="text-blue-600">{quoteTargetModule}</strong></p>
             </div>
 
             {formSubmitted ? (
