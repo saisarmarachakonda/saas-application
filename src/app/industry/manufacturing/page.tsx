@@ -20,12 +20,24 @@ import {
   PackageCheck,
   ArrowRight,
   Workflow,
-  Check
+  Check,
+  CheckSquare,
+  Square,
+  Sparkles
 } from 'lucide-react';
 
 export default function ManufacturingIndustryApp() {
   const [requestSubmitted, setRequestSubmitted] = useState(false);
-  const [targetModuleForQuote, setTargetModuleForQuote] = useState('Manufacturing Full Suite');
+  const [targetModuleForQuote, setTargetModuleForQuote] = useState('Manufacturing Sector Package');
+  const [customMessage, setCustomMessage] = useState('');
+
+  // Selected Modules State for Interactive Manufacturing Module Selector
+  const [selectedModules, setSelectedModules] = useState<string[]>([
+    'MRP II & Capacity Scheduling',
+    'BOM & Work Orders',
+    'Plant Inventory & FIFO Valuation',
+    'Quality Control & Inspection'
+  ]);
 
   // Manufacturing Industry Specific Modules
   const manufacturingModules = [
@@ -99,6 +111,24 @@ export default function ManufacturingIndustryApp() {
     }
   ];
 
+  const toggleModuleSelection = (title: string) => {
+    setSelectedModules(prev =>
+      prev.includes(title) ? prev.filter(m => m !== title) : [...prev, title]
+    );
+  };
+
+  const handleRequestForSelectedModules = () => {
+    const listStr = selectedModules.join(', ');
+    setTargetModuleForQuote(`Manufacturing Suite (${selectedModules.length} Modules)`);
+    setCustomMessage(`Requesting custom price quote & live demo for Manufacturing Suite with the following selected modules:\n- ${selectedModules.join('\n- ')}\n\nPlease email itemized proposal & sandbox credentials.`);
+    
+    // Smooth scroll to form
+    const elem = document.getElementById('demo-request');
+    if (elem) {
+      elem.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <div className="min-h-screen bg-slate-50 dark:bg-[#070b12] text-slate-900 dark:text-slate-100 font-sans">
       {/* Top Header Navigation */}
@@ -123,13 +153,13 @@ export default function ManufacturingIndustryApp() {
             <Link href="/login" className="px-4 py-2 text-xs font-bold rounded-lg border border-slate-200 dark:border-slate-800 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">
               Portal Login
             </Link>
-            <a
-              href="#demo-request"
-              className="px-4 py-2 text-xs font-bold rounded-lg bg-blue-600 hover:bg-blue-700 text-white shadow-md transition-all flex items-center gap-1.5"
+            <button
+              onClick={handleRequestForSelectedModules}
+              className="px-4 py-2 text-xs font-bold rounded-lg bg-blue-600 hover:bg-blue-700 text-white shadow-md transition-all flex items-center gap-1.5 cursor-pointer"
             >
               <Mail className="w-3.5 h-3.5" />
-              <span>Request Industry Demo</span>
-            </a>
+              <span>Request Demo / Quote</span>
+            </button>
           </div>
         </div>
       </header>
@@ -145,111 +175,156 @@ export default function ManufacturingIndustryApp() {
               Manufacturing &amp; Plant Floor Suite
             </h1>
             <p className="text-sm md:text-base text-slate-300 font-light leading-relaxed">
-              Synchronize raw-material intake, bill of materials (BOM), MRP II capacity scheduling, finished goods warehousing, and automated 3-way match procurement.
+              Select the manufacturing modules required for your plant floor, customize your package, and request an itemized price quote or live demo.
             </p>
             <div className="flex flex-wrap gap-4 pt-2">
-              <a
-                href="#manufacturing-modules"
-                className="px-6 py-3 rounded-xl bg-white text-slate-900 font-bold text-xs shadow-lg transition-transform hover:scale-105 flex items-center gap-2"
-              >
-                <span>Explore Manufacturing Modules</span>
-                <ArrowRight className="w-4 h-4" />
-              </a>
-              <a
-                href="#demo-request"
-                className="px-6 py-3 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-bold text-xs shadow-lg transition-transform hover:scale-105 flex items-center gap-2"
+              <button
+                onClick={handleRequestForSelectedModules}
+                className="px-6 py-3 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-bold text-xs shadow-lg transition-transform hover:scale-105 flex items-center gap-2 cursor-pointer"
               >
                 <Mail className="w-4 h-4" />
-                <span>Request Custom Plant Proposal</span>
+                <span>Request Quote for {selectedModules.length} Selected Modules</span>
+              </button>
+              <a
+                href="#manufacturing-modules"
+                className="px-6 py-3 rounded-xl bg-white/10 hover:bg-white/20 text-white font-bold text-xs shadow-lg transition-all flex items-center gap-2"
+              >
+                <span>Select Modules Below</span>
+                <ArrowRight className="w-4 h-4" />
               </a>
             </div>
           </div>
         </div>
 
-        {/* Industry Specific Modules Catalog - NO STATS displayed */}
-        <div id="manufacturing-modules" className="space-y-6">
-          <div className="max-w-xl space-y-2">
-            <span className="text-[10px] uppercase font-bold text-blue-500 tracking-wider">Modular Architecture</span>
-            <h2 className="text-2xl font-bold text-slate-900 dark:text-white">Manufacturing Sector Modules</h2>
-            <p className="text-xs text-slate-500 font-light">Integrated operational modules purpose-built for high-volume manufacturing plants.</p>
+        {/* Interactive Module Selection Control Bar */}
+        <div id="manufacturing-modules" className="glass-card p-6 rounded-3xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 shadow-md space-y-4">
+          <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-slate-100 dark:border-slate-800 pb-4">
+            <div>
+              <span className="text-[10px] uppercase font-bold text-blue-500 tracking-wider">Module Configurator</span>
+              <h2 className="text-2xl font-bold text-slate-900 dark:text-white">Select Manufacturing Modules for Quote</h2>
+              <p className="text-xs text-slate-500 font-light mt-0.5">Click modules to toggle inclusion in your custom proposal request</p>
+            </div>
+            <div className="flex items-center gap-3">
+              <span className="px-3 py-1.5 rounded-full bg-blue-50 dark:bg-slate-800 text-blue-600 text-xs font-bold">
+                {selectedModules.length} of {manufacturingModules.length} Selected
+              </span>
+              <button
+                onClick={handleRequestForSelectedModules}
+                className="px-5 py-2 bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs rounded-xl shadow-md cursor-pointer transition-all flex items-center gap-1.5"
+              >
+                <Mail className="w-3.5 h-3.5" />
+                <span>Request Quote &amp; Demo</span>
+              </button>
+            </div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {manufacturingModules.map((mod) => (
-              <div
-                key={mod.id}
-                className="glass-card p-6 rounded-3xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 shadow-sm flex flex-col justify-between hover:border-blue-500/50 transition-all duration-300"
-              >
-                <div>
-                  <div className="flex items-center justify-between mb-4">
-                    <div className="p-3 rounded-2xl bg-slate-100 dark:bg-slate-800">
-                      {mod.icon}
+          {/* Module Cards Grid with Checkboxes */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 pt-2">
+            {manufacturingModules.map((mod) => {
+              const isSelected = selectedModules.includes(mod.title);
+              return (
+                <div
+                  key={mod.id}
+                  onClick={() => toggleModuleSelection(mod.title)}
+                  className={`glass-card p-6 rounded-3xl border transition-all duration-300 flex flex-col justify-between cursor-pointer ${
+                    isSelected
+                      ? 'border-blue-600 bg-blue-50/40 dark:bg-slate-800/80 shadow-md'
+                      : 'border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 hover:border-slate-300'
+                  }`}
+                >
+                  <div>
+                    <div className="flex items-center justify-between mb-4">
+                      <div className="p-3 rounded-2xl bg-slate-100 dark:bg-slate-800">
+                        {mod.icon}
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <span className="text-[10px] font-bold uppercase tracking-wider text-slate-400 bg-slate-100 dark:bg-slate-800 px-2.5 py-1 rounded-full">
+                          {mod.category}
+                        </span>
+                        <button
+                          type="button"
+                          className={`p-1 rounded-lg transition-colors ${isSelected ? 'text-blue-600' : 'text-slate-400'}`}
+                        >
+                          {isSelected ? <CheckSquare className="w-5 h-5 text-blue-600" /> : <Square className="w-5 h-5" />}
+                        </button>
+                      </div>
                     </div>
-                    <span className="text-[10px] font-bold uppercase tracking-wider text-slate-400 bg-slate-100 dark:bg-slate-800 px-2.5 py-1 rounded-full">
-                      {mod.category}
-                    </span>
+
+                    <h3 className="text-base font-bold text-slate-900 dark:text-white flex items-center gap-2">
+                      <span>{mod.title}</span>
+                    </h3>
+                    <p className="text-xs text-slate-500 dark:text-slate-400 font-light mt-2 leading-relaxed">{mod.description}</p>
+
+                    <ul className="mt-4 space-y-1.5">
+                      {mod.features.map((feat, fidx) => (
+                        <li key={fidx} className="flex items-start gap-2 text-[11px] text-slate-600 dark:text-slate-300 font-light">
+                          <Check className={`w-3.5 h-3.5 shrink-0 mt-0.5 ${isSelected ? 'text-blue-600 font-bold' : 'text-slate-400'}`} />
+                          <span>{feat}</span>
+                        </li>
+                      ))}
+                    </ul>
                   </div>
 
-                  <h3 className="text-base font-bold text-slate-900 dark:text-white">{mod.title}</h3>
-                  <p className="text-xs text-slate-500 dark:text-slate-400 font-light mt-2 leading-relaxed">{mod.description}</p>
-
-                  <ul className="mt-4 space-y-1.5">
-                    {mod.features.map((feat, fidx) => (
-                      <li key={fidx} className="flex items-start gap-2 text-[11px] text-slate-600 dark:text-slate-300 font-light">
-                        <Check className="w-3.5 h-3.5 text-blue-500 shrink-0 mt-0.5" />
-                        <span>{feat}</span>
-                      </li>
-                    ))}
-                  </ul>
+                  <div className="mt-6 pt-4 border-t border-slate-100 dark:border-slate-800 flex items-center justify-between">
+                    <span className={`text-xs font-bold ${isSelected ? 'text-blue-600' : 'text-slate-400'}`}>
+                      {isSelected ? '✓ Included in Request' : '+ Click to Select'}
+                    </span>
+                    <button
+                      type="button"
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        if (!isSelected) toggleModuleSelection(mod.title);
+                        handleRequestForSelectedModules();
+                      }}
+                      className="px-3 py-1.5 rounded-lg bg-blue-600 text-white text-[11px] font-bold hover:bg-blue-700 transition-colors"
+                    >
+                      Request Quote
+                    </button>
+                  </div>
                 </div>
-
-                <div className="mt-6 pt-4 border-t border-slate-100 dark:border-slate-800">
-                  <a
-                    href="#demo-request"
-                    onClick={() => setTargetModuleForQuote(mod.title)}
-                    className="w-full py-2.5 rounded-xl bg-blue-50 dark:bg-slate-800 hover:bg-blue-600 text-blue-600 hover:text-white transition-all text-xs font-bold flex items-center justify-center gap-2 cursor-pointer"
-                  >
-                    <Mail className="w-4 h-4" />
-                    <span>Request Quote &amp; Demo</span>
-                  </a>
-                </div>
-              </div>
-            ))}
+              );
+            })}
           </div>
         </div>
 
-        {/* Demo Request Form */}
+        {/* Demo & Quote Request Form */}
         <div id="demo-request" className="glass-card p-8 rounded-3xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 shadow-xl space-y-6">
           <div className="max-w-xl space-y-2">
-            <span className="text-[10px] uppercase font-bold text-blue-500 tracking-wider">Schedule Evaluation</span>
-            <h2 className="text-2xl font-bold text-slate-900 dark:text-white">Request Manufacturing Suite Demo</h2>
+            <span className="text-[10px] uppercase font-bold text-blue-500 tracking-wider">Enterprise Proposal</span>
+            <h2 className="text-2xl font-bold text-slate-900 dark:text-white">Request Demo or Quote</h2>
             <p className="text-xs text-slate-500 font-light">
-              Target Module: <strong className="text-blue-500">{targetModuleForQuote}</strong>. Fill out your details to receive an itemized manufacturing proposal &amp; sandbox credentials.
+              Target Package: <strong className="text-blue-600">{targetModuleForQuote}</strong>. Fill out your details below to receive an itemized manufacturing quote &amp; demo login.
             </p>
           </div>
 
           {requestSubmitted ? (
             <div className="p-4 bg-emerald-500/10 border border-emerald-500/20 text-emerald-600 rounded-2xl text-xs font-semibold flex items-center gap-2">
               <CheckCircle2 className="w-5 h-5 text-emerald-500 shrink-0" />
-              <span>Thank you! Your manufacturing demo request has been submitted. Our engineering team will email you within 2 hours.</span>
+              <span>Thank you! Your quote request for {selectedModules.length} manufacturing modules has been submitted. Our team will email your itemized proposal shortly.</span>
             </div>
           ) : (
             <form onSubmit={(e) => { e.preventDefault(); setRequestSubmitted(true); }} className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div>
                 <label className="block text-[10px] font-bold uppercase text-slate-500 mb-1">Full Name</label>
-                <input required placeholder="Plant Operations Manager" className="w-full p-3 rounded-xl border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-950 text-xs outline-none focus:border-blue-500" />
+                <input required placeholder="Plant Operations Manager" className="w-full p-3 rounded-xl border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-950 text-xs outline-none focus:border-blue-600 dark:text-white" />
               </div>
               <div>
                 <label className="block text-[10px] font-bold uppercase text-slate-500 mb-1">Work Email</label>
-                <input required type="email" placeholder="manager@plant.com" className="w-full p-3 rounded-xl border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-950 text-xs outline-none focus:border-blue-500" />
+                <input required type="email" placeholder="manager@plant.com" className="w-full p-3 rounded-xl border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-950 text-xs outline-none focus:border-blue-600 dark:text-white" />
               </div>
               <div className="md:col-span-2">
-                <label className="block text-[10px] font-bold uppercase text-slate-500 mb-1">Plant Location / Manufacturing Scope</label>
-                <textarea rows={3} placeholder={`Describe number of plants, manufacturing lines, or specific requirements for ${targetModuleForQuote}...`} className="w-full p-3 rounded-xl border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-950 text-xs outline-none focus:border-blue-500" />
+                <label className="block text-[10px] font-bold uppercase text-slate-500 mb-1">Selected Manufacturing Modules &amp; Scope</label>
+                <textarea
+                  rows={4}
+                  value={customMessage || `Requesting custom price quote for Manufacturing Suite with ${selectedModules.length} selected modules:\n- ${selectedModules.join('\n- ')}`}
+                  onChange={(e) => setCustomMessage(e.target.value)}
+                  placeholder="Describe your plant locations, number of lines, or specific integration requirements..."
+                  className="w-full p-3 rounded-xl border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-950 text-xs outline-none focus:border-blue-600 dark:text-white"
+                />
               </div>
               <div className="md:col-span-2">
                 <button type="submit" className="w-full py-3 bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs rounded-xl shadow-md cursor-pointer transition-all">
-                  Submit Manufacturing Demo Request
+                  Submit Quote &amp; Demo Request ({selectedModules.length} Modules)
                 </button>
               </div>
             </form>
