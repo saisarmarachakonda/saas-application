@@ -25,9 +25,10 @@ import {
   Menu,
   X,
   CheckCircle2,
-  LogIn,
   Handshake,
-  Layers
+  CheckSquare,
+  Square,
+  Sparkles
 } from 'lucide-react';
 
 export default function LandingPage() {
@@ -37,9 +38,16 @@ export default function LandingPage() {
   // Industry Preset Switcher State
   const [activeIndustryTab, setActiveIndustryTab] = useState<'manufacturing' | 'infra' | 'facilities'>('manufacturing');
 
+  // Interactive Module Selection State for Industry Builder
+  const [selectedBuilderModules, setSelectedBuilderModules] = useState<{ [key: string]: string[] }>({
+    manufacturing: ['Vertex ERP', 'Vertex Inventory & Warehouse', 'Vertex Procurement', 'Vertex Master Data Hub', 'Vertex Finance & Accounts'],
+    infra: ['Vertex Facilities & Assets', 'Vertex ERP', 'Vertex Procurement', 'Vertex Workflows Engine', 'Vertex Finance & Accounts'],
+    facilities: ['Vertex Facilities & Assets', 'Vertex HRM & Workforce', 'Vertex Procurement', 'Vertex Inventory & Warehouse', 'Vertex Workflows Engine']
+  });
+
   // Interactive Quote / Demo Modal State
   const [isContactModalOpen, setIsContactModalOpen] = useState(false);
-  const [quoteTargetModule, setQuoteTargetModule] = useState<string>('All Modules Bundle');
+  const [quoteTargetModule, setQuoteTargetModule] = useState<string>('Custom Industry Package');
   const [contactForm, setContactForm] = useState({
     name: '',
     email: '',
@@ -50,64 +58,7 @@ export default function LandingPage() {
   const [formSubmitted, setFormSubmitted] = useState(false);
   const [submitting, setSubmitting] = useState(false);
 
-  const openQuoteModalForModule = (moduleTitle: string) => {
-    setQuoteTargetModule(moduleTitle);
-    setContactForm(prev => ({
-      ...prev,
-      message: `Requesting custom price quote & live demo for ${moduleTitle}. Please email complete licensing proposal to my work email.`
-    }));
-    setIsContactModalOpen(true);
-  };
-
-  const handleContactSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    setSubmitting(true);
-    setTimeout(() => {
-      setSubmitting(false);
-      setFormSubmitted(true);
-    }, 800);
-  };
-
-  const resetContactForm = () => {
-    setFormSubmitted(false);
-    setContactForm({
-      name: '',
-      email: '',
-      company: '',
-      industry: 'Manufacturing',
-      message: ''
-    });
-  };
-
-  // Industry Presets Data
-  const industryPackages = {
-    manufacturing: {
-      title: 'Manufacturing & Plants',
-      headline: 'Run the whole plant floor from one control plane',
-      description: 'From raw-material intake to finished-goods dispatch, VOC Vertex synchronizes MRP, inventory and quality across every plant in real time.',
-      image: 'https://images.unsplash.com/photo-1717386255773-1e3037c81788?q=80&w=1200&auto=format&fit=crop',
-      modules: ['ERP', 'Inventory & Warehouse', 'Procurement', 'Master Data', 'Finance & Accounts', 'AI Copilot'],
-      exploreLink: '/industry/manufacturing'
-    },
-    infra: {
-      title: 'Infra / EPC Construction',
-      headline: 'Site execution, machinery, and sub-contractor control',
-      description: 'Streamline heavy machinery allocation, inter-site material transfers, subcontractor work order clearances, and straight-line asset depreciation.',
-      image: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=1200&auto=format&fit=crop',
-      modules: ['Facilities & Assets', 'ERP', 'Procurement', 'Workflows', 'Finance & Accounts', 'Master Data'],
-      exploreLink: '/industry/infra'
-    },
-    facilities: {
-      title: 'Facilities Management',
-      headline: 'Multi-site asset maintenance, shift roster & SLAs',
-      description: 'Track heavy scrubbing machinery, 200 bar jet washers, site staff rosters, mobile attendance, EPF/ESI statutory forms, and client SLAs.',
-      image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1200&auto=format&fit=crop',
-      modules: ['Facilities & Assets', 'HRM & Workforce', 'Procurement', 'Inventory Depots', 'Finance & Accounts', 'Workflows'],
-      exploreLink: '/industry/facilities'
-    }
-  };
-
-  // 12 Standalone Modules Catalog
+  // All Available 12 Modules
   const standaloneModules = [
     {
       id: 'erp',
@@ -219,7 +170,75 @@ export default function LandingPage() {
     }
   ];
 
+  // Industry Presets Information
+  const industryPackages = {
+    manufacturing: {
+      title: 'Manufacturing & Plants',
+      headline: 'Run the whole plant floor from one control plane',
+      description: 'From raw-material intake to finished-goods dispatch, VOC Vertex synchronizes MRP, inventory and quality across every plant in real time.',
+      image: 'https://images.unsplash.com/photo-1717386255773-1e3037c81788?q=80&w=1200&auto=format&fit=crop'
+    },
+    infra: {
+      title: 'Infra / EPC Construction',
+      headline: 'Site execution, machinery, and sub-contractor control',
+      description: 'Streamline heavy machinery allocation, inter-site material transfers, subcontractor work order clearances, and straight-line asset depreciation.',
+      image: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=1200&auto=format&fit=crop'
+    },
+    facilities: {
+      title: 'Facilities Management',
+      headline: 'Multi-site asset maintenance, shift roster & SLAs',
+      description: 'Track heavy scrubbing machinery, 200 bar jet washers, site staff rosters, mobile attendance, EPF/ESI statutory forms, and client SLAs.',
+      image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1200&auto=format&fit=crop'
+    }
+  };
+
   const currentIndustry = industryPackages[activeIndustryTab];
+  const activeModulesList = selectedBuilderModules[activeIndustryTab] || [];
+
+  const toggleModuleSelection = (moduleTitle: string) => {
+    setSelectedBuilderModules(prev => {
+      const currentList = prev[activeIndustryTab] || [];
+      const updatedList = currentList.includes(moduleTitle)
+        ? currentList.filter(m => m !== moduleTitle)
+        : [...currentList, moduleTitle];
+      return { ...prev, [activeIndustryTab]: updatedList };
+    });
+  };
+
+  const openQuoteModalForModule = (targetName: string, customMessage?: string) => {
+    setQuoteTargetModule(targetName);
+    setContactForm(prev => ({
+      ...prev,
+      message: customMessage || `Requesting custom price quote & live demo for ${targetName}. Please email complete licensing proposal to my work email.`
+    }));
+    setIsContactModalOpen(true);
+  };
+
+  const openIndustryQuoteModal = () => {
+    const selectedListStr = activeModulesList.join(', ');
+    const msg = `Requesting custom price quote for ${currentIndustry.title} Package with the following selected modules:\n- ${activeModulesList.join('\n- ')}\n\nPlease provide itemized licensing proposal and rollout schedule.`;
+    openQuoteModalForModule(`${currentIndustry.title} (${activeModulesList.length} Modules)`, msg);
+  };
+
+  const handleContactSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    setSubmitting(true);
+    setTimeout(() => {
+      setSubmitting(false);
+      setFormSubmitted(true);
+    }, 800);
+  };
+
+  const resetContactForm = () => {
+    setFormSubmitted(false);
+    setContactForm({
+      name: '',
+      email: '',
+      company: '',
+      industry: 'Manufacturing',
+      message: ''
+    });
+  };
 
   return (
     <div className="App relative min-h-screen bg-[#fcfcfd] dark:bg-[#070b12] text-slate-900 dark:text-slate-100 font-sans selection:bg-blue-600 selection:text-white overflow-x-hidden">
@@ -349,7 +368,7 @@ export default function LandingPage() {
               </Link>
 
               <button
-                onClick={() => openQuoteModalForModule('Enterprise Proposal')}
+                onClick={() => openQuoteModalForModule('Enterprise Get Started')}
                 className="inline-flex items-center gap-2 rounded-full bg-slate-900 dark:bg-slate-100 text-white dark:text-slate-900 px-5 py-2.5 text-sm font-semibold transition-transform duration-300 hover:scale-[1.03] cursor-pointer shadow-md"
               >
                 <span>Get started</span>
@@ -381,7 +400,7 @@ export default function LandingPage() {
         )}
       </header>
 
-      {/* 2. Hero Section */}
+      {/* 2. Hero Section - NO STATS displayed */}
       <main className="relative z-10">
         <div>
           <section className="relative overflow-hidden grid-lines">
@@ -427,34 +446,19 @@ export default function LandingPage() {
                 </div>
               </div>
 
-              {/* Hero Image Banner with Stats */}
+              {/* Hero Banner Image WITHOUT stats */}
               <div className="relative mt-16 md:mt-20 overflow-hidden rounded-3xl border border-slate-200 dark:border-slate-800 shadow-[0_50px_120px_-50px_rgba(15,23,42,0.5)]">
-                <div className="relative h-[42vh] md:h-[62vh] w-full overflow-hidden">
+                <div className="relative h-[38vh] md:h-[55vh] w-full overflow-hidden">
                   <img
                     alt="Industrial operations"
                     className="absolute inset-0 h-[120%] w-full object-cover"
                     src="https://images.unsplash.com/photo-1717386255773-1e3037c81788?q=80&w=1600&auto=format&fit=crop"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-slate-950/20 to-transparent" />
-                  <div className="absolute bottom-6 left-6 right-6 md:bottom-10 md:left-10 md:right-10 flex flex-wrap items-end justify-between gap-6">
-                    <div className="max-w-md">
+                  <div className="absolute bottom-6 left-6 right-6 md:bottom-10 md:left-10 md:right-10 flex items-end justify-between gap-6">
+                    <div>
                       <p className="font-display text-2xl md:text-3xl font-semibold text-white tracking-tight">One platform. Every operation.</p>
                       <p className="mt-2 text-sm text-white/80 font-light">Manufacturing · Infrastructure &amp; EPC · Facilities Management</p>
-                    </div>
-
-                    <div className="flex gap-8 border-t md:border-t-0 border-white/20 pt-4 md:pt-0">
-                      <div>
-                        <p className="font-display text-3xl font-semibold text-white">12</p>
-                        <p className="text-xs uppercase tracking-widest text-white/70 font-light">Modules</p>
-                      </div>
-                      <div>
-                        <p className="font-display text-3xl font-semibold text-white">3</p>
-                        <p className="text-xs uppercase tracking-widest text-white/70 font-light">Industry packages</p>
-                      </div>
-                      <div>
-                        <p className="font-display text-3xl font-semibold text-white">99.9%</p>
-                        <p className="text-xs uppercase tracking-widest text-white/70 font-light">Uptime SLA</p>
-                      </div>
                     </div>
                   </div>
                 </div>
@@ -476,20 +480,20 @@ export default function LandingPage() {
             </div>
           </section>
 
-          {/* 4. Dynamic Industry Presets Switcher */}
+          {/* 4. Industry Builder with Module Selection & Request for Quote */}
           <section id="industry-presets" className="max-w-7xl mx-auto px-6 md:px-10 py-24 md:py-32">
             <div className="max-w-2xl">
               <div>
                 <span className="inline-flex items-center gap-2 text-xs uppercase tracking-[0.2em] font-semibold text-red-600 dark:text-red-400">
                   <span className="h-px w-6 bg-red-600/50" />
-                  Dynamic Industry Presets
+                  Dynamic Industry Builder
                 </span>
               </div>
               <h2 className="mt-5 font-display text-4xl md:text-5xl font-semibold tracking-tight text-slate-900 dark:text-white">
-                Modular applications, tailored sector workflows
+                Configure your sector package &amp; request quote
               </h2>
-              <p className="mt-5 text-lg text-slate-600 dark:text-slate-300 font-light">
-                Select an industry to inspect how Vertex modules adapt their metrics, roles and registers.
+              <p className="mt-4 text-lg text-slate-600 dark:text-slate-300 font-light">
+                Select an industry sector, customize the module bundle required for your operations, and instantly submit a request for an itemized quote.
               </p>
             </div>
 
@@ -515,7 +519,7 @@ export default function LandingPage() {
               ))}
             </div>
 
-            {/* Selected Industry Card */}
+            {/* Selected Industry Card with Interactive Module Builder */}
             <div className="mt-10 grid gap-8 lg:grid-cols-12">
               <div className="lg:col-span-5 relative overflow-hidden rounded-3xl border border-slate-200 dark:border-slate-800 shadow-lg">
                 <img
@@ -524,39 +528,66 @@ export default function LandingPage() {
                   src={currentIndustry.image}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 to-transparent" />
-                <div className="absolute bottom-6 left-6">
+                <div className="absolute bottom-6 left-6 right-6">
                   <p className="font-display text-2xl font-semibold text-white">{currentIndustry.title}</p>
+                  <p className="text-xs text-white/80 font-light mt-1">{currentIndustry.headline}</p>
                 </div>
               </div>
 
-              <div className="lg:col-span-7 rounded-3xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 p-8 md:p-10 shadow-sm flex flex-col justify-between">
+              <div className="lg:col-span-7 rounded-3xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 p-8 md:p-10 shadow-sm flex flex-col justify-between space-y-6">
                 <div>
-                  <h3 className="font-display text-2xl md:text-3xl font-semibold tracking-tight text-slate-900 dark:text-white">
-                    {currentIndustry.headline}
-                  </h3>
-                  <p className="mt-4 text-slate-600 dark:text-slate-300 font-light leading-relaxed">
-                    {currentIndustry.description}
-                  </p>
+                  <div className="flex items-center justify-between border-b border-slate-100 dark:border-slate-800 pb-4">
+                    <div>
+                      <h3 className="font-display text-xl font-semibold tracking-tight text-slate-900 dark:text-white">
+                        {currentIndustry.title} Module Builder
+                      </h3>
+                      <p className="text-xs text-slate-500 font-light mt-0.5">Select modules to include in your custom quote</p>
+                    </div>
+                    <span className="px-3 py-1 rounded-full bg-blue-50 dark:bg-slate-800 text-blue-600 text-xs font-bold">
+                      {activeModulesList.length} Modules Selected
+                    </span>
+                  </div>
 
-                  <p className="mt-8 text-xs uppercase tracking-[0.2em] font-semibold text-slate-400">Recommended package</p>
-                  <div className="mt-4 flex flex-wrap gap-2">
-                    {currentIndustry.modules.map((mod, idx) => (
-                      <span key={idx} className="inline-flex items-center gap-1.5 rounded-full bg-blue-50 dark:bg-slate-800 px-3 py-1.5 text-xs font-semibold text-blue-600 dark:text-blue-400">
-                        <Check className="h-3.5 w-3.5 text-blue-600" />
-                        <span>{mod}</span>
-                      </span>
-                    ))}
+                  {/* Module Checkbox Options */}
+                  <div className="mt-5 grid grid-cols-1 sm:grid-cols-2 gap-3 max-h-[300px] overflow-y-auto pr-1">
+                    {standaloneModules.map((mod) => {
+                      const isSelected = activeModulesList.includes(mod.title);
+                      return (
+                        <div
+                          key={mod.id}
+                          onClick={() => toggleModuleSelection(mod.title)}
+                          className={`p-3 rounded-2xl border transition-all cursor-pointer flex items-center justify-between ${
+                            isSelected
+                              ? 'border-blue-600 bg-blue-50/60 dark:bg-slate-800/80 text-slate-900 dark:text-white shadow-xs'
+                              : 'border-slate-200 dark:border-slate-800 text-slate-600 dark:text-slate-400 hover:border-slate-300'
+                          }`}
+                        >
+                          <div className="flex items-center gap-2.5">
+                            <span className={isSelected ? 'text-blue-600' : 'text-slate-400'}>
+                              {isSelected ? <CheckSquare className="w-4 h-4 text-blue-600" /> : <Square className="w-4 h-4" />}
+                            </span>
+                            <span className="text-xs font-semibold line-clamp-1">{mod.title}</span>
+                          </div>
+                        </div>
+                      );
+                    })}
                   </div>
                 </div>
 
-                <div className="mt-9">
-                  <Link
-                    href={currentIndustry.exploreLink}
-                    className="inline-flex items-center gap-2 rounded-full bg-slate-900 dark:bg-slate-100 text-white dark:text-slate-900 px-6 py-3 text-sm font-semibold transition-transform duration-300 hover:scale-[1.03] cursor-pointer shadow-md"
+                {/* Request Quote Button */}
+                <div className="pt-4 border-t border-slate-100 dark:border-slate-800 flex flex-wrap items-center justify-between gap-4">
+                  <div>
+                    <p className="text-xs text-slate-500 font-light">Customized Bundle</p>
+                    <p className="text-sm font-bold text-slate-900 dark:text-white">{activeModulesList.length} Modules for {currentIndustry.title}</p>
+                  </div>
+
+                  <button
+                    onClick={openIndustryQuoteModal}
+                    className="inline-flex items-center gap-2 rounded-full bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 text-xs font-bold transition-transform duration-300 hover:scale-[1.03] cursor-pointer shadow-lg"
                   >
-                    <span>Explore the {currentIndustry.title} package</span>
-                    <ArrowRight className="h-4 w-4" />
-                  </Link>
+                    <Mail className="w-4 h-4" />
+                    <span>Request Quote for Selected Modules</span>
+                  </button>
                 </div>
               </div>
             </div>
@@ -746,9 +777,9 @@ export default function LandingPage() {
                 </div>
 
                 <div>
-                  <label className="block text-[10px] font-bold uppercase text-slate-500 mb-1">Custom Message / Scale</label>
+                  <label className="block text-[10px] font-bold uppercase text-slate-500 mb-1">Custom Message / Selected Modules</label>
                   <textarea
-                    rows={3}
+                    rows={4}
                     value={contactForm.message}
                     onChange={e => setContactForm({ ...contactForm, message: e.target.value })}
                     placeholder="Mention specific user licenses, plant locations, or integration requirements..."
@@ -795,23 +826,22 @@ export default function LandingPage() {
               <div>
                 <p className="uppercase tracking-[0.2em] font-semibold text-slate-500">Modules</p>
                 <ul className="mt-4 space-y-2.5 font-light">
-                  <li><Link className="hover:text-white transition-colors" href="/erp">ERP</Link></li>
-                  <li><Link className="hover:text-white transition-colors" href="/crm">CRM &amp; Bidding</Link></li>
-                  <li><Link className="hover:text-white transition-colors" href="/hrm">HRM &amp; Workforce</Link></li>
-                  <li><Link className="hover:text-white transition-colors" href="/procurement">Procurement</Link></li>
-                  <li><Link className="hover:text-white transition-colors" href="/inventory">Inventory &amp; Warehouse</Link></li>
-                  <li><Link className="hover:text-white transition-colors" href="/finance">Finance &amp; Accounts</Link></li>
+                  <li><button onClick={() => openQuoteModalForModule('Vertex ERP')} className="hover:text-white transition-colors text-left cursor-pointer">ERP</button></li>
+                  <li><button onClick={() => openQuoteModalForModule('Vertex CRM & Bidding')} className="hover:text-white transition-colors text-left cursor-pointer">CRM &amp; Bidding</button></li>
+                  <li><button onClick={() => openQuoteModalForModule('Vertex HRM & Workforce')} className="hover:text-white transition-colors text-left cursor-pointer">HRM &amp; Workforce</button></li>
+                  <li><button onClick={() => openQuoteModalForModule('Vertex Procurement')} className="hover:text-white transition-colors text-left cursor-pointer">Procurement</button></li>
+                  <li><button onClick={() => openQuoteModalForModule('Vertex Inventory & Warehouse')} className="hover:text-white transition-colors text-left cursor-pointer">Inventory &amp; Warehouse</button></li>
+                  <li><button onClick={() => openQuoteModalForModule('Vertex Finance & Accounts')} className="hover:text-white transition-colors text-left cursor-pointer">Finance &amp; Accounts</button></li>
                 </ul>
               </div>
 
               <div>
                 <p className="uppercase tracking-[0.2em] font-semibold text-slate-500">More modules</p>
                 <ul className="mt-4 space-y-2.5 font-light">
-                  <li><Link className="hover:text-white transition-colors" href="/master-data">Master Data</Link></li>
-                  <li><Link className="hover:text-white transition-colors" href="/site-iq">Project &amp; Site IQ</Link></li>
-                  <li><Link className="hover:text-white transition-colors" href="/workflows">Workflow Automation</Link></li>
-                  <li><Link className="hover:text-white transition-colors" href="/admin">Platform Admin</Link></li>
-                  <li><Link className="hover:text-white transition-colors" href="/settings">Settings &amp; Billing</Link></li>
+                  <li><button onClick={() => openQuoteModalForModule('Vertex Master Data Hub')} className="hover:text-white transition-colors text-left cursor-pointer">Master Data</button></li>
+                  <li><button onClick={() => openQuoteModalForModule('Vertex Site IQ')} className="hover:text-white transition-colors text-left cursor-pointer">Project &amp; Site IQ</button></li>
+                  <li><button onClick={() => openQuoteModalForModule('Vertex Workflows Engine')} className="hover:text-white transition-colors text-left cursor-pointer">Workflow Automation</button></li>
+                  <li><button onClick={() => openQuoteModalForModule('Vertex Platform Admin')} className="hover:text-white transition-colors text-left cursor-pointer">Platform Admin</button></li>
                 </ul>
               </div>
 
