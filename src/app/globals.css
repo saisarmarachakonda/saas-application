@@ -2,6 +2,7 @@
 @variant dark (&:where(.dark, .dark *));
 
 @theme {
+  --spacing: 0.25rem;
   --font-sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", "SF Pro", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   --color-indigo-50: #f2f7ff;
   --color-indigo-100: #e3efff;
