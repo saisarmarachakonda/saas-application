@@ -273,7 +273,7 @@ export default function DecoupledAppLayout({
         {/* Sidebar Brand */}
         <div className="h-16 flex items-center justify-between px-4 border-b border-slate-200/60 dark:border-zinc-900/60">
           <div className="flex items-center gap-2.5 overflow-hidden">
-            <img src="/logo.png" alt="VOC VERTEX" className="h-7 object-contain shrink-0" />
+            <img src="/logo.png" alt="VOC VERTEX" className="h-9 md:h-10 object-contain shrink-0" />
             {sidebarOpen && (
               <span className="font-extrabold text-xs tracking-wider uppercase truncate text-slate-800 dark:text-white">
                 {app.replace('-', ' ')}

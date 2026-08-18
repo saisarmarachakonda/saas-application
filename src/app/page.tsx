@@ -276,7 +276,7 @@ export default function LandingPage() {
         <div className="max-w-7xl mx-auto px-6 md:px-10">
           <div className="h-[72px] flex items-center justify-between gap-8">
             <Link className="flex items-center shrink-0" href="/">
-              <img alt="VOC Vertex" className="h-9 w-auto object-contain" src="/logo.png" />
+              <img alt="VOC Vertex" className="h-11 md:h-12 w-auto object-contain" src="/logo.png" />
             </Link>
 
             {/* Desktop Navigation */}
@@ -854,8 +854,8 @@ export default function LandingPage() {
         <div className="max-w-7xl mx-auto px-6 md:px-10 py-20">
           <div className="grid gap-12 lg:grid-cols-12">
             <div className="lg:col-span-4 space-y-6">
-              <div className="inline-flex items-center rounded-xl bg-white px-3 py-2">
-                <img alt="VOC Vertex" className="h-7 w-auto object-contain" src="/logo.png" />
+              <div className="inline-flex items-center rounded-xl bg-white px-3.5 py-2.5">
+                <img alt="VOC Vertex" className="h-9 md:h-10 w-auto object-contain" src="/logo.png" />
               </div>
               <p className="max-w-sm text-sm leading-relaxed text-slate-400 font-light">
                 The vertex of enterprise modularity. Deploy standalone business applications or an industry-tailored package on one intelligent operations platform.

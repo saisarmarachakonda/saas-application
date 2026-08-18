@@ -258,7 +258,7 @@ export default function PricingPage() {
       <header className="fixed top-0 inset-x-0 z-50 transition-[background-color,border-color,backdrop-filter] duration-300 bg-white/90 dark:bg-[#070b12]/90 backdrop-blur-xl border-b border-slate-200/80 dark:border-slate-800/80">
         <div className="max-w-7xl mx-auto px-6 md:px-10 h-[72px] flex items-center justify-between gap-8">
           <Link href="/" className="flex items-center shrink-0 group">
-            <img src="/logo.png" alt="VOC Vertex" className="h-9 w-auto object-contain transition-transform group-hover:scale-105" />
+            <img src="/logo.png" alt="VOC Vertex" className="h-11 md:h-12 w-auto object-contain transition-transform group-hover:scale-105" />
           </Link>
 
           {/* Desktop Navigation */}
