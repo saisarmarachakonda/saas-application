@@ -101,3 +101,9 @@ body {
   -webkit-backdrop-filter: blur(20px);
   border: 1px solid var(--border-card);
 }
+
+@media (min-width: 48rem) {
+  .md\:h-12 {
+    height: calc(var(--spacing) * 8);
+  }
+}
