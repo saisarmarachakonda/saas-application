@@ -6,25 +6,18 @@ import {
   Factory,
   Boxes,
   ShoppingCart,
-  Database,
   Landmark,
-  Bot,
   ArrowLeft,
   Mail,
   CheckCircle2,
-  Sliders,
-  FileSpreadsheet,
-  Activity,
-  Layers,
   ShieldCheck,
   PackageCheck,
   ArrowRight,
-  Workflow,
   Check,
   CheckSquare,
-  Square,
-  Sparkles
+  Square
 } from 'lucide-react';
+import StandardFooter from '@/components/Footer';
 
 export default function ManufacturingIndustryApp() {
   const [requestSubmitted, setRequestSubmitted] = useState(false);
@@ -33,7 +26,7 @@ export default function ManufacturingIndustryApp() {
 
   // Selected Modules State for Interactive Manufacturing Module Selector
   const [selectedModules, setSelectedModules] = useState<string[]>([
-    'MRP II & Capacity Scheduling',
+    'OPS Core & Capacity Scheduling',
     'BOM & Work Orders',
     'Plant Inventory & FIFO Valuation',
     'Quality Control & Inspection'
@@ -42,8 +35,8 @@ export default function ManufacturingIndustryApp() {
   // Manufacturing Industry Specific Modules
   const manufacturingModules = [
     {
-      id: 'mrp-capacity',
-      title: 'MRP II & Capacity Scheduling',
+      id: 'ops-core-capacity',
+      title: 'OPS Core & Capacity Scheduling',
       category: 'Production Planning',
       description: 'Multi-plant production scheduling, capacity load balancing, work-center routing, and shift line allocations.',
       features: [
@@ -118,11 +111,9 @@ export default function ManufacturingIndustryApp() {
   };
 
   const handleRequestForSelectedModules = () => {
-    const listStr = selectedModules.join(', ');
     setTargetModuleForQuote(`Manufacturing Suite (${selectedModules.length} Modules)`);
     setCustomMessage(`Requesting custom price quote & live demo for Manufacturing Suite with the following selected modules:\n- ${selectedModules.join('\n- ')}\n\nPlease email itemized proposal & sandbox credentials.`);
     
-    // Smooth scroll to form
     const elem = document.getElementById('demo-request');
     if (elem) {
       elem.scrollIntoView({ behavior: 'smooth' });
@@ -130,27 +121,34 @@ export default function ManufacturingIndustryApp() {
   };
 
   return (
-    <div className="min-h-screen bg-slate-50 dark:bg-[#070b12] text-slate-900 dark:text-slate-100 font-sans">
+    <div className="min-h-screen bg-[#fcfcfd] text-slate-900 font-sans selection:bg-blue-600 selection:text-white">
       {/* Top Header Navigation */}
-      <header className="border-b border-slate-200 dark:border-slate-800 bg-white/90 dark:bg-[#070b12]/90 backdrop-blur-xl sticky top-0 z-50">
+      <header className="border-b border-slate-200 bg-white/90 backdrop-blur-xl sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
-          <div className="flex items-center gap-3">
-            <Link href="/" className="p-2 rounded-lg bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 transition-colors">
-              <ArrowLeft className="w-4 h-4 text-slate-700 dark:text-slate-300" />
+          <div className="flex items-center gap-4">
+            <Link href="/" className="p-2 rounded-lg bg-slate-100 hover:bg-slate-200 transition-colors">
+              <ArrowLeft className="w-4 h-4 text-slate-700" />
             </Link>
+
+            <Link href="/" className="text-xs font-semibold text-slate-700 hover:text-blue-600 transition-colors">
+              Home
+            </Link>
+
+            <span className="text-slate-300">|</span>
+
             <div className="flex items-center gap-2">
-              <div className="p-2 rounded-xl bg-blue-500/10 text-blue-500">
+              <div className="p-2 rounded-xl bg-blue-500/10 text-blue-600">
                 <Factory className="w-5 h-5" />
               </div>
               <div>
-                <h1 className="text-sm font-bold text-slate-900 dark:text-white">Manufacturing &amp; Plant Operations</h1>
-                <p className="text-[11px] text-slate-500 font-light">MRP II, Plant Floor Capacity &amp; Quality Control</p>
+                <h1 className="text-sm font-bold text-slate-900">Manufacturing &amp; Plant Operations</h1>
+                <p className="text-[11px] text-slate-500 font-light">OPS Core, Plant Floor Capacity &amp; Quality Control</p>
               </div>
             </div>
           </div>
 
           <div className="flex items-center gap-3">
-            <Link href="/login" className="px-4 py-2 text-xs font-bold rounded-lg border border-slate-200 dark:border-slate-800 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">
+            <Link href="/login" className="px-4 py-2 text-xs font-bold rounded-lg border border-slate-200 hover:bg-slate-100 transition-colors">
               Portal Login
             </Link>
             <button
@@ -197,15 +195,15 @@ export default function ManufacturingIndustryApp() {
         </div>
 
         {/* Interactive Module Selection Control Bar */}
-        <div id="manufacturing-modules" className="glass-card p-6 rounded-3xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 shadow-md space-y-4">
-          <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-slate-100 dark:border-slate-800 pb-4">
+        <div id="manufacturing-modules" className="glass-card p-6 rounded-3xl border border-slate-200 bg-white shadow-md space-y-4">
+          <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-slate-100 pb-4">
             <div>
-              <span className="text-[10px] uppercase font-bold text-blue-500 tracking-wider">Module Configurator</span>
-              <h2 className="text-2xl font-bold text-slate-900 dark:text-white">Select Manufacturing Modules for Quote</h2>
+              <span className="text-[10px] uppercase font-bold text-blue-600 tracking-wider">Module Configurator</span>
+              <h2 className="text-2xl font-bold text-slate-900">Select Manufacturing Modules for Quote</h2>
               <p className="text-xs text-slate-500 font-light mt-0.5">Click modules to toggle inclusion in your custom proposal request</p>
             </div>
             <div className="flex items-center gap-3">
-              <span className="px-3 py-1.5 rounded-full bg-blue-50 dark:bg-slate-800 text-blue-600 text-xs font-bold">
+              <span className="px-3 py-1.5 rounded-full bg-blue-50 text-blue-600 text-xs font-bold">
                 {selectedModules.length} of {manufacturingModules.length} Selected
               </span>
               <button
@@ -228,17 +226,17 @@ export default function ManufacturingIndustryApp() {
                   onClick={() => toggleModuleSelection(mod.title)}
                   className={`glass-card p-6 rounded-3xl border transition-all duration-300 flex flex-col justify-between cursor-pointer ${
                     isSelected
-                      ? 'border-blue-600 bg-blue-50/40 dark:bg-slate-800/80 shadow-md'
-                      : 'border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 hover:border-slate-300'
+                      ? 'border-blue-600 bg-blue-50/40 shadow-md'
+                      : 'border-slate-200 bg-white hover:border-slate-300'
                   }`}
                 >
                   <div>
                     <div className="flex items-center justify-between mb-4">
-                      <div className="p-3 rounded-2xl bg-slate-100 dark:bg-slate-800">
+                      <div className="p-3 rounded-2xl bg-slate-100">
                         {mod.icon}
                       </div>
                       <div className="flex items-center gap-2">
-                        <span className="text-[10px] font-bold uppercase tracking-wider text-slate-400 bg-slate-100 dark:bg-slate-800 px-2.5 py-1 rounded-full">
+                        <span className="text-[10px] font-bold uppercase tracking-wider text-slate-400 bg-slate-100 px-2.5 py-1 rounded-full">
                           {mod.category}
                         </span>
                         <button
@@ -250,14 +248,14 @@ export default function ManufacturingIndustryApp() {
                       </div>
                     </div>
 
-                    <h3 className="text-base font-bold text-slate-900 dark:text-white flex items-center gap-2">
+                    <h3 className="text-base font-bold text-slate-900 flex items-center gap-2">
                       <span>{mod.title}</span>
                     </h3>
-                    <p className="text-xs text-slate-500 dark:text-slate-400 font-light mt-2 leading-relaxed">{mod.description}</p>
+                    <p className="text-xs text-slate-500 font-light mt-2 leading-relaxed">{mod.description}</p>
 
                     <ul className="mt-4 space-y-1.5">
                       {mod.features.map((feat, fidx) => (
-                        <li key={fidx} className="flex items-start gap-2 text-[11px] text-slate-600 dark:text-slate-300 font-light">
+                        <li key={fidx} className="flex items-start gap-2 text-[11px] text-slate-600 font-light">
                           <Check className={`w-3.5 h-3.5 shrink-0 mt-0.5 ${isSelected ? 'text-blue-600 font-bold' : 'text-slate-400'}`} />
                           <span>{feat}</span>
                         </li>
@@ -265,7 +263,7 @@ export default function ManufacturingIndustryApp() {
                     </ul>
                   </div>
 
-                  <div className="mt-6 pt-4 border-t border-slate-100 dark:border-slate-800 flex items-center justify-between">
+                  <div className="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between">
                     <span className={`text-xs font-bold ${isSelected ? 'text-blue-600' : 'text-slate-400'}`}>
                       {isSelected ? '✓ Included in Request' : '+ Click to Select'}
                     </span>
@@ -288,10 +286,10 @@ export default function ManufacturingIndustryApp() {
         </div>
 
         {/* Demo & Quote Request Form */}
-        <div id="demo-request" className="glass-card p-8 rounded-3xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 shadow-xl space-y-6">
+        <div id="demo-request" className="glass-card p-8 rounded-3xl border border-slate-200 bg-white shadow-xl space-y-6">
           <div className="max-w-xl space-y-2">
-            <span className="text-[10px] uppercase font-bold text-blue-500 tracking-wider">Enterprise Proposal</span>
-            <h2 className="text-2xl font-bold text-slate-900 dark:text-white">Request Demo or Quote</h2>
+            <span className="text-[10px] uppercase font-bold text-blue-600 tracking-wider">Enterprise Proposal</span>
+            <h2 className="text-2xl font-bold text-slate-900">Request Demo or Quote</h2>
             <p className="text-xs text-slate-500 font-light">
               Target Package: <strong className="text-blue-600">{targetModuleForQuote}</strong>. Fill out your details below to receive an itemized manufacturing quote &amp; demo login.
             </p>
@@ -306,11 +304,11 @@ export default function ManufacturingIndustryApp() {
             <form onSubmit={(e) => { e.preventDefault(); setRequestSubmitted(true); }} className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div>
                 <label className="block text-[10px] font-bold uppercase text-slate-500 mb-1">Full Name</label>
-                <input required placeholder="Plant Operations Manager" className="w-full p-3 rounded-xl border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-950 text-xs outline-none focus:border-blue-600 dark:text-white" />
+                <input required placeholder="Plant Operations Manager" className="w-full p-3 rounded-xl border border-slate-200 bg-slate-50 text-xs outline-none focus:border-blue-600" />
               </div>
               <div>
                 <label className="block text-[10px] font-bold uppercase text-slate-500 mb-1">Work Email</label>
-                <input required type="email" placeholder="manager@plant.com" className="w-full p-3 rounded-xl border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-950 text-xs outline-none focus:border-blue-600 dark:text-white" />
+                <input required type="email" placeholder="manager@plant.com" className="w-full p-3 rounded-xl border border-slate-200 bg-slate-50 text-xs outline-none focus:border-blue-600" />
               </div>
               <div className="md:col-span-2">
                 <label className="block text-[10px] font-bold uppercase text-slate-500 mb-1">Selected Manufacturing Modules &amp; Scope</label>
@@ -319,7 +317,7 @@ export default function ManufacturingIndustryApp() {
                   value={customMessage || `Requesting custom price quote for Manufacturing Suite with ${selectedModules.length} selected modules:\n- ${selectedModules.join('\n- ')}`}
                   onChange={(e) => setCustomMessage(e.target.value)}
                   placeholder="Describe your plant locations, number of lines, or specific integration requirements..."
-                  className="w-full p-3 rounded-xl border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-950 text-xs outline-none focus:border-blue-600 dark:text-white"
+                  className="w-full p-3 rounded-xl border border-slate-200 bg-slate-50 text-xs outline-none focus:border-blue-600"
                 />
               </div>
               <div className="md:col-span-2">
@@ -331,6 +329,9 @@ export default function ManufacturingIndustryApp() {
           )}
         </div>
       </main>
+
+      {/* Standardized Footer */}
+      <StandardFooter />
     </div>
   );
 }

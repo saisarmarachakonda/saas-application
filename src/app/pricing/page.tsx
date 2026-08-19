@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
+import StandardFooter from '@/components/Footer';
 import { useTheme } from '@/components/ThemeProvider';
 import {
   Building2,
@@ -123,10 +124,10 @@ export default function PricingPage() {
   // 12 Standalone Modules Catalog (Without Generic Numbers)
   const standaloneModules = [
     {
-      id: 'erp',
-      title: 'Vertex ERP',
-      subtitle: 'MRP II & Capacity Planning',
-      description: 'MRP II scheduling, multi-plant capacity utilization and cost-center ledgers with full audit exports.',
+      id: 'ops-core',
+      title: 'Vertex OPS Core',
+      subtitle: 'OPS Core & Capacity Planning',
+      description: 'Capacity scheduling, multi-plant line utilization and cost-center ledgers with full audit exports.',
       link: '/erp',
       features: ['Multi-plant production scheduling', 'Capacity & load balancing', 'Cost-center ledgers & PDF audits'],
       icon: <Factory className="w-5 h-5 text-brand-blue" />
@@ -263,44 +264,32 @@ export default function PricingPage() {
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center gap-2 relative">
-            <Link href="/" className="px-4 py-2.5 rounded-full text-sm font-semibold text-slate-700 dark:text-slate-300 hover:text-brand-blue hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">
+            <Link href="/" className="px-4 py-2.5 rounded-full text-sm font-semibold text-slate-700 hover:text-brand-blue hover:bg-slate-100 transition-colors">
               Home
             </Link>
             
-            <Link href="/#modules" className="px-4 py-2.5 rounded-full text-sm font-semibold text-slate-700 dark:text-slate-300 hover:text-brand-blue hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">
+            <Link href="/#modules" className="px-4 py-2.5 rounded-full text-sm font-semibold text-slate-700 hover:text-brand-blue hover:bg-slate-100 transition-colors">
               Modules
             </Link>
 
-            <Link href="/#industry-presets" className="px-4 py-2.5 rounded-full text-sm font-semibold text-slate-700 dark:text-slate-300 hover:text-brand-blue hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">
+            <Link href="/#industry-presets" className="px-4 py-2.5 rounded-full text-sm font-semibold text-slate-700 hover:text-brand-blue hover:bg-slate-100 transition-colors">
               Industries
             </Link>
 
-            <Link href="/pricing" className="px-4 py-2.5 rounded-full text-sm font-bold text-brand-blue bg-blue-50 dark:bg-slate-800 transition-colors">
+            <Link href="/pricing" className="px-4 py-2.5 rounded-full text-sm font-bold text-brand-blue bg-blue-50 transition-colors">
               Pricing
             </Link>
 
-            <Link href="/#architecture" className="px-4 py-2.5 rounded-full text-sm font-semibold text-slate-700 dark:text-slate-300 hover:text-brand-blue hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">
-              Architecture
-            </Link>
-
-            <Link href="/#contact" className="px-4 py-2.5 rounded-full text-sm font-semibold text-slate-700 dark:text-slate-300 hover:text-brand-blue hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">
+            <Link href="/#contact" className="px-4 py-2.5 rounded-full text-sm font-semibold text-slate-700 hover:text-brand-blue hover:bg-slate-100 transition-colors">
               Contact Us
             </Link>
           </nav>
 
           {/* Nav Right Actions */}
           <div className="hidden lg:flex items-center gap-4">
-            <button
-              onClick={toggleTheme}
-              className="p-2.5 rounded-full text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-pointer"
-              aria-label="Toggle theme"
-            >
-              {theme === 'dark' ? <Sun className="w-4 h-4" /> : <Moon className="w-4 h-4" />}
-            </button>
-
             <Link
               href="/login"
-              className="inline-flex items-center gap-1.5 text-sm font-semibold text-slate-700 dark:text-slate-300 hover:text-brand-blue transition-colors px-3 py-2"
+              className="inline-flex items-center gap-1.5 text-sm font-semibold text-slate-700 hover:text-brand-blue transition-colors px-3 py-2"
             >
               <LogIn className="w-4 h-4" />
               <span>Log in</span>
@@ -562,17 +551,8 @@ export default function PricingPage() {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="border-t border-slate-200 dark:border-slate-800/80 bg-slate-100 dark:bg-[#070b12] py-12 px-6 md:px-10 text-xs text-slate-500 dark:text-slate-400">
-        <div className="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-4 text-[10px]">
-          <p>© 2026 VOC ERP Systems, Inc. All rights reserved.</p>
-          <div className="flex gap-4 font-semibold">
-            <Link href="/" className="hover:underline">Home</Link>
-            <Link href="/pricing" className="hover:underline">Pricing</Link>
-            <Link href="/login" className="hover:underline">Portal Sign In</Link>
-          </div>
-        </div>
-      </footer>
+      {/* Standardized Footer */}
+      <StandardFooter />
 
       {/* Floating Quote & Contact Modal */}
       {isContactModalOpen && (
