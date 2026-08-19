@@ -68,12 +68,6 @@ export default function DecoupledAppLoginForm({
     }
   };
 
-  const selectSimulationProfile = (name: string, mail: string) => {
-    setEmail(mail);
-    setPassword('Password123');
-    setError('');
-  };
-
   return (
     <div className="min-h-screen flex items-center justify-center bg-[#fcfcfd] px-4 relative overflow-hidden font-sans">
       <div className="w-full max-w-md z-10">
@@ -160,30 +154,6 @@ export default function DecoupledAppLoginForm({
             </button>
           </form>
 
-          {/* Quick Simulation Profile Pre-fill */}
-          <div className="mt-6 pt-5 border-t border-slate-100 space-y-2">
-            <p className="text-[10px] font-bold uppercase tracking-wider text-slate-400 text-center">
-              Quick Login Presets
-            </p>
-            <div className="grid grid-cols-2 gap-2">
-              <button
-                type="button"
-                onClick={() => selectSimulationProfile('Plant Lead', `plant.lead@${app.toLowerCase()}.com`)}
-                className="p-2 rounded-lg border border-slate-200 bg-slate-50 hover:bg-slate-100 text-left text-[11px] transition-colors"
-              >
-                <p className="font-bold text-slate-800">Plant Admin</p>
-                <p className="text-[10px] text-slate-400 font-light truncate">plant.lead@{app.toLowerCase()}.com</p>
-              </button>
-              <button
-                type="button"
-                onClick={() => selectSimulationProfile('Site Engineer', `engineer@${app.toLowerCase()}.com`)}
-                className="p-2 rounded-lg border border-slate-200 bg-slate-50 hover:bg-slate-100 text-left text-[11px] transition-colors"
-              >
-                <p className="font-bold text-slate-800">Site Engineer</p>
-                <p className="text-[10px] text-slate-400 font-light truncate">engineer@{app.toLowerCase()}.com</p>
-              </button>
-            </div>
-          </div>
         </div>
 
         <div className="mt-6 text-center">

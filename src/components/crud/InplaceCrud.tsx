@@ -211,6 +211,20 @@ export default function InplaceCrud({
     return String(val);
   };
 
+  // Pagination State
+  const [currentPage, setCurrentPage] = useState(1);
+  const [itemsPerPage, setItemsPerPage] = useState(25);
+
+  const totalPages = Math.max(1, Math.ceil(filteredData.length / itemsPerPage));
+  const paginatedData = filteredData.slice(
+    (currentPage - 1) * itemsPerPage,
+    currentPage * itemsPerPage
+  );
+
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [activeTab, searchQuery]);
+
   return (
     <div className="space-y-6">
       {/* 1. Sub-tabs Navigation */}
@@ -239,28 +253,23 @@ export default function InplaceCrud({
           <Search className="absolute left-3 top-2.5 w-4 h-4 text-slate-400" />
           <input
             type="text"
+            placeholder={`Filter ${currentConfig.label.toLowerCase()}...`}
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
-            placeholder={`Search ${currentConfig.label}...`}
-            className="w-full pl-10 pr-4 py-2 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-850 rounded-lg text-xs focus:outline-none focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/10 transition-all"
+            className="w-full pl-9 pr-4 py-2 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl text-xs text-slate-800 dark:text-slate-200 focus:outline-none focus:border-indigo-500 transition-colors"
           />
         </div>
 
-        {/* Add and Refresh button */}
-        <div className="flex gap-2">
-          <button
-            onClick={fetchData}
-            className="p-2 border border-slate-200 dark:border-slate-850 hover:bg-slate-100 dark:hover:bg-slate-850 rounded-lg text-slate-500 dark:text-slate-400 transition-colors"
-            title="Refresh database"
-          >
-            <RefreshCw className={`w-4 h-4 ${loading ? 'animate-spin' : ''}`} />
-          </button>
+        <div className="flex items-center gap-3">
+          <span className="text-xs font-semibold text-slate-500">
+            {filteredData.length} Total Records
+          </span>
           <button
             onClick={() => openFormModal()}
-            className="px-4 py-2 bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-bold uppercase tracking-wider rounded-lg transition-colors flex items-center gap-1.5 shadow-sm shadow-indigo-600/10 hover:scale-[1.01] active:scale-[0.99]"
+            className="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs rounded-xl shadow-sm transition-all flex items-center gap-1.5 cursor-pointer"
           >
             <Plus className="w-4 h-4" />
-            <span>Create Record</span>
+            <span>Create {currentConfig.label.slice(0, -1)}</span>
           </button>
         </div>
       </div>
@@ -279,43 +288,42 @@ export default function InplaceCrud({
         </div>
       )}
 
-      {/* 2. Glassmorphic Data Table */}
-      <div className="glass-card border border-slate-200 dark:border-slate-850 rounded-xl overflow-hidden shadow-xs">
+      {/* Main Table Card */}
+      <div className="bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm overflow-hidden">
         <div className="overflow-x-auto">
-          <table className="w-full text-left text-xs border-collapse">
+          <table className="w-full text-left border-collapse text-xs">
             <thead>
-              <tr className="border-b border-slate-200 dark:border-slate-850 bg-slate-100/50 dark:bg-slate-900/30 text-slate-500 dark:text-slate-455 font-bold uppercase tracking-wider">
+              <tr className="border-b border-slate-200 dark:border-slate-800 bg-slate-50/50 dark:bg-slate-950/40 text-slate-500 dark:text-slate-400 font-bold uppercase text-[10px] tracking-wider">
                 {currentConfig.columns.map(col => {
-                  const matchingField = currentConfig.fields.find(f => f.name === col);
+                  const field = currentConfig.fields.find(f => f.name === col);
                   return (
-                    <th key={col} className="px-4 py-3.5 font-bold">
-                      {matchingField ? matchingField.label : col}
+                    <th key={col} className="px-4 py-3">
+                      {field ? field.label : col}
                     </th>
                   );
                 })}
-                <th className="px-4 py-3.5 text-right font-bold">Actions</th>
+                <th className="px-4 py-3 text-right">Actions</th>
               </tr>
             </thead>
-            <tbody>
+            <tbody className="divide-y divide-slate-200/60 dark:divide-slate-800/60 text-slate-600 dark:text-slate-300">
               {loading ? (
                 <tr>
-                  <td colSpan={currentConfig.columns.length + 1} className="text-center py-10">
-                    <Loader2 className="w-6 h-6 animate-spin text-indigo-500 mx-auto" />
-                    <p className="text-[10px] text-slate-400 mt-2">Loading logs...</p>
+                  <td colSpan={currentConfig.columns.length + 1} className="py-12 text-center text-slate-400">
+                    <div className="flex items-center justify-center gap-2">
+                      <Loader2 className="w-4 h-4 animate-spin text-indigo-500" />
+                      <span>Loading dataset records...</span>
+                    </div>
                   </td>
                 </tr>
-              ) : filteredData.length === 0 ? (
+              ) : paginatedData.length === 0 ? (
                 <tr>
-                  <td colSpan={currentConfig.columns.length + 1} className="text-center py-10 text-slate-400 font-light">
+                  <td colSpan={currentConfig.columns.length + 1} className="py-12 text-center text-slate-400 font-light">
                     No matching records found in database.
                   </td>
                 </tr>
               ) : (
-                filteredData.map((item, idx) => (
-                  <tr
-                    key={item.id || idx}
-                    className="border-b border-slate-200/55 dark:border-slate-850/60 hover:bg-slate-100/30 dark:hover:bg-slate-900/10 transition-all font-light"
-                  >
+                paginatedData.map((item, idx) => (
+                  <tr key={item.id || idx} className="hover:bg-slate-50/50 dark:hover:bg-slate-800/40 transition-colors">
                     {currentConfig.columns.map(col => {
                       const field = currentConfig.fields.find(f => f.name === col);
                       const displayVal = field ? resolveDisplayValue(field, item[col]) : String(item[col] || '');
@@ -336,11 +344,11 @@ export default function InplaceCrud({
                       if (col.toLowerCase().includes('status') || col.toLowerCase() === 'type') {
                         let colorClass = 'bg-slate-150 text-slate-700 dark:bg-slate-800/80 dark:text-slate-350 border-slate-250';
                         const lowerVal = displayVal.toLowerCase();
-                        if (['approved', 'processed', 'reconciled', 'passed', 'delivered', 'active', 'true', 'completed', 'verified'].includes(lowerVal)) {
+                        if (['approved', 'processed', 'reconciled', 'passed', 'delivered', 'active', 'true', 'completed', 'verified', 'won'].includes(lowerVal)) {
                           colorClass = 'bg-emerald-500/10 text-emerald-600 dark:text-emerald-450 border border-emerald-500/20';
-                        } else if (['pending', 'sent', 'draft', 'transit', 'planning', 'tracked', 'in progress', 'processing', 'pending approval'].includes(lowerVal)) {
+                        } else if (['pending', 'sent', 'draft', 'transit', 'planning', 'tracked', 'in progress', 'processing', 'pending approval', 'discovery', 'proposal', 'negotiation'].includes(lowerVal)) {
                           colorClass = 'bg-amber-500/10 text-amber-600 dark:text-amber-455 border border-amber-500/20';
-                        } else if (['rejected', 'failed', 'delayed', 'low stock', 'false'].includes(lowerVal)) {
+                        } else if (['rejected', 'failed', 'delayed', 'low stock', 'false', 'lost'].includes(lowerVal)) {
                           colorClass = 'bg-rose-500/10 text-rose-600 dark:text-rose-455 border border-rose-500/20';
                         }
 
@@ -385,6 +393,33 @@ export default function InplaceCrud({
               )}
             </tbody>
           </table>
+        </div>
+
+        {/* Table Footer with Pagination Controls */}
+        <div className="p-4 border-t border-slate-200 dark:border-slate-800 bg-slate-50/50 dark:bg-slate-950/20 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
+          <div>
+            Showing <strong className="text-slate-800 dark:text-slate-200">{filteredData.length > 0 ? (currentPage - 1) * itemsPerPage + 1 : 0}</strong> to <strong className="text-slate-800 dark:text-slate-200">{Math.min(currentPage * itemsPerPage, filteredData.length)}</strong> of <strong className="text-slate-800 dark:text-slate-200">{filteredData.length}</strong> entries
+          </div>
+
+          <div className="flex items-center gap-2">
+            <button
+              onClick={() => setCurrentPage(p => Math.max(1, p - 1))}
+              disabled={currentPage === 1}
+              className="px-3 py-1.5 rounded-lg border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 disabled:opacity-40 text-slate-700 dark:text-slate-300 font-semibold cursor-pointer hover:bg-slate-50 transition-colors"
+            >
+              Previous
+            </button>
+            <span className="font-semibold text-slate-700 dark:text-slate-300">
+              Page {currentPage} of {totalPages}
+            </span>
+            <button
+              onClick={() => setCurrentPage(p => Math.min(totalPages, p + 1))}
+              disabled={currentPage >= totalPages}
+              className="px-3 py-1.5 rounded-lg border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 disabled:opacity-40 text-slate-700 dark:text-slate-300 font-semibold cursor-pointer hover:bg-slate-50 transition-colors"
+            >
+              Next
+            </button>
+          </div>
         </div>
       </div>
 

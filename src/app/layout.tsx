@@ -14,9 +14,17 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "VOC Infra | Modular Enterprise Business Applications",
-  description: "VOC Infra provides decoupled, industry-tailored business applications including HRM, CRM, Procurement, Inventory, Finance, Master Data, and AI Copilot for enterprise verticals.",
-  keywords: ["Modular Applications", "Enterprise SaaS", "HRM", "CRM", "Procurement", "Inventory", "Industry Modules", "Decoupled SaaS"],
+  title: "VOC Vertex | Enterprise Modular Operations Platform",
+  description: "VOC Vertex provides decoupled, industry-tailored enterprise modules including Vertex OPS Core, CRM & Bidding, HRM & Workforce, Procurement, Inventory, Finance, and Site IQ Telemetry.",
+  keywords: ["Modular Enterprise Applications", "VOC Vertex", "Vertex OPS Core", "HRM", "CRM", "Procurement", "Inventory", "Facilities Management"],
+  icons: {
+    icon: [
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/logo.png", type: "image/png" },
+    ],
+    shortcut: "/favicon.svg",
+    apple: "/logo.png",
+  },
 };
 
 export default function RootLayout({
