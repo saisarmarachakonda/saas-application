@@ -12,7 +12,7 @@ interface NavItem {
 
 const defaultNavs: NavItem[] = [
   { name: 'HRM & Personnel', path: '/hrm' },
-  { name: 'ERP Engine', path: '/erp' },
+  { name: 'Vertex Ops Core', path: '/ops' },
   { name: 'CRM & Bidding', path: '/crm' },
   { name: 'Procurement', path: '/procurement' },
 ];

@@ -229,6 +229,7 @@ export default function DecoupledAppLayout({
           { name: 'Automation Logs', path: `${base}/logs`, icon: <History className="w-5 h-5" /> }
         );
         break;
+      case 'ops':
       case 'erp':
         links.push(
           { name: 'Ops Work Orders', path: `${base}/work-orders`, icon: <Factory className="w-5 h-5" /> },
@@ -360,7 +361,7 @@ export default function DecoupledAppLayout({
             {/* Simulated Online Status */}
             <div className="flex items-center gap-2 px-3 py-1.5 rounded-xl bg-emerald-500/10 border border-emerald-500/20 text-emerald-600 dark:text-emerald-500 text-[10px] font-bold uppercase tracking-wider">
               <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
-              <span>Mock-Db Active</span>
+              <span>System Online</span>
             </div>
           </div>
         </header>

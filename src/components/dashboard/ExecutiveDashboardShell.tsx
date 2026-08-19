@@ -56,11 +56,11 @@ export default function ExecutiveDashboardShell({
       badge: '759 Active Employees'
     },
     {
-      id: 'erp',
-      title: 'ERP & MRP II Dashboard',
+      id: 'ops',
+      title: 'Vertex Ops Core Dashboard',
       subtitle: 'Work Orders & Capacity Planning',
-      description: '364 production work orders, MRP II material allocation, multi-plant capacity scheduling, and cost center ledgers.',
-      link: '/erp',
+      description: '364 production work orders, MRP material allocation, multi-plant capacity scheduling, and cost center ledgers.',
+      link: '/ops',
       icon: <Layers className="w-6 h-6 text-indigo-500" />,
       color: 'indigo',
       badge: '364 Work Orders'

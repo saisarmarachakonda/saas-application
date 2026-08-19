@@ -298,13 +298,13 @@ export default function LandingPage() {
                     <a
                       key={mod.id}
                       href={`#module-${mod.id}`}
-                      className="flex items-start gap-3 p-3 rounded-2xl hover:bg-blue-50/80 transition-colors text-left group/item cursor-pointer"
+                      className="flex items-start gap-3 p-3 rounded-2xl hover:bg-slate-100/80 transition-colors text-left group/item cursor-pointer"
                     >
-                      <div className="p-2.5 rounded-xl bg-blue-50 text-blue-600 shrink-0 group-hover/item:bg-blue-600 group-hover/item:text-white transition-colors">
+                      <div className="p-2.5 rounded-xl bg-slate-100 text-slate-800 shrink-0 group-hover/item:bg-slate-900 group-hover/item:text-white transition-colors">
                         {mod.icon}
                       </div>
                       <div>
-                        <p className="text-xs font-bold text-slate-900 group-hover/item:text-blue-600 transition-colors">
+                        <p className="text-xs font-bold text-slate-900 group-hover/item:text-slate-900 transition-colors">
                           {mod.title}
                         </p>
                         <p className="text-[11px] text-slate-500 font-light mt-0.5 line-clamp-1">
@@ -320,7 +320,7 @@ export default function LandingPage() {
               <div className="relative group">
                 <a
                   href="#industry-presets"
-                  className="group inline-flex items-center gap-1 px-4 py-2 rounded-full text-sm font-semibold transition-colors text-slate-700 hover:text-blue-600 cursor-pointer"
+                  className="group inline-flex items-center gap-1 px-4 py-2 rounded-full text-sm font-semibold transition-colors text-slate-700 hover:text-slate-900 cursor-pointer"
                 >
                   <span>Industries</span>
                   <ChevronDown className="h-3.5 w-3.5 transition-transform duration-300 group-hover:rotate-180 text-slate-400" />
@@ -330,13 +330,13 @@ export default function LandingPage() {
                   <a
                     href="#industry-presets"
                     onClick={() => setActiveIndustryTab('manufacturing')}
-                    className="flex items-start gap-3.5 p-3 rounded-2xl hover:bg-blue-50/80 transition-colors group/ind"
+                    className="flex items-start gap-3.5 p-3 rounded-2xl hover:bg-slate-100/80 transition-colors group/ind"
                   >
-                    <div className="p-2.5 rounded-xl bg-blue-50 text-blue-600 shrink-0 group-hover/ind:bg-blue-600 group-hover/ind:text-white transition-colors">
+                    <div className="p-2.5 rounded-xl bg-slate-100 text-slate-800 shrink-0 group-hover/ind:bg-slate-900 group-hover/ind:text-white transition-colors">
                       <Factory className="w-5 h-5" />
                     </div>
                     <div>
-                      <p className="text-xs font-bold text-slate-900 group-hover/ind:text-blue-600 transition-colors">
+                      <p className="text-xs font-bold text-slate-900 group-hover/ind:text-slate-900 transition-colors">
                         Manufacturing &amp; Plants
                       </p>
                       <p className="text-[11px] text-slate-500 font-light mt-0.5">
@@ -348,13 +348,13 @@ export default function LandingPage() {
                   <a
                     href="#industry-presets"
                     onClick={() => setActiveIndustryTab('infra')}
-                    className="flex items-start gap-3.5 p-3 rounded-2xl hover:bg-blue-50/80 transition-colors group/ind"
+                    className="flex items-start gap-3.5 p-3 rounded-2xl hover:bg-slate-100/80 transition-colors group/ind"
                   >
-                    <div className="p-2.5 rounded-xl bg-blue-50 text-blue-600 shrink-0 group-hover/ind:bg-blue-600 group-hover/ind:text-white transition-colors">
+                    <div className="p-2.5 rounded-xl bg-slate-100 text-slate-800 shrink-0 group-hover/ind:bg-slate-900 group-hover/ind:text-white transition-colors">
                       <HardHat className="w-5 h-5" />
                     </div>
                     <div>
-                      <p className="text-xs font-bold text-slate-900 group-hover/ind:text-blue-600 transition-colors">
+                      <p className="text-xs font-bold text-slate-900 group-hover/ind:text-slate-900 transition-colors">
                         Infra / EPC Construction
                       </p>
                       <p className="text-[11px] text-slate-500 font-light mt-0.5">
@@ -366,13 +366,13 @@ export default function LandingPage() {
                   <a
                     href="#industry-presets"
                     onClick={() => setActiveIndustryTab('facilities')}
-                    className="flex items-start gap-3.5 p-3 rounded-2xl hover:bg-blue-50/80 transition-colors group/ind"
+                    className="flex items-start gap-3.5 p-3 rounded-2xl hover:bg-slate-100/80 transition-colors group/ind"
                   >
-                    <div className="p-2.5 rounded-xl bg-blue-50 text-blue-600 shrink-0 group-hover/ind:bg-blue-600 group-hover/ind:text-white transition-colors">
+                    <div className="p-2.5 rounded-xl bg-slate-100 text-slate-800 shrink-0 group-hover/ind:bg-slate-900 group-hover/ind:text-white transition-colors">
                       <Building2 className="w-5 h-5" />
                     </div>
                     <div>
-                      <p className="text-xs font-bold text-slate-900 group-hover/ind:text-blue-600 transition-colors">
+                      <p className="text-xs font-bold text-slate-900 group-hover/ind:text-slate-900 transition-colors">
                         Facilities Management
                       </p>
                       <p className="text-[11px] text-slate-500 font-light mt-0.5">
@@ -665,7 +665,7 @@ export default function LandingPage() {
                 <div key={mod.id} id={`module-${mod.id}`} className="group scroll-mt-28 flex flex-col rounded-2xl border border-slate-200 bg-white p-7 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:border-blue-300 justify-between">
                   <div>
                     <div className="flex items-center justify-between">
-                      <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-blue-50 text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition-colors duration-300">
+                      <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-slate-100 text-slate-800 group-hover:bg-slate-900 group-hover:text-white transition-colors duration-300">
                         {mod.icon}
                       </span>
                     </div>

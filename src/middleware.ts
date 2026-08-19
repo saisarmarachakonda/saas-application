@@ -7,7 +7,7 @@ export function middleware(request: NextRequest) {
   console.log(`[MIDDLEWARE] Path: "${pathname}", Host: "${request.headers.get('host')}"`);
 
   // List of decoupled apps requiring auth verification
-  const apps = ['admin', 'master-data', 'crm', 'hrm', 'procurement', 'inventory', 'facilities', 'finance', 'workflows', 'settings', 'erp'];
+  const apps = ['admin', 'master-data', 'crm', 'hrm', 'procurement', 'inventory', 'facilities', 'finance', 'workflows', 'settings', 'ops', 'erp'];
 
   // Protect decoupled app routes
   for (const app of apps) {
@@ -15,7 +15,7 @@ export function middleware(request: NextRequest) {
       if (pathname.includes('/login') || pathname.includes('/api/')) {
         continue;
       }
-      const token = request.cookies.get(`${app}_auth_token`)?.value;
+      const token = request.cookies.get(`${app}_auth_token`)?.value || request.cookies.get(`ops_auth_token`)?.value;
       if (!token) {
         const loginUrl = new URL(`/${app}/login`, request.url);
         return NextResponse.redirect(loginUrl);
@@ -57,6 +57,7 @@ export const config = {
     '/finance/:path*',
     '/workflows/:path*',
     '/settings/:path*',
+    '/ops/:path*',
     '/erp/:path*',
   ],
 };

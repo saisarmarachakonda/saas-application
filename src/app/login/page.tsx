@@ -36,7 +36,7 @@ export default function CentralLoginPage() {
 
   const modulesList = [
     { id: 'dashboard', title: 'Operations Dashboard', path: '/dashboard', icon: <Bot className="w-5 h-5 text-blue-600" />, category: 'Intelligence' },
-    { id: 'ops-core', title: 'Vertex OPS Core', path: '/erp', icon: <Factory className="w-5 h-5 text-indigo-600" />, category: 'Operations' },
+    { id: 'ops-core', title: 'Vertex OPS Core', path: '/ops', icon: <Factory className="w-5 h-5 text-indigo-600" />, category: 'Operations' },
     { id: 'crm', title: 'CRM & Bidding', path: '/crm', icon: <Handshake className="w-5 h-5 text-emerald-600" />, category: 'Commercial' },
     { id: 'hrm', title: 'HRM & Workforce', path: '/hrm/login', icon: <Users2 className="w-5 h-5 text-rose-600" />, category: 'Workforce' },
     { id: 'procurement', title: 'Vertex Procurement', path: '/procurement', icon: <ShoppingCart className="w-5 h-5 text-amber-600" />, category: 'Supply Chain' },
