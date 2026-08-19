@@ -212,22 +212,22 @@ export default function CentralLoginPage() {
                 <Link
                   key={mod.id}
                   href={mod.path}
-                  className="group flex items-start gap-4 p-4 bg-white rounded-2xl border border-slate-200 hover:border-blue-600 hover:shadow-lg transition-all duration-200"
+                  className="group flex items-start gap-4 p-4 bg-white rounded-2xl border border-slate-200 hover:border-slate-800 hover:shadow-lg transition-all duration-200"
                 >
-                  <div className="p-3 rounded-xl bg-slate-50 shrink-0 group-hover:bg-blue-600 group-hover:text-white transition-colors">
+                  <div className="p-3 rounded-xl bg-slate-50 shrink-0 group-hover:bg-transparent transition-colors">
                     {mod.icon}
                   </div>
                   <div className="flex-1 min-w-0">
                     <div className="flex items-center justify-between">
-                      <p className="text-xs font-bold text-slate-900 group-hover:text-blue-600 transition-colors truncate">
+                      <p className="text-xs font-bold text-slate-900 group-hover:text-slate-900 transition-colors truncate">
                         {mod.title}
                       </p>
-                      <ExternalLink className="w-3.5 h-3.5 text-slate-400 group-hover:text-blue-600 transition-colors shrink-0" />
+                      <ExternalLink className="w-3.5 h-3.5 text-slate-400 group-hover:text-slate-800 transition-colors shrink-0" />
                     </div>
                     <p className="text-[11px] text-slate-500 font-light mt-0.5">
                       Category: <span className="font-medium text-slate-700">{mod.category}</span>
                     </p>
-                    <div className="mt-2 flex items-center gap-1 text-[11px] font-semibold text-blue-600 opacity-0 group-hover:opacity-100 transition-opacity">
+                    <div className="mt-2 flex items-center gap-1 text-[11px] font-semibold text-slate-800 opacity-0 group-hover:opacity-100 transition-opacity">
                       <span>Launch Portal</span>
                       <ArrowRight className="w-3 h-3 group-hover:translate-x-1 transition-transform" />
                     </div>

@@ -665,7 +665,7 @@ export default function LandingPage() {
                 <div key={mod.id} id={`module-${mod.id}`} className="group scroll-mt-28 flex flex-col rounded-2xl border border-slate-200 bg-white p-7 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:border-blue-300 justify-between">
                   <div>
                     <div className="flex items-center justify-between">
-                      <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-slate-100 text-slate-800 group-hover:bg-slate-900 group-hover:text-white transition-colors duration-300">
+                      <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-slate-100 text-slate-800 group-hover:bg-transparent group-hover:text-slate-900 transition-colors duration-300">
                         {mod.icon}
                       </span>
                     </div>
