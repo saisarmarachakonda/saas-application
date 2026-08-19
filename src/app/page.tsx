@@ -274,21 +274,24 @@ export default function LandingPage() {
               <img alt="VOC Vertex" className="h-11 md:h-12 w-auto object-contain" src="/logo.png" />
             </Link>
 
-            {/* Desktop Navigation - Includes HOME */}
+            {/* Desktop Navigation - Section In-Page Anchors */}
             <nav className="hidden lg:flex items-center gap-1 relative">
-              <Link
-                href="/"
+              <a
+                href="#hero"
                 className="px-4 py-2 rounded-full text-sm font-semibold text-slate-700 hover:text-blue-600 transition-colors"
               >
                 Home
-              </Link>
+              </a>
               
-              {/* MODULES HOVER DROPDOWN */}
+              {/* MODULES HOVER & CLICK DROPDOWN */}
               <div className="relative group">
-                <button className="group inline-flex items-center gap-1 px-4 py-2 rounded-full text-sm font-semibold transition-colors text-slate-700 hover:text-blue-600 cursor-pointer">
+                <a
+                  href="#modules"
+                  className="group inline-flex items-center gap-1 px-4 py-2 rounded-full text-sm font-semibold transition-colors text-slate-700 hover:text-blue-600 cursor-pointer"
+                >
                   <span>Modules</span>
                   <ChevronDown className="h-3.5 w-3.5 transition-transform duration-300 group-hover:rotate-180 text-slate-400" />
-                </button>
+                </a>
 
                 <div className="absolute top-full left-0 mt-1 w-[680px] p-6 bg-white rounded-3xl border border-slate-200 shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50 grid grid-cols-2 gap-3 max-h-[80vh] overflow-y-auto">
                   {standaloneModules.map((mod) => (
@@ -313,12 +316,15 @@ export default function LandingPage() {
                 </div>
               </div>
 
-              {/* INDUSTRIES HOVER DROPDOWN */}
+              {/* INDUSTRIES HOVER & CLICK DROPDOWN */}
               <div className="relative group">
-                <button className="group inline-flex items-center gap-1 px-4 py-2 rounded-full text-sm font-semibold transition-colors text-slate-700 hover:text-blue-600 cursor-pointer">
+                <a
+                  href="#industry-presets"
+                  className="group inline-flex items-center gap-1 px-4 py-2 rounded-full text-sm font-semibold transition-colors text-slate-700 hover:text-blue-600 cursor-pointer"
+                >
                   <span>Industries</span>
                   <ChevronDown className="h-3.5 w-3.5 transition-transform duration-300 group-hover:rotate-180 text-slate-400" />
-                </button>
+                </a>
 
                 <div className="absolute top-full left-0 mt-1 w-[420px] p-5 bg-white rounded-3xl border border-slate-200 shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50 space-y-3">
                   <Link
@@ -425,7 +431,7 @@ export default function LandingPage() {
       {/* 2. Hero Section */}
       <main className="relative z-10">
         <div>
-          <section className="relative overflow-hidden grid-lines">
+          <section id="hero" className="relative overflow-hidden grid-lines">
             <div className="absolute inset-0 -z-10 bg-gradient-to-b from-blue-50/60 via-white to-white" />
             <div className="max-w-7xl mx-auto px-6 md:px-10 pt-36 md:pt-44 pb-20">
               <div>
