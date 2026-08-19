@@ -190,6 +190,52 @@ export default function FacilitiesIndustryApp() {
             </button>
           </div>
         </div>
+
+        {/* Demo & Quote Request Form Section */}
+        <div id="demo-request" className="glass-card p-8 rounded-3xl border border-slate-200 bg-white shadow-xl space-y-6">
+          <div className="max-w-xl space-y-2">
+            <span className="text-[10px] uppercase font-bold text-teal-600 tracking-wider">Enterprise Proposal</span>
+            <h2 className="text-2xl font-bold text-slate-900">Request Demo or Quote</h2>
+            <p className="text-xs text-slate-500 font-light">
+              Target Package: <strong className="text-teal-600">Facilities Management Suite ({selectedModules.length} Modules)</strong>. Fill out your details below to receive an itemized proposal &amp; demo login.
+            </p>
+          </div>
+
+          {requestSubmitted ? (
+            <div className="p-4 bg-emerald-500/10 border border-emerald-500/20 text-emerald-600 rounded-2xl text-xs font-semibold flex items-center gap-2">
+              <CheckCircle2 className="w-5 h-5 text-emerald-500 shrink-0" />
+              <span>Thank you! Your quote request for {selectedModules.length} Facilities modules has been submitted. Our operations team will contact you shortly.</span>
+            </div>
+          ) : (
+            <form onSubmit={handleFormSubmit} className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div>
+                <label className="block text-[10px] font-bold uppercase text-slate-500 mb-1">Full Name</label>
+                <input required value={contactForm.name} onChange={e => setContactForm({ ...contactForm, name: e.target.value })} placeholder="Head of Facilities" className="w-full p-3 rounded-xl border border-slate-200 bg-slate-50 text-xs outline-none focus:border-teal-500" />
+              </div>
+              <div>
+                <label className="block text-[10px] font-bold uppercase text-slate-500 mb-1">Work Email</label>
+                <input required type="email" value={contactForm.email} onChange={e => setContactForm({ ...contactForm, email: e.target.value })} placeholder="head@facilities.com" className="w-full p-3 rounded-xl border border-slate-200 bg-slate-50 text-xs outline-none focus:border-teal-500" />
+              </div>
+              <div>
+                <label className="block text-[10px] font-bold uppercase text-slate-500 mb-1">Company Name</label>
+                <input required value={contactForm.company} onChange={e => setContactForm({ ...contactForm, company: e.target.value })} placeholder="Compass Facilities Services" className="w-full p-3 rounded-xl border border-slate-200 bg-slate-50 text-xs outline-none focus:border-teal-500" />
+              </div>
+              <div>
+                <label className="block text-[10px] font-bold uppercase text-slate-500 mb-1">Target Sector</label>
+                <input readOnly value="Facilities Management Sector" className="w-full p-3 rounded-xl border border-slate-200 bg-slate-100 text-xs text-slate-600 font-semibold" />
+              </div>
+              <div className="md:col-span-2">
+                <label className="block text-[10px] font-bold uppercase text-slate-500 mb-1">Selected Facilities Modules &amp; Requirements</label>
+                <textarea rows={3} value={contactForm.message || `Requesting custom price quote for Facilities Management Suite with ${selectedModules.length} selected modules:\n- ${selectedModules.join('\n- ')}`} onChange={e => setContactForm({ ...contactForm, message: e.target.value })} placeholder="Mention specific facility locations or machinery requirements..." className="w-full p-3 rounded-xl border border-slate-200 bg-slate-50 text-xs outline-none focus:border-teal-500" />
+              </div>
+              <div className="md:col-span-2">
+                <button type="submit" className="w-full py-3 bg-teal-600 hover:bg-teal-700 text-white font-bold text-xs rounded-xl shadow-md cursor-pointer transition-all">
+                  Submit Quote &amp; Demo Request ({selectedModules.length} Modules)
+                </button>
+              </div>
+            </form>
+          )}
+        </div>
       </main>
 
       {/* Quote / Demo Modal */}
