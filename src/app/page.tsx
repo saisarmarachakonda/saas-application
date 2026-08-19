@@ -207,7 +207,7 @@ export default function LandingPage() {
       appRoute: '/industry/infra'
     },
     facilities: {
-      title: 'Facilities Management',
+      title: 'Facilities Management Sector',
       headline: 'Multi-site asset maintenance, shift roster & SLAs',
       description: 'Track heavy scrubbing machinery, 200 bar jet washers, site staff rosters, mobile attendance, EPF/ESI statutory forms, and client SLAs.',
       image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1200&auto=format&fit=crop',
@@ -660,7 +660,6 @@ export default function LandingPage() {
                       <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-blue-50 text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition-colors duration-300">
                         {mod.icon}
                       </span>
-                      <span className="font-mono text-xs text-slate-400 font-bold">{mod.number}</span>
                     </div>
 
                     <h3 className="mt-6 font-display text-xl font-semibold tracking-tight text-slate-900">{mod.title}</h3>
