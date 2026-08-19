@@ -295,9 +295,9 @@ export default function LandingPage() {
 
                 <div className="absolute top-full left-0 mt-1 w-[680px] p-6 bg-white rounded-3xl border border-slate-200 shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50 grid grid-cols-2 gap-3 max-h-[80vh] overflow-y-auto">
                   {standaloneModules.map((mod) => (
-                    <button
+                    <a
                       key={mod.id}
-                      onClick={() => openQuoteModalForModule(mod.title)}
+                      href={`#module-${mod.id}`}
                       className="flex items-start gap-3 p-3 rounded-2xl hover:bg-blue-50/80 transition-colors text-left group/item cursor-pointer"
                     >
                       <div className="p-2.5 rounded-xl bg-blue-50 text-blue-600 shrink-0 group-hover/item:bg-blue-600 group-hover/item:text-white transition-colors">
@@ -311,7 +311,7 @@ export default function LandingPage() {
                           {mod.subtitle}
                         </p>
                       </div>
-                    </button>
+                    </a>
                   ))}
                 </div>
               </div>
@@ -327,8 +327,9 @@ export default function LandingPage() {
                 </a>
 
                 <div className="absolute top-full left-0 mt-1 w-[420px] p-5 bg-white rounded-3xl border border-slate-200 shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50 space-y-3">
-                  <Link
-                    href="/industry/manufacturing"
+                  <a
+                    href="#industry-presets"
+                    onClick={() => setActiveIndustryTab('manufacturing')}
                     className="flex items-start gap-3.5 p-3 rounded-2xl hover:bg-blue-50/80 transition-colors group/ind"
                   >
                     <div className="p-2.5 rounded-xl bg-blue-50 text-blue-600 shrink-0 group-hover/ind:bg-blue-600 group-hover/ind:text-white transition-colors">
@@ -342,10 +343,11 @@ export default function LandingPage() {
                         OPS Core scheduling, plant inventory &amp; quality control.
                       </p>
                     </div>
-                  </Link>
+                  </a>
 
-                  <Link
-                    href="/industry/infra"
+                  <a
+                    href="#industry-presets"
+                    onClick={() => setActiveIndustryTab('infra')}
                     className="flex items-start gap-3.5 p-3 rounded-2xl hover:bg-blue-50/80 transition-colors group/ind"
                   >
                     <div className="p-2.5 rounded-xl bg-blue-50 text-blue-600 shrink-0 group-hover/ind:bg-blue-600 group-hover/ind:text-white transition-colors">
@@ -359,10 +361,11 @@ export default function LandingPage() {
                         Machinery allocation, subcontractor work orders &amp; site transfers.
                       </p>
                     </div>
-                  </Link>
+                  </a>
 
-                  <Link
-                    href="/industry/facilities"
+                  <a
+                    href="#industry-presets"
+                    onClick={() => setActiveIndustryTab('facilities')}
                     className="flex items-start gap-3.5 p-3 rounded-2xl hover:bg-blue-50/80 transition-colors group/ind"
                   >
                     <div className="p-2.5 rounded-xl bg-blue-50 text-blue-600 shrink-0 group-hover/ind:bg-blue-600 group-hover/ind:text-white transition-colors">
@@ -373,10 +376,10 @@ export default function LandingPage() {
                         Facilities Management
                       </p>
                       <p className="text-[11px] text-slate-500 font-light mt-0.5">
-                        Heavy scrubbing machinery, shift roster &amp; client SLAs.
+                        Multi-site asset maintenance, shift roster &amp; SLAs.
                       </p>
                     </div>
-                  </Link>
+                  </a>
                 </div>
               </div>
 
@@ -660,7 +663,7 @@ export default function LandingPage() {
 
             <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
               {standaloneModules.map((mod) => (
-                <div key={mod.id} className="group flex flex-col rounded-2xl border border-slate-200 bg-white p-7 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:border-blue-300 justify-between">
+                <div key={mod.id} id={`module-${mod.id}`} className="group scroll-mt-28 flex flex-col rounded-2xl border border-slate-200 bg-white p-7 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:border-blue-300 justify-between">
                   <div>
                     <div className="flex items-center justify-between">
                       <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-blue-50 text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition-colors duration-300">
