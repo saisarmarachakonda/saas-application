@@ -209,7 +209,7 @@ export default function LandingPage() {
     facilities: {
       title: 'Facilities Management',
       headline: 'Multi-site asset maintenance, shift roster & SLAs',
-      description: 'Track heavy scrubbing machinery, 200 bar jet washers, site staff rosters, mobile attendance, EPF/ESI statutory forms, and client SLAs.',
+      description: 'Track heavy scrubbing machinery, high-pressure jet washers, site staff rosters, mobile attendance, EPF/ESI statutory forms, and client SLAs.',
       image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1200&auto=format&fit=crop',
       appRoute: '/industry/facilities'
     }

@@ -110,7 +110,7 @@ export default function FacilitiesIndustryApp() {
               Multi-site asset maintenance, shift roster &amp; SLAs
             </p>
             <p className="text-sm md:text-base text-slate-200 font-light leading-relaxed">
-              Track heavy scrubbing machinery, 200 bar jet washers, site staff rosters, mobile attendance, EPF/ESI statutory forms, and client SLAs. Select your required modules below to generate a tailored quote proposal.
+              Track heavy scrubbing machinery, high-pressure jet washers, site staff rosters, mobile attendance, EPF/ESI statutory forms, and client SLAs. Select your required modules below to generate a tailored quote proposal.
             </p>
             <div className="flex flex-wrap gap-4 pt-2">
               <button
