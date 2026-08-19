@@ -27,13 +27,13 @@ export default function ERPViewPage() {
   const configs: ModelConfig[] = [
     {
       name: 'erpRecord',
-      label: 'ERP Resource Master',
+      label: 'Vertex Ops Resource Master',
       fields: [
         { name: 'id', label: 'Work Order Code', type: 'text', required: true },
         { name: 'name', label: 'Material / Product Item Name', type: 'text', required: true },
         { name: 'plant', label: 'Plant Facility Node', type: 'text', required: true },
         { name: 'costCenter', label: 'Cost Center Ledger', type: 'text' },
-        { name: 'mrpBalance', label: 'MRP Allocation Balance', type: 'text' },
+        { name: 'mrpBalance', label: 'Ops Allocation Balance', type: 'text' },
         { name: 'status', label: 'Production Status', type: 'text' },
       ],
       columns: ['id', 'name', 'plant', 'costCenter', 'mrpBalance', 'status'],
@@ -41,18 +41,18 @@ export default function ERPViewPage() {
   ];
 
   const handleExportView = () => {
-    downloadPdfDocument(`ERP_${view.toUpperCase()}_REPORT`, {
-      code: `ERP-${view.toUpperCase()}-2026`,
-      name: `ERP ${view.toUpperCase()} Audit`,
+    downloadPdfDocument(`VERTEX_OPS_${view.toUpperCase()}_REPORT`, {
+      code: `OPS-${view.toUpperCase()}-2026`,
+      name: `Vertex Ops ${view.toUpperCase()} Audit`,
       designation: 'Enterprise Auditor',
-      department: 'ERP Control',
+      department: 'Vertex Ops Control',
       site: 'Multi-Plant Node',
       phone: '+91 9876543210',
       aadhaar: 'AUDIT-PASSED',
       pan: 'CORP-PAN',
       uan: '100099990000',
       esi: 'ACTIVE',
-      bank: 'ERP-LEDGER-ACC',
+      bank: 'OPS-LEDGER-ACC',
       ifsc: 'SBIN0009999',
       joiningDate: '2026-08-06',
       status: 'Synchronized'
@@ -69,13 +69,13 @@ export default function ERPViewPage() {
           </div>
           <div>
             <h1 className="text-xl font-bold text-slate-900 dark:text-white capitalize flex items-center gap-2">
-              <span>ERP {view.replace('-', ' ')} Control</span>
+              <span>Vertex Ops {view.replace('-', ' ')} Control</span>
               <span className="text-[10px] uppercase font-extrabold text-blue-500 bg-blue-500/10 px-2.5 py-0.5 rounded-full border border-blue-500/20">
-                ERP Sub-Module
+                Vertex Ops Sub-Module
               </span>
             </h1>
             <p className="text-xs text-slate-500 dark:text-slate-400 font-light mt-0.5">
-              Material Requirements Planning (MRP II) and resource allocation registers.
+              Material Requirements Planning and resource allocation registers.
             </p>
           </div>
         </div>

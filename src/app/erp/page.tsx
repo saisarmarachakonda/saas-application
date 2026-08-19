@@ -94,13 +94,13 @@ export default function ERPPage() {
           </div>
           <div>
             <h1 className="text-xl font-bold text-slate-900 dark:text-white flex items-center gap-2">
-              <span>Enterprise Resource Planning (ERP) Module</span>
+              <span>Vertex Ops Core Module</span>
               <span className="text-[10px] uppercase tracking-wider font-extrabold text-blue-500 bg-blue-500/10 px-2.5 py-0.5 rounded-full border border-blue-500/20">
                 {erpData.length} Live Records
               </span>
             </h1>
             <p className="text-xs text-slate-500 dark:text-slate-400 font-light mt-0.5">
-              Material Requirements Planning (MRP II), Production Capacity Scheduling, and Cost Center Audit Trail.
+              Operations Control Plane, Material Requirements Scheduling, Production Lines &amp; Plant Capacity.
             </p>
           </div>
         </div>
@@ -112,14 +112,14 @@ export default function ERPPage() {
             className="px-3.5 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg text-xs font-semibold flex items-center gap-1.5 transition-colors shadow-xs cursor-pointer"
           >
             <RefreshCw className="w-3.5 h-3.5" />
-            <span>Sync MRP Engine</span>
+            <span>Sync Ops Engine</span>
           </button>
           <button
             onClick={handleExportERP}
             className="px-3.5 py-2 bg-emerald-600 hover:bg-emerald-700 text-white rounded-lg text-xs font-semibold flex items-center gap-1.5 transition-colors shadow-xs cursor-pointer"
           >
             <Download className="w-3.5 h-3.5" />
-            <span>Download ERP PDF</span>
+            <span>Download Vertex Ops PDF</span>
           </button>
         </div>
       </div>
@@ -136,7 +136,7 @@ export default function ERPPage() {
       <div className="grid grid-cols-1 md:grid-cols-4 gap-5">
         <div className="glass-card p-5 rounded-xl border border-slate-200 dark:border-slate-800 shadow-xs flex flex-col justify-between">
           <div className="flex items-center justify-between">
-            <span className="text-[10px] uppercase font-bold tracking-wider text-slate-400">Total ERP Work Orders</span>
+            <span className="text-[10px] uppercase font-bold tracking-wider text-slate-400">Total Vertex Ops Orders</span>
             <div className="w-8 h-8 rounded-lg bg-blue-500/10 text-blue-500 flex items-center justify-center">
               <Factory className="w-4 h-4" />
             </div>

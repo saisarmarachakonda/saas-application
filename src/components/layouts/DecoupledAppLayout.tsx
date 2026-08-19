@@ -231,11 +231,11 @@ export default function DecoupledAppLayout({
         break;
       case 'erp':
         links.push(
-          { name: 'MRP Work Orders', path: `${base}/work-orders`, icon: <Factory className="w-5 h-5" /> },
-          { name: 'Material Allocations', path: `${base}/material-allocations`, icon: <Boxes className="w-5 h-5" /> },
-          { name: 'Plant Capacity', path: `${base}/plant-capacity`, icon: <Activity className="w-5 h-5" /> },
-          { name: 'Bill of Materials (BOM)', path: `${base}/bom`, icon: <Layers className="w-5 h-5" /> },
-          { name: 'Cost Center Routing', path: `${base}/cost-centers`, icon: <DollarSign className="w-5 h-5" /> }
+          { name: 'Ops Work Orders', path: `${base}/work-orders`, icon: <Factory className="w-5 h-5" /> },
+          { name: 'Ops Material Allocations', path: `${base}/material-allocations`, icon: <Boxes className="w-5 h-5" /> },
+          { name: 'Ops Plant Capacity', path: `${base}/plant-capacity`, icon: <Activity className="w-5 h-5" /> },
+          { name: 'Ops Bill of Materials (BOM)', path: `${base}/bom`, icon: <Layers className="w-5 h-5" /> },
+          { name: 'Ops Cost Center Routing', path: `${base}/cost-centers`, icon: <DollarSign className="w-5 h-5" /> }
         );
         break;
       case 'facilities':

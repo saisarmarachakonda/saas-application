@@ -16,7 +16,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <DecoupledAppLayout
       app="erp"
-      title="ERP Manufacturing & MRP Operations"
+      title="Vertex Ops Core Control Plane"
       themeColor="cyan"
       icon={<Factory className="w-5 h-5" />}
     >
