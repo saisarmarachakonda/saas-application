@@ -58,13 +58,13 @@ export default function DecoupledAppLoginForm({
 
   const getThemeButtonClass = () => {
     switch (themeColor) {
-      case 'indigo': return 'bg-indigo-600 hover:bg-indigo-700 text-white shadow-lg shadow-indigo-500/25 border border-indigo-500/30';
-      case 'emerald': return 'bg-emerald-600 hover:bg-emerald-700 text-white shadow-lg shadow-emerald-500/25 border border-emerald-500/30';
-      case 'blue': return 'bg-blue-600 hover:bg-blue-700 text-white shadow-lg shadow-blue-500/25 border border-blue-500/30';
-      case 'orange': return 'bg-orange-600 hover:bg-orange-700 text-white shadow-lg shadow-orange-500/25 border border-orange-500/30';
-      case 'cyan': return 'bg-cyan-600 hover:bg-cyan-700 text-white shadow-lg shadow-cyan-500/25 border border-cyan-500/30';
-      case 'purple': return 'bg-purple-600 hover:bg-purple-700 text-white shadow-lg shadow-purple-500/25 border border-purple-500/30';
-      default: return 'bg-blue-600 hover:bg-blue-700 text-white shadow-lg shadow-blue-500/25 border border-blue-500/30';
+      case 'indigo': return 'bg-indigo-600 hover:bg-transparent text-white hover:text-indigo-600 border border-indigo-600 shadow-lg';
+      case 'emerald': return 'bg-emerald-600 hover:bg-transparent text-white hover:text-emerald-600 border border-emerald-600 shadow-lg';
+      case 'blue': return 'bg-blue-600 hover:bg-transparent text-white hover:text-blue-600 border border-blue-600 shadow-lg';
+      case 'orange': return 'bg-orange-600 hover:bg-transparent text-white hover:text-orange-600 border border-orange-600 shadow-lg';
+      case 'cyan': return 'bg-cyan-600 hover:bg-transparent text-white hover:text-cyan-600 border border-cyan-600 shadow-lg';
+      case 'purple': return 'bg-purple-600 hover:bg-transparent text-white hover:text-purple-600 border border-purple-600 shadow-lg';
+      default: return 'bg-blue-600 hover:bg-transparent text-white hover:text-blue-600 border border-blue-600 shadow-lg';
     }
   };
 

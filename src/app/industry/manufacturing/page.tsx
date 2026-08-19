@@ -178,14 +178,14 @@ export default function ManufacturingIndustryApp() {
             <div className="flex flex-wrap gap-4 pt-2">
               <button
                 onClick={handleRequestForSelectedModules}
-                className="px-6 py-3 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-bold text-xs shadow-lg transition-transform hover:scale-105 flex items-center gap-2 cursor-pointer"
+                className="px-6 py-3 rounded-xl bg-blue-600 hover:bg-transparent text-white hover:text-blue-400 border border-blue-500 font-bold text-xs shadow-lg transition-all flex items-center gap-2 cursor-pointer"
               >
                 <Mail className="w-4 h-4" />
                 <span>Request Quote for {selectedModules.length} Selected Modules</span>
               </button>
               <a
                 href="#manufacturing-modules"
-                className="px-6 py-3 rounded-xl bg-white/10 hover:bg-white/20 text-white font-bold text-xs shadow-lg transition-all flex items-center gap-2"
+                className="px-6 py-3 rounded-xl bg-white/10 hover:bg-transparent border border-white/20 text-white font-bold text-xs shadow-lg transition-all flex items-center gap-2"
               >
                 <span>Select Modules Below</span>
                 <ArrowRight className="w-4 h-4" />
@@ -208,7 +208,7 @@ export default function ManufacturingIndustryApp() {
               </span>
               <button
                 onClick={handleRequestForSelectedModules}
-                className="px-5 py-2 bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs rounded-xl shadow-md cursor-pointer transition-all flex items-center gap-1.5"
+                className="px-5 py-2 bg-blue-600 hover:bg-transparent text-white hover:text-blue-600 border border-blue-600 font-bold text-xs rounded-xl shadow-md cursor-pointer transition-all flex items-center gap-1.5"
               >
                 <Mail className="w-3.5 h-3.5" />
                 <span>Request Quote &amp; Demo</span>
@@ -321,7 +321,7 @@ export default function ManufacturingIndustryApp() {
                 />
               </div>
               <div className="md:col-span-2">
-                <button type="submit" className="w-full py-3 bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs rounded-xl shadow-md cursor-pointer transition-all">
+                <button type="submit" className="w-full py-3 bg-blue-600 hover:bg-transparent text-white hover:text-blue-600 border border-blue-600 font-bold text-xs rounded-xl shadow-md cursor-pointer transition-all">
                   Submit Quote &amp; Demo Request ({selectedModules.length} Modules)
                 </button>
               </div>

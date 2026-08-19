@@ -181,7 +181,7 @@ export default function CentralLoginPage() {
               <button
                 type="submit"
                 disabled={loading}
-                className="w-full py-3 bg-slate-900 text-white font-semibold text-xs rounded-xl transition-all duration-300 hover:scale-[1.01] flex items-center justify-center gap-2 cursor-pointer shadow-md mt-2"
+                className="w-full py-3 bg-slate-900 hover:bg-transparent text-white hover:text-slate-900 border border-slate-900 font-semibold text-xs rounded-xl transition-all duration-300 flex items-center justify-center gap-2 cursor-pointer shadow-md mt-2"
               >
                 {loading ? (
                   <span>Authenticating...</span>

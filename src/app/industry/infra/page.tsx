@@ -113,7 +113,7 @@ export default function InfraIndustryApp() {
             <div className="flex flex-wrap gap-4 pt-2">
               <button
                 onClick={() => setIsDemoModalOpen(true)}
-                className="px-6 py-3 rounded-xl bg-orange-600 hover:bg-orange-500 text-white font-bold text-xs shadow-lg transition-transform hover:scale-105 flex items-center gap-2 cursor-pointer"
+                className="px-6 py-3 rounded-xl bg-orange-600 hover:bg-transparent text-white hover:text-orange-400 border border-orange-500 font-bold text-xs shadow-lg transition-all flex items-center gap-2 cursor-pointer"
               >
                 <Mail className="w-4 h-4" />
                 <span>Request Custom Infra Package</span>
@@ -181,7 +181,7 @@ export default function InfraIndustryApp() {
             </div>
             <button
               onClick={() => setIsDemoModalOpen(true)}
-              className="px-6 py-3 bg-orange-600 hover:bg-orange-700 text-white text-xs font-bold rounded-xl shadow-md transition-all cursor-pointer flex items-center gap-2"
+              className="px-6 py-3 bg-orange-600 hover:bg-transparent text-white hover:text-orange-600 border border-orange-600 text-xs font-bold rounded-xl shadow-md transition-all cursor-pointer flex items-center gap-2"
             >
               <Mail className="w-4 h-4" />
               <span>Request Quote for Selected Modules</span>

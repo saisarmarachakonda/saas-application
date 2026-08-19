@@ -177,7 +177,7 @@ export default function HrmAutomaticLoginPage() {
             <button
               type="submit"
               disabled={loading}
-              className="w-full py-3 bg-rose-600 hover:bg-rose-700 text-white rounded-xl font-bold text-xs shadow-lg transition-all flex items-center justify-center gap-2 cursor-pointer mt-2"
+              className="w-full py-3 bg-rose-600 hover:bg-transparent text-white hover:text-rose-600 border border-rose-600 rounded-xl font-bold text-xs shadow-lg transition-all flex items-center justify-center gap-2 cursor-pointer mt-2"
             >
               {loading ? (
                 <span>Authenticating Workspace...</span>

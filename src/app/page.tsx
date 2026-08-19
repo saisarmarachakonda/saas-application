@@ -399,7 +399,7 @@ export default function LandingPage() {
 
               <button
                 onClick={() => openQuoteModalForModule('Enterprise Get Started')}
-                className="inline-flex items-center gap-2 rounded-full bg-slate-900 text-white px-5 py-2.5 text-sm font-semibold transition-transform duration-300 hover:scale-[1.03] cursor-pointer shadow-md"
+                className="inline-flex items-center gap-2 rounded-full bg-slate-900 text-white border border-slate-900 px-5 py-2.5 text-sm font-semibold transition-all duration-300 hover:bg-transparent hover:text-slate-900 cursor-pointer shadow-md"
               >
                 <span>Get started</span>
               </button>
@@ -408,8 +408,7 @@ export default function LandingPage() {
             {/* Mobile Menu Button */}
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="lg:hidden p-2 text-slate-800"
-              aria-label="Menu"
+              className="lg:hidden p-2 rounded-xl text-slate-700 hover:bg-slate-100"
             >
               {mobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
             </button>
@@ -425,7 +424,7 @@ export default function LandingPage() {
             <Link href="/pricing" onClick={() => setMobileMenuOpen(false)} className="block text-sm font-semibold text-slate-700 py-1">Pricing</Link>
             <div className="border-t border-slate-100 pt-3 flex flex-col gap-2">
               <Link href="/login" className="w-full text-center py-2 text-sm font-semibold text-slate-700">Log in</Link>
-              <button onClick={() => { setMobileMenuOpen(false); openQuoteModalForModule('Enterprise Get Started'); }} className="w-full py-2.5 bg-slate-900 text-white text-sm font-semibold rounded-full">Get started</button>
+              <button onClick={() => { setMobileMenuOpen(false); openQuoteModalForModule('Enterprise Get Started'); }} className="w-full py-2.5 bg-slate-900 text-white border border-slate-900 hover:bg-transparent hover:text-slate-900 text-sm font-semibold rounded-full transition-all">Get started</button>
             </div>
           </div>
         )}
@@ -462,7 +461,7 @@ export default function LandingPage() {
                 <div className="lg:col-span-6 flex flex-wrap items-center gap-4 lg:justify-end">
                   <button
                     onClick={() => openQuoteModalForModule('Complete Platform Bundle')}
-                    className="inline-flex items-center gap-2 rounded-full bg-slate-900 text-white px-6 py-3 text-sm font-semibold transition-transform duration-300 hover:scale-[1.03] cursor-pointer shadow-lg"
+                    className="inline-flex items-center gap-2 rounded-full bg-slate-900 text-white border border-slate-900 px-6 py-3 text-sm font-semibold transition-all duration-300 hover:bg-transparent hover:text-slate-900 cursor-pointer shadow-lg"
                   >
                     <span>Get started</span>
                     <ArrowRight className="h-4 w-4" />
@@ -470,7 +469,7 @@ export default function LandingPage() {
 
                   <a
                     href="#modules"
-                    className="inline-flex items-center gap-2 rounded-full border border-slate-300 px-6 py-3 text-sm font-semibold text-slate-800 transition-colors hover:border-blue-600 hover:text-blue-600"
+                    className="inline-flex items-center gap-2 rounded-full border border-slate-300 px-6 py-3 text-sm font-semibold text-slate-800 transition-colors hover:bg-transparent hover:border-blue-600 hover:text-blue-600"
                   >
                     Explore modules
                   </a>
@@ -540,8 +539,8 @@ export default function LandingPage() {
                   onClick={() => setActiveIndustryTab(tab.key as any)}
                   className={`inline-flex items-center gap-2 rounded-full px-5 py-2.5 text-sm font-semibold transition-all duration-300 cursor-pointer ${
                     activeIndustryTab === tab.key
-                      ? 'bg-slate-900 text-white shadow-md'
-                      : 'border border-slate-300 text-slate-700 hover:border-blue-600 hover:text-blue-600'
+                      ? 'bg-slate-900 text-white border border-slate-900 hover:bg-transparent hover:text-slate-900 shadow-md'
+                      : 'border border-slate-300 text-slate-700 hover:bg-transparent hover:border-blue-600 hover:text-blue-600'
                   }`}
                 >
                   {tab.icon}
@@ -635,7 +634,7 @@ export default function LandingPage() {
 
                   <button
                     onClick={openSectorQuoteModal}
-                    className="inline-flex items-center gap-2 rounded-full bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 text-xs font-bold transition-transform duration-300 hover:scale-[1.03] cursor-pointer shadow-lg"
+                    className="inline-flex items-center gap-2 rounded-full bg-blue-600 hover:bg-transparent text-white hover:text-blue-600 border border-blue-600 px-6 py-3 text-xs font-bold transition-all duration-300 cursor-pointer shadow-lg"
                   >
                     <Mail className="w-4 h-4" />
                     <span>Request Quote for Selected Modules</span>
@@ -687,7 +686,7 @@ export default function LandingPage() {
                   <div className="mt-6 pt-4 border-t border-slate-100">
                     <button
                       onClick={() => openQuoteModalForModule(mod.title)}
-                      className="w-full py-2.5 rounded-xl bg-blue-50 hover:bg-blue-600 text-blue-600 hover:text-white transition-all text-xs font-bold flex items-center justify-center gap-2 cursor-pointer shadow-xs"
+                      className="w-full py-2.5 rounded-xl bg-blue-50 hover:bg-transparent text-blue-600 hover:text-blue-700 border border-transparent hover:border-blue-600 transition-all text-xs font-bold flex items-center justify-center gap-2 cursor-pointer shadow-xs"
                     >
                       <Mail className="w-4 h-4" />
                       <span>Request Quote &amp; Demo</span>
@@ -711,7 +710,7 @@ export default function LandingPage() {
                 <div className="mt-10 flex flex-wrap gap-4">
                   <button
                     onClick={() => openQuoteModalForModule('Enterprise Trial')}
-                    className="inline-flex items-center gap-2 rounded-full bg-slate-900 text-white px-6 py-3 text-sm font-semibold transition-transform duration-300 hover:scale-[1.03] cursor-pointer shadow-md"
+                    className="inline-flex items-center gap-2 rounded-full bg-slate-900 hover:bg-transparent text-white hover:text-slate-900 border border-slate-900 px-6 py-3 text-sm font-semibold transition-all duration-300 cursor-pointer shadow-md"
                   >
                     <span>Get started</span>
                     <ArrowRight className="h-4 w-4" />
