@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
-import { Mail, Lock, Sparkles, ArrowRight, ShieldAlert, Eye, EyeOff, ArrowLeft } from 'lucide-react';
+import { Mail, Lock, ArrowRight, ShieldAlert, Eye, EyeOff, ArrowLeft } from 'lucide-react';
 
 interface DecoupledAppLoginFormProps {
   app: string;
@@ -48,7 +48,7 @@ export default function DecoupledAppLoginForm({
       localStorage.setItem('sim_email', data.user.email);
       localStorage.setItem('sim_name', data.user.name);
 
-      // Redirect to the app workspace using window.location.href to clear Next.js client routing cache
+      // Redirect to the app workspace
       window.location.href = `/${app.toLowerCase()}`;
     } catch (err: any) {
       setError(err.message || 'Something went wrong');
@@ -75,25 +75,22 @@ export default function DecoupledAppLoginForm({
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-slate-50 dark:bg-[#090d16] px-4 relative overflow-hidden font-sans">
-      {/* Background glow specific to app theme */}
-      <div className={`absolute top-1/4 left-1/4 w-[400px] h-[400px] rounded-full blur-[120px] pointer-events-none opacity-5 bg-${themeColor}-500/5`} />
-
+    <div className="min-h-screen flex items-center justify-center bg-[#fcfcfd] px-4 relative overflow-hidden font-sans">
       <div className="w-full max-w-md z-10">
         <div className="text-center mb-6">
           <div className="inline-flex items-center gap-3 mb-3">
             <img src="/logo.png" alt="VOC VERTEX" className="h-10 object-contain" />
-            <span className="font-extrabold text-xl uppercase tracking-wider text-slate-850 dark:text-white">
+            <span className="font-extrabold text-xl uppercase tracking-wider text-slate-800">
               {app.replace('-', ' ')} Portal
             </span>
           </div>
-          <h2 className="text-xl font-bold text-slate-905 dark:text-white">{title}</h2>
-          <p className="text-xs text-slate-500 dark:text-slate-400 mt-1 font-light">
+          <h2 className="text-xl font-bold text-slate-900">{title}</h2>
+          <p className="text-xs text-slate-500 mt-1 font-light">
             Isolated authentication workspace.
           </p>
         </div>
 
-        <div className="glass-card rounded-2xl border border-slate-200 dark:border-slate-800 p-8 shadow-xl bg-white/70 dark:bg-slate-900/60 backdrop-blur-xl">
+        <div className="glass-card rounded-2xl border border-slate-200 p-8 shadow-xl bg-white backdrop-blur-xl">
           {error && (
             <div className="mb-5 p-3 rounded-lg bg-red-500/10 border border-red-500/20 text-xs text-red-500 flex items-center gap-2">
               <ShieldAlert className="w-4 h-4 shrink-0" />
@@ -103,7 +100,7 @@ export default function DecoupledAppLoginForm({
 
           <form onSubmit={handleSubmit} className="space-y-4">
             <div>
-              <label className="block text-[10px] font-bold uppercase tracking-wider text-slate-550 dark:text-slate-400 mb-1">
+              <label className="block text-[10px] font-bold uppercase tracking-wider text-slate-500 mb-1">
                 Workspace Email
               </label>
               <div className="relative">
@@ -115,14 +112,14 @@ export default function DecoupledAppLoginForm({
                   required
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  className="w-full pl-10 pr-4 py-2.5 rounded-xl border border-slate-200 dark:border-slate-800 bg-white/50 dark:bg-slate-950/40 text-xs focus:border-indigo-500 outline-none transition-colors dark:text-white"
                   placeholder="name@company.com"
+                  className="w-full pl-10 pr-4 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-xs text-slate-900 focus:outline-none focus:border-blue-600 transition-colors"
                 />
               </div>
             </div>
 
             <div>
-              <label className="block text-[10px] font-bold uppercase tracking-wider text-slate-550 dark:text-slate-400 mb-1">
+              <label className="block text-[10px] font-bold uppercase tracking-wider text-slate-500 mb-1">
                 Password
               </label>
               <div className="relative">
@@ -134,13 +131,13 @@ export default function DecoupledAppLoginForm({
                   required
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
-                  className="w-full pl-10 pr-10 py-2.5 rounded-xl border border-slate-200 dark:border-slate-800 bg-white/50 dark:bg-slate-950/40 text-xs focus:border-indigo-500 outline-none transition-colors dark:text-white"
-                  placeholder="••••••••"
+                  placeholder="••••••••••••"
+                  className="w-full pl-10 pr-10 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-xs text-slate-900 focus:outline-none focus:border-blue-600 transition-colors"
                 />
                 <button
                   type="button"
                   onClick={() => setShowPassword(!showPassword)}
-                  className="absolute inset-y-0 right-0 pr-3 flex items-center text-slate-400 hover:text-slate-655"
+                  className="absolute inset-y-0 right-0 pr-3 flex items-center text-slate-400 hover:text-slate-600"
                 >
                   {showPassword ? <EyeOff className="w-4 h-4" /> : <Eye className="w-4 h-4" />}
                 </button>
@@ -150,26 +147,49 @@ export default function DecoupledAppLoginForm({
             <button
               type="submit"
               disabled={loading}
-              className={`w-full py-3 text-white font-bold uppercase tracking-wider text-xs rounded-xl transition-all flex items-center justify-center gap-2 cursor-pointer ${getThemeButtonClass()}`}
+              className={`w-full py-3 rounded-xl font-bold text-xs transition-all flex items-center justify-center gap-2 cursor-pointer ${getThemeButtonClass()}`}
             >
               {loading ? (
-                <span>Verifying Portal Key...</span>
+                <span>Authenticating...</span>
               ) : (
                 <>
-                  <span>Enter App Workspace</span> <ArrowRight className="w-4 h-4" />
+                  <span>Sign In to {app.replace('-', ' ')}</span>
+                  <ArrowRight className="w-4 h-4" />
                 </>
               )}
             </button>
           </form>
+
+          {/* Quick Simulation Profile Pre-fill */}
+          <div className="mt-6 pt-5 border-t border-slate-100 space-y-2">
+            <p className="text-[10px] font-bold uppercase tracking-wider text-slate-400 text-center">
+              Quick Login Presets
+            </p>
+            <div className="grid grid-cols-2 gap-2">
+              <button
+                type="button"
+                onClick={() => selectSimulationProfile('Plant Lead', `plant.lead@${app.toLowerCase()}.com`)}
+                className="p-2 rounded-lg border border-slate-200 bg-slate-50 hover:bg-slate-100 text-left text-[11px] transition-colors"
+              >
+                <p className="font-bold text-slate-800">Plant Admin</p>
+                <p className="text-[10px] text-slate-400 font-light truncate">plant.lead@{app.toLowerCase()}.com</p>
+              </button>
+              <button
+                type="button"
+                onClick={() => selectSimulationProfile('Site Engineer', `engineer@${app.toLowerCase()}.com`)}
+                className="p-2 rounded-lg border border-slate-200 bg-slate-50 hover:bg-slate-100 text-left text-[11px] transition-colors"
+              >
+                <p className="font-bold text-slate-800">Site Engineer</p>
+                <p className="text-[10px] text-slate-400 font-light truncate">engineer@{app.toLowerCase()}.com</p>
+              </button>
+            </div>
+          </div>
         </div>
 
-        {/* Back link */}
-        <div className="text-center mt-6">
-          <Link
-            href="/"
-            className="inline-flex items-center gap-1.5 text-xs text-slate-450 hover:text-slate-900 dark:hover:text-white transition-colors font-bold uppercase tracking-wider"
-          >
-            <ArrowLeft className="w-3.5 h-3.5" /> Back to VOC Portal
+        <div className="mt-6 text-center">
+          <Link href="/" className="inline-flex items-center gap-1.5 text-xs text-slate-500 hover:text-slate-800 transition-colors">
+            <ArrowLeft className="w-3.5 h-3.5" />
+            <span>Return to Main Platform Overview</span>
           </Link>
         </div>
       </div>
