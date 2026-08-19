@@ -50,7 +50,7 @@ export default function LandingPage() {
       { id: 'finance', title: 'Vertex Finance & Accounts', subtitle: 'Project Profitability Ledgers', icon: <Landmark className="w-4 h-4 text-blue-600" /> }
     ],
     facilities: [
-      { id: 'facilities', title: 'Vertex Facilities & Assets', subtitle: 'Scrubbers & Jet Washer Servicing', icon: <Building2 className="w-4 h-4 text-blue-600" /> },
+      { id: 'facilities', title: 'Vertex Facilities & Assets', subtitle: 'Multi-Site Facility Asset Servicing', icon: <Building2 className="w-4 h-4 text-blue-600" /> },
       { id: 'hrm', title: 'Vertex HRM & Workforce', subtitle: 'Shift Roster & EPF/ESI Compliance', icon: <Users className="w-4 h-4 text-blue-600" /> },
       { id: 'procurement', title: 'Vertex Procurement', subtitle: 'Janitorial & Depot Supplies', icon: <ShoppingCart className="w-4 h-4 text-blue-600" /> },
       { id: 'inventory', title: 'Vertex Inventory & Warehouse', subtitle: 'Depot Chemical Balances', icon: <Boxes className="w-4 h-4 text-blue-600" /> },
@@ -209,7 +209,7 @@ export default function LandingPage() {
     facilities: {
       title: 'Facilities Management',
       headline: 'Multi-site asset maintenance, shift roster & SLAs',
-      description: 'Track heavy scrubbing machinery, high-pressure jet washers, site staff rosters, mobile attendance, EPF/ESI statutory forms, and client SLAs.',
+      description: 'Track site asset maintenance, site staff rosters, mobile attendance, EPF/ESI statutory forms, and client SLAs.',
       image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1200&auto=format&fit=crop',
       appRoute: '/industry/facilities'
     }

@@ -19,7 +19,7 @@ import StandardFooter from '@/components/Footer';
 
 export default function FacilitiesIndustryApp() {
   const facilitiesModules = [
-    { id: 'facilities', title: 'Vertex Facilities & Assets', subtitle: 'Scrubbers & Jet Washer Asset Register', icon: <Building2 className="w-5 h-5 text-teal-600" /> },
+    { id: 'facilities', title: 'Vertex Facilities & Assets', subtitle: 'Multi-Site Facility Asset Register', icon: <Building2 className="w-5 h-5 text-teal-600" /> },
     { id: 'hrm', title: 'Vertex HRM & Workforce', subtitle: 'Multi-Site Shift Rosters & EPF/ESI Compliance', icon: <Users className="w-5 h-5 text-teal-600" /> },
     { id: 'procurement', title: 'Vertex Procurement', subtitle: 'Janitorial, Depot & Chemical Supplies', icon: <ShoppingCart className="w-5 h-5 text-teal-600" /> },
     { id: 'inventory', title: 'Vertex Inventory & Warehouse', subtitle: 'Depot Stock Balances & Valuation', icon: <Boxes className="w-5 h-5 text-teal-600" /> },
@@ -110,7 +110,7 @@ export default function FacilitiesIndustryApp() {
               Multi-site asset maintenance, shift roster &amp; SLAs
             </p>
             <p className="text-sm md:text-base text-slate-200 font-light leading-relaxed">
-              Track heavy scrubbing machinery, high-pressure jet washers, site staff rosters, mobile attendance, EPF/ESI statutory forms, and client SLAs. Select your required modules below to generate a tailored quote proposal.
+              Track site asset maintenance, site staff rosters, mobile attendance, EPF/ESI statutory forms, and client SLAs. Select your required modules below to generate a tailored quote proposal.
             </p>
             <div className="flex flex-wrap gap-4 pt-2">
               <button
