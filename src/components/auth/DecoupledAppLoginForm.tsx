@@ -72,11 +72,8 @@ export default function DecoupledAppLoginForm({
     <div className="min-h-screen flex items-center justify-center bg-[#fcfcfd] px-4 relative overflow-hidden font-sans">
       <div className="w-full max-w-md z-10">
         <div className="text-center mb-6">
-          <div className="inline-flex items-center gap-3 mb-3">
+          <div className="flex justify-center mb-3">
             <img src="/logo.png" alt="VOC VERTEX" className="h-10 object-contain" />
-            <span className="font-extrabold text-xl uppercase tracking-wider text-slate-800">
-              {app.replace('-', ' ')} Portal
-            </span>
           </div>
           <h2 className="text-xl font-bold text-slate-900">{title}</h2>
           <p className="text-xs text-slate-500 mt-1 font-light">

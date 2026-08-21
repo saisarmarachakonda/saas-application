@@ -80,12 +80,8 @@ export default function HrmAutomaticLoginPage() {
         
         {/* Header & Logo */}
         <div className="text-center mb-6">
-          <div className="inline-flex items-center gap-3 mb-3">
+          <div className="flex justify-center mb-3">
             <img src="/logo.png" alt="VOC VERTEX" className="h-10 object-contain" />
-            <span className="font-extrabold text-xl uppercase tracking-wider text-slate-800 flex items-center gap-2">
-              <Users2 className="w-6 h-6 text-rose-600" />
-              <span>HRM &amp; Workforce Portal</span>
-            </span>
           </div>
           <h1 className="text-xl font-bold text-slate-900">Sign In to Workforce Workspace</h1>
           <p className="text-xs text-slate-500 mt-1 font-light">

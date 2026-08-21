@@ -88,6 +88,9 @@ export default function CentralLoginPage() {
       <main className="max-w-7xl mx-auto px-6 py-12 md:py-16">
         {/* Title Badge */}
         <div className="text-center max-w-2xl mx-auto space-y-3">
+          <div className="flex justify-center mb-2">
+            <img src="/logo.png" alt="VOC Vertex" className="h-12 w-auto object-contain" />
+          </div>
           <div className="inline-flex items-center gap-2 text-xs uppercase tracking-[0.2em] font-semibold text-red-600">
             <span className="h-px w-6 bg-red-600/50" />
             Central Sign In &amp; Module Directory
